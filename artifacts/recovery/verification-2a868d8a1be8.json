@@ -1,0 +1,12 @@
+{
+  "verification_id": "2a868d8a1be8",
+  "database": "briefforge_recovery",
+  "schema": "recovery_2a868d8a1be8",
+  "database_engine": "native PostgreSQL",
+  "production_database_accessed": false,
+  "application_services_stopped": false,
+  "status": "failed",
+  "error": "AssertionError: ",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Project\\briefforge\\scripts\\verify_recovery.py\", line 352, in main\n    result[\"recovery\"] = verify_recovery(schema, label)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Project\\briefforge\\scripts\\verify_recovery.py\", line 148, in verify_recovery\n    assert checkpoints_before > 0\nAssertionError\n",
+  "duration_seconds": 1.535
+}

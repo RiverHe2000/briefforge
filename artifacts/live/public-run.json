@@ -1,0 +1,41 @@
+{
+  "id": "405b1120-0638-4521-8016-e6dd2885da39",
+  "project_id": "803869f7-72c3-4e42-9934-0228675e513b",
+  "brief": {
+    "id": "803869f7-72c3-4e42-9934-0228675e513b",
+    "title": "公开办公协作产品研究",
+    "question": "比较Trello、Asana、ClickUp的目标客户、价格条件、SSO支持和差异化机会，无法确认的事实明确保留未知。",
+    "audience": "产品经理与管理层",
+    "competitors": [
+      "Trello",
+      "Asana",
+      "ClickUp"
+    ],
+    "dimensions": [
+      "定位",
+      "价格",
+      "SSO"
+    ],
+    "mode": "public",
+    "status": "draft",
+    "dirty": false,
+    "latest_report_id": null,
+    "created_at": "2026-10-02T10:48:11.005277+00:00",
+    "updated_at": "2026-10-02T10:48:11.005277+00:00"
+  },
+  "mode": "live",
+  "architecture": "multi",
+  "status": "queued",
+  "budget_usd": 0.3,
+  "bucket": "web",
+  "spent_usd": 0,
+  "reserved_usd": 0,
+  "request_count": 0,
+  "source_ids": [],
+  "instructions": "",
+  "created_at": "2026-10-02T10:48:11.025317+00:00",
+  "updated_at": "2026-10-02T10:48:11.025317+00:00",
+  "report_id": null,
+  "error": null,
+  "phase": "queued"
+}

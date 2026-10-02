@@ -1,0 +1,21 @@
+export type Project={id:string;title:string;question:string;audience:string;time_range?:string;web_enabled?:boolean;competitors:string[];dimensions:string[];mode:'synthetic'|'public';status:string;created_at:string;updated_at:string;latest_report_id?:string;dirty:boolean};
+export type Source={id:string;project_id:string;logical_key:string;title:string;competitor:string;kind:string;text:string;published_at:string|null;retrieved_at:string;url:string|null;synthetic:boolean;version:number;sha256:string;active:boolean};
+export type Evidence={source_id:string;quote:string;locator:string};
+export type Claim={id:string;project_id:string;run_id:string;subject:string;dimension:string;statement:string;status:'supported'|'uncertain'|'contradicted';evidence:Evidence[];value:string|null;conditions:string[];computation:Record<string,unknown>|null;source_ids:string[];dirty:boolean};
+export type Task={id:string;run_id:string;role:string;target:string;title:string;status:string;round:number;depends_on:string[];output:Record<string,unknown>;error:string|null;created_at:string;updated_at:string};
+export type Run={id:string;project_id:string;mode:'replay'|'live';model_profile?:'qwen-default'|'gemini-budget';architecture:'multi'|'single'|'pipeline';status:string;budget_usd:number;bucket:string;spent_usd:number;reserved_usd:number;request_count:number;source_ids:string[];instructions:string;created_at:string;updated_at:string;report_id?:string;error?:string;phase?:string};
+export type ResearchEvent={id:number;run_id:string;type:string;message:string;payload:Record<string,unknown>;created_at:string};
+export type Report={id:string;project_id:string;run_id:string;version:number;title:string;executive_summary:string;sections:{id:string;heading:string;body:string;claim_ids:string[]}[];comparison:{competitor:string;positioning:string;price:string;sso:string;conditions:string[];claim_ids:string[]}[];claims:Claim[];sources:Source[];unresolved:string[];changes:string[];synthetic:boolean;mode:'replay'|'live';created_at:string;content_hash:string};
+export type ExportJob={id:string;status:string;format:'docx'|'pptx';report_id:string;error?:string;download_url?:string};
+export type Budget={limit_usd:number;spent_usd:number;reserved_usd:number;buckets:Record<string,unknown>};
+export type Outline={dimensions:string[];questions:string[];estimated_cap_usd:number};
+export type CollaborationClaim={statement:string;status:string|null;value:string|null;conditions:string[]};
+export type CollaborationDecision={id:string;event_id:number|null;action:string;subject:string;dimension:string;before:CollaborationClaim|null;after:CollaborationClaim|null;reason:string;source_ids:string[];task_ids:string[];roles:string[];round:number;created_at:string;final_status:string|null};
+export type CollaborationSummary={
+ run_id:string;mode:'replay'|'live';architecture:'multi'|'single'|'pipeline';report_id:string|null;history_available:boolean;
+ metrics:{task_count:number;completed_tasks:number;followup_tasks:number;changed_claims:number;unresolved_claims:number;reused_claims:number|null;planned_reused_claims?:number|null;recomputed_claims:number|null;reused_tasks:number;peak_parallel_research:number|null;overlap_seconds:number|null;spent_usd:number;reserved_usd:number;request_count:number};
+ decisions:CollaborationDecision[];
+ followups:{task_id:string;role:string;target:string;title:string;status:string;round:number;reason:string}[];
+ tasks:{id:string;role:string;target:string;title:string;status:string;round:number;depends_on:string[];intervals:{started_at:string;ended_at:string|null;status:string}[];reused:boolean}[];
+ sources:{id:string;title:string;url:string|null;published_at:string|null}[];notes:string[];
+};

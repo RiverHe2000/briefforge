@@ -1,0 +1,360 @@
+[
+  {
+    "id": 4532,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:28.369175+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model_profile": "gemini-budget",
+      "model": "google/gemini-2.5-flash-lite",
+      "endpoint": "google-ai-studio",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.39999999999999997
+    }
+  },
+  {
+    "id": 4533,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:28.451125+00:00",
+    "type": "task_started",
+    "message": "单 Agent 基线：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "4c8239d6-5265-4745-b55e-f100a8ef0cf2",
+      "role": "single",
+      "round": 0
+    }
+  },
+  {
+    "id": 4559,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.105977+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:定位,核心功能,价格,SSO,近期变化,用户反馈",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\781d5974-431e-4ef2-9231-88244742496c\\f96a6961-7dcb-4cd4-a5db-984d7c2a8ed9.json",
+      "response_id": "gen-1790979988-lUPyuIQxkQa85Pho5f6U",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 4560,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.113982+00:00",
+    "type": "evidence_decision",
+    "message": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+    "payload": {
+      "decision_id": "1e7f8d2a71df4ad9287cb87b",
+      "action": "facts_normalized",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "森屿笔记（虚构）团队版价格为 USD 12/席位/月（按年付费，未含税），月付为 USD 16/席位/月。企业版需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 12/席位/月（按年付费，未含税），月付 USD 16/席位/月；企业版需单独询价",
+        "conditions": [
+          "按年付费",
+          "未含税",
+          "月付"
+        ],
+        "evidence": [
+          {
+            "source_id": "fd8a0b10-c08b-43f1-ba1f-6ebd5e555a77",
+            "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:163"
+          }
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": [],
+        "evidence": [
+          {
+            "source_id": "fd8a0b10-c08b-43f1-ba1f-6ebd5e555a77",
+            "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:163"
+          }
+        ]
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "fd8a0b10-c08b-43f1-ba1f-6ebd5e555a77"
+      ],
+      "task_ids": [
+        "4c8239d6-5265-4745-b55e-f100a8ef0cf2"
+      ],
+      "round": 0
+    }
+  },
+  {
+    "id": 4561,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.116037+00:00",
+    "type": "evidence_decision",
+    "message": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+    "payload": {
+      "decision_id": "145a9008790528b83811ca76",
+      "action": "facts_normalized",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "桥塔知识（虚构）团队版价格为 USD 18/席位/月（按年付费，未含税），月付为 USD 23/席位/月。企业版需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 18/席位/月（按年付费，未含税），月付 USD 23/席位/月；企业版需单独询价",
+        "conditions": [
+          "按年付费",
+          "未含税",
+          "月付"
+        ],
+        "evidence": [
+          {
+            "source_id": "77db536d-10c9-4a57-a0b7-9e16cbec628e",
+            "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:163"
+          }
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": [],
+        "evidence": [
+          {
+            "source_id": "77db536d-10c9-4a57-a0b7-9e16cbec628e",
+            "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:163"
+          }
+        ]
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "77db536d-10c9-4a57-a0b7-9e16cbec628e"
+      ],
+      "task_ids": [
+        "4c8239d6-5265-4745-b55e-f100a8ef0cf2"
+      ],
+      "round": 0
+    }
+  },
+  {
+    "id": 4562,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.118040+00:00",
+    "type": "evidence_decision",
+    "message": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+    "payload": {
+      "decision_id": "6ba200d332af2708e36a3c9a",
+      "action": "facts_normalized",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "星河文库（虚构）团队版价格为 USD 9/席位/月（按年付费，未含税），月付为 USD 12/席位/月。企业版需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 9/席位/月（按年付费，未含税），月付 USD 12/席位/月；企业版需单独询价",
+        "conditions": [
+          "按年付费",
+          "未含税",
+          "月付"
+        ],
+        "evidence": [
+          {
+            "source_id": "e750d76a-fad2-4f9a-94f0-9d4c739ff9c4",
+            "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:162"
+          }
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": [],
+        "evidence": [
+          {
+            "source_id": "e750d76a-fad2-4f9a-94f0-9d4c739ff9c4",
+            "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:162"
+          }
+        ]
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "e750d76a-fad2-4f9a-94f0-9d4c739ff9c4"
+      ],
+      "task_ids": [
+        "4c8239d6-5265-4745-b55e-f100a8ef0cf2"
+      ],
+      "round": 0
+    }
+  },
+  {
+    "id": 4563,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.121696+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "4c8239d6-5265-4745-b55e-f100a8ef0cf2",
+      "role": "single"
+    }
+  },
+  {
+    "id": 4564,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.156823+00:00",
+    "type": "evidence_decision",
+    "message": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+    "payload": {
+      "decision_id": "2c86ac5e122eaa118afaafd7",
+      "action": "unknown_retained",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日 生效。此信息与 2026年9月15日 的发布说明一致。",
+        "status": "supported",
+        "value": "企业版支持 SAML SSO，团队版不支持",
+        "conditions": [
+          "自 2026-09-15 生效"
+        ],
+        "evidence": [
+          {
+            "source_id": "db8c7e2a-68fd-4e7c-89b4-027e6743afe5",
+            "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+            "locator": "字符 10:60"
+          },
+          {
+            "source_id": "cf37dfef-973c-4de2-94a2-2d0b330068c7",
+            "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+            "locator": "字符 40:100"
+          }
+        ]
+      },
+      "after": {
+        "statement": "SSO：当前资料存在冲突，无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ],
+        "evidence": [
+          {
+            "source_id": "db8c7e2a-68fd-4e7c-89b4-027e6743afe5",
+            "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+            "locator": "字符 10:60"
+          },
+          {
+            "source_id": "cf37dfef-973c-4de2-94a2-2d0b330068c7",
+            "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+            "locator": "字符 40:100"
+          }
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "db8c7e2a-68fd-4e7c-89b4-027e6743afe5",
+        "cf37dfef-973c-4de2-94a2-2d0b330068c7"
+      ],
+      "task_ids": [],
+      "round": 0
+    }
+  },
+  {
+    "id": 4565,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.158824+00:00",
+    "type": "evidence_decision",
+    "message": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+    "payload": {
+      "decision_id": "b23557fdf1e5d6d7a73ed37e",
+      "action": "confidence_propagated",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "近期变化",
+      "before": {
+        "statement": "森屿笔记（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。SSO 能力在 2026年9月15日 更新为团队版与企业版均支持 SAML SSO。",
+        "status": "supported",
+        "value": "更新文档检索结果的来源定位，补充登录能力说明，SSO 能力更新为团队版与企业版均支持 SAML SSO",
+        "conditions": [
+          "自 2026-09-15 生效"
+        ],
+        "evidence": [
+          {
+            "source_id": "cf37dfef-973c-4de2-94a2-2d0b330068c7",
+            "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+            "locator": "字符 25:100"
+          }
+        ]
+      },
+      "after": {
+        "statement": "近期变化：当前资料存在冲突，无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ],
+        "evidence": [
+          {
+            "source_id": "cf37dfef-973c-4de2-94a2-2d0b330068c7",
+            "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+            "locator": "字符 25:100"
+          }
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "cf37dfef-973c-4de2-94a2-2d0b330068c7"
+      ],
+      "task_ids": [],
+      "round": 0
+    }
+  },
+  {
+    "id": 4566,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.165858+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "5e2faa33-7376-455d-91e2-61148303495a",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 4567,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.168861+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "5e2faa33-7376-455d-91e2-61148303495a",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 4568,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.202513+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "6a052cc0-a1c0-4338-b5cd-693b03633e3a",
+      "version": 1,
+      "unresolved_count": 4
+    }
+  },
+  {
+    "id": 4569,
+    "run_id": "781d5974-431e-4ef2-9231-88244742496c",
+    "created_at": "2026-10-02T22:26:39.212751+00:00",
+    "type": "completed",
+    "message": "研究完成，报告已保存",
+    "payload": {
+      "report_id": "6a052cc0-a1c0-4338-b5cd-693b03633e3a"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "scenario": "test-unknown-sso",
+  "architecture": "single",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "dc40234d-edc3-4e1a-84bd-22de04dd4cd2",
+  "stop_requested": true,
+  "status": "cancelled",
+  "error": "Evaluation stopped by STOP marker; this evaluation run was cancelled.",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 28.6364,
+  "spent_usd": 0,
+  "reserved_usd": 0,
+  "request_count": 0
+}

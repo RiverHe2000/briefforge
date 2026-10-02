@@ -1,0 +1,7 @@
+{
+  "name": "briefforge-office-exports",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pinned runtime for BriefForge editable PowerPoint exports",
+  "dependencies": { "pptxgenjs": "4.0.1" }
+}

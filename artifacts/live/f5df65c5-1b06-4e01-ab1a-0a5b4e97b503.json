@@ -1,0 +1,42 @@
+{
+  "project_id": "f1039b25-d6b3-440f-855f-c733ceb5fd63",
+  "run_id": "f5df65c5-1b06-4e01-ab1a-0a5b4e97b503",
+  "report_id": null,
+  "mode": "live",
+  "public": false,
+  "architecture": "multi",
+  "status": "failed",
+  "error": "ProviderError: OpenRouter 请求失败（HTTP 401）；请检查服务状态或账户额度。",
+  "seconds": 12.47,
+  "request_count": 1,
+  "spent_usd": 0,
+  "reserved_usd": 0.00144,
+  "tasks": 1,
+  "budget": {
+    "limit_usd": 10.0,
+    "spent_usd": 0.0,
+    "reserved_usd": 0.00144,
+    "buckets": {
+      "development": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.00144,
+        "limit_usd": 2.0
+      },
+      "evaluation": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 4.0
+      },
+      "web": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      },
+      "reserve": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      }
+    }
+  }
+}

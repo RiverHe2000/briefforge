@@ -1,0 +1,58 @@
+{
+  "review_version": "independent-editor-resume-review-v1",
+  "created_at": "2026-10-02T22:51:47.390501+00:00",
+  "scope": "Read-only review of saved failed/resumed run snapshots, task outputs, all 19 final claims against frozen source citations, summary/comparison and four opportunity hypotheses. No model calls.",
+  "run_id": "599e1ede-ca51-4cf3-b5fe-f424b32e9d66",
+  "report_id": "51e47c20-c3fe-478e-812d-8c3dffc1b9d6",
+  "report_sha256": "89a117f8ac637398d9b70546b06efebebe3da3639e61b6712b264a082efceae8",
+  "original_attempt": {
+    "status": "failed",
+    "request_count": 8,
+    "spent_usd": 0.007322,
+    "reserved_usd": 0,
+    "error": "InvalidModelOutput: 模型输出在一次格式修复后仍未通过结构校验；保留任务供重试，没有静默改写结果。",
+    "interpretation": "Original editor failure remains in initial-runs and review.json; this is not a first-attempt success."
+  },
+  "after_resume": {
+    "status": "completed",
+    "request_count": 9,
+    "spent_usd": 0.00795,
+    "reserved_usd": 0
+  },
+  "independently_computed_increment": {
+    "requests": 1,
+    "confirmed_usd": 0.000628
+  },
+  "completed_task_output_preservation": {
+    "before_completed_tasks": 7,
+    "identical_output_count": 7,
+    "identical_task_ids": [
+      "cd405768-9297-4f4f-8db8-2da45e742582",
+      "d525c1f9-8426-4dd4-a978-8f85eace066f",
+      "eeb78079-9d16-42b1-8ae0-4fea7f623d42",
+      "23f308f7-4cd9-45fc-a697-c0c9557504a8",
+      "7bc43727-0021-437b-aa59-95a75fe15ef4",
+      "850a64c8-b883-43a6-8fe4-dc4ed3d8958e",
+      "1e28bf24-da4f-4c66-a0ec-fee45ab02f1b"
+    ],
+    "comparison": "Exact equality of task.output by original task id; timestamps/status are not counted as output."
+  },
+  "manual_report_review": {
+    "claims": 19,
+    "supported_claims": 18,
+    "appropriate_unknown_claims": 1,
+    "exact_quotes": 27,
+    "total_quotes": 27,
+    "material_claim_errors_found": 0,
+    "price_review": "All three preserve per-seat monthly rates, annual payment, distinct monthly-payment rates, tax exclusion and enterprise quotation.",
+    "sso_review": "Senyu enterprise supported/team unsupported from 2026-09-15; Qiaota same packages from 2026-06-01; Xinghe genuinely undisclosed. This report is the unchanged September source case, not the October replacement case.",
+    "industry_review": "The statement is broad in isolation, but its value, conditions, section and executive summary explicitly limit it to fictional interviews and demonstration needs; no real market growth or measurement is claimed.",
+    "opportunities_review": "Four proposals remain labelled hypotheses. The enterprise competition/efficiency/acquisition benefits have not been measured. One synthetic feedback entry is insufficient to generalize to all IT users, and fictional vendor customers cannot be recruited as real participants."
+  },
+  "verdict": "Recovery is demonstrated by one additional editor request and seven identical prior completed task outputs. The final report has no material error found in the 19 reviewed claims; opportunity prose remains a draft requiring real-world validation.",
+  "limitations": [
+    "One resumed failure, not a measured overall failure/recovery rate.",
+    "The original failure must remain counted in first-attempt reliability results.",
+    "No claim of full opportunity validity or readiness for an actual market decision."
+  ]
+}

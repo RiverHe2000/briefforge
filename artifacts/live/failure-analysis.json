@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-02",
+  "review_method": "Read-only inspection of saved run summaries, events and private provider responses. No model calls, service restarts or implementation changes.",
+  "privacy": "This summary contains no credentials, account identifiers, request headers, source bodies or raw provider responses.",
+  "failures": [
+    {
+      "run_id": "efe0732a-fb36-422b-a29b-7652ca8f3d74",
+      "model_profile": "qwen-default",
+      "stage": "Commercial researcher, submit_claims argument repair",
+      "status": "failed",
+      "request_count": 14,
+      "spent_usd": 0.006024,
+      "reserved_usd": 0.004781,
+      "confirmed_findings": [
+        "An HTTP 200 response contained one submit_claims call whose arguments were invalid JSON: the outer object lacked its closing brace. Local validation reported EOF while parsing an object at line 1 column 2081; no invalid claim submission executed.",
+        "The application made its single allowed argument-repair attempt. GMICloud returned HTTP 400 with a backend BadRequest parser error: unexpected end of data at line 1 column 1200 (char 1199).",
+        "The response did not establish an account-credit or rate-limit failure. No automatic model or provider fallback occurred. The unsuccessful request had no confirmed usage cost, so its reservation remains held."
+      ],
+      "inference_not_confirmed": "The repair request replays the malformed assistant function arguments in its message history. The backend EOF response is consistent with GMICloud parsing and rejecting that history, but the saved responses alone do not establish whether the failure was in the router adapter or provider backend.",
+      "limitation": "The default Qwen route has not demonstrated a reliable complete final run. Endpoint capability checks do not prove end-to-end protocol compatibility.",
+      "evidence": [
+        "artifacts/live/efe0732a-fb36-422b-a29b-7652ca8f3d74.json",
+        "artifacts/live/efe0732a-fb36-422b-a29b-7652ca8f3d74-events.json"
+      ]
+    },
+    {
+      "run_id": "2def88a2-52c0-4d32-9a71-f4b7b5bba385",
+      "model_profile": "gemini-budget",
+      "evaluation": "evaluation-live-gemini-v3",
+      "scenario": "test-stale-update",
+      "architecture": "pipeline",
+      "status": "failed",
+      "request_count": 6,
+      "spent_usd": 0.002228,
+      "reserved_usd": 0,
+      "confirmed_findings": [
+        "The initial researcher response returned four tool calls: one read_sources and three search_sources. All function names were allowed, but the batch violated the explicit one-tool-per-step contract.",
+        "The single allowed selection-repair attempt again returned four calls of the same function types. Both responses were HTTP 200 with finish_reason=tool_calls; this was not an HTTP or JSON transport failure.",
+        "The application rejected both batches before dispatching any of their tools and terminated after the bounded repair allowance. The paid failure remains in the benchmark; no report was produced."
+      ],
+      "limitation": "A prompt and one repair attempt do not guarantee single-call compliance. Final Gemini v3 completed 23 of 24 attempted cases; completion is separate from semantic correctness.",
+      "evidence": [
+        "artifacts/evaluation-live-gemini-v3/test-stale-update-pipeline-live.json",
+        "artifacts/evaluation-live-gemini-v3/test-stale-update-pipeline-live.events.json",
+        "artifacts/evaluation-live-gemini-v3/summary.json"
+      ]
+    }
+  ]
+}

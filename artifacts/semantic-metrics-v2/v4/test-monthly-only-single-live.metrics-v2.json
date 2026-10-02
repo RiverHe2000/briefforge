@@ -1,0 +1,693 @@
+{
+  "metric_version": "fact-obligations-v2",
+  "scenario": "test-monthly-only",
+  "facts": 6,
+  "correct_facts": 6,
+  "fact_accuracy": 1,
+  "answer_coverage": 1,
+  "claim_presence": 1,
+  "evidence_completeness": 1,
+  "retained_assertion_issue_facts": 0,
+  "withdrawn_facts": 0,
+  "unexpected_withdrawal_facts": 0,
+  "unanswered_facts": 0,
+  "answered_but_not_verified_facts": 0,
+  "answered_but_missing_evidence_facts": 0,
+  "review_required_facts": 0,
+  "label": "Bounded independent fact-obligation checks; not whole-report semantic accuracy.",
+  "checks": [
+    {
+      "id": "company-0-price",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "expected": "known",
+      "present": true,
+      "answered": true,
+      "evidence_complete": true,
+      "consistent": true,
+      "correct": true,
+      "withdrawn": false,
+      "review_required": false,
+      "issues": [],
+      "claims": [
+        {
+          "claim_id": "6da6226c-b301-4cbd-8f00-12ba742e4978",
+          "primary": true,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "monthly_payment_rate",
+              "observed": {
+                "statement": [
+                  "monthly_rate"
+                ],
+                "value": [
+                  "monthly_rate"
+                ],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "monthly_billing",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "annual_not_disclosed",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "tax_excluded",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_quote",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 1,
+          "total_quotes": 1
+        },
+        {
+          "claim_id": "comparison-0-price",
+          "primary": false,
+          "answered": false,
+          "evidence_complete": false,
+          "withdrawn": true,
+          "axes": [
+            {
+              "id": "monthly_payment_rate",
+              "observed": {
+                "statement": [
+                  "monthly_rate"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "requirements": [
+            {
+              "id": "monthly_billing",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "annual_not_disclosed",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "tax_excluded",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "enterprise_quote",
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "exact_quotes": 0,
+          "total_quotes": 0
+        }
+      ]
+    },
+    {
+      "id": "company-0-sso",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "expected": "known",
+      "present": true,
+      "answered": true,
+      "evidence_complete": true,
+      "consistent": true,
+      "correct": true,
+      "withdrawn": false,
+      "review_required": false,
+      "issues": [],
+      "claims": [
+        {
+          "claim_id": "ad4f7bf9-9bd2-4663-96fc-888c1d8ff7a7",
+          "primary": true,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [
+                  "unsupported"
+                ],
+                "value": [
+                  "unsupported"
+                ],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "effective_date",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_support",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 2,
+          "total_quotes": 2
+        },
+        {
+          "claim_id": "dc1c0e6e-5cc4-4f2b-962c-c97a8bebe3d3",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [
+                  "unsupported"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "effective_date",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_support",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 1,
+          "total_quotes": 1
+        },
+        {
+          "claim_id": "comparison-0-sso",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": false,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [
+                  "unsupported"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "requirements": [
+            {
+              "id": "effective_date",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "enterprise_support",
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "exact_quotes": 0,
+          "total_quotes": 0
+        }
+      ]
+    },
+    {
+      "id": "company-1-price",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "expected": "known",
+      "present": true,
+      "answered": true,
+      "evidence_complete": true,
+      "consistent": true,
+      "correct": true,
+      "withdrawn": false,
+      "review_required": false,
+      "issues": [],
+      "claims": [
+        {
+          "claim_id": "27a8832d-0883-4cfb-9604-73969313a61f",
+          "primary": true,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "annual_payment_monthly_rate",
+              "observed": {
+                "statement": [
+                  "monthly_rate"
+                ],
+                "value": [
+                  "monthly_rate"
+                ],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "annual_billing",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "monthly_payment_rate",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "tax_excluded",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_quote",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 1,
+          "total_quotes": 1
+        },
+        {
+          "claim_id": "comparison-1-price",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": false,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "annual_payment_monthly_rate",
+              "observed": {
+                "statement": [
+                  "monthly_rate"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "requirements": [
+            {
+              "id": "annual_billing",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "monthly_payment_rate",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "tax_excluded",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "enterprise_quote",
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "exact_quotes": 0,
+          "total_quotes": 0
+        }
+      ]
+    },
+    {
+      "id": "company-1-sso",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "expected": "known",
+      "present": true,
+      "answered": true,
+      "evidence_complete": true,
+      "consistent": true,
+      "correct": true,
+      "withdrawn": false,
+      "review_required": false,
+      "issues": [],
+      "claims": [
+        {
+          "claim_id": "c8d9910e-7c06-4b23-9c16-4be9f261e681",
+          "primary": true,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [
+                  "unsupported"
+                ],
+                "value": [
+                  "unsupported"
+                ],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "effective_date",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_support",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 2,
+          "total_quotes": 2
+        },
+        {
+          "claim_id": "c5234bab-9df2-425e-841a-c9c481c21a5b",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [
+                  "unsupported"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "effective_date",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_support",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 1,
+          "total_quotes": 1
+        },
+        {
+          "claim_id": "comparison-1-sso",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": false,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [
+                  "unsupported"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "requirements": [
+            {
+              "id": "effective_date",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "enterprise_support",
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "exact_quotes": 0,
+          "total_quotes": 0
+        }
+      ]
+    },
+    {
+      "id": "company-2-price",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "expected": "known",
+      "present": true,
+      "answered": true,
+      "evidence_complete": true,
+      "consistent": true,
+      "correct": true,
+      "withdrawn": false,
+      "review_required": false,
+      "issues": [],
+      "claims": [
+        {
+          "claim_id": "917182e7-a30d-485c-9834-7de6f1b1a787",
+          "primary": true,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "annual_payment_monthly_rate",
+              "observed": {
+                "statement": [
+                  "monthly_rate"
+                ],
+                "value": [
+                  "monthly_rate"
+                ],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "annual_billing",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "monthly_payment_rate",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "tax_excluded",
+              "answer_present": true,
+              "evidence_present": true
+            },
+            {
+              "id": "enterprise_quote",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 1,
+          "total_quotes": 1
+        },
+        {
+          "claim_id": "comparison-2-price",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": false,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "annual_payment_monthly_rate",
+              "observed": {
+                "statement": [
+                  "monthly_rate"
+                ],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "requirements": [
+            {
+              "id": "annual_billing",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "monthly_payment_rate",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "tax_excluded",
+              "answer_present": true,
+              "evidence_present": false
+            },
+            {
+              "id": "enterprise_quote",
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "exact_quotes": 0,
+          "total_quotes": 0
+        }
+      ]
+    },
+    {
+      "id": "company-2-sso",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "expected": "unknown",
+      "present": true,
+      "answered": true,
+      "evidence_complete": true,
+      "consistent": true,
+      "correct": true,
+      "withdrawn": false,
+      "review_required": false,
+      "issues": [],
+      "claims": [
+        {
+          "claim_id": "7847ffdf-ca2e-444d-90ec-fe45fcc96b82",
+          "primary": true,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "nondisclosure",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 2,
+          "total_quotes": 2
+        },
+        {
+          "claim_id": "52118239-333b-4bd2-8b35-3b381a8be39c",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": true,
+          "withdrawn": false,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "nondisclosure",
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "exact_quotes": 1,
+          "total_quotes": 1
+        },
+        {
+          "claim_id": "comparison-2-sso",
+          "primary": false,
+          "answered": true,
+          "evidence_complete": false,
+          "withdrawn": true,
+          "axes": [
+            {
+              "id": "team_saml",
+              "observed": {
+                "statement": [],
+                "value": [],
+                "conditions": []
+              },
+              "answer_present": true,
+              "evidence_present": true
+            }
+          ],
+          "requirements": [
+            {
+              "id": "nondisclosure",
+              "answer_present": true,
+              "evidence_present": false
+            }
+          ],
+          "exact_quotes": 0,
+          "total_quotes": 0
+        }
+      ]
+    }
+  ],
+  "created_at": "2026-10-02T22:13:30.601925+00:00",
+  "report_sha256": "ca35c9b46cc9f464f462545a24f281335d3ac6f3a005d5af76f5f9f849058c82",
+  "spec_sha256": "235e2bd6eaee92180b074fde6b4081371ce30adc550a8df67964c61a31147348"
+}

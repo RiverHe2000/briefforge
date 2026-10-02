@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "projectId": "cfa546c7-2861-45e5-badc-7f95eee7deb6",
+  "reportId": "56d36772-84b0-4784-abd7-5713e1961138",
+  "desktop": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  "replayLabel": true,
+  "syntheticLabel": true,
+  "browserErrors": [],
+  "mutationRequests": [],
+  "modelCalls": 0
+}

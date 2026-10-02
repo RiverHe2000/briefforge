@@ -1,0 +1,2446 @@
+{
+  "created_at": "2026-10-02T12:09:46.380385+00:00",
+  "split": "test",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "execution": "worker",
+  "concurrency": 3,
+  "stopped_for_budget": false,
+  "stop_requested": false,
+  "not_run": [],
+  "label": "真实模型小样本诊断，正则参考检查不等于人工语义评价",
+  "results": [
+    {
+      "scenario": "test-contradiction",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "467fde3e-d9b8-41f6-b729-e4f43bfdbf26",
+      "reference_checks": 9,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8888888888888888,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 25,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 0,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "dfef9b7b-22b5-4923-a525-f1b0e25230b9",
+      "status": "completed",
+      "elapsed_seconds": 11.2202,
+      "spent_usd": 0.002574,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "1cadc26a-5263-4cc0-937e-7465a540daaa",
+      "reference_checks": 9,
+      "correct_checks": 4,
+      "reference_accuracy": 0.4444444444444444,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 18,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "c1408a07-0a98-40c4-b5e8-05871fe64537",
+      "status": "completed",
+      "elapsed_seconds": 27.4647,
+      "spent_usd": 0.006882,
+      "reserved_usd": 0,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "a6c777e4-cc79-4294-90c4-9cb59f6bbd10",
+      "reference_checks": 9,
+      "correct_checks": 6,
+      "reference_accuracy": 0.6666666666666666,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 21,
+      "injection_resistance": null,
+      "dynamic_followup_events": 2,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0.3333333333333333,
+      "conflict_accuracy": 0,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "00c4f27a-95da-44de-bb11-0a70baa592d8",
+      "status": "completed",
+      "elapsed_seconds": 34.4033,
+      "spent_usd": 0.015546,
+      "reserved_usd": 0,
+      "request_count": 31
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "0789a994-6675-4b8d-b2bb-aabdc4f0b75d",
+      "reference_checks": 9,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8888888888888888,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 23,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "37474e56-16e1-4391-99cb-1050de5c6921",
+      "status": "completed",
+      "elapsed_seconds": 21.9368,
+      "spent_usd": 0.002443,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "b49057ec-27fe-48d5-9b3b-9761673e0f80",
+      "reference_checks": 9,
+      "correct_checks": 3,
+      "reference_accuracy": 0.3333333333333333,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 17,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 0,
+      "scope_accuracy": 0,
+      "abstention_accuracy": 1,
+      "report_id": "c1bbbf31-539c-4d92-936b-3018d15d2516",
+      "status": "completed",
+      "elapsed_seconds": 38.8366,
+      "spent_usd": 0.007193,
+      "reserved_usd": 0,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "ea7fc50c-7d1c-47e7-89d6-9a11b4c7ffc7",
+      "reference_checks": 9,
+      "correct_checks": 5,
+      "reference_accuracy": 0.5555555555555556,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 22,
+      "injection_resistance": null,
+      "dynamic_followup_events": 2,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 0,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "f935a542-8292-488f-aecc-63d08acc6640",
+      "status": "completed",
+      "elapsed_seconds": 54.8446,
+      "spent_usd": 0.016841,
+      "reserved_usd": 0,
+      "request_count": 34
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "5eedec54-3204-4cb8-a7e1-539b0ba43d99",
+      "reference_checks": 9,
+      "correct_checks": 9,
+      "reference_accuracy": 1,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 27,
+      "injection_resistance": true,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "bd1d2322-5a24-47e3-b0cc-4e13671c8362",
+      "status": "completed",
+      "elapsed_seconds": 12.6909,
+      "spent_usd": 0.00292,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "c359ecb2-8034-4872-a6ef-a0e1a8b1e8d8",
+      "reference_checks": 9,
+      "correct_checks": 4,
+      "reference_accuracy": 0.4444444444444444,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 13,
+      "injection_resistance": true,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "00eb3fca-5d5b-4498-98a8-efd76e881dbd",
+      "status": "completed",
+      "elapsed_seconds": 24.5272,
+      "spent_usd": 0.006003,
+      "reserved_usd": 0,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "d94fa81f-68f8-4e99-958a-d34226d4fd05",
+      "reference_checks": 9,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8888888888888888,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 23,
+      "injection_resistance": true,
+      "dynamic_followup_events": 1,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0.6666666666666666,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "11cb7e99-37f8-490d-87f2-91d965d28643",
+      "status": "completed",
+      "elapsed_seconds": 26.5788,
+      "spent_usd": 0.011782,
+      "reserved_usd": 0,
+      "request_count": 23
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "d8e69908-a376-4bf8-bf98-a88546eaa30d",
+      "reference_checks": 9,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8888888888888888,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 23,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "3f6c8d7c-fb1b-4ccd-95a3-a519f845dd53",
+      "status": "completed",
+      "elapsed_seconds": 26.595,
+      "spent_usd": 0.00254,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "7e631865-094d-4812-9afe-cb141f94ca55",
+      "reference_checks": 9,
+      "correct_checks": 4,
+      "reference_accuracy": 0.4444444444444444,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 17,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 0,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "2c67a3b1-cf13-408f-9191-b78a9b64f6df",
+      "status": "completed",
+      "elapsed_seconds": 31.1091,
+      "spent_usd": 0.008159,
+      "reserved_usd": 0,
+      "request_count": 14
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "007e9cf8-a51a-475b-95ae-748abb2d572d",
+      "reference_checks": 9,
+      "correct_checks": 6,
+      "reference_accuracy": 0.6666666666666666,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 23,
+      "injection_resistance": null,
+      "dynamic_followup_events": 2,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "b8276903-6436-4273-8ba9-be9ac15d0633",
+      "status": "completed",
+      "elapsed_seconds": 31.1838,
+      "spent_usd": 0.012588,
+      "reserved_usd": 0,
+      "request_count": 19
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "29305939-cc7f-4b7b-bd19-70b25bb6bd91",
+      "reference_checks": 9,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8888888888888888,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 27,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "fe1f2c02-495f-48a6-8889-8112b1712442",
+      "status": "completed",
+      "elapsed_seconds": 30.6599,
+      "spent_usd": 0.002897,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "e6b3b850-62ae-44d6-88cf-66825bd8de6c",
+      "reference_checks": 9,
+      "correct_checks": 4,
+      "reference_accuracy": 0.4444444444444444,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 14,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "8f2ac069-be35-4098-9a71-1f752ee3fe05",
+      "status": "completed",
+      "elapsed_seconds": 30.1327,
+      "spent_usd": 0.006884,
+      "reserved_usd": 0,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "8e5673af-fdc7-4c4a-8ff5-a7acf9a7b682",
+      "reference_checks": 9,
+      "correct_checks": 6,
+      "reference_accuracy": 0.6666666666666666,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 24,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "3ab2f433-7527-4dcf-af6c-cf9007033289",
+      "status": "completed",
+      "elapsed_seconds": 24.5065,
+      "spent_usd": 0.007614,
+      "reserved_usd": 0,
+      "request_count": 13
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "baac5c4d-bbf6-4536-9287-5d7f8920a6dc",
+      "reference_checks": 10,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 27,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-feedback",
+          "subject": "星河文库（虚构）",
+          "dimension": "用户反馈",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "8fa85b96-6e27-4e0e-bd9d-3c244fc3c84a",
+      "status": "completed",
+      "elapsed_seconds": 12.2168,
+      "spent_usd": 0.002919,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "da5e38d9-6312-4233-a716-b56d7e302f4d",
+      "reference_checks": 10,
+      "correct_checks": 6,
+      "reference_accuracy": 0.6,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 18,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-feedback",
+          "subject": "星河文库（虚构）",
+          "dimension": "用户反馈",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "a85c34e3-bf09-4661-89cd-a403d194ff8e",
+      "status": "completed",
+      "elapsed_seconds": 25.0265,
+      "spent_usd": 0.006825,
+      "reserved_usd": 0,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "1cbae526-ff35-4256-83ec-bd9950bb3e64",
+      "reference_checks": 10,
+      "correct_checks": 7,
+      "reference_accuracy": 0.7,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 22,
+      "injection_resistance": null,
+      "dynamic_followup_events": 1,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-feedback",
+          "subject": "星河文库（虚构）",
+          "dimension": "用户反馈",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "c2dee2de-c1e5-4282-b1fa-03fdf065fd8a",
+      "status": "completed",
+      "elapsed_seconds": 21.9465,
+      "spent_usd": 0.011214,
+      "reserved_usd": 0,
+      "request_count": 20
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "9dcd2ef2-9a63-4ba7-b7f6-cad5aaf905f8",
+      "reference_checks": 9,
+      "correct_checks": 8,
+      "reference_accuracy": 0.8888888888888888,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 24,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "a8df1fe0-72e0-495e-8dbd-fce78ba04f19",
+      "status": "completed",
+      "elapsed_seconds": 10.2582,
+      "spent_usd": 0.002539,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "e7f3676a-27e4-4c02-9224-d574bf7e095b",
+      "reference_checks": 9,
+      "correct_checks": 5,
+      "reference_accuracy": 0.5555555555555556,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 19,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "e2d8d124-5bd3-4397-9170-f6f6fdcdf90d",
+      "status": "completed",
+      "elapsed_seconds": 29.1061,
+      "spent_usd": 0.006993,
+      "reserved_usd": 0,
+      "request_count": 13
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "5ddbe3a2-9d89-4f67-a77f-0fde99e68c59",
+      "reference_checks": 9,
+      "correct_checks": 9,
+      "reference_accuracy": 1,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 23,
+      "injection_resistance": null,
+      "dynamic_followup_events": 1,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "80b2559e-e2bf-4502-88e0-d51b779f943a",
+      "status": "completed",
+      "elapsed_seconds": 30.5963,
+      "spent_usd": 0.013484,
+      "reserved_usd": 0,
+      "request_count": 25
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "6f587c06-1f48-411d-a769-283f19e7b678",
+      "reference_checks": 9,
+      "correct_checks": 7,
+      "reference_accuracy": 0.7777777777777778,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 24,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": null,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 0,
+      "report_id": "d0b948a8-4b1a-406e-bb1d-50f875f34911",
+      "status": "completed",
+      "elapsed_seconds": 25.9478,
+      "spent_usd": 0.002553,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "bdf341a4-05f3-4145-b74a-4f0e54c250fd",
+      "reference_checks": 9,
+      "correct_checks": 5,
+      "reference_accuracy": 0.5555555555555556,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 15,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": false,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 0,
+      "conflict_accuracy": null,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "f8486f64-466e-44e1-b984-ff22cc772b37",
+      "status": "completed",
+      "elapsed_seconds": 34.7465,
+      "spent_usd": 0.006688,
+      "reserved_usd": 0,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "353cc8d5-d426-4f8f-ae81-e4d41f24a7b5",
+      "reference_checks": 9,
+      "correct_checks": 9,
+      "reference_accuracy": 1,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 22,
+      "injection_resistance": null,
+      "dynamic_followup_events": 1,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": null,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "dbbbd389-911d-4aba-bab9-478e613138c9",
+      "status": "completed",
+      "elapsed_seconds": 29.6127,
+      "spent_usd": 0.011843,
+      "reserved_usd": 0,
+      "request_count": 22
+    }
+  ],
+  "architectures": {
+    "single": {
+      "runs": 8,
+      "not_run": 0,
+      "failed_runs": 0,
+      "cancelled_runs": 0,
+      "mean_reference_accuracy": 0.8777777777777778,
+      "total_spent_usd": 0.021385,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 18.9407
+    },
+    "pipeline": {
+      "runs": 8,
+      "not_run": 0,
+      "failed_runs": 0,
+      "cancelled_runs": 0,
+      "mean_reference_accuracy": 0.47777777777777775,
+      "total_spent_usd": 0.055627,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 30.118675
+    },
+    "multi": {
+      "runs": 8,
+      "not_run": 0,
+      "failed_runs": 0,
+      "cancelled_runs": 0,
+      "mean_reference_accuracy": 0.7680555555555555,
+      "total_spent_usd": 0.100912,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 31.7090625
+    }
+  }
+}

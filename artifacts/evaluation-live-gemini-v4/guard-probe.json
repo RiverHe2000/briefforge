@@ -1,0 +1,30 @@
+{
+  "scope": "Pure offline validate_claims; no Store, providers or API calls. These are specific regression cases, not a general semantic proof.",
+  "engine_sha256": "264ed595f9053a058f10f4f70fd323c1da22b5f5c2d2db7da6121fc17bf11e80",
+  "probes": [
+    {
+      "statement": "每年每席位12美元（按年付费）或每月每席位16美元（按月付费）",
+      "expected": "reject",
+      "output_status": "uncertain",
+      "pass": true
+    },
+    {
+      "statement": "团队版价格为每年支付12美元/席位，按月支付为16美元/席位。",
+      "expected": "reject",
+      "output_status": "uncertain",
+      "pass": true
+    },
+    {
+      "statement": "每年支付时每席位每月12美元，按月支付时每席位每月16美元。",
+      "expected": "keep",
+      "output_status": "supported",
+      "pass": true
+    },
+    {
+      "statement": "按年付费USD12/席位/月，月付USD16/席位/月。",
+      "expected": "keep",
+      "output_status": "supported",
+      "pass": true
+    }
+  ]
+}

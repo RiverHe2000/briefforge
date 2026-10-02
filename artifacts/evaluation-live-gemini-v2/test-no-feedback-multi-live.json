@@ -1,0 +1,14 @@
+{
+  "scenario": "test-no-feedback",
+  "architecture": "multi",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "5f7fd230-051f-4a70-b9d2-673adc3daf68",
+  "status": "failed",
+  "error": "InvalidModelOutput: 研究 Agent 必须每步选择一个允许的工具；没有执行无效工具调用。",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 62.2225,
+  "spent_usd": 0.010732,
+  "reserved_usd": 0,
+  "request_count": 21
+}

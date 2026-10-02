@@ -1,0 +1,219 @@
+[
+  {
+    "id": 659,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:19.976125+00:00",
+    "type": "task_started",
+    "message": "研究协调员：确认研究任务与依赖",
+    "payload": {
+      "task_id": "621ec36e-1102-4561-8c8d-b3d2b03385bb",
+      "role": "coordinator",
+      "round": 0
+    }
+  },
+  {
+    "id": 660,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:19.980125+00:00",
+    "type": "task_completed",
+    "message": "完成：确认研究任务与依赖",
+    "payload": {
+      "task_id": "621ec36e-1102-4561-8c8d-b3d2b03385bb",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 661,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.000126+00:00",
+    "type": "task_started",
+    "message": "行业研究员：研究 行业：行业背景",
+    "payload": {
+      "task_id": "b00e3e8e-4aa1-44bd-b7dd-f27a440d1503",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 662,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.006171+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 行业：行业背景",
+    "payload": {
+      "task_id": "b00e3e8e-4aa1-44bd-b7dd-f27a440d1503",
+      "role": "industry"
+    }
+  },
+  {
+    "id": 663,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.022174+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "7c1ba3d1-ac71-4746-9a09-6112a3a69188",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 664,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.028174+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "7c1ba3d1-ac71-4746-9a09-6112a3a69188",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 665,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.044178+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "7d9924f5-c736-49c7-9e36-8538d650b622",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 666,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.050178+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "7d9924f5-c736-49c7-9e36-8538d650b622",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 667,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.066244+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "90e480c2-3fe9-4a2f-81f2-0c4d4da94c01",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 668,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.072242+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "90e480c2-3fe9-4a2f-81f2-0c4d4da94c01",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 669,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.090242+00:00",
+    "type": "task_started",
+    "message": "商业分析员：研究 *：价格",
+    "payload": {
+      "task_id": "544bf389-81d5-4b06-a82a-f20080c2933b",
+      "role": "commercial",
+      "round": 0
+    }
+  },
+  {
+    "id": 670,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.096244+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：价格",
+    "payload": {
+      "task_id": "544bf389-81d5-4b06-a82a-f20080c2933b",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 671,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.108184+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "1865b3bb-2da9-4fe0-96ab-6362a95436db",
+      "role": "verifier",
+      "round": 0
+    }
+  },
+  {
+    "id": 672,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.124183+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "1865b3bb-2da9-4fe0-96ab-6362a95436db",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 673,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.126183+00:00",
+    "type": "verification_issues",
+    "message": "核查发现 1 个需要处理的问题。",
+    "payload": {
+      "issues": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "reason": "现有结论采用较旧资料，发现更新的原文，需核对套餐及生效条件。",
+          "source_ids": [
+            "b05836a0-9e49-486a-9349-c0cc1f5286ee",
+            "a22cbba0-84cd-4597-bc8f-0bf1d2290a67"
+          ],
+          "resolution": "followup"
+        }
+      ]
+    }
+  },
+  {
+    "id": 674,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.138183+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "ee512afe-fe41-407b-8495-195a4ad965e4",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 675,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.142185+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "ee512afe-fe41-407b-8495-195a4ad965e4",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 676,
+    "run_id": "334d6a59-7bb3-4068-a288-64f55a3468ce",
+    "created_at": "2026-10-02T10:44:20.174693+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "e1f4a479-756c-4696-9c8b-8a212afeac01",
+      "version": 1,
+      "unresolved_count": 3
+    }
+  }
+]

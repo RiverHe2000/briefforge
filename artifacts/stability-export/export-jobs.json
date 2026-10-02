@@ -1,0 +1,24 @@
+{
+  "report_id": "461dfa00-bb82-41eb-a2d2-ac40a631981a",
+  "jobs": [
+    {
+      "id": "export-e9ee89ec5849185ad9cb18091ff5cc8a",
+      "report_id": "461dfa00-bb82-41eb-a2d2-ac40a631981a",
+      "format": "docx",
+      "status": "completed",
+      "error": null,
+      "download_url": "/api/exports/export-e9ee89ec5849185ad9cb18091ff5cc8a/download",
+      "created_at": "2026-10-02T22:30:50.363824+00:00"
+    },
+    {
+      "id": "export-791ee34c1c489b9356f428f4095084fb",
+      "report_id": "461dfa00-bb82-41eb-a2d2-ac40a631981a",
+      "format": "pptx",
+      "status": "completed",
+      "error": null,
+      "download_url": "/api/exports/export-791ee34c1c489b9356f428f4095084fb/download",
+      "created_at": "2026-10-02T22:30:50.395093+00:00"
+    }
+  ],
+  "model_calls": 0
+}

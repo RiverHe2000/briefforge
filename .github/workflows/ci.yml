@@ -1,0 +1,28 @@
+name: BriefForge checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: astral-sh/setup-uv@v6
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '10.18.3'
+      - run: uv sync --frozen --extra dev
+      - run: pnpm install --frozen-lockfile
+      - run: uv run ruff check src tests
+      - run: uv run pytest -q
+        env:
+          BRIEFFORGE_NODE_MODULES: ${{ github.workspace }}/node_modules
+      - run: pnpm --dir frontend install --frozen-lockfile
+      - run: pnpm --dir frontend test
+      - run: pnpm --dir frontend build
+      - run: docker compose config --quiet
+

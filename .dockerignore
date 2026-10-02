@@ -1,0 +1,10 @@
+.venv
+.git
+.local
+node_modules
+frontend/node_modules
+frontend/dist
+artifacts
+__pycache__
+.env
+

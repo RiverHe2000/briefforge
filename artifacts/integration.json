@@ -1,0 +1,38 @@
+{
+  "database": "postgresql",
+  "project_id": "47b2af43-af3d-4f44-a894-9ce35dd452f0",
+  "run_id": "0d934413-60b8-4ad4-8a99-63fdab2bc2bd",
+  "report_id": "ff26ff55-0bb6-4c57-b338-a57361da1b61",
+  "sources": 30,
+  "claims": 19,
+  "tasks": 11,
+  "followups": 2,
+  "status": "completed",
+  "budget": {
+    "limit_usd": 10.0,
+    "spent_usd": 0.0,
+    "reserved_usd": 0.0,
+    "buckets": {
+      "development": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      },
+      "evaluation": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 4.0
+      },
+      "web": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      },
+      "reserve": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 927,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:46.105142+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model_profile": "gemini-budget",
+      "model": "google/gemini-2.5-flash-lite",
+      "endpoint": "google-ai-studio",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.39999999999999997
+    }
+  },
+  {
+    "id": 928,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:46.209169+00:00",
+    "type": "task_started",
+    "message": "单 Agent 基线：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "6d8c870d-8deb-491b-b0d9-8a972b71801c",
+      "role": "single",
+      "round": 0
+    }
+  },
+  {
+    "id": 929,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:58.407878+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:定位,核心功能,价格,SSO,近期变化,用户反馈",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\2325a397-b991-43d0-9219-8aeb871303d6\\82c8df90-5d26-4b0b-9575-80d1bf6d6baa.json",
+      "response_id": "gen-1790940827-3jtrgcm8NPxFqpxdQ61H",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 930,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:58.418878+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "6d8c870d-8deb-491b-b0d9-8a972b71801c",
+      "role": "single"
+    }
+  },
+  {
+    "id": 931,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:58.438881+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "2dc39af3-cb32-4339-809e-50b86dc239b9",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 932,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:58.445880+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "2dc39af3-cb32-4339-809e-50b86dc239b9",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 933,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:58.509123+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "751350e7-98ae-454f-8aed-a6fb30c17c92",
+      "version": 1,
+      "unresolved_count": 2
+    }
+  },
+  {
+    "id": 934,
+    "run_id": "2325a397-b991-43d0-9219-8aeb871303d6",
+    "created_at": "2026-10-02T11:33:58.528123+00:00",
+    "type": "completed",
+    "message": "研究完成，报告已保存",
+    "payload": {
+      "report_id": "751350e7-98ae-454f-8aed-a6fb30c17c92"
+    }
+  }
+]

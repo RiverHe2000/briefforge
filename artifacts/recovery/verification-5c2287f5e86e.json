@@ -1,0 +1,11 @@
+{
+  "verification_id": "5c2287f5e86e",
+  "database": "briefforge_recovery",
+  "schema": "recovery_5c2287f5e86e",
+  "database_engine": "native PostgreSQL",
+  "production_database_accessed": false,
+  "application_services_stopped": false,
+  "status": "failed",
+  "error": "AssertionError: ",
+  "duration_seconds": 1.692
+}

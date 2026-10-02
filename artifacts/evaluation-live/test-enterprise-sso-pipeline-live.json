@@ -1,0 +1,13 @@
+{
+  "scenario": "test-enterprise-sso",
+  "architecture": "pipeline",
+  "mode": "live",
+  "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+  "status": "failed",
+  "error": "ProviderError: OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 202.0389,
+  "spent_usd": 0,
+  "reserved_usd": 0.005312,
+  "request_count": 2
+}

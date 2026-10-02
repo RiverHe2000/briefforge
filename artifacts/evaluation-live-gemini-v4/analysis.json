@@ -1,0 +1,353 @@
+{
+  "created_at": "2026-10-02T12:12:31.554935+00:00",
+  "source": "summary.json",
+  "summary_sha256": "a7dbd4c838cfe8303d442f278badbff30e28a75e8991fcf995828ce8b3b8870e",
+  "implementation_manifest_sha256": "d0035cfd698744a7faac57b1170e4f876e24164106c3543edc899004591eab41",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "runs": 24,
+  "status_counts": {
+    "completed": 24
+  },
+  "confirmed_spent_usd": 0.177924,
+  "reserved_usd": 0.0,
+  "request_count": 294,
+  "architectures": {
+    "single": {
+      "runs": 8,
+      "completed": 8,
+      "failed": 0,
+      "reference_accuracy_mean": 0.8777777777777778,
+      "confirmed_spent_usd": 0.021385,
+      "reserved_usd": 0.0,
+      "request_count": 8,
+      "price_audit": {
+        "numeric_answer_correct_in_unit_currency_scope": 24
+      }
+    },
+    "pipeline": {
+      "runs": 8,
+      "completed": 8,
+      "failed": 0,
+      "reference_accuracy_mean": 0.47777777777777775,
+      "confirmed_spent_usd": 0.055627,
+      "reserved_usd": 0.0,
+      "request_count": 99,
+      "price_audit": {
+        "numeric_answer_correct_in_unit_currency_scope": 9,
+        "withdrawn_unknown_despite_available_source": 15
+      }
+    },
+    "multi": {
+      "runs": 8,
+      "completed": 8,
+      "failed": 0,
+      "reference_accuracy_mean": 0.7680555555555555,
+      "confirmed_spent_usd": 0.100912,
+      "reserved_usd": 0.0,
+      "request_count": 187,
+      "price_audit": {
+        "withdrawn_unknown_despite_available_source": 5,
+        "numeric_answer_correct_in_unit_currency_scope": 10,
+        "generic_billing_principle_not_numeric_answer": 9
+      }
+    }
+  },
+  "interpretation": [
+    "The24-run frozen test matrix completed with0 failed runs. This establishes execution completion, not semantic approval.",
+    "Single has the highest selected-reference score in this small matrix. The results do not establish general multi-agent superiority.",
+    "The known price-unit failure class was not observed in final v4 price claims;20 price answers were withdrawn and9 became generic billing principles, so absence of those wrong prices is not100% answer accuracy.",
+    "Reference checks are regex-based and do not certify all report text or complete procurement conditions.",
+    "Costs are this benchmark only; no claim about zero spend or the current global ledger."
+  ],
+  "outcomes": [
+    {
+      "scenario": "test-contradiction",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "467fde3e-d9b8-41f6-b729-e4f43bfdbf26",
+      "report_id": "dfef9b7b-22b5-4923-a525-f1b0e25230b9",
+      "reference_accuracy": 0.8888888888888888,
+      "spent_usd": 0.002574,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "1cadc26a-5263-4cc0-937e-7465a540daaa",
+      "report_id": "c1408a07-0a98-40c4-b5e8-05871fe64537",
+      "reference_accuracy": 0.4444444444444444,
+      "spent_usd": 0.006882,
+      "reserved_usd": 0,
+      "request_count": 12,
+      "error": null
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "a6c777e4-cc79-4294-90c4-9cb59f6bbd10",
+      "report_id": "00c4f27a-95da-44de-bb11-0a70baa592d8",
+      "reference_accuracy": 0.6666666666666666,
+      "spent_usd": 0.015546,
+      "reserved_usd": 0,
+      "request_count": 31,
+      "error": null
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "0789a994-6675-4b8d-b2bb-aabdc4f0b75d",
+      "report_id": "37474e56-16e1-4391-99cb-1050de5c6921",
+      "reference_accuracy": 0.8888888888888888,
+      "spent_usd": 0.002443,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "b49057ec-27fe-48d5-9b3b-9761673e0f80",
+      "report_id": "c1bbbf31-539c-4d92-936b-3018d15d2516",
+      "reference_accuracy": 0.3333333333333333,
+      "spent_usd": 0.007193,
+      "reserved_usd": 0,
+      "request_count": 12,
+      "error": null
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "ea7fc50c-7d1c-47e7-89d6-9a11b4c7ffc7",
+      "report_id": "f935a542-8292-488f-aecc-63d08acc6640",
+      "reference_accuracy": 0.5555555555555556,
+      "spent_usd": 0.016841,
+      "reserved_usd": 0,
+      "request_count": 34,
+      "error": null
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "5eedec54-3204-4cb8-a7e1-539b0ba43d99",
+      "report_id": "bd1d2322-5a24-47e3-b0cc-4e13671c8362",
+      "reference_accuracy": 1,
+      "spent_usd": 0.00292,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "c359ecb2-8034-4872-a6ef-a0e1a8b1e8d8",
+      "report_id": "00eb3fca-5d5b-4498-98a8-efd76e881dbd",
+      "reference_accuracy": 0.4444444444444444,
+      "spent_usd": 0.006003,
+      "reserved_usd": 0,
+      "request_count": 12,
+      "error": null
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "d94fa81f-68f8-4e99-958a-d34226d4fd05",
+      "report_id": "11cb7e99-37f8-490d-87f2-91d965d28643",
+      "reference_accuracy": 0.8888888888888888,
+      "spent_usd": 0.011782,
+      "reserved_usd": 0,
+      "request_count": 23,
+      "error": null
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "d8e69908-a376-4bf8-bf98-a88546eaa30d",
+      "report_id": "3f6c8d7c-fb1b-4ccd-95a3-a519f845dd53",
+      "reference_accuracy": 0.8888888888888888,
+      "spent_usd": 0.00254,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "7e631865-094d-4812-9afe-cb141f94ca55",
+      "report_id": "2c67a3b1-cf13-408f-9191-b78a9b64f6df",
+      "reference_accuracy": 0.4444444444444444,
+      "spent_usd": 0.008159,
+      "reserved_usd": 0,
+      "request_count": 14,
+      "error": null
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "007e9cf8-a51a-475b-95ae-748abb2d572d",
+      "report_id": "b8276903-6436-4273-8ba9-be9ac15d0633",
+      "reference_accuracy": 0.6666666666666666,
+      "spent_usd": 0.012588,
+      "reserved_usd": 0,
+      "request_count": 19,
+      "error": null
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "29305939-cc7f-4b7b-bd19-70b25bb6bd91",
+      "report_id": "fe1f2c02-495f-48a6-8889-8112b1712442",
+      "reference_accuracy": 0.8888888888888888,
+      "spent_usd": 0.002897,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "e6b3b850-62ae-44d6-88cf-66825bd8de6c",
+      "report_id": "8f2ac069-be35-4098-9a71-1f752ee3fe05",
+      "reference_accuracy": 0.4444444444444444,
+      "spent_usd": 0.006884,
+      "reserved_usd": 0,
+      "request_count": 12,
+      "error": null
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "8e5673af-fdc7-4c4a-8ff5-a7acf9a7b682",
+      "report_id": "3ab2f433-7527-4dcf-af6c-cf9007033289",
+      "reference_accuracy": 0.6666666666666666,
+      "spent_usd": 0.007614,
+      "reserved_usd": 0,
+      "request_count": 13,
+      "error": null
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "baac5c4d-bbf6-4536-9287-5d7f8920a6dc",
+      "report_id": "8fa85b96-6e27-4e0e-bd9d-3c244fc3c84a",
+      "reference_accuracy": 0.8,
+      "spent_usd": 0.002919,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "da5e38d9-6312-4233-a716-b56d7e302f4d",
+      "report_id": "a85c34e3-bf09-4661-89cd-a403d194ff8e",
+      "reference_accuracy": 0.6,
+      "spent_usd": 0.006825,
+      "reserved_usd": 0,
+      "request_count": 12,
+      "error": null
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "1cbae526-ff35-4256-83ec-bd9950bb3e64",
+      "report_id": "c2dee2de-c1e5-4282-b1fa-03fdf065fd8a",
+      "reference_accuracy": 0.7,
+      "spent_usd": 0.011214,
+      "reserved_usd": 0,
+      "request_count": 20,
+      "error": null
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "9dcd2ef2-9a63-4ba7-b7f6-cad5aaf905f8",
+      "report_id": "a8df1fe0-72e0-495e-8dbd-fce78ba04f19",
+      "reference_accuracy": 0.8888888888888888,
+      "spent_usd": 0.002539,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "e7f3676a-27e4-4c02-9224-d574bf7e095b",
+      "report_id": "e2d8d124-5bd3-4397-9170-f6f6fdcdf90d",
+      "reference_accuracy": 0.5555555555555556,
+      "spent_usd": 0.006993,
+      "reserved_usd": 0,
+      "request_count": 13,
+      "error": null
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "5ddbe3a2-9d89-4f67-a77f-0fde99e68c59",
+      "report_id": "80b2559e-e2bf-4502-88e0-d51b779f943a",
+      "reference_accuracy": 1,
+      "spent_usd": 0.013484,
+      "reserved_usd": 0,
+      "request_count": 25,
+      "error": null
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "single",
+      "status": "completed",
+      "run_id": "6f587c06-1f48-411d-a769-283f19e7b678",
+      "report_id": "d0b948a8-4b1a-406e-bb1d-50f875f34911",
+      "reference_accuracy": 0.7777777777777778,
+      "spent_usd": 0.002553,
+      "reserved_usd": 0,
+      "request_count": 1,
+      "error": null
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "pipeline",
+      "status": "completed",
+      "run_id": "bdf341a4-05f3-4145-b74a-4f0e54c250fd",
+      "report_id": "f8486f64-466e-44e1-b984-ff22cc772b37",
+      "reference_accuracy": 0.5555555555555556,
+      "spent_usd": 0.006688,
+      "reserved_usd": 0,
+      "request_count": 12,
+      "error": null
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "multi",
+      "status": "completed",
+      "run_id": "353cc8d5-d426-4f8f-ae81-e4d41f24a7b5",
+      "report_id": "dbbbd389-911d-4aba-bab9-478e613138c9",
+      "reference_accuracy": 1,
+      "spent_usd": 0.011843,
+      "reserved_usd": 0,
+      "request_count": 22,
+      "error": null
+    }
+  ]
+}

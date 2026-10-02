@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "mode": "live",
+  "architectures": [
+    "single",
+    "pipeline",
+    "multi"
+  ],
+  "budget_usd": 0.15,
+  "execution": "worker",
+  "model_profile": "gemini-budget"
+}

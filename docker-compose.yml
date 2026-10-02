@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: briefforge
+      POSTGRES_USER: briefforge
+      POSTGRES_PASSWORD: briefforge
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U briefforge"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  api:
+    build: .
+    command: ["briefforge", "serve", "--host", "0.0.0.0"]
+    ports:
+      - "127.0.0.1:8788:8788"
+    environment: &app-env
+      BRIEFFORGE_DATABASE_URL: postgresql+psycopg://briefforge:briefforge@postgres:5432/briefforge
+      BRIEFFORGE_DATA_DIR: /app/.local
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+    volumes:
+      - artifacts:/app/.local
+    depends_on:
+      postgres:
+        condition: service_healthy
+  worker:
+    build: .
+    command: ["briefforge", "worker"]
+    environment: *app-env
+    volumes:
+      - artifacts:/app/.local
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  database:
+  artifacts:
+

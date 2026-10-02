@@ -1,0 +1,54 @@
+{
+  "planned": 24,
+  "attempted": 24,
+  "completed": 19,
+  "failed": 5,
+  "total_spent_usd": 0.14903,
+  "reserved_usd": 0,
+  "model_requests": 238,
+  "architectures": {
+    "single": {
+      "runs": 8,
+      "not_run": 0,
+      "failed_runs": 0,
+      "cancelled_runs": 0,
+      "mean_reference_accuracy": 0.8916666666666666,
+      "total_spent_usd": 0.022333,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 66.90355,
+      "completed_only_reference_mean": 0.8916666666666666,
+      "completed_only_citation_validity_mean": 1.0,
+      "model_requests": 8,
+      "followup_events_completed": 0
+    },
+    "pipeline": {
+      "runs": 8,
+      "not_run": 0,
+      "failed_runs": 2,
+      "cancelled_runs": 0,
+      "mean_reference_accuracy": 0.325,
+      "total_spent_usd": 0.045131,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 70.4004375,
+      "completed_only_reference_mean": 0.43333333333333335,
+      "completed_only_citation_validity_mean": 1.0,
+      "model_requests": 79,
+      "followup_events_completed": 0
+    },
+    "multi": {
+      "runs": 8,
+      "not_run": 0,
+      "failed_runs": 3,
+      "cancelled_runs": 0,
+      "mean_reference_accuracy": 0.4444444444444444,
+      "total_spent_usd": 0.081566,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 74.6622625,
+      "completed_only_reference_mean": 0.7111111111111111,
+      "completed_only_citation_validity_mean": 1.0,
+      "model_requests": 151,
+      "followup_events_completed": 4
+    }
+  },
+  "interpretation": "Selected regex reference checks are not full semantic accuracy. Failed runs use zero placeholders in the all-runs mean. Elapsed time includes queue waiting. No general superiority claim; source tool protocols differ across architectures."
+}

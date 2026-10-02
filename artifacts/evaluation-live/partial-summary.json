@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "label": "Incomplete real-model diagnostic subset; not a completed 24-run comparison",
+  "model_profile": "qwen-default",
+  "model_profile_evidence": "Explicit profile selected for this evaluator; legacy run rows predate model_profile field.",
+  "source": "interrupted-runs.json",
+  "planned_matrix_runs": 24,
+  "created_runs": 6,
+  "runs_with_http_attempts": 5,
+  "completed_runs": 0,
+  "published_reports": 0,
+  "status_counts": {
+    "failed": 4,
+    "cancelled": 2
+  },
+  "not_created_from_planned_matrix": 18,
+  "saved_case_outcome_count": 3,
+  "http_attempt_count": 31,
+  "confirmed_cost_usd": 0.007117,
+  "unsettled_reservation_usd": 0.034314,
+  "error_counts": {
+    "http_429": 3,
+    "invalid_tool_arguments": 1,
+    "cancelled": 2
+  },
+  "reference_accuracy": null,
+  "limitations": [
+    "No completed report; quality comparison is unavailable.",
+    "Zero reference_accuracy in failed per-case files is the evaluator failure placeholder, not measured factual accuracy.",
+    "The three saved case outcome files are a subset of the six interrupted-run snapshots; do not add both counts.",
+    "HTTP attempts may fail before billing; unsettled reservations are neither confirmed cost nor proven free.",
+    "Snapshot totals describe this diagnostic subset only, not the current global ledger.",
+    "Only three runs have a saved scenario association; remaining scenario labels are deliberately not inferred."
+  ],
+  "case_outcome_files": [
+    "test-enterprise-sso-multi-live.json",
+    "test-enterprise-sso-pipeline-live.json",
+    "test-enterprise-sso-single-live.json"
+  ],
+  "runs": [
+    {
+      "run_id": "7ac02271-cfb6-4328-bed8-2c1f3188e2b4",
+      "architecture": "single",
+      "scenario": "test-enterprise-sso",
+      "status": "failed",
+      "report_id": null,
+      "request_count": 2,
+      "spent_usd": 0,
+      "reserved_usd": 0.011496,
+      "error": "ProviderError: OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。",
+      "snapshot_updated_at": "2026-10-02T10:49:39.544634+00:00"
+    },
+    {
+      "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+      "architecture": "pipeline",
+      "scenario": "test-enterprise-sso",
+      "status": "failed",
+      "report_id": null,
+      "request_count": 2,
+      "spent_usd": 0,
+      "reserved_usd": 0.005312,
+      "error": "ProviderError: OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。",
+      "snapshot_updated_at": "2026-10-02T10:50:43.223367+00:00"
+    },
+    {
+      "run_id": "0fced5a3-9098-4005-aaf8-9b6df428cc59",
+      "architecture": "multi",
+      "scenario": "test-enterprise-sso",
+      "status": "failed",
+      "report_id": null,
+      "request_count": 18,
+      "spent_usd": 0.006034,
+      "reserved_usd": 0,
+      "error": "InvalidModelOutput: 研究工具参数未通过结构校验。",
+      "snapshot_updated_at": "2026-10-02T10:51:42.828256+00:00"
+    },
+    {
+      "run_id": "545181b8-1c1a-4d60-a418-5d0c45eec583",
+      "architecture": "single",
+      "scenario": null,
+      "status": "failed",
+      "report_id": null,
+      "request_count": 2,
+      "spent_usd": 0,
+      "reserved_usd": 0.011516,
+      "error": "ProviderError: OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。",
+      "snapshot_updated_at": "2026-10-02T10:55:37.823452+00:00"
+    },
+    {
+      "run_id": "32e22389-1dc2-4076-9067-79f35e2c71e8",
+      "architecture": "pipeline",
+      "scenario": null,
+      "status": "cancelled",
+      "report_id": null,
+      "request_count": 7,
+      "spent_usd": 0.001083,
+      "reserved_usd": 0.0059900000000000005,
+      "error": null,
+      "snapshot_updated_at": "2026-10-02T10:57:20.391457+00:00"
+    },
+    {
+      "run_id": "2e185d85-8a93-4a0e-9e21-fb8a19ac02e9",
+      "architecture": "multi",
+      "scenario": null,
+      "status": "cancelled",
+      "report_id": null,
+      "request_count": 0,
+      "spent_usd": 0,
+      "reserved_usd": 0,
+      "error": null,
+      "snapshot_updated_at": "2026-10-02T10:57:20.401460+00:00"
+    }
+  ]
+}

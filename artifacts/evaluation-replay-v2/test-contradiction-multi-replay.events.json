@@ -1,0 +1,479 @@
+[
+  {
+    "id": 775,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.609843+00:00",
+    "type": "task_started",
+    "message": "研究协调员：确认研究任务与依赖",
+    "payload": {
+      "task_id": "3f39a1d2-ff2e-431a-9e05-808402cc638d",
+      "role": "coordinator",
+      "round": 0
+    }
+  },
+  {
+    "id": 776,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.614352+00:00",
+    "type": "task_completed",
+    "message": "完成：确认研究任务与依赖",
+    "payload": {
+      "task_id": "3f39a1d2-ff2e-431a-9e05-808402cc638d",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 777,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.633585+00:00",
+    "type": "task_started",
+    "message": "行业研究员：研究 行业：行业背景",
+    "payload": {
+      "task_id": "ec1197ba-d766-4520-93bb-e8061be48bf1",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 778,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.637626+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 行业：行业背景",
+    "payload": {
+      "task_id": "ec1197ba-d766-4520-93bb-e8061be48bf1",
+      "role": "industry"
+    }
+  },
+  {
+    "id": 779,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.655907+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "f69687ec-0b98-429a-9b39-c047794ea5b1",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 780,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.661908+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "f69687ec-0b98-429a-9b39-c047794ea5b1",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 781,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.678416+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "00d34435-3f3b-40a2-a836-d723a400cdeb",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 782,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.684416+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "00d34435-3f3b-40a2-a836-d723a400cdeb",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 783,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.704416+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "3767310f-1a46-4bc8-8e90-6169d8e0bd7a",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 784,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.710416+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "3767310f-1a46-4bc8-8e90-6169d8e0bd7a",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 785,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.725416+00:00",
+    "type": "task_started",
+    "message": "商业分析员：研究 *：价格",
+    "payload": {
+      "task_id": "18c27d41-383c-4b95-aee5-b923b248895c",
+      "role": "commercial",
+      "round": 0
+    }
+  },
+  {
+    "id": 786,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.732418+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：价格",
+    "payload": {
+      "task_id": "18c27d41-383c-4b95-aee5-b923b248895c",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 787,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.743418+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "30c70cf6-2bd7-4790-8377-9e5b195da191",
+      "role": "verifier",
+      "round": 0
+    }
+  },
+  {
+    "id": 788,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.760414+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "30c70cf6-2bd7-4790-8377-9e5b195da191",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 789,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.762414+00:00",
+    "type": "verification_issues",
+    "message": "核查发现 1 个需要处理的问题。",
+    "payload": {
+      "issues": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "reason": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+          "source_ids": [
+            "5c86731a-459a-4c02-9fa3-583e87725370",
+            "790fd94b-775f-4e56-95a9-f9a7be993112"
+          ],
+          "resolution": "followup"
+        }
+      ]
+    }
+  },
+  {
+    "id": 790,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.776415+00:00",
+    "type": "task_started",
+    "message": "研究协调员：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "b6dd956c-f9bc-4665-860d-3c644445005d",
+      "role": "coordinator",
+      "round": 1
+    }
+  },
+  {
+    "id": 791,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.780416+00:00",
+    "type": "task_completed",
+    "message": "完成：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "b6dd956c-f9bc-4665-860d-3c644445005d",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 792,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.782415+00:00",
+    "type": "followup_planned",
+    "message": "协调员新增 1 个补查任务（第 1/2 轮）。",
+    "payload": {
+      "round": 1,
+      "tasks": [
+        {
+          "role": "commercial",
+          "target": "森屿笔记（虚构）",
+          "dimensions": [
+            "SSO"
+          ],
+          "question": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+          "issue": {
+            "subject": "森屿笔记（虚构）",
+            "dimension": "SSO",
+            "reason": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+            "source_ids": [
+              "5c86731a-459a-4c02-9fa3-583e87725370",
+              "790fd94b-775f-4e56-95a9-f9a7be993112"
+            ],
+            "resolution": "followup"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 793,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.800037+00:00",
+    "type": "task_started",
+    "message": "商业分析员：补查 森屿笔记（虚构）：SSO",
+    "payload": {
+      "task_id": "1056ed2c-72fe-4702-91f4-273519db9b8e",
+      "role": "commercial",
+      "round": 1
+    }
+  },
+  {
+    "id": 794,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.804037+00:00",
+    "type": "task_completed",
+    "message": "完成：补查 森屿笔记（虚构）：SSO",
+    "payload": {
+      "task_id": "1056ed2c-72fe-4702-91f4-273519db9b8e",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 795,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.806037+00:00",
+    "type": "claim_corrected",
+    "message": "补查修正了一项结论。",
+    "payload": {
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": "SSO：当前所有套餐均不支持 SAML SSO。",
+      "after": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+      "evidence": [
+        {
+          "source_id": "790fd94b-775f-4e56-95a9-f9a7be993112",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+          "locator": "SSO段落"
+        }
+      ]
+    }
+  },
+  {
+    "id": 796,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.818072+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "1b03572b-d108-4050-8488-315ad86522c4",
+      "role": "verifier",
+      "round": 1
+    }
+  },
+  {
+    "id": 797,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.832076+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "1b03572b-d108-4050-8488-315ad86522c4",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 798,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.834075+00:00",
+    "type": "verification_issues",
+    "message": "核查发现 1 个需要处理的问题。",
+    "payload": {
+      "issues": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "reason": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+          "source_ids": [
+            "5c86731a-459a-4c02-9fa3-583e87725370",
+            "790fd94b-775f-4e56-95a9-f9a7be993112"
+          ],
+          "resolution": "followup"
+        }
+      ]
+    }
+  },
+  {
+    "id": 799,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.845581+00:00",
+    "type": "task_started",
+    "message": "研究协调员：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "c4b55b43-2586-400b-b368-87498b93e816",
+      "role": "coordinator",
+      "round": 2
+    }
+  },
+  {
+    "id": 800,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.850084+00:00",
+    "type": "task_completed",
+    "message": "完成：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "c4b55b43-2586-400b-b368-87498b93e816",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 801,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.852084+00:00",
+    "type": "followup_planned",
+    "message": "协调员新增 1 个补查任务（第 2/2 轮）。",
+    "payload": {
+      "round": 2,
+      "tasks": [
+        {
+          "role": "commercial",
+          "target": "森屿笔记（虚构）",
+          "dimensions": [
+            "SSO"
+          ],
+          "question": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+          "issue": {
+            "subject": "森屿笔记（虚构）",
+            "dimension": "SSO",
+            "reason": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+            "source_ids": [
+              "5c86731a-459a-4c02-9fa3-583e87725370",
+              "790fd94b-775f-4e56-95a9-f9a7be993112"
+            ],
+            "resolution": "followup"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 802,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.868087+00:00",
+    "type": "task_started",
+    "message": "商业分析员：补查 森屿笔记（虚构）：SSO",
+    "payload": {
+      "task_id": "1798ce46-607f-4cc4-965e-73004104656d",
+      "role": "commercial",
+      "round": 2
+    }
+  },
+  {
+    "id": 803,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.872087+00:00",
+    "type": "task_completed",
+    "message": "完成：补查 森屿笔记（虚构）：SSO",
+    "payload": {
+      "task_id": "1798ce46-607f-4cc4-965e-73004104656d",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 804,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.883594+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "16cd3d99-fdc3-4e1e-8f7f-bf1816bd9f25",
+      "role": "verifier",
+      "round": 2
+    }
+  },
+  {
+    "id": 805,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.899593+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "16cd3d99-fdc3-4e1e-8f7f-bf1816bd9f25",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 806,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.901597+00:00",
+    "type": "verification_issues",
+    "message": "核查发现 1 个需要处理的问题。",
+    "payload": {
+      "issues": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "reason": "同日期资料存在不同说法，无法仅凭时间排序判断。",
+          "source_ids": [
+            "5c86731a-459a-4c02-9fa3-583e87725370",
+            "790fd94b-775f-4e56-95a9-f9a7be993112"
+          ],
+          "resolution": "followup"
+        }
+      ]
+    }
+  },
+  {
+    "id": 807,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.913596+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "54df2191-fbb6-402d-830e-0858c637a9a7",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 808,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.918101+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "54df2191-fbb6-402d-830e-0858c637a9a7",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 809,
+    "run_id": "dbb5ce9c-545f-4d9b-b57e-74bbf08b72ce",
+    "created_at": "2026-10-02T10:44:23.948398+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "b098250f-2e2a-4124-8699-4d3888678f4a",
+      "version": 1,
+      "unresolved_count": 3
+    }
+  }
+]

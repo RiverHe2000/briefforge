@@ -1,0 +1,19 @@
+{
+  "scope": "Task identity schema and industry follow-up; prior v5 matrices remain frozen.",
+  "architectures": [
+    "single",
+    "pipeline",
+    "multi"
+  ],
+  "scenario": "dev-default",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "temperature": 0,
+  "per_run_cap_usd": 0.15,
+  "runs_predeclared": 3,
+  "code_sha256": {
+    "src/briefforge/engine.py": "7806352a299d218e1ab76fcb49f5bdb401d2f5c1e4794af134b819a94c7fc2df",
+    "src/briefforge/provider.py": "81c32dd285ae5bc98f1c03000d455b31cdc3efff169ac6a83797daf64d8587b1",
+    "scripts/run_queued_pilot.py": "c6520791a1bf607bf4c2729a830325296016a934a34162855d6193cfdd38cb03"
+  }
+}

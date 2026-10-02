@@ -1,0 +1,106 @@
+[
+  {
+    "id": 159,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:49:39.885127+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "endpoint": "gmicloud/fp8",
+      "input_per_million": 0.0875,
+      "output_per_million": 0.35
+    }
+  },
+  {
+    "id": 160,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:49:39.961233+00:00",
+    "type": "task_started",
+    "message": "研究协调员：确认研究任务与依赖",
+    "payload": {
+      "task_id": "51c2f6c2-b224-42c0-94a7-18277b764782",
+      "role": "coordinator",
+      "round": 0
+    }
+  },
+  {
+    "id": 161,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:49:39.967234+00:00",
+    "type": "task_completed",
+    "message": "完成：确认研究任务与依赖",
+    "payload": {
+      "task_id": "51c2f6c2-b224-42c0-94a7-18277b764782",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 162,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:49:40.010261+00:00",
+    "type": "task_started",
+    "message": "行业研究员：研究 行业：行业背景",
+    "payload": {
+      "task_id": "44b55ebd-9478-4afb-94ce-f51a670943f5",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 163,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:49:40.928383+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\a44000c7-9637-4db9-b8bf-590e3a041287\\094efa32-9e9b-48f4-bee2-b1b70bd0be80.json",
+      "response_id": null,
+      "http_status": 429
+    }
+  },
+  {
+    "id": 164,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:49:40.930393+00:00",
+    "type": "provider_retry",
+    "message": "模型暂时限流或不可用，等待 60 秒后重新预留费用并重试一次。",
+    "payload": {
+      "http_status": 429,
+      "retry_after_seconds": 60.0
+    }
+  },
+  {
+    "id": 165,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:50:43.211366+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\a44000c7-9637-4db9-b8bf-590e3a041287\\6b5de122-0f37-49c0-824b-836a2e761cde.json",
+      "response_id": null,
+      "http_status": 429
+    }
+  },
+  {
+    "id": 166,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:50:43.215366+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 行业：行业背景",
+    "payload": {
+      "task_id": "44b55ebd-9478-4afb-94ce-f51a670943f5",
+      "error": "OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 167,
+    "run_id": "a44000c7-9637-4db9-b8bf-590e3a041287",
+    "created_at": "2026-10-02T10:50:43.223367+00:00",
+    "type": "failed",
+    "message": "ProviderError: OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。",
+    "payload": {}
+  }
+]

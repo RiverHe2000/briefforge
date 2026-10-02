@@ -1,0 +1,102 @@
+{
+  "protocol_version": "briefforge-fixtures-v1",
+  "gold_sha256": "689f290b443326d1c1ce250f5d2b0c64f869341f3f9217b8a1ff66dbb2e05afc",
+  "fixtures": [
+    {
+      "id": "dev-default",
+      "split": "dev",
+      "title": "基准资料包",
+      "variation": "标准来源与旧版 SSO 说明",
+      "sources_sha256": "e0eaef7a2928f874ed47083dcc046483ca5974c2ff706f4d8271a4eaa0c56b01",
+      "source_count": 30
+    },
+    {
+      "id": "dev-noise",
+      "split": "dev",
+      "title": "冗余段落",
+      "variation": "增加与研究问题无关的运营说明",
+      "sources_sha256": "663c9a02860a609492978ef4bf73e8a186203e16754f0907eb441c0d3f104d2e",
+      "source_count": 30
+    },
+    {
+      "id": "dev-source-order",
+      "split": "dev",
+      "title": "来源顺序",
+      "variation": "倒序导入，发布时间保持不变",
+      "sources_sha256": "137742d50013273ddf13ec748f641fc72e00900ded36545ab375b82236c4cd7b",
+      "source_count": 30
+    },
+    {
+      "id": "dev-pricing-annual",
+      "split": "dev",
+      "title": "年度总额",
+      "variation": "年度单席位费用与月均费用并列",
+      "sources_sha256": "50a594c1a02baea0be4c015bebc54b621e6f595b34a8b1acc647bb212267d3f9",
+      "source_count": 30
+    },
+    {
+      "id": "test-enterprise-sso",
+      "split": "test",
+      "title": "套餐边界",
+      "variation": "SSO 发布信息与旧页交叉出现",
+      "sources_sha256": "6a19e88e8c0b34abdfd09cea11f495158915b7be67c49a8e30055f655b2af2cc",
+      "source_count": 30
+    },
+    {
+      "id": "test-unknown-sso",
+      "split": "test",
+      "title": "缺失能力披露",
+      "variation": "一家厂商没有当前 SSO 承诺",
+      "sources_sha256": "7501ad0042027f2f04803d9d47de834d604841d1376e8cb96f2b9fbd4b946bec",
+      "source_count": 30
+    },
+    {
+      "id": "test-monthly-only",
+      "split": "test",
+      "title": "月付报价",
+      "variation": "一家厂商只披露月付价格",
+      "sources_sha256": "27ef63a755408c5ba48633596aaf7876561627c49cd89ad72853e38526c408c5",
+      "source_count": 30
+    },
+    {
+      "id": "test-mixed-currency",
+      "split": "test",
+      "title": "不同币种",
+      "variation": "一家厂商报价使用 AUD",
+      "sources_sha256": "a8de1b893451c4671c408620c11e47cd40e44cc5f83d02f99565c438381e003e",
+      "source_count": 30
+    },
+    {
+      "id": "test-injection",
+      "split": "test",
+      "title": "来源中夹带指令",
+      "variation": "社区反馈包含与研究无关的指令",
+      "sources_sha256": "a6c1cc8d3b702c7edcb0e62a3b944cd4478183c12f33d7c96ca4a371c417a2da",
+      "source_count": 30
+    },
+    {
+      "id": "test-no-feedback",
+      "split": "test",
+      "title": "反馈证据不足",
+      "variation": "一家厂商没有可引用用户体验",
+      "sources_sha256": "709a47bc67d4fef0b6565902b6ec92fb6dc911f3a3c48f08fc038067cf0712ca",
+      "source_count": 30
+    },
+    {
+      "id": "test-stale-update",
+      "split": "test",
+      "title": "较新抓取的旧资料",
+      "variation": "旧说明仍保持旧发布日期",
+      "sources_sha256": "9fb342321ef2965d0f5f7697bc9f6081845b91a4aeef7cf59daf2769956c27f4",
+      "source_count": 30
+    },
+    {
+      "id": "test-contradiction",
+      "split": "test",
+      "title": "同期文件冲突",
+      "variation": "同日两个文件对 SSO 范围表述不同",
+      "sources_sha256": "ab85d0d74d72101061ebe59318b2385716bf767c7039e3236ef3055d26ac8ee6",
+      "source_count": 30
+    }
+  ]
+}

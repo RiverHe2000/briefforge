@@ -1,0 +1,15 @@
+{
+  "scenario": "test-enterprise-sso",
+  "architecture": "pipeline",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "d35a251f-78f2-4df4-8c82-358c9114ec43",
+  "stop_requested": true,
+  "status": "cancelled",
+  "error": "Evaluation stopped by STOP marker; this evaluation run was cancelled.",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 91.4495,
+  "spent_usd": 0.005876,
+  "reserved_usd": 0.002041,
+  "request_count": 12
+}

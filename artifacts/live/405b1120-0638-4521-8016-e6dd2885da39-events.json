@@ -1,0 +1,991 @@
+[
+  {
+    "id": 148,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:48:11.028316+00:00",
+    "type": "queued",
+    "message": "研究已进入队列",
+    "payload": {
+      "mode": "live"
+    }
+  },
+  {
+    "id": 224,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:51:43.166382+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "endpoint": "gmicloud/fp8",
+      "input_per_million": 0.0875,
+      "output_per_million": 0.35
+    }
+  },
+  {
+    "id": 225,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:51:43.285920+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：发现并获取 Trello 的公开资料",
+    "payload": {
+      "task_id": "158499d5-ad31-4864-8814-2e73f58256a3",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 226,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:51:43.298920+00:00",
+    "type": "search_attempt",
+    "message": "开始一次有费用上限的网页搜索。",
+    "payload": {
+      "purpose": "discover:Trello",
+      "reservation_id": "a29fd12b-cddc-409f-8658-ce103f55d719"
+    }
+  },
+  {
+    "id": 227,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:51:49.651368+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "discover:Trello",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\a246bf4a-d030-4934-93c7-97df62858e90.json",
+      "response_id": "gen-1790938304-xaYO1AUKKtB11LDjIOoS",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 228,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:51:49.654872+00:00",
+    "type": "search_results",
+    "message": "发现 3 个网页，等待正文获取与核查。",
+    "payload": {
+      "links": [
+        {
+          "url": "https://platform.tracxn.com/a/d/company/52c50452e4b03a1193597dd6/trello?utm_source=parallel&utm_medium=ai#a:about",
+          "title": "Trello"
+        },
+        {
+          "url": "https://www.trello.com/pricing",
+          "title": "Which Trello Plan Is Best for You? Our Pricing Guide Can ..."
+        },
+        {
+          "url": "https://thedigitalprojectmanager.com/tools/trello-pricing/",
+          "title": "Trello Pricing Tiers & Costs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 229,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:51:52.069011+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Tracxn Login",
+    "payload": {
+      "source_id": "776fb222-0702-4e29-83e4-fc474512db11",
+      "url": "https://tracxn.com/login?redirecturl=%2Fa%2Fd%2Fcompany%2F52c50452e4b03a1193597dd6%2Ftrello%3Futm_source%3Dparallel%26utm_medium%3Dai&utm_source=parallel&utm_medium=ai",
+      "published_at": null
+    }
+  },
+  {
+    "id": 230,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:05.153763+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Which Trello Plan Is Best for You? Our Pricing Guide Can Help",
+    "payload": {
+      "source_id": "7f4de01b-dac8-4f42-bfab-a59a1901ed61",
+      "url": "https://trello.com/pricing",
+      "published_at": null
+    }
+  },
+  {
+    "id": 231,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:05.343572+00:00",
+    "type": "source_fetch_failed",
+    "message": "一个网页正文未能取得；搜索摘要不会作为证据。",
+    "payload": {
+      "url": "https://thedigitalprojectmanager.com/tools/trello-pricing/",
+      "error": "网页返回HTTP 403"
+    }
+  },
+  {
+    "id": 232,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:05.350575+00:00",
+    "type": "task_completed",
+    "message": "完成：发现并获取 Trello 的公开资料",
+    "payload": {
+      "task_id": "158499d5-ad31-4864-8814-2e73f58256a3",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 233,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:05.362078+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：发现并获取 Asana 的公开资料",
+    "payload": {
+      "task_id": "32dbf892-42a9-4c6f-958a-9736c7048800",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 234,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:05.372620+00:00",
+    "type": "search_attempt",
+    "message": "开始一次有费用上限的网页搜索。",
+    "payload": {
+      "purpose": "discover:Asana",
+      "reservation_id": "8d00bc13-0791-4d98-8871-12fee0193b72"
+    }
+  },
+  {
+    "id": 235,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:25.151574+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "discover:Asana",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\862e18c2-ece3-42eb-a956-7741f39f41ea.json",
+      "response_id": "gen-1790938326-ErJ4L2LXL3xbVA3VxKCW",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 236,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:25.156575+00:00",
+    "type": "search_results",
+    "message": "发现 3 个网页，等待正文获取与核查。",
+    "payload": {
+      "links": [
+        {
+          "url": "https://platform.tracxn.com/a/d/company/52bd755be4b033223572e7b0/asana?utm_source=parallel&utm_medium=ai#a:about",
+          "title": "Asana"
+        },
+        {
+          "url": "https://asana.com/pricing",
+          "title": "Asana Pricing | Personal, Starter, Advanced, & Enterprise plans • Asana"
+        },
+        {
+          "url": "https://help.asana.com/s/article/authentication-and-access-management-options-for-paid-plans?language=en_US",
+          "title": "Asana authentication: passwords, SSO & SAML"
+        }
+      ]
+    }
+  },
+  {
+    "id": 237,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:27.352541+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Tracxn Login",
+    "payload": {
+      "source_id": "34a3f072-85ef-4105-abcc-5aeade78688f",
+      "url": "https://tracxn.com/login?redirecturl=%2Fa%2Fd%2Fcompany%2F52bd755be4b033223572e7b0%2Fasana%3Futm_source%3Dparallel%26utm_medium%3Dai&utm_source=parallel&utm_medium=ai",
+      "published_at": null
+    }
+  },
+  {
+    "id": 238,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:39.726462+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Asana Pricing | Personal, Starter, Advanced, & Enterprise plans • Asana",
+    "payload": {
+      "source_id": "f6cbbfff-19f1-40a7-8e3a-df3b8f040f36",
+      "url": "https://asana.com/pricing",
+      "published_at": null
+    }
+  },
+  {
+    "id": 239,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:40.830719+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Asana Help Center",
+    "payload": {
+      "source_id": "5ab66a25-1ae1-4812-9439-12688f934e61",
+      "url": "https://help.asana.com/s/article/authentication-and-access-management-options-for-paid-plans?language=en_US",
+      "published_at": null
+    }
+  },
+  {
+    "id": 240,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:40.836222+00:00",
+    "type": "task_completed",
+    "message": "完成：发现并获取 Asana 的公开资料",
+    "payload": {
+      "task_id": "32dbf892-42a9-4c6f-958a-9736c7048800",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 241,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:40.848766+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：发现并获取 ClickUp 的公开资料",
+    "payload": {
+      "task_id": "dc7428c1-72b5-491c-a9fe-1b3642705725",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 242,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:40.858278+00:00",
+    "type": "search_attempt",
+    "message": "开始一次有费用上限的网页搜索。",
+    "payload": {
+      "purpose": "discover:ClickUp",
+      "reservation_id": "167b2b85-a495-425b-b778-8643f63dfdb1"
+    }
+  },
+  {
+    "id": 243,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:42.161737+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "discover:ClickUp",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\bdbc3c8f-4fcd-40cc-ba20-1c6829584c99.json",
+      "response_id": null,
+      "http_status": 429
+    }
+  },
+  {
+    "id": 244,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:42.163736+00:00",
+    "type": "provider_retry",
+    "message": "模型暂时限流或不可用，等待 0.5 秒后重新预留费用并重试一次。",
+    "payload": {
+      "http_status": 429,
+      "retry_after_seconds": 0.5
+    }
+  },
+  {
+    "id": 245,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:42.676163+00:00",
+    "type": "search_attempt",
+    "message": "开始一次有费用上限的网页搜索。",
+    "payload": {
+      "purpose": "discover:ClickUp",
+      "reservation_id": "54975b52-a7ce-46d1-ae5b-bf441d631c84"
+    }
+  },
+  {
+    "id": 246,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:51.678786+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "discover:ClickUp",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\a7efe2f6-c56a-496d-8eb8-6c3174644ffe.json",
+      "response_id": "gen-1790938363-xVgj3TmiVWcHKGrjVuHl",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 247,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:51.683788+00:00",
+    "type": "search_results",
+    "message": "发现 3 个网页，等待正文获取与核查。",
+    "payload": {
+      "links": [
+        {
+          "url": "https://clickup.com/pricing",
+          "title": "ClickUp Pricing and Plans"
+        },
+        {
+          "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency/",
+          "title": "How to Choose the Best ClickUp Pricing Plan For You"
+        },
+        {
+          "url": "https://www.smartsuite.com/blog/clickup-pricing",
+          "title": "ClickUp Pricing: Is It Worth It in 2026?"
+        }
+      ]
+    }
+  },
+  {
+    "id": 248,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:52.237218+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：ClickUp Pricing and Plans",
+    "payload": {
+      "source_id": "d64ebb74-adde-4fb1-a59e-511d02c76124",
+      "url": "https://clickup.com/pricing",
+      "published_at": null
+    }
+  },
+  {
+    "id": 249,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:52.634833+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：ClickUp Pricing Plans Compared (2026): Free vs Business vs Enterprise | ZenPilot",
+    "payload": {
+      "source_id": "06614682-d1d6-4d8d-ad27-979eafbddb9f",
+      "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency/",
+      "published_at": "2026-09-02T00:00:00.000Z"
+    }
+  },
+  {
+    "id": 250,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:54.796928+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：ClickUp Pricing: Is It Worth It in 2026?",
+    "payload": {
+      "source_id": "47997b51-e816-4630-abdf-7e74d8f5aff1",
+      "url": "https://www.smartsuite.com/blog/clickup-pricing",
+      "published_at": "2024-09-20"
+    }
+  },
+  {
+    "id": 251,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:54.802929+00:00",
+    "type": "task_completed",
+    "message": "完成：发现并获取 ClickUp 的公开资料",
+    "payload": {
+      "task_id": "dc7428c1-72b5-491c-a9fe-1b3642705725",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 252,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:54.815438+00:00",
+    "type": "task_started",
+    "message": "行业研究员：发现并获取 行业 的公开资料",
+    "payload": {
+      "task_id": "814a7b38-9102-484a-a9bb-90486e2e7838",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 253,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:52:54.826398+00:00",
+    "type": "search_attempt",
+    "message": "开始一次有费用上限的网页搜索。",
+    "payload": {
+      "purpose": "discover:行业",
+      "reservation_id": "b8e14ae8-2754-4ef6-8fe4-752dfe6690b6"
+    }
+  },
+  {
+    "id": 254,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:09.157690+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "discover:行业",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\344f4301-19f9-4fe4-bbb0-2adb4dcd71e5.json",
+      "response_id": "gen-1790938375-lL7Lzfe0kIzU9BCJjIPh",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 255,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:09.161695+00:00",
+    "type": "search_results",
+    "message": "发现 3 个网页，等待正文获取与核查。",
+    "payload": {
+      "links": [
+        {
+          "url": "https://platform.tracxn.com/a/d/company/57a9efbee4b0c99a74c2ca36/asanadaily?utm_source=parallel&utm_medium=ai#a:about",
+          "title": "AsanaDaily"
+        },
+        {
+          "url": "https://ones.com/blog/clickup-vs-trello-vs-asana-which-platform-wins-for-teams-2026/",
+          "title": "ClickUp vs Trello vs Asana: Which Platform Wins for Teams ..."
+        },
+        {
+          "url": "https://clickup.com/compare/asana-vs-trello",
+          "title": "Asana vs. Trello vs. ClickUp™"
+        }
+      ]
+    }
+  },
+  {
+    "id": 256,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:11.386556+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Tracxn Login",
+    "payload": {
+      "source_id": "4d9e60e9-58be-4223-a890-aa8435e0b7f1",
+      "url": "https://tracxn.com/login?redirecturl=%2Fa%2Fd%2Fcompany%2F57a9efbee4b0c99a74c2ca36%2Fasanadaily%3Futm_source%3Dparallel%26utm_medium%3Dai&utm_source=parallel&utm_medium=ai",
+      "published_at": null
+    }
+  },
+  {
+    "id": 257,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:13.785727+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：ClickUp vs Trello vs Asana: Which Platform Wins for Teams? [2026]",
+    "payload": {
+      "source_id": "60e0803f-9ca9-424c-82ab-18c6df4871f4",
+      "url": "https://ones.com/blog/clickup-vs-trello-vs-asana-which-platform-wins-for-teams-2026/",
+      "published_at": "2026-09-28T15:45:17+00:00"
+    }
+  },
+  {
+    "id": 258,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:14.294288+00:00",
+    "type": "source_fetched",
+    "message": "已取得网页正文：Asana vs. Trello vs. ClickUp™",
+    "payload": {
+      "source_id": "a224e500-0693-44a8-8a00-e13dfcb62959",
+      "url": "https://clickup.com/compare/asana-vs-trello",
+      "published_at": null
+    }
+  },
+  {
+    "id": 259,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:14.301289+00:00",
+    "type": "task_completed",
+    "message": "完成：发现并获取 行业 的公开资料",
+    "payload": {
+      "task_id": "814a7b38-9102-484a-a9bb-90486e2e7838",
+      "role": "industry"
+    }
+  },
+  {
+    "id": 260,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:14.318288+00:00",
+    "type": "task_started",
+    "message": "研究协调员：确认研究任务与依赖",
+    "payload": {
+      "task_id": "7faea8c4-9d0e-4656-9414-3389e374ccf2",
+      "role": "coordinator",
+      "round": 0
+    }
+  },
+  {
+    "id": 261,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:18.521125+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "coordinator",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\9210de93-e916-44cb-af22-41ce9232abd9.json",
+      "response_id": "gen-1790938395-WjqQg0GS3AGfhlMfJdSQ",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 262,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:18.531042+00:00",
+    "type": "task_completed",
+    "message": "完成：确认研究任务与依赖",
+    "payload": {
+      "task_id": "7faea8c4-9d0e-4656-9414-3389e374ccf2",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 263,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:18.560042+00:00",
+    "type": "task_started",
+    "message": "行业研究员：研究 行业：行业背景",
+    "payload": {
+      "task_id": "50e996ee-210c-4211-b835-a9803b199986",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 264,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:18.597042+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 Trello：定位、SSO",
+    "payload": {
+      "task_id": "4120e0f6-1610-4b12-909a-35be73a9c39f",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 265,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:18.632572+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 Asana：定位、SSO",
+    "payload": {
+      "task_id": "ee9f95e9-1eb1-4a9e-ab7f-b27d2374b876",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 266,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:20.942088+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:Trello:0:定位,SSO:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\56ec9403-4e7c-4b62-8983-d06176e99f76.json",
+      "response_id": "gen-1790938399-KRMzNBn2jj4ncUqyx1xx",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 267,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:20.947087+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:Trello:0:定位,SSO"
+    }
+  },
+  {
+    "id": 268,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:20.966447+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\6f8a8494-03d9-4f30-8e4d-9cd6f7aa717d.json",
+      "response_id": "gen-1790938399-D9VBH2wUwvE0lJtvTWRB",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 269,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:20.970447+00:00",
+    "type": "agent_tool",
+    "message": "行业研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "industry",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:行业:0:行业背景"
+    }
+  },
+  {
+    "id": 270,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:21.279401+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:Asana:0:定位,SSO:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\e388bd3f-2383-4872-9484-67e7b4854ba7.json",
+      "response_id": "gen-1790938399-8RSx0Z8N9vVPjEAQikzg",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 271,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:21.283401+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:Asana:0:定位,SSO"
+    }
+  },
+  {
+    "id": 272,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:22.611131+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:Trello:0:定位,SSO:tool:1",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\78cac451-1ff1-4436-b952-cb90cedb8b51.json",
+      "response_id": "gen-1790938402-jzixKuz8ygXYid1hnELl",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 273,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:22.615131+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：search_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "search_sources",
+      "step": 2,
+      "purpose": "research:Trello:0:定位,SSO"
+    }
+  },
+  {
+    "id": 274,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:22.789463+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:1",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\95a79f71-4bbe-4a2b-a426-ffc9273a97b2.json",
+      "response_id": "gen-1790938402-4aclB3B8pqfSfQKX9n75",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 275,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:22.794462+00:00",
+    "type": "agent_tool",
+    "message": "行业研究员调用资料工具：search_sources",
+    "payload": {
+      "role": "industry",
+      "tool": "search_sources",
+      "step": 2,
+      "purpose": "research:行业:0:行业背景"
+    }
+  },
+  {
+    "id": 276,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:25.561947+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:2",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\23624813-e6ae-4d16-a04a-4432d6205460.json",
+      "response_id": "gen-1790938403-Lz2vIRAfaVJXvdBXtvSx",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 277,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:25.566949+00:00",
+    "type": "agent_tool",
+    "message": "行业研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "industry",
+      "tool": "submit_claims",
+      "step": 3,
+      "purpose": "research:行业:0:行业背景"
+    }
+  },
+  {
+    "id": 278,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:25.575951+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 行业：行业背景",
+    "payload": {
+      "task_id": "50e996ee-210c-4211-b835-a9803b199986",
+      "role": "industry"
+    }
+  },
+  {
+    "id": 279,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:25.582951+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 ClickUp：定位、SSO",
+    "payload": {
+      "task_id": "442c24ca-0391-4ac4-a6ea-0545d08efad1",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 280,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:27.126461+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:Trello:0:定位,SSO:tool:2",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\0bb033c7-32e9-4a1b-9e03-d80df1b7e40d.json",
+      "response_id": "gen-1790938403-IvRpOJGMqizc5PzM7h2n",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 281,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:27.131461+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "competitor",
+      "tool": "submit_claims",
+      "step": 3,
+      "purpose": "research:Trello:0:定位,SSO"
+    }
+  },
+  {
+    "id": 282,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:27.136968+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 Trello：定位、SSO",
+    "payload": {
+      "task_id": "4120e0f6-1610-4b12-909a-35be73a9c39f",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 283,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:27.142969+00:00",
+    "type": "task_started",
+    "message": "商业分析员：研究 *：价格",
+    "payload": {
+      "task_id": "3682d6d6-41bc-4e2c-8396-d7e2eafda34e",
+      "role": "commercial",
+      "round": 0
+    }
+  },
+  {
+    "id": 284,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:27.211986+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:Asana:0:定位,SSO:tool:1",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\a5022a56-4c86-42bc-97a7-671c3059d54e.json",
+      "response_id": "gen-1790938402-QALsn65K6HRkH6NJxrZh",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 285,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:27.216986+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：search_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "search_sources",
+      "step": 2,
+      "purpose": "research:Asana:0:定位,SSO"
+    }
+  },
+  {
+    "id": 286,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:28.619105+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:ClickUp:0:定位,SSO:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\33845e00-5017-4954-82c4-ddae132ff1b9.json",
+      "response_id": "gen-1790938406-X6tue3z4BPrzNm82oFtJ",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 287,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:28.622873+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:ClickUp:0:定位,SSO"
+    }
+  },
+  {
+    "id": 288,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:30.230843+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:价格:tool:0",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\661aa0c4-e587-4a77-8365-8f11d01fd0d5.json",
+      "response_id": "gen-1790938408-osvPyfJjxZwph2HsRFXz",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 289,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:30.234843+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：read_sources",
+    "payload": {
+      "role": "commercial",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:*:0:价格"
+    }
+  },
+  {
+    "id": 290,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:31.518602+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:价格:tool:1",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\4ba3f4d3-618e-4ab2-9d24-e8ccd9466edb.json",
+      "response_id": null,
+      "http_status": 429
+    }
+  },
+  {
+    "id": 291,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:31.520602+00:00",
+    "type": "provider_retry",
+    "message": "模型暂时限流或不可用，等待 60 秒后重新预留费用并重试一次。",
+    "payload": {
+      "http_status": 429,
+      "retry_after_seconds": 60.0
+    }
+  },
+  {
+    "id": 292,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:33.673262+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:Asana:0:定位,SSO:tool:2",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\b2d1ca58-9a5f-4ab5-b136-f0f062ccfdc9.json",
+      "response_id": "gen-1790938408-f2nf0yc0jAQWwxfhdgQ8",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 293,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:33.677266+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "competitor",
+      "tool": "submit_claims",
+      "step": 3,
+      "purpose": "research:Asana:0:定位,SSO"
+    }
+  },
+  {
+    "id": 294,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:33.683265+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 Asana：定位、SSO",
+    "payload": {
+      "task_id": "ee9f95e9-1eb1-4a9e-ab7f-b27d2374b876",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 295,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:38.572490+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:ClickUp:0:定位,SSO:tool:1",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\05d15f2a-e25e-4ae5-b888-3e1d56fc9770.json",
+      "response_id": "gen-1790938409-5RdUxg5o6pwndNDhFxFO",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 296,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:38.576490+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "competitor",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:ClickUp:0:定位,SSO"
+    }
+  },
+  {
+    "id": 297,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:53:38.583490+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 ClickUp：定位、SSO",
+    "payload": {
+      "task_id": "442c24ca-0391-4ac4-a6ea-0545d08efad1",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 298,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:54:33.827527+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:价格:tool:1",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\405b1120-0638-4521-8016-e6dd2885da39\\f90c9e83-57a0-4dcc-b8f4-2f8e4b2ac5e2.json",
+      "response_id": null,
+      "http_status": 429
+    }
+  },
+  {
+    "id": 299,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:54:33.831527+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 *：价格",
+    "payload": {
+      "task_id": "3682d6d6-41bc-4e2c-8396-d7e2eafda34e",
+      "error": "OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 300,
+    "run_id": "405b1120-0638-4521-8016-e6dd2885da39",
+    "created_at": "2026-10-02T10:54:33.839531+00:00",
+    "type": "failed",
+    "message": "ProviderError: OpenRouter 请求失败（HTTP 429）；请检查服务状态或账户额度。",
+    "payload": {}
+  }
+]

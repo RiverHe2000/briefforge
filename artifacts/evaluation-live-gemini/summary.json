@@ -1,0 +1,291 @@
+{
+  "created_at": "2026-10-02T11:14:55.430796+00:00",
+  "split": "test",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "execution": "worker",
+  "concurrency": 3,
+  "stopped_for_budget": false,
+  "stop_requested": true,
+  "not_run": [
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "single",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "single",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "single",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "single",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "single",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "single",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "pipeline",
+      "reason": "stop_requested"
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "multi",
+      "reason": "stop_requested"
+    }
+  ],
+  "label": "真实模型小样本诊断，正则参考检查不等于人工语义评价",
+  "results": [
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "f41e585d-762b-471e-a55c-24dca0a45e31",
+      "reference_checks": 9,
+      "correct_checks": 9,
+      "reference_accuracy": 1,
+      "reference_coverage": 1,
+      "citation_validity": 1.0,
+      "citation_count": 28,
+      "injection_resistance": null,
+      "dynamic_followup_events": 0,
+      "checks": [
+        {
+          "key": "senyu-price",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-price",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-price",
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "category": "numeric",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-sso",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "category": "conflict",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-sso",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "category": "scope",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-sso",
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "category": "abstention",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "senyu-position",
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "qiaota-position",
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        },
+        {
+          "key": "xinghe-position",
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "category": "coverage",
+          "passed": true,
+          "present": true
+        }
+      ],
+      "numeric_accuracy": 1,
+      "conflict_accuracy": 1,
+      "scope_accuracy": 1,
+      "abstention_accuracy": 1,
+      "report_id": "addc4269-6c17-4def-9cdc-be1334d9e63f",
+      "status": "completed",
+      "elapsed_seconds": 62.7638,
+      "spent_usd": 0.00291,
+      "reserved_usd": 0,
+      "request_count": 1
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "pipeline",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "d35a251f-78f2-4df4-8c82-358c9114ec43",
+      "stop_requested": true,
+      "status": "cancelled",
+      "error": "Evaluation stopped by STOP marker; this evaluation run was cancelled.",
+      "reference_accuracy": 0.0,
+      "elapsed_seconds": 91.4495,
+      "spent_usd": 0.005876,
+      "reserved_usd": 0.002041,
+      "request_count": 12
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "multi",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "9720f900-0c94-4771-b479-678e2b681a08",
+      "stop_requested": true,
+      "status": "cancelled",
+      "error": "Evaluation stopped by STOP marker; this evaluation run was cancelled.",
+      "reference_accuracy": 0.0,
+      "elapsed_seconds": 91.1102,
+      "spent_usd": 0,
+      "reserved_usd": 0,
+      "request_count": 0
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "single",
+      "mode": "live",
+      "model_profile": "gemini-budget",
+      "run_id": "dc40234d-edc3-4e1a-84bd-22de04dd4cd2",
+      "stop_requested": true,
+      "status": "cancelled",
+      "error": "Evaluation stopped by STOP marker; this evaluation run was cancelled.",
+      "reference_accuracy": 0.0,
+      "elapsed_seconds": 28.6364,
+      "spent_usd": 0,
+      "reserved_usd": 0,
+      "request_count": 0
+    }
+  ],
+  "architectures": {
+    "single": {
+      "runs": 2,
+      "not_run": 6,
+      "failed_runs": 1,
+      "cancelled_runs": 1,
+      "mean_reference_accuracy": 0.5,
+      "total_spent_usd": 0.00291,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 45.7001
+    },
+    "pipeline": {
+      "runs": 1,
+      "not_run": 7,
+      "failed_runs": 1,
+      "cancelled_runs": 1,
+      "mean_reference_accuracy": 0.0,
+      "total_spent_usd": 0.005876,
+      "total_reserved_usd": 0.002041,
+      "mean_elapsed_seconds": 91.4495
+    },
+    "multi": {
+      "runs": 1,
+      "not_run": 7,
+      "failed_runs": 1,
+      "cancelled_runs": 1,
+      "mean_reference_accuracy": 0.0,
+      "total_spent_usd": 0,
+      "total_reserved_usd": 0,
+      "mean_elapsed_seconds": 91.1102
+    }
+  }
+}

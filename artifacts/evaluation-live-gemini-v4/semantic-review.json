@@ -1,0 +1,439 @@
+{
+  "created_at": "2026-10-02T12:16:42.329442+00:00",
+  "verdict": "Known price-unit regressions were not observed in final v4 claims, but the reports are research drafts with answer-coverage gaps and unresolved SSO conflict assertions. Not semantically approved as fully accurate reports.",
+  "scope": "Independent narrow review of all24 completed reports: all72 price claims, and90 SSO-related claims including18 in other dimensions, against their own immutable frozen sources. Price month/year and currency, SSO package/effective date/current versus archived evidence, and known earlier failure classes. No paid calls, evaluator gold, engine/provider/fixture/source edits, ledger writes, or exports.",
+  "method": "Manually examined final statement/value/conditions and frozen evidence; exact-quote checks and targeted offline guard probes assist but do not substitute for semantic review. Reviewed report SHA256 values rechecked unchanged when this summary was written.",
+  "run_context": {
+    "runs": 24,
+    "mode": "live",
+    "model_profile": "gemini-budget",
+    "status_counts": {
+      "completed": 24
+    },
+    "request_count": 294,
+    "confirmed_spent_usd": 0.177924,
+    "reserved_usd": 0.0,
+    "summary_sha256": "a7dbd4c838cfe8303d442f278badbff30e28a75e8991fcf995828ce8b3b8870e",
+    "implementation_manifest_sha256": "d0035cfd698744a7faac57b1170e4f876e24164106c3543edc899004591eab41"
+  },
+  "price": {
+    "claims_reviewed": 72,
+    "known_material_month_year_unit_errors_identified": 0,
+    "numeric_answers_correct_within_unit_currency_scope": 43,
+    "withdrawn_to_unknown_despite_available_answer": 20,
+    "generic_billing_principles_without_numeric_statement_answer": 9,
+    "by_architecture": {
+      "single": {
+        "numeric_answer_correct_in_unit_currency_scope": 24
+      },
+      "pipeline": {
+        "numeric_answer_correct_in_unit_currency_scope": 9,
+        "withdrawn_unknown_despite_available_source": 15
+      },
+      "multi": {
+        "withdrawn_unknown_despite_available_source": 5,
+        "numeric_answer_correct_in_unit_currency_scope": 10,
+        "generic_billing_principle_not_numeric_answer": 9
+      }
+    },
+    "exact_evidence_quotes": 69,
+    "total_evidence_quotes": 69,
+    "numeric_conditions_missing_from_attached_quote_but_present_elsewhere_in_same_frozen_source": 5,
+    "supported_field_tax_exclusion_omissions": 2,
+    "supported_field_enterprise_quote_boundary_omissions": 10,
+    "guard_issue_event_occurrences": 32,
+    "unique_affected_run_subject_pairs": 30,
+    "interpretation": "Zero observed known unit errors is not100% price answer accuracy.20 answers were withdrawn;9 statements became general billing principles.43 numeric answers pass only this narrow amount/currency/month-versus-year review. The quote-granularity gaps and missing procurement conditions remain separate limitations; no fabricated amount was inferred from those5 citation gaps.",
+    "unresolved_examples": [
+      {
+        "file": "test-contradiction-multi-live.report.json",
+        "claim_id": "541a1063-0191-44ee-b25e-1f4aea70d76b",
+        "subject": "森屿笔记（虚构）",
+        "outcome": "withdrawn_unknown_despite_available_source",
+        "statement": "价格：无法确认（独立核查未能确认原断言及其条件）。",
+        "value": null,
+        "conditions": [
+          "原始模型断言已撤回；核查问题与原始响应保留在运行记录中。"
+        ],
+        "evidence": [
+          {
+            "source_id": "4e78a680-49a8-4d4e-9a8d-f9aab60a1fe9",
+            "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。",
+            "exact_substring": true
+          }
+        ]
+      },
+      {
+        "file": "test-enterprise-sso-multi-live.report.json",
+        "claim_id": "76260916-264f-4bdb-bb57-27629b021338",
+        "subject": "森屿笔记（虚构）",
+        "outcome": "generic_billing_principle_not_numeric_answer",
+        "statement": "每月报价按年付款不等于同金额的每年报价，且月付价格高于按年付费价格。",
+        "value": "团队版 USD 12/席位/月（按年付费） vs USD 16/席位/月（月付）",
+        "conditions": [
+          "按年付费",
+          "月付",
+          "未含税"
+        ],
+        "evidence": [
+          {
+            "source_id": "3a31899b-7525-4b9a-a063-65b48c4e933e",
+            "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "exact_substring": true
+          }
+        ]
+      }
+    ]
+  },
+  "sso": {
+    "counts": {
+      "relevant_claims": 90,
+      "sso_dimension_claims": 72,
+      "evidence_quotes": 145,
+      "exact_quotes": 145,
+      "conflict_not_propagated_to_value": 1,
+      "withdrawn_claims": 12,
+      "unknown_preserved_sso_dimension_claims": 27,
+      "unknown_preserved_via_withdrawal": 9,
+      "unknown_explicitly_reported": 18,
+      "cross_dimension_sso_claims": 18,
+      "conflict_leakage_across_dimensions": 1,
+      "available_answer_missed": 2,
+      "completed_reports_audited": 24,
+      "unresolved_conflict_assertion_findings": 2,
+      "answer_coverage_gaps": 2,
+      "advisory_claims": 3,
+      "claims_without_material_findings": 86,
+      "unknown_misrepresented_as_unsupported": 0,
+      "effective_date_errors_identified": 0,
+      "archive_mistaken_as_current_material_errors_identified": 0,
+      "withdrawals_despite_available_definite_answer": 2,
+      "withdrawals_instead_of_explaining_known_conflict": 1
+    },
+    "interpretation": "2 unresolved conflict assertions remain: multi contradiction preserves a one-sided value despite a conflict-aware statement, and single contradiction retains a supported cross-dimension team-SSO assertion despite mentioning source discrepancy.2 definite-answer coverage gaps remain.27 expected unknowns remain unknown;12 withdrawals include9 genuinely unknown answers,2 missed available answers, and1 known conflict not explained. No material effective-date or archive-as-current error was identified in this narrow review.",
+    "unresolved_examples": [
+      {
+        "file": "test-contradiction-multi-live.report.json",
+        "claim_id": "fffa31fa-ba71-44a6-9a76-95f621fa549a",
+        "dimension": "SSO",
+        "subject": "森屿笔记（虚构）",
+        "status": "uncertain",
+        "statement": "来源165646d1-3a25-48bc-bf65-3fd87cb90695声称团队版与企业版均支持 SAML SSO，而来源06345d66-4995-4f6e-9dde-5e5242732cf3声称仅企业版支持 SAML SSO。",
+        "value": "企业版支持 SAML SSO，团队版不支持",
+        "conditions": [
+          "自 2026-09-15 生效",
+          "来源165646d1-3a25-48bc-bf65-3fd87cb90695声称团队版与企业版均支持 SAML SSO，而来源06345d66-4995-4f6e-9dde-5e5242732cf3声称仅企业版支持 SAML SSO。"
+        ],
+        "evidence": [
+          {
+            "source_id": "165646d1-3a25-48bc-bf65-3fd87cb90695",
+            "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+            "locator": "26-15",
+            "logical_key": "senyu-release",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "exact_in_frozen_source": true
+          },
+          {
+            "source_id": "06345d66-4995-4f6e-9dde-5e5242732cf3",
+            "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+            "locator": "15-17",
+            "logical_key": "senyu-security",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "exact_in_frozen_source": true
+          }
+        ],
+        "related_frozen_sources": [
+          {
+            "source_id": "06345d66-4995-4f6e-9dde-5e5242732cf3",
+            "logical_key": "senyu-security",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "747086effc357f0f0eb9b526d978fec5e206a110df14bcafd258787399e56cce",
+            "sso_lines": [
+              "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            ]
+          },
+          {
+            "source_id": "165646d1-3a25-48bc-bf65-3fd87cb90695",
+            "logical_key": "senyu-release",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "188a42dad1e0acba54171cfb9f6a0252466d37e9efe3084c69e1e4221ecd05bf",
+            "sso_lines": [
+              "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。"
+            ]
+          },
+          {
+            "source_id": "1435e9fc-a5e5-4193-b20e-ccd332602fb2",
+            "logical_key": "senyu-archive",
+            "published_at": "2026-03-01T00:00:00+00:00",
+            "source_sha256": "fd8e50d17ea3789b25afaeb98acd05c0d5a05b2f4462fb907c855fad38f75c94",
+            "sso_lines": [
+              "存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。",
+              "SSO：当前所有套餐均不支持 SAML SSO。"
+            ]
+          }
+        ],
+        "final_behavior": "assertion_retained",
+        "verdict": "conflict_not_propagated_to_value",
+        "reason": "statement 与 conditions 正确并列同日现行来源的相反结论，但 value 仍单向写企业版支持、团队版不支持。uncertain 状态未消除字段间不一致；不能把该 value 当作已确认套餐范围。",
+        "severity": "medium"
+      },
+      {
+        "file": "test-contradiction-single-live.report.json",
+        "claim_id": "2e5cd8db-1e74-4215-98fa-43f62ddd3f74",
+        "dimension": "近期变化",
+        "subject": "森屿笔记（虚构）",
+        "status": "supported",
+        "statement": "森屿笔记（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。同时，SSO 能力在 2026-09-15 生效，团队版与企业版均支持 SAML SSO，但此更新与同日安全说明存在差异。",
+        "value": "更新文档检索结果的来源定位，补充登录能力说明，SSO 能力更新",
+        "conditions": [],
+        "evidence": [
+          {
+            "source_id": "abe29516-2e94-48f6-bc5a-112d46268b83",
+            "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+            "locator": "25:0",
+            "logical_key": "senyu-release",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "exact_in_frozen_source": true
+          }
+        ],
+        "related_frozen_sources": [
+          {
+            "source_id": "602d7f9a-146b-4ee8-b5b4-bbe15cea51c5",
+            "logical_key": "senyu-security",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "747086effc357f0f0eb9b526d978fec5e206a110df14bcafd258787399e56cce",
+            "sso_lines": [
+              "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            ]
+          },
+          {
+            "source_id": "abe29516-2e94-48f6-bc5a-112d46268b83",
+            "logical_key": "senyu-release",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "188a42dad1e0acba54171cfb9f6a0252466d37e9efe3084c69e1e4221ecd05bf",
+            "sso_lines": [
+              "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。"
+            ]
+          },
+          {
+            "source_id": "bf0b052d-da01-4b56-9207-d19fb748c1fa",
+            "logical_key": "senyu-archive",
+            "published_at": "2026-03-01T00:00:00+00:00",
+            "source_sha256": "fd8e50d17ea3789b25afaeb98acd05c0d5a05b2f4462fb907c855fad38f75c94",
+            "sso_lines": [
+              "存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。",
+              "SSO：当前所有套餐均不支持 SAML SSO。"
+            ]
+          }
+        ],
+        "final_behavior": "assertion_retained",
+        "verdict": "conflict_leakage_across_dimensions",
+        "reason": "近期变化仍为 supported，直接写团队版与企业版均支持；末句新增与安全说明存在差异，较 v3 有提示改善，但未把能力断言改成来源主张或明确该范围未知。同报告 SSO 项已撤回，不能把此条作为已确认能力。",
+        "severity": "medium"
+      },
+      {
+        "file": "test-enterprise-sso-multi-live.report.json",
+        "claim_id": "da9b4af2-4542-4088-b1b3-3e5e47837594",
+        "dimension": "SSO",
+        "subject": "森屿笔记（虚构）",
+        "status": "uncertain",
+        "statement": "SSO：无法确认（独立核查未能确认原断言及其条件）。",
+        "value": null,
+        "conditions": [
+          "原始模型断言已撤回；核查问题与原始响应保留在运行记录中。"
+        ],
+        "evidence": [
+          {
+            "source_id": "d252a9ad-50ad-46f9-b494-f3f3cfbb2702",
+            "quote": "SSO：详细适用范围请查阅套餐功能清单；此页不单独列出。",
+            "locator": "114:147",
+            "logical_key": "senyu-security",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "exact_in_frozen_source": true
+          }
+        ],
+        "related_frozen_sources": [
+          {
+            "source_id": "d252a9ad-50ad-46f9-b494-f3f3cfbb2702",
+            "logical_key": "senyu-security",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "2ca27592d8ba997ea4e942b72fb18c229a0340809029df02a3dc6962afbe73a8",
+            "sso_lines": [
+              "SSO：详细适用范围请查阅套餐功能清单；此页不单独列出。"
+            ]
+          },
+          {
+            "source_id": "ea4ae7b0-a401-4bab-b6cc-efa33ae51946",
+            "logical_key": "senyu-faq",
+            "published_at": "2026-09-18T00:00:00+00:00",
+            "source_sha256": "69d62c42d17655c2f678813e86e7915ab08ba52d7384f6bca294b0ba18f0d8b1",
+            "sso_lines": [
+              "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            ]
+          },
+          {
+            "source_id": "e4c84c7b-e297-4dbf-a9fd-cd895ab40936",
+            "logical_key": "senyu-archive",
+            "published_at": "2026-03-01T00:00:00+00:00",
+            "source_sha256": "fd8e50d17ea3789b25afaeb98acd05c0d5a05b2f4462fb907c855fad38f75c94",
+            "sso_lines": [
+              "存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。",
+              "SSO：当前所有套餐均不支持 SAML SSO。"
+            ]
+          }
+        ],
+        "final_behavior": "withdrawn_to_uncertain",
+        "verdict": "available_answer_missed",
+        "reason": "最终撤回弃答，仅引安全概览跳转提示；冻结 FAQ 已明确企业版支持、团队版不支持及 2026-09-15 生效。安全撤回不是找回正确答案，v3 FAQ 覆盖缺口仍在。",
+        "severity": "medium"
+      },
+      {
+        "file": "test-mixed-currency-pipeline-live.report.json",
+        "claim_id": "1b33bd4a-fff5-4b5a-8fcd-59d1001a6b72",
+        "dimension": "SSO",
+        "subject": "森屿笔记（虚构）",
+        "status": "uncertain",
+        "statement": "SSO：无法确认（独立核查未能确认原断言及其条件）。",
+        "value": null,
+        "conditions": [
+          "原始模型断言已撤回；核查问题与原始响应保留在运行记录中。"
+        ],
+        "evidence": [],
+        "related_frozen_sources": [
+          {
+            "source_id": "1c3140b9-d1e9-4165-9392-714683cf041f",
+            "logical_key": "senyu-security",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "747086effc357f0f0eb9b526d978fec5e206a110df14bcafd258787399e56cce",
+            "sso_lines": [
+              "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            ]
+          },
+          {
+            "source_id": "24e43c1b-dea3-4bcd-9b99-cea575e776dd",
+            "logical_key": "senyu-release",
+            "published_at": "2026-09-15T00:00:00+00:00",
+            "source_sha256": "a69a0a84ef43fbc4752ed1fc08414d88a04d0ada007c12c340b6dbea12af66ba",
+            "sso_lines": [
+              "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            ]
+          },
+          {
+            "source_id": "9e80d258-ee37-418c-a735-880fa913539d",
+            "logical_key": "senyu-archive",
+            "published_at": "2026-03-01T00:00:00+00:00",
+            "source_sha256": "fd8e50d17ea3789b25afaeb98acd05c0d5a05b2f4462fb907c855fad38f75c94",
+            "sso_lines": [
+              "存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。",
+              "SSO：当前所有套餐均不支持 SAML SSO。"
+            ]
+          }
+        ],
+        "final_behavior": "withdrawn_to_uncertain",
+        "verdict": "available_answer_missed",
+        "reason": "最终撤回弃答且无引用，但本报告冻结安全说明和更新记录均明确企业版支持、团队版不支持及 2026-09-15 生效。这是新增答案覆盖缺口。",
+        "severity": "medium"
+      }
+    ],
+    "advisory_observations": [
+      {
+        "file": "test-contradiction-single-live.report.json",
+        "claim_id": "bc1a7a80-c5c2-4e70-9619-c32695efc1af",
+        "advisory_category": "withdrawn_instead_of_explaining_conflict",
+        "advisory": "最终撤回为引用定位不足后的无法确认，没有再作单方能力断言；这不等于正确解释两份同日现行来源互相矛盾。冻结资料足以报告明确冲突，但不足以决定团队版实际支持范围。"
+      },
+      {
+        "file": "test-enterprise-sso-pipeline-live.report.json",
+        "claim_id": "0a4eaf1b-c5f5-40f8-aaf9-700e91479a0d",
+        "advisory_category": "historical_condition_presentation_ambiguity",
+        "advisory": "已找到 FAQ 且 statement/value/生效日期正确；conditions 又放入存档句当前所有套餐均不支持，再解释历史不是当前冲突，且 status 仍 uncertain。完整上下文承认历史，因此不计为已证实的现状误判，但字段呈现仍含歧义，未算无保留通过。"
+      },
+      {
+        "file": "test-enterprise-sso-pipeline-live.report.json",
+        "claim_id": "87b02efe-c7b4-4f85-8ad7-21ff827dfd0b",
+        "advisory_category": "unnecessary_uncertainty",
+        "advisory": "套餐范围和日期与当前来源一致，conditions 也说明历史与当前一致且无冲突，但 status 为 uncertain；不构成假能力断言，保留为输出质量观察。"
+      }
+    ],
+    "v3_to_v4_followup": [
+      {
+        "v3_issue": "contradiction-single cross-dimension supported claim",
+        "v4": "Partially mitigated: final statement mentions discrepancy, but supported capability assertion still chooses the release side. Canonical SSO claim is withdrawn; not counted as a correct conflict answer."
+      },
+      {
+        "v3_issue": "contradiction-pipeline one-sided SSO statement/value",
+        "v4": "Resolved in this run: statement attributes both current sources, value is uncertain, conditions identify conflict."
+      },
+      {
+        "v3_issue": "contradiction-multi cross-dimension one-sided assertion",
+        "v4": "Original cross-dimension assertion removed; new canonical SSO value remains one-sided despite conflict-aware statement. Not an overall conflict pass."
+      },
+      {
+        "v3_issue": "enterprise-sso pipeline missing FAQ answer",
+        "v4": "FAQ found and package/date answer preserved. Historical text in conditions and uncertain status remain advisory issues; no longer counted as an answer-coverage gap."
+      },
+      {
+        "v3_issue": "enterprise-sso multi missing FAQ answer",
+        "v4": "Unresolved: withdrew to unknown despite frozen FAQ answer."
+      },
+      {
+        "v4_new_issue": "mixed-currency pipeline SSO answer missed",
+        "v4": "Withdrew to unknown despite identical current security/release answer in frozen sources."
+      }
+    ]
+  },
+  "offline_guard_probe": {
+    "artifact": "guard-probe.json",
+    "engine_sha256": "264ed595f9053a058f10f4f70fd323c1da22b5f5c2d2db7da6121fc17bf11e80",
+    "passed": 4,
+    "total": 4,
+    "result": "Both previously observed annual-payment-versus-monthly-rate error patterns are rejected; both valid annual-payment/monthly-rate phrasings retained. This verifies only those4 regression cases, not all natural-language prices."
+  },
+  "benchmark_interpretation": [
+    "The24-run frozen test matrix completed with0 failed runs. This establishes execution completion, not semantic approval.",
+    "Single has the highest selected-reference score in this small matrix. The results do not establish general multi-agent superiority.",
+    "The known price-unit failure class was not observed in final v4 price claims;20 price answers were withdrawn and9 became generic billing principles, so absence of those wrong prices is not100% answer accuracy.",
+    "Reference checks are regex-based and do not certify all report text or complete procurement conditions.",
+    "Costs are this benchmark only; no claim about zero spend or the current global ledger."
+  ],
+  "excluded_default_qwen_pilot": {
+    "run_id": "acf899c4-37a3-4b3e-899d-a7696966d9aa",
+    "status": "failed",
+    "report_available": false,
+    "semantic_review": "Not possible: no report. Not included in24 Gemini benchmark outcomes or costs.",
+    "operational_outcome_reported_by_root": {
+      "request_count": 14,
+      "confirmed_spent_usd": 0.005331,
+      "reserved_usd": 0.008242,
+      "error": "InvalidModelOutput: research tool arguments remained invalid after one repair."
+    }
+  },
+  "limitations": [
+    "Synthetic competitor facts test internal evidence consistency; this is not verification of real commercial facts.",
+    "Only price and SSO failure classes were reviewed; report summaries, recommendations, opportunities and all other prose are not certified.",
+    "Exact citation existence does not establish entailment, complete conditions or consistent fields.",
+    "One run per architecture/scenario on8 frozen scenarios is not statistical evidence of general architecture superiority. Single scored highest on selected-reference checks in this matrix.",
+    "A conservative withdrawal reduces a false assertion but can lower answer coverage; execution completion, safety and semantic accuracy are separate outcomes.",
+    "This benchmark cost is not the whole-project or current global ledger balance."
+  ],
+  "artifacts": {
+    "price-audit-detail.json": {
+      "sha256": "6cb59760d296e18d8a10ced1c24f479ac9dade8506980f52959b0ee87788f738"
+    },
+    "sso-audit-detail.json": {
+      "sha256": "7ca92d0ebfb072945050ceb321da55dccb73a9d59397d9f205caf70954afc65a"
+    },
+    "guard-probe.json": {
+      "sha256": "5c726b5d4e00273f7c62210c7de45ab829fcd8520c857cefc8159aa2dbc26828"
+    },
+    "analysis.json": {
+      "sha256": "1b4137640a5774404eb2e846263482664d495619f5c6586920a3db8ef03ef4fd"
+    },
+    "summary.json": {
+      "sha256": "a7dbd4c838cfe8303d442f278badbff30e28a75e8991fcf995828ce8b3b8870e"
+    },
+    "implementation-manifest.json": {
+      "sha256": "d0035cfd698744a7faac57b1170e4f876e24164106c3543edc899004591eab41"
+    }
+  }
+}

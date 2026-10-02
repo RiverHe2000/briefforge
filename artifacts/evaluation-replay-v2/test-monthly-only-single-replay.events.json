@@ -1,0 +1,60 @@
+[
+  {
+    "id": 507,
+    "run_id": "73e24826-9416-43e5-b331-ec83de32baa6",
+    "created_at": "2026-10-02T10:44:15.272870+00:00",
+    "type": "task_started",
+    "message": "单 Agent 基线：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "e473093a-209c-44be-93f2-b049df9992e4",
+      "role": "single",
+      "round": 0
+    }
+  },
+  {
+    "id": 508,
+    "run_id": "73e24826-9416-43e5-b331-ec83de32baa6",
+    "created_at": "2026-10-02T10:44:15.282870+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "e473093a-209c-44be-93f2-b049df9992e4",
+      "role": "single"
+    }
+  },
+  {
+    "id": 509,
+    "run_id": "73e24826-9416-43e5-b331-ec83de32baa6",
+    "created_at": "2026-10-02T10:44:15.298872+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "18a04b46-f6c5-4c4a-a138-bfeadad898df",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 510,
+    "run_id": "73e24826-9416-43e5-b331-ec83de32baa6",
+    "created_at": "2026-10-02T10:44:15.302872+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "18a04b46-f6c5-4c4a-a138-bfeadad898df",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 511,
+    "run_id": "73e24826-9416-43e5-b331-ec83de32baa6",
+    "created_at": "2026-10-02T10:44:15.330910+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "85da5739-2b79-49e1-9e8d-c76a0dd5f59f",
+      "version": 1,
+      "unresolved_count": 2
+    }
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "id": 5520,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:36.179649+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model_profile": "gemini-budget",
+      "model": "google/gemini-2.5-flash-lite",
+      "endpoint": "google-ai-studio",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.39999999999999997
+    }
+  },
+  {
+    "id": 5521,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:36.224651+00:00",
+    "type": "reuse_planned",
+    "message": "资料变更只重算受影响的结论，其余研究成果继续复用。",
+    "payload": {
+      "preserved_claim_keys": [
+        "星河文库（虚构）::价格",
+        "星河文库（虚构）::SSO",
+        "星河文库（虚构）::核心功能",
+        "星河文库（虚构）::用户反馈",
+        "星河文库（虚构）::定位",
+        "桥塔知识（虚构）::价格",
+        "桥塔知识（虚构）::SSO",
+        "桥塔知识（虚构）::定位",
+        "星河文库（虚构）::近期变化",
+        "桥塔知识（虚构）::核心功能",
+        "桥塔知识（虚构）::用户反馈",
+        "桥塔知识（虚构）::近期变化",
+        "森屿笔记（虚构）::定位",
+        "森屿笔记（虚构）::价格",
+        "森屿笔记（虚构）::核心功能",
+        "森屿笔记（虚构）::用户反馈",
+        "森屿笔记（虚构）::近期变化",
+        "行业::行业背景"
+      ],
+      "affected_claim_keys": [
+        "森屿笔记（虚构）::SSO"
+      ],
+      "source_ids": [
+        "1b534e82-bc0a-4676-9aa8-78fd68503560",
+        "b8c6124d-e6bc-494b-8c62-c9353d4bd977",
+        "cd4e39cb-dd7f-48ce-8b0c-a640c40f823f",
+        "b5e1eb6d-17fc-4ac8-a86f-b7e340ec8d2a",
+        "0dc1746f-d5c0-4c82-9dfb-26bbbd4bc0d9",
+        "f0203a44-2a11-4b8e-b41e-761737988b0c",
+        "9d03e77e-ba9c-437d-b7b7-c8f71b91bbe7",
+        "325d7060-9d70-489e-9424-5559fe52ab2c",
+        "117fff64-57ff-4ac9-9cd3-3f0104b4be92",
+        "c3fefe89-a37a-427e-a3f1-0395dd502e1b",
+        "0cb653d1-d106-4204-9a21-be40010adebe",
+        "8769dc6c-1416-4dbb-baa7-1b282ee19f71",
+        "1f3607cb-3149-4554-9e32-dc7ab995b118",
+        "0de56f0d-bce3-4b72-b498-e00068750e73",
+        "a49380c7-668c-45ac-8c47-59b5c3ab15d5",
+        "1b5378fd-f21d-4876-bf88-3f82c3c4e017",
+        "4008287f-ae79-4cf5-91dc-5a2e7acd1fa7",
+        "e13a0e26-ee5c-4b76-b117-b10df15574fd",
+        "21b0936e-9518-46e1-a01f-7050108034d6",
+        "5d8dd0c3-228e-4bad-b65a-af150a67eb3e",
+        "0a89ae85-f486-4d55-bdb2-74df6b55ee2d",
+        "ba7b26e9-0e44-4c77-b25a-6f0fdede7ac9",
+        "dbef15ff-e183-4311-969a-ee5ebd19f1a6",
+        "69d200b8-2bfa-4a6f-b92e-953689144272",
+        "d6b254a9-6182-4a20-b843-37de8055d073",
+        "80abfec4-da1f-4015-b953-d6ffa44e11c9",
+        "decdb4f2-ae35-4f52-a632-43d8ead1efd1",
+        "9baf507b-bd80-437f-bdd3-3ac868e222cc",
+        "8eac896d-5ab3-4d2f-9a17-96575901bf30",
+        "047bdeba-2513-4495-886a-65a3f334afd8"
+      ]
+    }
+  },
+  {
+    "id": 5522,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:36.252507+00:00",
+    "type": "task_started",
+    "message": "单 Agent 基线：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "5f68fea5-e0da-4abc-95e5-246ae420b58b",
+      "role": "single",
+      "round": 0
+    }
+  },
+  {
+    "id": 5542,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.347818+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:定位,核心功能,价格,SSO,近期变化,用户反馈",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\c24bf4a0-3e53-4074-bd07-25eed457f034\\9d71ccb2-f561-4f0a-9dca-f68993bc90a3.json",
+      "response_id": "gen-1790981016-VaH5y8o3f8FYI84RplMg",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 5543,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.352824+00:00",
+    "type": "evidence_decision",
+    "message": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+    "payload": {
+      "decision_id": "d299fc6009596c2090a3193a",
+      "action": "facts_normalized",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "森屿笔记（虚构）团队版价格为 12 美元/席位/月（按年付费，未含税），月付价格为 16 美元/席位/月。企业版价格需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 12/席位/月（按年付费）或 USD 16/席位/月（月付），企业版需询价",
+        "conditions": [
+          "未含税",
+          "按年付费",
+          "月付",
+          "企业版需单独询价"
+        ],
+        "evidence": [
+          {
+            "source_id": "b8c6124d-e6bc-494b-8c62-c9353d4bd977",
+            "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:163"
+          }
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": [],
+        "evidence": [
+          {
+            "source_id": "b8c6124d-e6bc-494b-8c62-c9353d4bd977",
+            "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+            "locator": "字符 63:163"
+          }
+        ]
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "b8c6124d-e6bc-494b-8c62-c9353d4bd977"
+      ],
+      "task_ids": [
+        "5f68fea5-e0da-4abc-95e5-246ae420b58b"
+      ],
+      "round": 0
+    }
+  },
+  {
+    "id": 5544,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.356816+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：定位、核心功能、价格、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "5f68fea5-e0da-4abc-95e5-246ae420b58b",
+      "role": "single"
+    }
+  },
+  {
+    "id": 5545,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.390334+00:00",
+    "type": "evidence_decision",
+    "message": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+    "payload": {
+      "decision_id": "f2b1cac2871140f00f1488de",
+      "action": "unknown_retained",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "SSO：未披露或无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ],
+        "evidence": [
+          {
+            "source_id": "ba7b26e9-0e44-4c77-b25a-6f0fdede7ac9",
+            "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+            "locator": "字符 23:79"
+          }
+        ]
+      },
+      "after": {
+        "statement": "SSO：未披露或无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ],
+        "evidence": [
+          {
+            "source_id": "ba7b26e9-0e44-4c77-b25a-6f0fdede7ac9",
+            "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+            "locator": "字符 23:79"
+          }
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "ba7b26e9-0e44-4c77-b25a-6f0fdede7ac9"
+      ],
+      "task_ids": [],
+      "round": 0
+    }
+  },
+  {
+    "id": 5546,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.396780+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "721773e4-61e7-4b92-8e76-7e001ed11d4e",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 5547,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.399775+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "721773e4-61e7-4b92-8e76-7e001ed11d4e",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 5548,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.430943+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "d3434bce-a590-4f85-a935-42d1f9cb0335",
+      "version": 2,
+      "unresolved_count": 2
+    }
+  },
+  {
+    "id": 5549,
+    "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+    "created_at": "2026-10-02T22:43:40.440948+00:00",
+    "type": "completed",
+    "message": "研究完成，报告已保存",
+    "payload": {
+      "report_id": "d3434bce-a590-4f85-a935-42d1f9cb0335"
+    }
+  }
+]

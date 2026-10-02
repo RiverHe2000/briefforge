@@ -1,0 +1,464 @@
+{
+  "review_version": "independent-semantic-review-reliability-v2",
+  "created_at": "2026-10-02T22:51:47.388503+00:00",
+  "scope": "Targeted, read-only review of all nine frozen before/partial/full reports, primary prices and SSO, target dates/package scope and comparison text, before-to-partial unaffected claim preservation, industry scope and opportunity caveats. No model calls or runtime/fixture changes.",
+  "synthetic": true,
+  "model_profile": "gemini-budget",
+  "verdict": "This explicit dated source replacement case supports correct partial recomputation with non-target fact preservation for multi and pipeline. It does not establish a general semantic-quality advantage for multi.",
+  "completed_runs": 9,
+  "failed_runs": 0,
+  "confirmed_usd": 0.038612,
+  "reserved_usd": 0,
+  "bounded_six_fact_checks": {
+    "passed": 54,
+    "total": 54,
+    "artifact": "../semantic-metrics-v2/reliability-v2/summary.json",
+    "interpretation": "Six predefined primary price/SSO obligations per report; not all-text semantic accuracy."
+  },
+  "manual_core_review": {
+    "price_claims_reviewed": 27,
+    "price_claims_with_material_unit_or_billing_errors_found": 0,
+    "sso_claims_reviewed": 27,
+    "sso_claims_with_material_scope_date_errors_found": 0,
+    "post_replacement_target_claims_correct": 6,
+    "post_replacement_target_claims_total": 6,
+    "exact_primary_price_sso_quotes": 70,
+    "total_primary_price_sso_quotes": 70,
+    "unknown_handling": "Xinghe SSO remains explicitly undisclosed/uncertain in all nine reports. Unknown is appropriate here, not an available answer withdrawn.",
+    "price_conditions": "All inspected primary prices preserve USD, per-seat per-month units, annual payment vs monthly payment, tax exclusion and enterprise quotation.",
+    "update_semantics": "The 2026-10-01 security source explicitly supersedes 2026-09-15. Six after reports correctly present team and enterprise SAML SSO and the new date; their comparison entries agree. Historical September release wording is not treated as current team non-support.",
+    "industry_scope": "All nine reports preserve synthetic-interview scope in statement/value/conditions; no measured market growth or productivity claim is licensed."
+  },
+  "architectures": [
+    {
+      "architecture": "single",
+      "stages": [
+        {
+          "stage": "before",
+          "run_id": "b51565d9-4576-4c7b-883c-b1d1de49ca8b",
+          "report_id": "942617d2-8164-4119-9e22-8cd79577e162",
+          "report_file": "update-before-single.report.json",
+          "sha256": "ed465ca07181fa862618bb9859a63c41e56bf6eef4f1a7800d98232f68edd2bf",
+          "request_count": 1,
+          "spent_usd": 0.002698,
+          "reserved_usd": 0,
+          "elapsed_seconds": 21.266,
+          "target_statement": "森屿笔记（虚构）企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 9 月 15 日起生效。",
+          "target_conditions": [
+            "自 2026-09-15 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "222e253e-0bf8-4428-a5b6-65ebbe99e6da",
+              "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+              "locator": "字符 23:97"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 6,
+          "total_quotes": 6
+        },
+        {
+          "stage": "partial",
+          "run_id": "c24bf4a0-3e53-4074-bd07-25eed457f034",
+          "report_id": "d3434bce-a590-4f85-a935-42d1f9cb0335",
+          "report_file": "update-partial-single.report.json",
+          "sha256": "2ffb6f5565a6ce2315078015bc9fd9d05fad921040a17c81d20d6965649c65f1",
+          "request_count": 1,
+          "spent_usd": 0.001195,
+          "reserved_usd": 0,
+          "elapsed_seconds": 6.031,
+          "target_statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+          "target_conditions": [
+            "自 2026-10-01 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "047bdeba-2513-4495-886a-65a3f334afd8",
+              "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+              "locator": "字符 26:70"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 6,
+          "total_quotes": 6
+        },
+        {
+          "stage": "full",
+          "run_id": "0924d8c0-dbc3-4636-94bb-55f97f82e491",
+          "report_id": "90aefb8b-f385-49fe-8086-4fbfdc2afc31",
+          "report_file": "update-full-single.report.json",
+          "sha256": "18b63a3787a70f8a571c99339d37c6cb3b28d74688492c4fa34e23948752bc95",
+          "request_count": 1,
+          "spent_usd": 0.002749,
+          "reserved_usd": 0,
+          "elapsed_seconds": 10.109,
+          "target_statement": "森屿笔记（虚构）的团队版与企业版均支持 SAML SSO，该功能自 2026-10-01 生效。",
+          "target_conditions": [
+            "自 2026-10-01 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "047bdeba-2513-4495-886a-65a3f334afd8",
+              "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+              "locator": "字符 17:77"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 7,
+          "total_quotes": 7
+        }
+      ],
+      "preservation": {
+        "comparison": "before to partial",
+        "fields": [
+          "status",
+          "statement",
+          "value",
+          "conditions",
+          "evidence",
+          "computation"
+        ],
+        "non_target_claims_before": 18,
+        "strictly_identical": 13,
+        "changed_non_target_keys": [
+          [
+            "森屿笔记（虚构）",
+            "定位"
+          ],
+          [
+            "森屿笔记（虚构）",
+            "核心功能"
+          ],
+          [
+            "森屿笔记（虚构）",
+            "用户反馈"
+          ],
+          [
+            "森屿笔记（虚构）",
+            "近期变化"
+          ],
+          [
+            "行业",
+            "行业背景"
+          ]
+        ],
+        "manual_change_assessment": "No material non-target factual regression found. Single changes are citation additions, paraphrases and stronger synthetic/historical conditions; pipeline and multi are exactly unchanged on the listed fields."
+      },
+      "partial_collaboration_metrics": {
+        "task_count": 2,
+        "completed_tasks": 2,
+        "followup_tasks": 0,
+        "changed_claims": 5,
+        "unresolved_claims": 1,
+        "reused_claims": 13,
+        "planned_reused_claims": 18,
+        "recomputed_claims": 1,
+        "reused_tasks": 0,
+        "peak_parallel_research": 1,
+        "overlap_seconds": 0.0,
+        "spent_usd": 0.001195,
+        "reserved_usd": 0,
+        "request_count": 1
+      },
+      "old_report_unchanged": true,
+      "same_final_source_ids": true
+    },
+    {
+      "architecture": "pipeline",
+      "stages": [
+        {
+          "stage": "before",
+          "run_id": "a5b46025-983f-4d9c-a9d3-eef1e44353fb",
+          "report_id": "48b69bc3-2420-4789-97a7-8b28bb16c9f4",
+          "report_file": "update-before-pipeline.report.json",
+          "sha256": "ca764243c7320d4954e2b4bc02b9727b6516fd72a4fdc5b3ae76a6f3ab4056ce",
+          "request_count": 7,
+          "spent_usd": 0.006408,
+          "reserved_usd": 0,
+          "elapsed_seconds": 32.438,
+          "target_statement": "企业版支持 SAML SSO，团队版不支持，于 2026 年 9 月 15 日生效。",
+          "target_conditions": [
+            "自 2026-09-15 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "9bdf4145-0c2b-4092-85a9-7e9ca63e3af7",
+              "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+              "locator": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 8,
+          "total_quotes": 8
+        },
+        {
+          "stage": "partial",
+          "run_id": "36daf4b4-f2ae-4426-9888-0708b42a1392",
+          "report_id": "ce6e19bf-db09-4c3a-97b7-4ae49961738a",
+          "report_file": "update-partial-pipeline.report.json",
+          "sha256": "83d559c72e90a645efc27f476a0e2c9e2e196b93b4f029bc717c0e25c5f648f6",
+          "request_count": 3,
+          "spent_usd": 0.003336,
+          "reserved_usd": 0,
+          "elapsed_seconds": 8.079,
+          "target_statement": "自 2026 年 10 月 1 日起，团队版和企业版均支持 SAML SSO。",
+          "target_conditions": [
+            "团队版",
+            "企业版",
+            "SAML SSO",
+            "2026-10-01 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "1a76a68d-2a52-42ff-b6ed-e7dac01bccf5",
+              "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+              "locator": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 8,
+          "total_quotes": 8
+        },
+        {
+          "stage": "full",
+          "run_id": "0c354d35-9aae-49d1-bf1d-10878a93c2cf",
+          "report_id": "0ed20a60-1f39-4e58-adb5-cd2609ca97b4",
+          "report_file": "update-full-pipeline.report.json",
+          "sha256": "d078b7115d88b8f95228ddb76f95c1ee1511bf7a56b797eed7a2c92f28639f73",
+          "request_count": 7,
+          "spent_usd": 0.005807,
+          "reserved_usd": 0,
+          "elapsed_seconds": 20.281,
+          "target_statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+          "target_conditions": [
+            "团队版",
+            "企业版",
+            "自 2026-10-01 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "1a76a68d-2a52-42ff-b6ed-e7dac01bccf5",
+              "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+              "locator": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 8,
+          "total_quotes": 8
+        }
+      ],
+      "preservation": {
+        "comparison": "before to partial",
+        "fields": [
+          "status",
+          "statement",
+          "value",
+          "conditions",
+          "evidence",
+          "computation"
+        ],
+        "non_target_claims_before": 18,
+        "strictly_identical": 18,
+        "changed_non_target_keys": [],
+        "manual_change_assessment": "No material non-target factual regression found. Single changes are citation additions, paraphrases and stronger synthetic/historical conditions; pipeline and multi are exactly unchanged on the listed fields."
+      },
+      "partial_collaboration_metrics": {
+        "task_count": 4,
+        "completed_tasks": 4,
+        "followup_tasks": 0,
+        "changed_claims": 1,
+        "unresolved_claims": 1,
+        "reused_claims": 18,
+        "planned_reused_claims": 18,
+        "recomputed_claims": 1,
+        "reused_tasks": 0,
+        "peak_parallel_research": 1,
+        "overlap_seconds": 0.0,
+        "spent_usd": 0.003336,
+        "reserved_usd": 0,
+        "request_count": 3
+      },
+      "old_report_unchanged": true,
+      "same_final_source_ids": true
+    },
+    {
+      "architecture": "multi",
+      "stages": [
+        {
+          "stage": "before",
+          "run_id": "10c2e7d1-d380-48d0-9f0a-42cebe7c44ce",
+          "report_id": "12252e84-14df-4739-a07f-018b3bd8ad5a",
+          "report_file": "update-before-multi.report.json",
+          "sha256": "96d7c7b64866a0813dfe9f5d7f26f436d21fbd8494178957297f9672f245202a",
+          "request_count": 8,
+          "spent_usd": 0.00677,
+          "reserved_usd": 0,
+          "elapsed_seconds": 25.375,
+          "target_statement": "企业版支持 SAML SSO，团队版不支持，自 2026年9月15日 生效。",
+          "target_conditions": [
+            "自 2026-09-15 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "c9d9f71e-7827-4aa2-b048-71d326a51a15",
+              "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+              "locator": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            },
+            {
+              "source_id": "a0cad4b1-0c83-4b7f-8c82-c4005c2fa7ff",
+              "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+              "locator": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 10,
+          "total_quotes": 10
+        },
+        {
+          "stage": "partial",
+          "run_id": "7e35f193-ce98-497c-8b39-e060a35dda10",
+          "report_id": "64b66c5c-e93b-4d93-9a27-42b6b340195b",
+          "report_file": "update-partial-multi.report.json",
+          "sha256": "9039ec6183953a71e676bb2548f397583a7518eab588e84d056683569fd0e01a",
+          "request_count": 3,
+          "spent_usd": 0.003758,
+          "reserved_usd": 0,
+          "elapsed_seconds": 10.141,
+          "target_statement": "团队版与企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+          "target_conditions": [
+            "团队版",
+            "企业版",
+            "SAML SSO",
+            "2026-10-01 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "b5443d09-124c-462c-ac7a-8adef6b53917",
+              "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+              "locator": "100-115"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 9,
+          "total_quotes": 9
+        },
+        {
+          "stage": "full",
+          "run_id": "7c662f20-00c9-4f54-aaf3-3c2b60fd6639",
+          "report_id": "b17e1617-00d4-415c-a600-d6e71fb2b113",
+          "report_file": "update-full-multi.report.json",
+          "sha256": "88e98ea388e02b22de2fc4c7df3e875071d5fa985c3f3ad7b5333aace4db57ae",
+          "request_count": 8,
+          "spent_usd": 0.005891,
+          "reserved_usd": 0,
+          "elapsed_seconds": 14.172,
+          "target_statement": "团队版与企业版均支持 SAML SSO，自 2026年10月1日 生效。",
+          "target_conditions": [
+            "团队版",
+            "企业版",
+            "自 2026-10-01 生效"
+          ],
+          "target_evidence": [
+            {
+              "source_id": "b5443d09-124c-462c-ac7a-8adef6b53917",
+              "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+              "locator": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。"
+            }
+          ],
+          "target_review": "Correct for this stage: enterprise only from 2026-09-15 before replacement; team and enterprise from 2026-10-01 after replacement.",
+          "primary_price_sso_claims": 6,
+          "exact_quotes": 8,
+          "total_quotes": 8
+        }
+      ],
+      "preservation": {
+        "comparison": "before to partial",
+        "fields": [
+          "status",
+          "statement",
+          "value",
+          "conditions",
+          "evidence",
+          "computation"
+        ],
+        "non_target_claims_before": 18,
+        "strictly_identical": 18,
+        "changed_non_target_keys": [],
+        "manual_change_assessment": "No material non-target factual regression found. Single changes are citation additions, paraphrases and stronger synthetic/historical conditions; pipeline and multi are exactly unchanged on the listed fields."
+      },
+      "partial_collaboration_metrics": {
+        "task_count": 4,
+        "completed_tasks": 4,
+        "followup_tasks": 0,
+        "changed_claims": 1,
+        "unresolved_claims": 1,
+        "reused_claims": 18,
+        "planned_reused_claims": 18,
+        "recomputed_claims": 1,
+        "reused_tasks": 0,
+        "peak_parallel_research": 1,
+        "overlap_seconds": 0.0,
+        "spent_usd": 0.003758,
+        "reserved_usd": 0,
+        "request_count": 3
+      },
+      "old_report_unchanged": true,
+      "same_final_source_ids": true
+    }
+  ],
+  "measured_multi_partial_vs_full": {
+    "request_count": {
+      "partial": 3,
+      "full": 8,
+      "reduction_fraction": 0.625
+    },
+    "confirmed_usd": {
+      "partial": 0.003758,
+      "full": 0.005891,
+      "reduction_fraction": 0.362078
+    },
+    "elapsed_seconds": {
+      "partial": 10.141,
+      "full": 14.172,
+      "limitation": "One observation each; queue delay included. No statistical latency claim."
+    },
+    "unchanged_non_target_claims": 18,
+    "new_run_task_reuse": 0,
+    "interpretation": "Claim reuse across report versions, not reuse of old task outputs within a new run. Pipeline also preserves 18 non-target claims and correctly updates the target; single correctly updates but changes five non-target claim records."
+  },
+  "opportunity_caveats": [
+    {
+      "severity": "editorial",
+      "report": "update-full-multi.report.json",
+      "example": "对桥塔知识（虚构）的合成用户进行可用性测试",
+      "finding": "Synthetic people cannot participate in actual usability testing. This is an impractical validation instruction; real participant recruitment is needed for a real study."
+    },
+    {
+      "severity": "scope",
+      "reports": "all six partial/full reports",
+      "finding": "Opportunities are labelled research hypotheses. Retention, market-share, migration or competitive benefits are proposals to test, not observed effects from the one synthetic feedback entry."
+    },
+    {
+      "severity": "editorial",
+      "report": "update-full-pipeline.report.json",
+      "finding": "The SSO/date comparison offered as an opportunity is mostly a restatement of known capability; limited actionable differentiation."
+    }
+  ],
+  "limitations": [
+    "One predeclared source-replacement scenario per architecture, before/partial/full; no repeated quality sampling or significance test.",
+    "Do not replace retained v5 full-matrix or reliability-v1 failures with this targeted post-fix success.",
+    "This audit is not a broad semantic sweep of the earlier 24-case benchmark or public-web reports.",
+    "Quotes matching sources does not by itself prove entailment; package, dates and pricing conditions were separately read.",
+    "No universal multi-agent advantage: the pipeline also passes this case and the single baseline remains cheaper.",
+    "No production market facts: all companies and source materials are synthetic."
+  ]
+}

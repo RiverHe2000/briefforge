@@ -1,0 +1,28 @@
+{
+  "model_profile": "gemini-budget",
+  "temperature": 0,
+  "workers": 3,
+  "max_concurrent_research_runs": 3,
+  "max_parallel_role_tasks_per_research": 3,
+  "code_and_reference_sha256": {
+    "src/briefforge/provider.py": "81c32dd285ae5bc98f1c03000d455b31cdc3efff169ac6a83797daf64d8587b1",
+    "src/briefforge/engine.py": "9dc75cebe213f9c5fc23e6971040f5768edc82c587daf24fe676247feca38e70",
+    "src/briefforge/evaluation.py": "31dc66deb18a5c88e9907bfa1ece3ea71b0cbe60336bac0e32437c1025080ea6",
+    "src/briefforge/evaluation_v2.py": "ca1c31ad105ca9674ae25f67f4b4318d1ce0fc8949b34d0afca3edc91d4f6ee3",
+    "src/briefforge/store.py": "f49690fabc24270aa408acf0c43dea2be1cfccdeacb24d979ea6d1acc22e8ec7",
+    "src/briefforge/ingest.py": "b039cbafd4943890daeb3a063d5616c653b5f9a70836dfd89c1f22ba0342615c",
+    "src/briefforge/collaboration.py": "4f47ca3ae084a7aa7c8d7b3016191d43e98eba818f8312ae9bbf19707a8830d3",
+    "data/evaluation/frozen_gold.json": "689f290b443326d1c1ce250f5d2b0c64f869341f3f9217b8a1ff66dbb2e05afc",
+    "uv.lock": "83e9e183be07f83f225bb9f5e44cfbadb02f962ed2094649e46b185d5d21493a",
+    "data/evaluation/fact-v2/dev-default.json": "83804e93ae18aeb518b067ab91341cef3f782790e8d25470d1b5575f55d8b526",
+    "data/evaluation/fact-v2/test-contradiction.json": "69da91838a57d14da16c6f631c37f65efaf09e2757b9f43542eebd7b669878b9",
+    "data/evaluation/fact-v2/test-enterprise-sso.json": "e1be699f1a378ce430938930da9f68948222aea2efa919bd668a94fa150ab8c7",
+    "data/evaluation/fact-v2/test-injection.json": "6b0010a6d9f42ea40caedbcd8badc41dcae26c49b8bfaa50ec3ecf12815bbc12",
+    "data/evaluation/fact-v2/test-mixed-currency.json": "7ae24c92b8a47c9fdae889a45fe577f59d2327b187efa124659474bcb393f4a0",
+    "data/evaluation/fact-v2/test-monthly-only.json": "235e2bd6eaee92180b074fde6b4081371ce30adc550a8df67964c61a31147348",
+    "data/evaluation/fact-v2/test-no-feedback.json": "0101bf32cf719377296ab4b4d280906cfce7ba4791348dbc82783be17f792dab",
+    "data/evaluation/fact-v2/test-stale-update.json": "d29de246d82210a24de4fcbf3e20f4f3bb81677f7f990773459b12e8848a8f2a",
+    "data/evaluation/fact-v2/test-unknown-sso.json": "67fb47a03f6426634c5a366d46a23bb88f0c783c1a5e132518ed4e0ec200c810"
+  },
+  "note": "Stability v5 preregistered before 24 frozen runs. Same source fixtures/budgets/model as v4; runtime fixes and temperature0. Known diagnostic cases, not an unseen holdout."
+}

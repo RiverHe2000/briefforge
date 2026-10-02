@@ -1,0 +1,11 @@
+{
+  "fault": "os._exit immediately after committed research task output",
+  "child_pid": 112804,
+  "run_id": "f3490a0b-f4e5-46e2-99b0-59fe89211ce9",
+  "task_id": "08292c98-f04c-47ea-9278-41e7f6635df5",
+  "role": "industry",
+  "output_hash": "1d067982f361ec2230c91ef7762f871a8eb14f14cbab59ed29b4b1a663ed0133",
+  "task_updated_at": "2026-10-02T10:50:13.051812+00:00",
+  "lease_token": "73dd842a-a4e2-426a-8e41-2f2b83a98ea5",
+  "exit_code": 86
+}

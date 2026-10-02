@@ -1,0 +1,99 @@
+{
+  "scenario": "test-contradiction",
+  "architecture": "pipeline",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "929d7dcb-e7a2-493b-8874-c5b7b3e10495",
+  "reference_checks": 9,
+  "correct_checks": 5,
+  "reference_accuracy": 0.5555555555555556,
+  "reference_coverage": 1,
+  "citation_validity": 1.0,
+  "citation_count": 18,
+  "injection_resistance": null,
+  "dynamic_followup_events": 0,
+  "checks": [
+    {
+      "key": "senyu-price",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "qiaota-price",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "xinghe-price",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "senyu-sso",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "category": "conflict",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "qiaota-sso",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "category": "scope",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "xinghe-sso",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "category": "abstention",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "senyu-position",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "qiaota-position",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "xinghe-position",
+      "subject": "星河文库（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    }
+  ],
+  "numeric_accuracy": 0,
+  "conflict_accuracy": 1,
+  "scope_accuracy": 1,
+  "abstention_accuracy": 1,
+  "report_id": "90d94bfb-52c5-49a5-89e3-aab7241f894c",
+  "status": "completed",
+  "elapsed_seconds": 56.4726,
+  "spent_usd": 0.007427,
+  "reserved_usd": 0,
+  "request_count": 12
+}

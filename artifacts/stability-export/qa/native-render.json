@@ -1,0 +1,33 @@
+{
+  "renderer": "Microsoft Word and PowerPoint COM hidden read-only",
+  "word_pages": 9,
+  "pptx": "D:\\Project\\briefforge\\artifacts\\stability-export\\briefforge-stability-pilot.pptx",
+  "text_overflows": [
+    {
+      "slide": 7,
+      "shape": "Text 4",
+      "height": 65.52,
+      "boundHeight": 81.6,
+      "width": 447.84,
+      "boundWidth": 442.0
+    },
+    {
+      "slide": 7,
+      "shape": "Text 6",
+      "height": 65.52,
+      "boundHeight": 81.6,
+      "width": 447.84,
+      "boundWidth": 442.0
+    },
+    {
+      "slide": 7,
+      "shape": "Text 8",
+      "height": 65.52,
+      "boundHeight": 81.6,
+      "width": 447.84,
+      "boundWidth": 449.0
+    }
+  ],
+  "slides": 10,
+  "docx": "D:\\Project\\briefforge\\artifacts\\stability-export\\briefforge-stability-pilot.docx"
+}

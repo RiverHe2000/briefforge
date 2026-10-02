@@ -1,0 +1,12 @@
+{
+  "model_profile": "gemini-budget",
+  "code_and_reference_sha256": {
+    "src/briefforge/provider.py": "1dec03ea38a2b3e458c1968f447936e48c4240b05e3276ad40ec2166528fb775",
+    "src/briefforge/engine.py": "67611b7a15886f684803c4d66edef390a1e405d23b7a2388a0a65b7894edc0f1",
+    "src/briefforge/evaluation.py": "b78a4a5cf83bd89edc4a34096710abcb45ded0656f8d2ff31b7a55f22e0abe26",
+    "src/briefforge/store.py": "b4a8b23b16a7332506cac7a756c5281f0ac6c2cdb4948c2a7acccadc08603ded",
+    "data/evaluation/frozen_gold.json": "689f290b443326d1c1ce250f5d2b0c64f869341f3f9217b8a1ff66dbb2e05afc",
+    "uv.lock": "83e9e183be07f83f225bb9f5e44cfbadb02f962ed2094649e46b185d5d21493a"
+  },
+  "note": "Code and fixtures at start of 24 paid frozen tests. All use the same model profile and budget cap."
+}

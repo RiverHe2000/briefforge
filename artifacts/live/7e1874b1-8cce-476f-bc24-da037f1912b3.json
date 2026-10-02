@@ -1,0 +1,53 @@
+{
+  "id": "7e1874b1-8cce-476f-bc24-da037f1912b3",
+  "project_id": "b099e3cd-33c8-4cbc-813d-7a68537aa265",
+  "brief": {
+    "id": "b099e3cd-33c8-4cbc-813d-7a68537aa265",
+    "title": "真实联网：办公协作产品研究",
+    "question": "比较 Trello、Asana、ClickUp 面向中小团队的定位、价格条件和 SSO 支持，不能确认的内容保留未知。",
+    "audience": "产品经理",
+    "competitors": [
+      "Trello",
+      "Asana",
+      "ClickUp"
+    ],
+    "dimensions": [
+      "定位",
+      "价格",
+      "SSO"
+    ],
+    "mode": "public",
+    "status": "draft",
+    "dirty": false,
+    "latest_report_id": null,
+    "created_at": "2026-10-02T11:12:39.873653+00:00",
+    "updated_at": "2026-10-02T11:12:39.873653+00:00"
+  },
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "architecture": "multi",
+  "status": "completed",
+  "budget_usd": 0.3,
+  "bucket": "web",
+  "spent_usd": 0.030864,
+  "reserved_usd": 0,
+  "request_count": 17,
+  "source_ids": [
+    "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+    "47206e50-55d7-40ef-8d01-cdddf4a41073",
+    "f52c22bc-67ee-48f4-b394-3e0336539d5a",
+    "95b54235-7fdc-42b5-9278-00986cce4bb0",
+    "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+    "df13bcc2-8956-4e16-b320-7d4fdb78b1ed",
+    "f4c57632-e6d8-411a-b7f7-d96b26efed66",
+    "ce257366-b800-4e2e-bd81-5dffaf4f2482"
+  ],
+  "instructions": "",
+  "created_at": "2026-10-02T11:12:39.883703+00:00",
+  "updated_at": "2026-10-02T11:14:12.767324+00:00",
+  "report_id": "4819b52d-2342-4e67-8f14-3eed28346964",
+  "error": null,
+  "phase": "completed",
+  "public": true,
+  "elapsed_seconds": 94.44
+}

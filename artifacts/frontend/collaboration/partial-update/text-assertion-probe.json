@@ -1,0 +1,17 @@
+{
+  "projectId": "c6100838-a9eb-4502-987c-e7b0d2767d1e",
+  "reports": [
+    "6bd44fb8-b21b-4080-aaa6-7ae80a9d6eba",
+    "931a2fc9-53d1-428b-8494-9cd4d6a1dbae"
+  ],
+  "checks": [
+    {
+      "name": "failure",
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(text.includes(correction.after.statement))\n"
+    }
+  ],
+  "browserErrors": [],
+  "writeRequests": [],
+  "modelCalls": 0
+}

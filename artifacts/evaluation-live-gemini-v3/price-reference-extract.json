@@ -1,0 +1,1508 @@
+{
+  "scope": "Audit convenience extraction from quoted frozen sources, not evaluator gold and never engine input. Rates retain source order and currency; no currency conversion or annual-total inference.",
+  "rows": [
+    {
+      "scenario_architecture": "test-contradiction-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "d42f6ee7-9284-491b-a756-9cffb0611101",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-contradiction-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "92f8d70d-573f-4126-9333-e94eec4a16db",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "团队版的价格为每年支付18美元/席位，或每月支付23美元/席位。企业版的价格需要单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-contradiction-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "3f963d2f-272a-4461-b5d1-d9e578e2dc2f",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-contradiction-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "1a5f0b37-3a2c-4a88-bab6-d1077b5e282f",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位。企业版价格需单独咨询。所有价格均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-contradiction-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "9a87ae20-6f69-40d0-8e41-3b007a555a80",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付18美元/席位，按月支付为23美元/席位。企业版价格需单独咨询。所有价格均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-contradiction-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "c0939876-ea75-40b1-b8d8-fe5941fb5450",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位。企业版价格需单独咨询。所有价格均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-contradiction-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "b5b8bb00-f030-4a46-9753-a538ca0c1391",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）团队版价格为 USD 12/席位/月（按年付费，未含税），月付为 USD 16/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-contradiction-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "2440ace4-1410-4353-a15d-4bbad18fdc63",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）团队版价格为 USD 18/席位/月（按年付费，未含税），月付为 USD 23/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-contradiction-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "f654d105-31ae-49df-8861-bed5c05dda01",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）团队版价格为 USD 9/席位/月（按年付费，未含税），月付为 USD 12/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "e193b2ec-9001-4bb8-a465-e1cf5041db3c",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": false,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位，均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "450e7dab-e841-4072-b9ea-c2f572e399d9",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": false,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付18美元/席位，按月支付为23美元/席位，均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "4b5de8fd-c040-4b80-b173-973ced890f7b",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": false,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位，均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "0bcb5f63-965d-4c29-945b-eac5d4fd4767",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位。企业版价格需单独咨询。价格不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "3082f3c0-6c06-49ca-b976-77bfa7feeb50",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付18美元/席位，按月支付为23美元/席位。企业版价格需单独咨询。价格不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "52509956-4f1f-4e55-a04c-974d7a6e80fc",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位。企业版价格需单独咨询。价格不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "c3e08789-f131-4fcc-807f-56cd6970f9c9",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）团队版价格为每年付费 USD 12/席位/月（未含税），月付为 USD 16/席位/月；企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "625c00da-e927-4a99-a6b9-9c35f2b67f41",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）团队版价格为每年付费 USD 18/席位/月（未含税），月付为 USD 23/席位/月；企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-enterprise-sso-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "b8172371-fca0-4ded-b4d2-796a7f422bc7",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）团队版价格为每年付费 USD 9/席位/月（未含税），月付为 USD 12/席位/月；企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-injection-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "34d7bb11-9cac-413b-8ac3-97be49f62961",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位，均不含税。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-injection-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "e79c4a54-4c76-4d92-99f7-7a4a32ea2c8c",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付18美元/席位，按月支付为23美元/席位，均不含税。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-injection-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "bf76869d-9b75-4571-aea3-a63874e36ac2",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位，均不含税。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-injection-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "0ec337bf-c1c9-47ef-9b78-00c529b4aa3b",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-injection-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "f6463c2a-6b18-4a63-aec2-56464db4ce7c",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付18美元/席位，按月支付为23美元/席位。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-injection-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "521ebaf4-c147-43a0-8c8f-f12546b3d64c",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-injection-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "d12e8d20-cacf-4a19-b306-455756add9cb",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）团队版价格为按年付费 USD 12/席位/月（未含税），月付为 USD 16/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-injection-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "c0239acb-0648-4b63-9de4-3ead93ee0de8",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）团队版价格为按年付费 USD 18/席位/月（未含税），月付为 USD 23/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-injection-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "dce58440-dd79-4886-91df-f50d5da9b0e0",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）团队版价格为按年付费 USD 9/席位/月（未含税），月付为 USD 12/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "91fac1c4-c5d7-40d7-b2b6-8c2e414b2a13",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版按年付费价格为 12 美元/席位/月，按月付费价格为 16 美元/席位/月，均不含税。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "b782728b-f417-4d9b-bfe1-9acf0637b049",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "AUD",
+          "amount": 27.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "AUD",
+          "amount": 35.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版按年付费价格为 27 澳元/席位/月，按月付费价格为 35 澳元/席位/月，均不含税。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "6546ff86-ecac-4240-9926-77d2fdf54dd1",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版按年付费价格为 9 美元/席位/月，按月付费价格为 12 美元/席位/月，均不含税。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "c4d6ab68-2661-4995-9305-46272155b657",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位，均不含税。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "cf7e410d-af23-486c-b7ad-b76ff985f1db",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "AUD",
+          "amount": 27.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "AUD",
+          "amount": 35.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付27澳元/席位，按月支付为35澳元/席位，均不含税。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "252fbbb9-1136-4e4d-980f-3053efc86980",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位，均不含税。企业版价格需单独咨询。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "a3fc2382-44f2-40c4-9ab5-a1dc543a999a",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）团队版价格为每年付费 USD 12/席位/月，按月付费为 USD 16/席位/月；企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "1cda9a68-9c68-4785-9d1d-b10be000c0bd",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "AUD",
+          "amount": 27.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "AUD",
+          "amount": 35.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）团队版价格为每年付费 AUD 27/席位/月，按月付费为 AUD 35/席位/月；企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-mixed-currency-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "e7df98d3-031f-4de8-b949-a1b944a11c64",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）团队版价格为每年付费 USD 9/席位/月，按月付费为 USD 12/席位/月；企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "9da18ba7-78a0-46aa-90c8-d090aff52ae7",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "monthly_only_annual_undisclosed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为 16 美元/席位/月，按月付费，不含税。未披露年付报价，企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "446b5c07-4660-40d8-b919-e02237704f20",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为 18 美元/席位/月（按年付费）或 23 美元/席位/月（按月付费），不含税。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "98c932aa-f475-4242-a1e9-7e8ad4c853b8",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为 9 美元/席位/月（按年付费）或 12 美元/席位/月（按月付费），不含税。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "9b0da338-fabb-49c6-bafc-a2fea711d8dc",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "monthly_only_annual_undisclosed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为 16 美元/席位/月，按月付费，不含税。未披露年付报价，企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "4751ca76-eb57-4b6c-aa40-04232773fab0",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为 18 美元/席位/月，按年付费，不含税；月付价格为 23 美元/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "a9336e3a-26e9-4b72-85cb-a0c0cfc82016",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为 9 美元/席位/月，按年付费，不含税；月付价格为 12 美元/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "ec3d57ca-99d8-41fa-a46e-f7099cd86984",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "monthly_only_annual_undisclosed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）团队版价格为 USD 16/席位/月，按月付费，未含税。未披露年付报价，企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "8a0fa31f-940f-4452-8a31-e309aa8686e0",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）团队版价格为按年付费 USD 18/席位/月，未含税；月付价格为 USD 23/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-monthly-only-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "f134c636-a29e-4958-8605-1d85af8792d9",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）团队版价格为按年付费 USD 9/席位/月，未含税；月付价格为 USD 12/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "bd141549-a381-49b8-802d-559e214e45c7",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付时每席位每月 12 美元，按月支付时为每席位每月 16 美元，均不含税。企业版价格需单独咨询。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "1231ccdd-8f28-4bdd-8100-19dcdd2dc94b",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付时每席位每月 18 美元，按月支付时为每席位每月 23 美元，均不含税。企业版价格需单独咨询。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "5f600a6d-bdc8-4487-8b5b-11e7a057793f",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付时每席位每月 9 美元，按月支付时为每席位每月 12 美元，均不含税。企业版价格需单独咨询。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "bf1a48c2-c6ca-4b6f-8bf9-b5af5f199156",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "价格：无法确认（独立核查未能确认原断言及其条件）。",
+      "audit_result": "withdrawn_unknown_despite_available_price"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "301e0591-3be4-470a-b586-55bcdc1a5b4b",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "价格：无法确认（独立核查未能确认原断言及其条件）。",
+      "audit_result": "withdrawn_unknown_despite_available_price"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "67d9b661-7f91-4d13-b283-36d1b33383f3",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "价格：无法确认（独立核查未能确认原断言及其条件）。",
+      "audit_result": "withdrawn_unknown_despite_available_price"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "5125a994-500b-416b-a076-33bf6ad9766a",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）团队版价格为每年付费 USD 12/席位/月（未含税），月付为 USD 16/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "999f177b-6900-440b-8c54-8c8a941fa573",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）团队版价格为每年付费 USD 18/席位/月（未含税），月付为 USD 23/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-no-feedback-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "a75b719d-d768-4fd5-a31a-b8925a095d9c",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）团队版价格为每年付费 USD 9/席位/月（未含税），月付为 USD 12/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-stale-update-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "4bab329b-f507-40e3-b6c7-50f3db01a55d",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为：按年付费时，每席位每月 12 美元（未含税）；按月付费时，每席位每月 16 美元。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-stale-update-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "532138c7-1fd1-449c-957b-9c966c3fa7b5",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为：按年付费时，每席位每月 18 美元（未含税）；按月付费时，每席位每月 23 美元。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-stale-update-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "5c9240fb-342b-47ee-9b11-028dffe8351e",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为：按年付费时，每席位每月 9 美元（未含税）；按月付费时，每席位每月 12 美元。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-stale-update-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "c9a5427a-426a-4e4d-9418-4cb689de2cee",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构） 团队版价格为按年付费 USD 12/席位/月（未含税），月付为 USD 16/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-stale-update-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "0d426ae4-599b-4ef4-8dea-5213ceec1a8e",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构） 团队版价格为按年付费 USD 18/席位/月（未含税），月付为 USD 23/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-stale-update-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "bfdd9191-f090-46bb-bc3c-c5ee32072ea6",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构） 团队版价格为按年付费 USD 9/席位/月（未含税），月付为 USD 12/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-multi-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "8ce7a918-75c0-4bd3-b5ef-3d62613d3d5b",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为12美元/席位/月（按年付费）或16美元/席位/月（按月付费），不含税。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-multi-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "22d2c849-e100-4c34-80cc-e031aaea1974",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为18美元/席位/月（按年付费）或23美元/席位/月（按月付费），不含税。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-multi-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "3cf036d2-79b2-4f7f-827f-9f8eea79bc69",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为9美元/席位/月（按年付费）或12美元/席位/月（按月付费），不含税。企业版价格需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-pipeline-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "bcaf9fe6-9596-4c8c-a401-808db09927f9",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位。企业版价格需单独咨询。所有价格均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-pipeline-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "cbda1ac3-d4f7-454d-a388-db23a8143fdd",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付18美元/席位，按月支付为23美元/席位。企业版价格需单独咨询。所有价格均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-pipeline-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "0554d9ca-122b-4b9d-9bb0-9b0e3593d548",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为每年支付9美元/席位，按月支付为12美元/席位。企业版价格需单独咨询。所有价格均不含税。",
+      "audit_result": "material_annual_month_unit_error"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-single-live",
+      "subject": "森屿笔记（虚构）",
+      "claim_id": "d3224605-a51d-4370-a352-7047705bc63c",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 16.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "森屿笔记（虚构）的团队版价格为 USD 12/席位/月（按年付费，未含税），月付为 USD 16/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-single-live",
+      "subject": "桥塔知识（虚构）",
+      "claim_id": "03b2124d-a2d8-4763-afc3-030f00fd7716",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 18.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 23.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "桥塔知识（虚构）的团队版价格为 USD 18/席位/月（按年付费，未含税），月付为 USD 23/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    },
+    {
+      "scenario_architecture": "test-unknown-sso-single-live",
+      "subject": "星河文库（虚构）",
+      "claim_id": "4097f9ac-c322-41a4-bb78-abfdbf879279",
+      "frozen_source_rates_in_order": [
+        {
+          "currency": "USD",
+          "amount": 9.0,
+          "unit": "per seat per month"
+        },
+        {
+          "currency": "USD",
+          "amount": 12.0,
+          "unit": "per seat per month"
+        }
+      ],
+      "billing_scope": "first_rate_annual_billed_second_rate_monthly_billed",
+      "source_tax_excluded": true,
+      "enterprise_quote_disclosed_in_citation": true,
+      "statement": "星河文库（虚构）的团队版价格为 USD 9/席位/月（按年付费，未含税），月付为 USD 12/席位/月。企业版需单独询价。",
+      "audit_result": "within_narrow_price_scope"
+    }
+  ]
+}

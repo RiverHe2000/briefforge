@@ -1,0 +1,317 @@
+{
+  "metric_version": "fact-obligations-v2",
+  "scenario": "challenge-current-conflict",
+  "independent_reference": true,
+  "warning": "Evaluation-only manually authored obligations; never ingest or pass to research models. Narrow matching rules can miss paraphrases; failed/unparsed answers require independent review. No architecture-specific scoring.",
+  "facts": [
+    {
+      "id": "company-0-price",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "expected": "known",
+      "axes": [
+        {
+          "id": "annual_payment_monthly_rate",
+          "expected": "monthly_rate",
+          "states": {
+            "monthly_rate": [
+              "USD\\s*12(?:\\.0+)?\\s*/席位/月",
+              "每(?:个)?席位每月\\s*12\\s*美元",
+              "每月每(?:个)?席位\\s*12\\s*美元",
+              "12\\s*美元/(?:席位/)?月",
+              "12\\s*美元/席位[^。；;]{0,12}(?:每月|月均)"
+            ],
+            "same_amount_wrong_annual_rate": [
+              "USD\\s*12(?:\\.0+)?\\s*/席位/年",
+              "每年(?:需)?(?:支付|付费)?\\s*12\\s*美元",
+              "每年每(?:个)?席位\\s*12\\s*美元",
+              "年费[^。；;]{0,8}(?:USD\\s*)?12\\s*美元"
+            ]
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "id": "annual_billing",
+          "patterns": [
+            "按年付费|按年支付|年付|年度付款"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "monthly_payment_rate",
+          "patterns": [
+            "USD\\s*16(?:\\.0+)?\\s*/席位/月",
+            "每(?:个)?席位每月\\s*16\\s*美元",
+            "每月每(?:个)?席位\\s*16\\s*美元",
+            "16\\s*美元/(?:席位/)?月",
+            "16\\s*美元/席位[^。；;]{0,12}(?:每月|月均)"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "tax_excluded",
+          "patterns": [
+            "未含税|不含税"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "enterprise_quote",
+          "patterns": [
+            "企业版[^。；;]{0,12}(?:询价|报价|联系销售)"
+          ],
+          "evidence": true
+        }
+      ]
+    },
+    {
+      "id": "company-0-sso",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "expected": "conflict",
+      "cross_dimension_patterns": [
+        "SAML|SSO|单点登录"
+      ],
+      "axes": [
+        {
+          "id": "team_saml",
+          "expected": "unsupported",
+          "states": {
+            "supported": [
+              "团队版(?:与|和|、)企业版(?:均|都)?支持",
+              "团队版(?:当前|现已|也)?支持"
+            ],
+            "unsupported": [
+              "团队版(?:当前|仍然|仍)?不支持",
+              "仅(?:有)?企业版支持",
+              "只有企业版支持",
+              "所有套餐均不支持"
+            ]
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "id": "effective_date",
+          "patterns": [
+            "2026-09-15"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "enterprise_support",
+          "patterns": [
+            "企业版(?:均|都)?支持"
+          ],
+          "evidence": true
+        }
+      ],
+      "required_source_keys": [
+        "senyu-security",
+        "senyu-release"
+      ]
+    },
+    {
+      "id": "company-1-price",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "expected": "known",
+      "axes": [
+        {
+          "id": "annual_payment_monthly_rate",
+          "expected": "monthly_rate",
+          "states": {
+            "monthly_rate": [
+              "USD\\s*18(?:\\.0+)?\\s*/席位/月",
+              "每(?:个)?席位每月\\s*18\\s*美元",
+              "每月每(?:个)?席位\\s*18\\s*美元",
+              "18\\s*美元/(?:席位/)?月",
+              "18\\s*美元/席位[^。；;]{0,12}(?:每月|月均)"
+            ],
+            "same_amount_wrong_annual_rate": [
+              "USD\\s*18(?:\\.0+)?\\s*/席位/年",
+              "每年(?:需)?(?:支付|付费)?\\s*18\\s*美元",
+              "每年每(?:个)?席位\\s*18\\s*美元",
+              "年费[^。；;]{0,8}(?:USD\\s*)?18\\s*美元"
+            ]
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "id": "annual_billing",
+          "patterns": [
+            "按年付费|按年支付|年付|年度付款"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "monthly_payment_rate",
+          "patterns": [
+            "USD\\s*23(?:\\.0+)?\\s*/席位/月",
+            "每(?:个)?席位每月\\s*23\\s*美元",
+            "每月每(?:个)?席位\\s*23\\s*美元",
+            "23\\s*美元/(?:席位/)?月",
+            "23\\s*美元/席位[^。；;]{0,12}(?:每月|月均)"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "tax_excluded",
+          "patterns": [
+            "未含税|不含税"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "enterprise_quote",
+          "patterns": [
+            "企业版[^。；;]{0,12}(?:询价|报价|联系销售)"
+          ],
+          "evidence": true
+        }
+      ]
+    },
+    {
+      "id": "company-1-sso",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "expected": "known",
+      "cross_dimension_patterns": [
+        "SAML|SSO|单点登录"
+      ],
+      "axes": [
+        {
+          "id": "team_saml",
+          "expected": "unsupported",
+          "states": {
+            "supported": [
+              "团队版(?:与|和|、)企业版(?:均|都)?支持",
+              "团队版(?:当前|现已|也)?支持"
+            ],
+            "unsupported": [
+              "团队版(?:当前|仍然|仍)?不支持",
+              "仅(?:有)?企业版支持",
+              "只有企业版支持",
+              "所有套餐均不支持"
+            ]
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "id": "effective_date",
+          "patterns": [
+            "2026-06-01"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "enterprise_support",
+          "patterns": [
+            "企业版(?:均|都)?支持"
+          ],
+          "evidence": true
+        }
+      ]
+    },
+    {
+      "id": "company-2-price",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "expected": "known",
+      "axes": [
+        {
+          "id": "annual_payment_monthly_rate",
+          "expected": "monthly_rate",
+          "states": {
+            "monthly_rate": [
+              "USD\\s*9(?:\\.0+)?\\s*/席位/月",
+              "每(?:个)?席位每月\\s*9\\s*美元",
+              "每月每(?:个)?席位\\s*9\\s*美元",
+              "9\\s*美元/(?:席位/)?月",
+              "9\\s*美元/席位[^。；;]{0,12}(?:每月|月均)"
+            ],
+            "same_amount_wrong_annual_rate": [
+              "USD\\s*9(?:\\.0+)?\\s*/席位/年",
+              "每年(?:需)?(?:支付|付费)?\\s*9\\s*美元",
+              "每年每(?:个)?席位\\s*9\\s*美元",
+              "年费[^。；;]{0,8}(?:USD\\s*)?9\\s*美元"
+            ]
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "id": "annual_billing",
+          "patterns": [
+            "按年付费|按年支付|年付|年度付款"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "monthly_payment_rate",
+          "patterns": [
+            "USD\\s*12(?:\\.0+)?\\s*/席位/月",
+            "每(?:个)?席位每月\\s*12\\s*美元",
+            "每月每(?:个)?席位\\s*12\\s*美元",
+            "12\\s*美元/(?:席位/)?月",
+            "12\\s*美元/席位[^。；;]{0,12}(?:每月|月均)"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "tax_excluded",
+          "patterns": [
+            "未含税|不含税"
+          ],
+          "evidence": true
+        },
+        {
+          "id": "enterprise_quote",
+          "patterns": [
+            "企业版[^。；;]{0,12}(?:询价|报价|联系销售)"
+          ],
+          "evidence": true
+        }
+      ]
+    },
+    {
+      "id": "company-2-sso",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "expected": "unknown",
+      "cross_dimension_patterns": [
+        "SAML|SSO|单点登录"
+      ],
+      "axes": [
+        {
+          "id": "team_saml",
+          "expected": "unsupported",
+          "states": {
+            "supported": [
+              "团队版(?:与|和|、)企业版(?:均|都)?支持",
+              "团队版(?:当前|现已|也)?支持"
+            ],
+            "unsupported": [
+              "团队版(?:当前|仍然|仍)?不支持",
+              "仅(?:有)?企业版支持",
+              "只有企业版支持",
+              "所有套餐均不支持"
+            ]
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "id": "nondisclosure",
+          "patterns": [
+            "未披露|无法确认|未知"
+          ],
+          "evidence": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3989 @@
+{
+  "created_at": "2026-10-02T22:37:28.295761+00:00",
+  "scope": "All21 outcomes rescored with unchanged frozen fact-v2 specs. Independent narrow review of63 prices and63 SSO final claims, all30 flagged obligations, update-before/partial/full non-target preservation and selected non-SSO regressions. Not exhaustive manual review of every recommendation in all21 reports.",
+  "completed_runs": 21,
+  "confirmed_spent_usd": 0.133208,
+  "reserved_usd": 0,
+  "counts": {
+    "safe_conflict_incomplete_explanation": 6,
+    "correct_chinese_date_literal_miss": 14,
+    "available_answer_withdrawn": 6,
+    "dated_supersession_misclassified_current_conflict": 4
+  },
+  "quote_counts_reviewed_price_sso": {
+    "quotes": 181,
+    "exact": 181
+  },
+  "price_result": {
+    "claims": 63,
+    "supported": 63,
+    "known_unit_errors": 0,
+    "source_price_amount_billing_tax_enterprise_conditions_preserved": 63
+  },
+  "quality_group": {
+    "runs": 12,
+    "per_architecture": {
+      "single": {
+        "runs": 4,
+        "completed": 4,
+        "mean_fact_accuracy": 0.8333333333333334,
+        "mean_answer_coverage": 0.8333333333333334,
+        "total_confirmed_usd": 0.011092,
+        "total_reserved_usd": 0,
+        "request_count": 4,
+        "mean_elapsed_seconds": 10.621,
+        "unexpected_withdrawal_facts": 0,
+        "assertion_issue_facts": 0
+      },
+      "pipeline": {
+        "runs": 4,
+        "completed": 4,
+        "mean_fact_accuracy": 0.7083333333333333,
+        "mean_answer_coverage": 0.7083333333333333,
+        "total_confirmed_usd": 0.026755,
+        "total_reserved_usd": 0,
+        "request_count": 28,
+        "mean_elapsed_seconds": 28.39025,
+        "unexpected_withdrawal_facts": 2,
+        "assertion_issue_facts": 0
+      },
+      "multi": {
+        "runs": 4,
+        "completed": 4,
+        "mean_fact_accuracy": 0.6666666666666666,
+        "mean_answer_coverage": 0.6666666666666666,
+        "total_confirmed_usd": 0.037071,
+        "total_reserved_usd": 0,
+        "request_count": 42,
+        "mean_elapsed_seconds": 21.789,
+        "unexpected_withdrawal_facts": 4,
+        "assertion_issue_facts": 0
+      }
+    },
+    "manual_conclusion": "The targeted quality repetitions do not show multi higher quality or lower cost. It withdraws four available SSO answers vs pipeline two and single zero. All6 same-date conflict outputs are safe unknowns; multi/pipeline retain both opposing citations while single retains one side in both repeats. This is a limited evidence-completeness benefit, not proof of recovered answer or overall superiority."
+  },
+  "updates": [
+    {
+      "architecture": "single",
+      "partial_run_id": "a4ee692f-296d-410b-80c0-ffe461185cfd",
+      "full_run_id": "16f2289d-1c8e-476b-be85-02b46334cef8",
+      "same_final_sources": true,
+      "old_report_unchanged_runner_assertion": true,
+      "unchanged_non_target_claims_all_reviewed_fields": 13,
+      "non_target_field_changes": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "before": {
+            "status": "supported",
+            "evidence": [
+              {
+                "source_id": "cea116d5-ff4c-420b-a857-a8b25c35ea1a",
+                "quote": "定位：面向中小型咨询团队的项目知识与会议记录。",
+                "locator": "字符 27:70"
+              },
+              {
+                "source_id": "3bc0b6dc-2b5d-45d5-ae5c-779e9b94e954",
+                "quote": "定位：面向中小型咨询团队的项目知识与会议记录。",
+                "locator": "字符 27:70"
+              }
+            ],
+            "value": "森屿笔记（虚构）定位于面向中小型咨询团队的项目知识与会议记录。",
+            "conditions": [],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "定位",
+            "statement": "森屿笔记（虚构）定位于面向中小型咨询团队的项目知识与会议记录。",
+            "source_ids": [
+              "cea116d5-ff4c-420b-a857-a8b25c35ea1a",
+              "3bc0b6dc-2b5d-45d5-ae5c-779e9b94e954"
+            ],
+            "dirty": false,
+            "id": "6a47b523-7d0a-49d3-8afa-d1249c97011e",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "31c2974f-81d5-4a5f-aad5-98ed73a588f4"
+          },
+          "after": {
+            "status": "uncertain",
+            "evidence": [],
+            "value": null,
+            "conditions": [
+              "不确定性同样适用于相关章节；请查看原文与核查记录。"
+            ],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "定位",
+            "statement": "定位：未披露或无法确认。",
+            "source_ids": [],
+            "dirty": false,
+            "id": "6a47b523-7d0a-49d3-8afa-d1249c97011e",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "a4ee692f-296d-410b-80c0-ffe461185cfd"
+          }
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "核心功能",
+          "before": {
+            "status": "supported",
+            "evidence": [
+              {
+                "source_id": "3bc0b6dc-2b5d-45d5-ae5c-779e9b94e954",
+                "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+                "locator": "字符 72:124"
+              },
+              {
+                "source_id": "898f4cf1-9f83-49d0-9fbf-2a6a812e18e8",
+                "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+                "locator": "字符 60:112"
+              }
+            ],
+            "value": "森屿笔记（虚构）的核心功能包括文档协作、会议纪要关联和引用检索。",
+            "conditions": [],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "核心功能",
+            "statement": "森屿笔记（虚构）的核心功能包括文档协作、会议纪要关联和引用检索。",
+            "source_ids": [
+              "3bc0b6dc-2b5d-45d5-ae5c-779e9b94e954",
+              "898f4cf1-9f83-49d0-9fbf-2a6a812e18e8"
+            ],
+            "dirty": false,
+            "id": "45ada4e6-0f2d-47b0-bfa3-aed0bba5153a",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "31c2974f-81d5-4a5f-aad5-98ed73a588f4"
+          },
+          "after": {
+            "status": "supported",
+            "evidence": [
+              {
+                "source_id": "3bc0b6dc-2b5d-45d5-ae5c-779e9b94e954",
+                "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+                "locator": "字符 50:104"
+              },
+              {
+                "source_id": "898f4cf1-9f83-49d0-9fbf-2a6a812e18e8",
+                "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+                "locator": "字符 30:84"
+              }
+            ],
+            "value": "森屿笔记（虚构）的核心功能包括文档协作、会议纪要关联和引用检索。",
+            "conditions": [],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "核心功能",
+            "statement": "森屿笔记（虚构）的核心功能包括文档协作、会议纪要关联和引用检索。",
+            "source_ids": [
+              "3bc0b6dc-2b5d-45d5-ae5c-779e9b94e954",
+              "898f4cf1-9f83-49d0-9fbf-2a6a812e18e8"
+            ],
+            "dirty": false,
+            "id": "45ada4e6-0f2d-47b0-bfa3-aed0bba5153a",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "a4ee692f-296d-410b-80c0-ffe461185cfd"
+          }
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "近期变化",
+          "before": {
+            "status": "supported",
+            "evidence": [
+              {
+                "source_id": "7b8590e8-42ac-47b0-a61d-52fd2c93889b",
+                "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。",
+                "locator": "字符 17:87"
+              }
+            ],
+            "value": "森屿笔记（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。",
+            "conditions": [],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "近期变化",
+            "statement": "森屿笔记（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。",
+            "source_ids": [
+              "7b8590e8-42ac-47b0-a61d-52fd2c93889b"
+            ],
+            "dirty": false,
+            "id": "f7f8ba5f-ca62-44da-9a50-b415c9d32487",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "31c2974f-81d5-4a5f-aad5-98ed73a588f4"
+          },
+          "after": {
+            "status": "uncertain",
+            "evidence": [
+              {
+                "source_id": "7b8590e8-42ac-47b0-a61d-52fd2c93889b",
+                "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+                "locator": "字符 30:157"
+              },
+              {
+                "source_id": "90b56548-0869-4885-a355-c25c36dae076",
+                "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。\n版本范围：本说明替代 2026-09-15 的登录能力说明；九月时团队版尚不支持，该历史状态不得当作十月当前能力。",
+                "locator": "字符 17:205"
+              }
+            ],
+            "value": null,
+            "conditions": [
+              "不确定性同样适用于相关章节；请查看原文与核查记录。"
+            ],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "近期变化",
+            "statement": "近期变化：当前资料存在冲突，无法确认。",
+            "source_ids": [
+              "7b8590e8-42ac-47b0-a61d-52fd2c93889b",
+              "90b56548-0869-4885-a355-c25c36dae076"
+            ],
+            "dirty": false,
+            "id": "f7f8ba5f-ca62-44da-9a50-b415c9d32487",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "a4ee692f-296d-410b-80c0-ffe461185cfd"
+          }
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "用户反馈",
+          "before": {
+            "status": "supported",
+            "evidence": [
+              {
+                "source_id": "831e535c-32dd-47fd-ae6f-308570c77ac5",
+                "quote": "用户反馈：一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。",
+                "locator": "字符 0:117"
+              }
+            ],
+            "value": "一名合成咨询团队用户反馈，森屿笔记（虚构）的会议记录能连接项目文档，但初次整理目录需要时间。",
+            "conditions": [],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "用户反馈",
+            "statement": "一名合成咨询团队用户反馈，森屿笔记（虚构）的会议记录能连接项目文档，但初次整理目录需要时间。",
+            "source_ids": [
+              "831e535c-32dd-47fd-ae6f-308570c77ac5"
+            ],
+            "dirty": false,
+            "id": "6d92fd95-5d90-4c16-864a-b28d5cd85bf4",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "31c2974f-81d5-4a5f-aad5-98ed73a588f4"
+          },
+          "after": {
+            "status": "supported",
+            "evidence": [
+              {
+                "source_id": "831e535c-32dd-47fd-ae6f-308570c77ac5",
+                "quote": "用户反馈：一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。",
+                "locator": "字符 17:145"
+              }
+            ],
+            "value": "一名合成咨询团队用户反馈，森屿笔记（虚构）的会议记录能连接项目文档，但初次整理目录需要时间。",
+            "conditions": [],
+            "computation": null,
+            "subject": "森屿笔记（虚构）",
+            "dimension": "用户反馈",
+            "statement": "一名合成咨询团队用户反馈，森屿笔记（虚构）的会议记录能连接项目文档，但初次整理目录需要时间。",
+            "source_ids": [
+              "831e535c-32dd-47fd-ae6f-308570c77ac5"
+            ],
+            "dirty": false,
+            "id": "6d92fd95-5d90-4c16-864a-b28d5cd85bf4",
+            "project_id": "fdb68a48-b450-4c87-92e6-6cd9a0122227",
+            "run_id": "a4ee692f-296d-410b-80c0-ffe461185cfd"
+          }
+        }
+      ],
+      "partial_requests": 1,
+      "full_requests": 1,
+      "partial_confirmed_usd": 0.000967,
+      "full_confirmed_usd": 0.002787,
+      "confirmed_saving_fraction": 0.653031933979189,
+      "claim_reuse_reported": 17,
+      "task_reuse_reported": 0,
+      "target_ssO_manual_verdict": "Correct updated support and date in both partial/full; partial Chinese date misses literal matcher. However2 unrelated answers regress in partial.",
+      "equivalent_complete_quality_claim_supported": false
+    },
+    {
+      "architecture": "pipeline",
+      "partial_run_id": "7f4c0a9d-9d57-4b32-aa0e-d235a78a2eb4",
+      "full_run_id": "69d115c7-b5ba-4982-b408-b89247a5b599",
+      "same_final_sources": true,
+      "old_report_unchanged_runner_assertion": true,
+      "unchanged_non_target_claims_all_reviewed_fields": 18,
+      "non_target_field_changes": [],
+      "partial_requests": 3,
+      "full_requests": 7,
+      "partial_confirmed_usd": 0.004526,
+      "full_confirmed_usd": 0.006721,
+      "confirmed_saving_fraction": 0.3265883053117097,
+      "claim_reuse_reported": 18,
+      "task_reuse_reported": 0,
+      "target_ssO_manual_verdict": "Both partial and full wrongly treat explicitly superseded history as current conflict. Cannot claim correct/equal-quality update based on lower spend.",
+      "equivalent_complete_quality_claim_supported": false
+    },
+    {
+      "architecture": "multi",
+      "partial_run_id": "0e6f9a39-1b70-42cf-8ba9-e100f264147a",
+      "full_run_id": "f40e52ae-d1ee-4b24-bde5-b658d798c903",
+      "same_final_sources": true,
+      "old_report_unchanged_runner_assertion": true,
+      "unchanged_non_target_claims_all_reviewed_fields": 18,
+      "non_target_field_changes": [],
+      "partial_requests": 7,
+      "full_requests": 16,
+      "partial_confirmed_usd": 0.007623,
+      "full_confirmed_usd": 0.0156,
+      "confirmed_saving_fraction": 0.5113461538461539,
+      "claim_reuse_reported": 18,
+      "task_reuse_reported": 0,
+      "target_ssO_manual_verdict": "Both partial and full wrongly treat explicitly superseded history as current conflict. Cannot claim correct/equal-quality update based on lower spend.",
+      "equivalent_complete_quality_claim_supported": false
+    }
+  ],
+  "update_multistep_regression_trace": [
+    {
+      "event_id": 5219,
+      "action": "followup_requested",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO。",
+        "status": "supported",
+        "value": "SAML SSO",
+        "conditions": [
+          "团队版",
+          "企业版",
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": null,
+      "reason": "Source 09ac4677-a1f9-4469-84a5-9bf41f06c5f8 states that the team version does not support SAML SSO, but source 83d546f2-9459-44be-8f30-7d7fe18f4fc0 states that the team version supports SAML SSO starting from 2026-10-01. The latter is more recent and should be considered the current state.",
+      "source_ids": [
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0"
+      ],
+      "roles": [
+        "coordinator"
+      ],
+      "final_status": "uncertain"
+    },
+    {
+      "event_id": 5232,
+      "action": "claim_revised",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO。",
+        "status": "supported",
+        "value": "SAML SSO",
+        "conditions": [
+          "团队版",
+          "企业版",
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": {
+        "statement": "森屿笔记（虚构）的团队版本支持 SAML SSO。",
+        "status": "supported",
+        "value": "支持",
+        "conditions": [
+          "自 2026-10-01 生效"
+        ]
+      },
+      "reason": "补查根据原文修订结论，保留前后版本及依据。",
+      "source_ids": [
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "final_status": "uncertain"
+    },
+    {
+      "event_id": 5238,
+      "action": "followup_requested",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版本支持 SAML SSO。",
+        "status": "supported",
+        "value": "支持",
+        "conditions": [
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": null,
+      "reason": "森屿笔记（虚构）的团队版本支持 SAML SSO，但其九月更新记录（source_id: 09ac4677-a1f9-4469-84a5-9bf41f06c5f8）显示团队版不支持 SAML SSO。虽然历史资料要求参照后续条件，但当前资料（source_id: 83d546f2-9459-44be-8f30-7d7fe18f4fc0）明确指出自 2026-10-01 起团队版支持 SAML SSO，这与九月记录中的信息存在冲突。",
+      "source_ids": [
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0"
+      ],
+      "roles": [
+        "coordinator"
+      ],
+      "final_status": "uncertain"
+    },
+    {
+      "event_id": 5246,
+      "action": "claim_revised",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版本支持 SAML SSO。",
+        "status": "supported",
+        "value": "支持",
+        "conditions": [
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": {
+        "statement": "森屿笔记（虚构）的团队版本不支持 SAML SSO，自 2026 年 9 月 15 日起生效。",
+        "status": "contradicted",
+        "value": null,
+        "conditions": [
+          "自 2026-09-15 起生效"
+        ]
+      },
+      "reason": "补查根据原文修订结论，保留前后版本及依据。",
+      "source_ids": [
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0",
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "final_status": "uncertain"
+    },
+    {
+      "event_id": 5252,
+      "action": "unknown_retained",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版本不支持 SAML SSO，自 2026 年 9 月 15 日起生效。",
+        "status": "contradicted",
+        "value": null,
+        "conditions": [
+          "自 2026-09-15 起生效"
+        ]
+      },
+      "after": {
+        "statement": "SSO：当前资料存在冲突，无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8"
+      ],
+      "roles": [
+        "verifier"
+      ],
+      "final_status": "uncertain"
+    }
+  ],
+  "extra_non_six_fact_regressions": [
+    {
+      "file": "update-partial-single.report.json",
+      "claim_id": "6a47b523-7d0a-49d3-8afa-d1249c97011e",
+      "dimension": "定位",
+      "statement": "定位：未披露或无法确认。",
+      "finding": "Additional non-price/SSO answer degradation despite retained source evidence; not included in6-fact metric."
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "claim_id": "f7f8ba5f-ca62-44da-9a50-b415c9d32487",
+      "dimension": "近期变化",
+      "statement": "近期变化：当前资料存在冲突，无法确认。",
+      "finding": "Additional non-price/SSO answer degradation despite retained source evidence; not included in6-fact metric."
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "claim_id": "07b49ee3-1170-410c-9a05-45b40d8d4ea5",
+      "dimension": "近期变化",
+      "statement": "近期变化：当前资料存在冲突，无法确认。",
+      "finding": "Additional non-price/SSO answer degradation despite retained source evidence; not included in6-fact metric."
+    }
+  ],
+  "industry_scope_advisory": "In update before/partial/full for pipeline and multi, industry statements omit the source phrase 合成访谈中的 while the report is globally synthetic. This is a scope qualifier weakness; these6 repeated findings are not a new factual market measurement and must not be used as real industry evidence.",
+  "positive_evidence_that_can_be_shown": [
+    "Durable per-role tasks and measured parallel research overlap are visible, with traceable evidence and revision events.",
+    "On both current-conflict repeats, multi and pipeline retain both opposed current-source citations; single retains only security-source citation.",
+    "Partial update actually preserves18 non-target claims byte-for-byte across reviewed fields for multi/pipeline and spends less than full rerun in these runs. Its changed SSO answer is wrong/unknown, so do not claim equal-quality savings."
+  ],
+  "claims_not_supported": [
+    "Multi-agent overall accuracy exceeds single: not supported by this matrix.",
+    "Every claim_revised event is a successful factual correction: false; several are paraphrases and one update trace regresses a correct initial answer.",
+    "Multi partial update correctly absorbs the new SSO capability at equal quality: false in this run.",
+    "Cost savings are unique to multi: false; single and pipeline also save confirmed expense."
+  ],
+  "flag_reviews": [
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "252689ba-4b3d-46d0-bd9a-d03862b14d3e",
+      "classification": "safe_conflict_incomplete_explanation",
+      "note": "最终安全保留冲突未知，但没有展开双方共同套餐/日期；single两次只附一方引文，pipeline/multi两次均附双方。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "bf270097-07d1-4a2c-98a8-5dc10763416b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "2026-09-15"
+        },
+        {
+          "source_id": "2d1fb0ff-c42f-4bf3-aa22-a7c09f053cf3",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+          "locator": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "7c9a774b-693d-4723-84ad-08018b1ed076",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "57dbfd5e-9b44-4ebc-bcb4-6ad923f85c90",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "34:93"
+        },
+        {
+          "source_id": "2c228ff6-4da0-4d22-8ebf-9d8637594457",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "74:134"
+        },
+        {
+          "source_id": "1df5add2-bc9a-4c49-9894-da2c3031102f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "137:198"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "807deb19-a191-4903-9ae2-9971d7155f14",
+      "classification": "safe_conflict_incomplete_explanation",
+      "note": "最终安全保留冲突未知，但没有展开双方共同套餐/日期；single两次只附一方引文，pipeline/multi两次均附双方。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "0d64fda3-50f4-490f-990d-fcf7f0c471b9",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "30-57"
+        },
+        {
+          "source_id": "17acfdda-4c7c-4ccb-b1db-5b18c9b26022",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+          "locator": "60-120"
+        },
+        {
+          "source_id": "e769b2e7-2d73-42cd-a5d0-121e639cc3b4",
+          "quote": "SSO：当前所有套餐均不支持 SAML SSO。",
+          "locator": "100-124"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "35e7df18-ae8b-4143-b71d-79bfd891c237",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "b7317a53-7466-4275-998d-b637a5f9459b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "37:97"
+        },
+        {
+          "source_id": "14756bdb-82b2-4873-851e-c303b700dd8c",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "77:137"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "05a31f8b-e8b5-4597-a02b-d9e58d65cfff",
+      "classification": "safe_conflict_incomplete_explanation",
+      "note": "最终安全保留冲突未知，但没有展开双方共同套餐/日期；single两次只附一方引文，pipeline/multi两次均附双方。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "a67a7dfc-db57-49e5-bb3b-947b5a9dab6b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "字符 27:100"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "8eb86f12-fcf7-4c0c-93bc-73a3f460af45",
+      "classification": "safe_conflict_incomplete_explanation",
+      "note": "最终安全保留冲突未知，但没有展开双方共同套餐/日期；single两次只附一方引文，pipeline/multi两次均附双方。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "5a733bc6-989c-4449-962e-7044bc64b5c7",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "2:1-2:41"
+        },
+        {
+          "source_id": "50d6b0b4-ab17-49e7-aa41-ef15e3b2a924",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+          "locator": "4:1-4:41"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "6ccb9247-2f98-4382-84d6-154562be1f3e",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "7db20119-caaa-444f-a1b6-070b59102670",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "49:100"
+        },
+        {
+          "source_id": "a1c31fe7-8eca-4478-b183-9552646af67e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "111:162"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "85b59067-e8f5-420e-a730-175fda57dfea",
+      "classification": "safe_conflict_incomplete_explanation",
+      "note": "最终安全保留冲突未知，但没有展开双方共同套餐/日期；single两次只附一方引文，pipeline/multi两次均附双方。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "6ab4d406-7ad1-4787-92c3-83a7b91c6f69",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "47-77"
+        },
+        {
+          "source_id": "a47a8430-9ecf-481d-88b4-ccbd6c2fcd3a",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+          "locator": "70-134"
+        },
+        {
+          "source_id": "f2c79b1d-a381-466b-a89c-885bc5988301",
+          "quote": "SSO：当前所有套餐均不支持 SAML SSO。",
+          "locator": "100-127"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "11d302f0-b8ff-4607-b473-20dbaf16d6c6",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "1b102843-0b47-4284-ab47-2e9c0f936538",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "149"
+        },
+        {
+          "source_id": "c2ded61d-6ef3-4862-b010-016677135d06",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "157"
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "29c95152-97bd-4dd1-933f-fbf4581ae45b",
+      "classification": "safe_conflict_incomplete_explanation",
+      "note": "最终安全保留冲突未知，但没有展开双方共同套餐/日期；single两次只附一方引文，pipeline/multi两次均附双方。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "01350f47-3b29-461e-ab04-d7aef704b524",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "字符 49:149"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "52aadb95-16f5-417b-b283-a5df92c0ae29",
+      "classification": "available_answer_withdrawn",
+      "note": "已有正确FAQ/当前来源并且附引文存在，最终仍弃答。",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "130"
+        },
+        {
+          "source_id": "46a382c3-58c2-4378-a5f4-b04f7a60cfc8",
+          "quote": "SSO：详细适用范围请查阅套餐功能清单；此页不单独列出。",
+          "locator": "37"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "da0061c5-6107-4ac7-98b7-0ad5dbc09696",
+      "classification": "available_answer_withdrawn",
+      "note": "已有正确FAQ/当前来源并且附引文存在，最终仍弃答。",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "4151d051-75c1-4c01-b8c9-34871f984896",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "149:0"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "c327f3f6-b90a-41b5-9a0b-e8e81a7fe31a",
+      "classification": "available_answer_withdrawn",
+      "note": "已有正确FAQ/当前来源并且附引文存在，最终仍弃答。",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "704f75be-873b-4d69-a766-1b5605312a41",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "140-177"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "c3c57db0-2539-49af-80c5-9d4374e0d60c",
+      "classification": "available_answer_withdrawn",
+      "note": "已有正确FAQ/当前来源并且附引文存在，最终仍弃答。",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "a46a1158-8969-46db-ab05-cb8a98c35e4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "37-87"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "2d113c14-af64-4a8c-8e2c-7ff69988d34e",
+      "classification": "available_answer_withdrawn",
+      "note": "已有正确FAQ/当前来源并且附引文存在，最终仍弃答。",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "da458521-2bc6-49c4-ba00-82148058fc40",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "130-159"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "7f941ac8-ff73-4a59-b27a-8942bdbb7952",
+      "classification": "available_answer_withdrawn",
+      "note": "已有正确FAQ/当前来源并且附引文存在，最终仍弃答。",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "2ef6e163-29df-4b3c-8473-e75baa1d5a99",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "34-77"
+        },
+        {
+          "source_id": "36854dd6-361f-4423-a154-aafe85799165",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "70-113"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "e16fb028-a3c0-4f30-8f11-152934c628da",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，自 2026 年 9 月 15 日起生效，团队版不支持。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，自 2026 年 9 月 15 日起生效，团队版不支持。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "8bf08e8c-8fe9-4c5b-bd21-e55f057e07f1",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "109-134"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "46baae1c-c693-47a9-ad6d-e07c9be228a6",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 9 月 15 日起生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 9 月 15 日起生效。",
+      "conditions": [
+        "自 2026 年 9 月 15 日起生效"
+      ],
+      "evidence": [
+        {
+          "source_id": "e2e27492-d593-4496-b64a-4060bbd442a8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "字符 100:159"
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "91068f6e-3d58-4e7e-8313-de99e896a910",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "自 2026 年 6 月 1 日起生效"
+      ],
+      "evidence": [
+        {
+          "source_id": "f997c464-4a20-4588-bd9e-6af583c55cda",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "字符 29:87"
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "5f167d23-c9ee-4b67-82d1-6f81ce47a200",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "12c05879-079a-417d-82f5-e44830145c27",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "49-97"
+        },
+        {
+          "source_id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "77-125"
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "2d926d12-660c-4d2b-84da-aad416269d06",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "558e8338-2dfa-4702-808b-7740f81dd053",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "0-149"
+        },
+        {
+          "source_id": "139f4ed7-d738-4bb7-94f2-d978c22b0d4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "0-157"
+        },
+        {
+          "source_id": "d471ed7a-6fe2-44ca-887d-49e7d8d3752b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "0-161"
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "25f79d58-f05d-4853-bb18-581eb9ff2225",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日 生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日 生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "eed99d94-5068-4170-913c-fdcec27dc32e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "eed99d94-5068-4170-913c-fdcec27dc32e"
+        },
+        {
+          "source_id": "94e2385b-301b-4a16-8abf-7c0faaade09e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "94e2385b-301b-4a16-8abf-7c0faaade09e"
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "ad8e444c-a39f-49e1-bd1d-937f4e3ca01a",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "企业版",
+        "团队版"
+      ],
+      "evidence": [
+        {
+          "source_id": "185126bf-da9d-4df2-888b-2e58d7e9d402",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "30-77"
+        },
+        {
+          "source_id": "6dcae8ed-3074-490f-91b1-51e5c4b908c8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "70-117"
+        },
+        {
+          "source_id": "0937c001-242a-4d09-a37d-8038efd26374",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "100-147"
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "5f167d23-c9ee-4b67-82d1-6f81ce47a200",
+      "classification": "dated_supersession_misclassified_current_conflict",
+      "note": "10月1日安全说明明确替代9月15日说明并给出团队/企业均支持；最终仍称当前冲突。真实错误，不是中文日期误报。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "83d546f2-9459-44be-8f30-7d7fe18f4fc0",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "locator": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。"
+        },
+        {
+          "source_id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "25f79d58-f05d-4853-bb18-581eb9ff2225",
+      "classification": "dated_supersession_misclassified_current_conflict",
+      "note": "10月1日安全说明明确替代9月15日说明并给出团队/企业均支持；最终仍称当前冲突。真实错误，不是中文日期误报。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "c468311e-079f-4334-8011-268f09447a9e",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "locator": "170-199"
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "5f167d23-c9ee-4b67-82d1-6f81ce47a200",
+      "classification": "dated_supersession_misclassified_current_conflict",
+      "note": "10月1日安全说明明确替代9月15日说明并给出团队/企业均支持；最终仍称当前冲突。真实错误，不是中文日期误报。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。"
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "2d926d12-660c-4d2b-84da-aad416269d06",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "558e8338-2dfa-4702-808b-7740f81dd053",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "0-149"
+        },
+        {
+          "source_id": "139f4ed7-d738-4bb7-94f2-d978c22b0d4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "0-157"
+        },
+        {
+          "source_id": "d471ed7a-6fe2-44ca-887d-49e7d8d3752b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "0-161"
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "25f79d58-f05d-4853-bb18-581eb9ff2225",
+      "classification": "dated_supersession_misclassified_current_conflict",
+      "note": "10月1日安全说明明确替代9月15日说明并给出团队/企业均支持；最终仍称当前冲突。真实错误，不是中文日期误报。",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "source_id": "acc44793-c48e-40aa-aa0d-3eca9b4539f5",
+          "quote": "SSO：当前所有套餐均不支持 SAML SSO。",
+          "locator": "117-143"
+        },
+        {
+          "source_id": "c468311e-079f-4334-8011-268f09447a9e",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "locator": "100-119"
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "fact_id": "company-1-sso",
+      "claim_id": "ad8e444c-a39f-49e1-bd1d-937f4e3ca01a",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "企业版",
+        "团队版"
+      ],
+      "evidence": [
+        {
+          "source_id": "185126bf-da9d-4df2-888b-2e58d7e9d402",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "30-77"
+        },
+        {
+          "source_id": "6dcae8ed-3074-490f-91b1-51e5c4b908c8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "70-117"
+        },
+        {
+          "source_id": "0937c001-242a-4d09-a37d-8038efd26374",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "100-147"
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "fact_id": "company-0-sso",
+      "claim_id": "c7c04c50-1676-4ac2-8dfc-bb80841aa1e1",
+      "classification": "correct_chinese_date_literal_miss",
+      "note": "中文年月日正确，与ISO引用相同。冻结规则字面漏判，人工注释不重写分数。",
+      "statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+      "value": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+      "conditions": [
+        "SAML SSO"
+      ],
+      "evidence": [
+        {
+          "source_id": "90b56548-0869-4885-a355-c25c36dae076",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "locator": "字符 17:77"
+        }
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "id": "252689ba-4b3d-46d0-bd9a-d03862b14d3e",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "bf270097-07d1-4a2c-98a8-5dc10763416b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "2d1fb0ff-c42f-4bf3-aa22-a7c09f053cf3",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "id": "7c9a774b-693d-4723-84ad-08018b1ed076",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "57dbfd5e-9b44-4ebc-bcb4-6ad923f85c90",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "2c228ff6-4da0-4d22-8ebf-9d8637594457",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "1df5add2-bc9a-4c49-9894-da2c3031102f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "id": "c08599de-e778-4ea5-ac23-ac382a48d43b",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "836cd4e5-33d9-4454-8ac9-3d33fd67694c",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "f2bf9f17-b3c2-46de-8349-dd9e977cbf74",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "id": "7e01204e-0ed8-4f30-a1e0-17e53c289848",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "637a9f34-18fb-4e6c-979a-bcf73235c1ea",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "id": "68eea505-2c98-412e-acbc-fe96cd9f11ed",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "1556f1a9-add5-4984-b681-6ade602739b4",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "id": "9439e3f5-2123-44bf-b928-23b1ccb8e630",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "3c73ba8e-1ace-4fd9-8b66-6a7a9b687e6b",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "id": "807deb19-a191-4903-9ae2-9971d7155f14",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "0d64fda3-50f4-490f-990d-fcf7f0c471b9",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "17acfdda-4c7c-4ccb-b1db-5b18c9b26022",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-archive",
+          "source_id": "e769b2e7-2d73-42cd-a5d0-121e639cc3b4",
+          "quote": "SSO：当前所有套餐均不支持 SAML SSO。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "id": "35e7df18-ae8b-4143-b71d-79bfd891c237",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "b7317a53-7466-4275-998d-b637a5f9459b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "14756bdb-82b2-4873-851e-c303b700dd8c",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "id": "8df0081c-cdde-4019-b8e1-48599975208e",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "2c2c2596-556b-4916-be56-5ec0a2db5298",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "b730302e-b00f-488c-b493-e3ddfbc25b8f",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "id": "012a75c5-6382-450a-8c91-59ad63d4a833",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "75517740-a9b6-458f-98fb-368f5790eeb4",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "id": "36355891-2b9d-4ddb-90bd-b3d78c1e8a6f",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "f30e1b64-f125-4575-87d7-05650818dcbc",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "id": "a6920d16-5703-4814-a099-485216128f51",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "ba2eb90c-e722-453c-97af-3794674bc6d2",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "id": "ee2184b4-fd9a-44a3-8723-1aeb7a65c45a",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "bd733c04-8f1c-4d34-9468-e52e8cd3d76f",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "id": "05a31f8b-e8b5-4597-a02b-d9e58d65cfff",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "a67a7dfc-db57-49e5-bb3b-947b5a9dab6b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "id": "a00b184e-fa74-4f57-ada3-2d063b2a0cab",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "3eb6c06c-d923-444a-857d-7b1626075174",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "id": "a40e3731-0de4-47e3-b05c-d2fb216e9835",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）企业版支持 SAML SSO，团队版不支持，该功能自 2026年6月1日 生效。",
+      "value": "桥塔知识（虚构）企业版支持 SAML SSO，团队版不支持，该功能自 2026年6月1日 生效。 条件与说明：自 2026-06-01 生效",
+      "conditions": [
+        "自 2026-06-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "ea576d09-28d5-4366-9b99-481b7dc379cc",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "2fa9404e-cbf1-4ea6-9cf7-7308f959e3b0",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "id": "cedf7c5a-b65a-4d36-abca-311c2fa6dfe7",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "3a07a993-857b-4e0f-940d-30343cf17af9",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "id": "ff71e76e-2be6-4509-a49a-4aac4f78d176",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "3484025d-4c05-4dcb-8036-a9907622c9d1",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "9cd8027d-9ff6-4420-9a61-93ed6bd35b54",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "id": "8eb86f12-fcf7-4c0c-93bc-73a3f460af45",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "5a733bc6-989c-4449-962e-7044bc64b5c7",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "50d6b0b4-ab17-49e7-aa41-ef15e3b2a924",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "id": "6ccb9247-2f98-4382-84d6-154562be1f3e",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "7db20119-caaa-444f-a1b6-070b59102670",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "a1c31fe7-8eca-4478-b183-9552646af67e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "id": "e9535247-863e-485f-a43e-2efadb1ab1d7",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "76dacbc5-50a7-4705-890c-c0830fb1f090",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "d25037fa-1ea7-4241-87bc-4ac8d800fd67",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "id": "3965c038-38c7-4093-bc60-d0a0f49d0b5a",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "bc731638-64a4-4a8a-a784-fc76149302bf",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "id": "ecc052ed-2a13-46d0-ab55-21a4eec5813b",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "88642644-df4b-4f27-8ed4-ffe90ba0b209",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "id": "18f80bdd-0f0d-4045-8c7f-cef092d6b961",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "68b7891f-a1e1-45d0-836d-4bdcff5c83a2",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "id": "85b59067-e8f5-420e-a730-175fda57dfea",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "6ab4d406-7ad1-4787-92c3-83a7b91c6f69",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "a47a8430-9ecf-481d-88b4-ccbd6c2fcd3a",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-09-15 生效。本发布说明未解释与同日安全说明的差异。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-archive",
+          "source_id": "f2c79b1d-a381-466b-a89c-885bc5988301",
+          "quote": "SSO：当前所有套餐均不支持 SAML SSO。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "id": "11d302f0-b8ff-4607-b473-20dbaf16d6c6",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "1b102843-0b47-4284-ab47-2e9c0f936538",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "c2ded61d-6ef3-4862-b010-016677135d06",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "id": "464db2c6-bf6b-4777-a342-f2dacc30a5c8",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "0c79a8a9-8dc4-498b-b423-d63ec560aa83",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "2c8b28f0-79dc-4729-8f41-d1746b09a03a",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "id": "3ab40b34-3a00-4772-b686-a6d0ab68d563",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "eec7e52b-95b8-4cbf-bb17-81d323f9e887",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "id": "f373cfcb-b0c6-44a8-8f70-75f99cc62848",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "a61084d1-0c18-4b5a-aadd-8017d2b73bc8",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "id": "7d602829-7478-4437-988f-dd29c5b21519",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "68a5c480-fe9b-421c-bff8-68e5834c6f0b",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "id": "8d25a4a2-f6c3-4a49-b321-cb8bf3ddc22d",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "dbe59640-ee58-49cc-be3c-7b591123c88e",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "id": "29c95152-97bd-4dd1-933f-fbf4581ae45b",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "01350f47-3b29-461e-ab04-d7aef704b524",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "id": "67804925-3629-4d98-b835-6462eac624c6",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "573ccbd1-d794-4f5d-8146-478e52699f3a",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "id": "343b85cb-d29a-478f-8b6a-726b30882fe8",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026-06-01 生效。",
+      "conditions": [
+        "自 2026-06-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "b68650c7-4374-4d36-96f3-39685e046be5",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "a903ca32-2daa-4cb7-a2bc-7dfd0020aaf3",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "id": "1ddea85e-dc8e-4f42-8920-53e266bf285e",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "e6d00981-0802-4a74-b3d9-02b5ef6616a1",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "id": "60b6e201-b4f3-4d6f-8d57-bb5653f05bfb",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "2b8133c5-efb2-4ca6-a998-3dc2adb5f032",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "e65e3bd9-7182-46ce-8d2d-50d9c1e50bd4",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "id": "52aadb95-16f5-417b-b283-a5df92c0ae29",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-faq",
+          "source_id": "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-security",
+          "source_id": "46a382c3-58c2-4378-a5f4-b04f7a60cfc8",
+          "quote": "SSO：详细适用范围请查阅套餐功能清单；此页不单独列出。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "id": "da0061c5-6107-4ac7-98b7-0ad5dbc09696",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "4151d051-75c1-4c01-b8c9-34871f984896",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "id": "8f47df76-b632-46a8-b25e-1c98efdb5540",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "a3cc30d0-ba89-4334-9acf-0cf0cd0c318b",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "59dd55ba-6f27-4089-b8e7-a3a642f8152f",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "id": "4244a1cb-4da6-4706-949c-5a4e9e8635b8",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "125a4b6a-f294-40f7-9dae-4be22a7ddfc9",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "id": "a7fb9d2a-ff3b-4ee9-8a80-9a314537122d",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "92374aab-5f56-4900-9246-2e951bfbea3f",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "id": "2f15a815-6638-4213-bfa0-375d09d91d20",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "5f041d9e-ab23-4640-8110-a7ce9a644e90",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "id": "c327f3f6-b90a-41b5-9a0b-e8e81a7fe31a",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-faq",
+          "source_id": "704f75be-873b-4d69-a766-1b5605312a41",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "id": "c3c57db0-2539-49af-80c5-9d4374e0d60c",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "a46a1158-8969-46db-ab05-cb8a98c35e4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "id": "2a8a117c-b1a2-49ef-8340-3ca4f457fb5f",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "c10af891-d2f8-4084-9a1b-f320894f53f1",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "4cae95a3-3b4e-4376-8058-147510915b48",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "id": "710e31da-dd8c-4832-9e11-995098bee685",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "d8d7fd1e-2aae-4889-9ad2-d55398fa8913",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "id": "6e2519b3-8126-4b18-b2c0-7f129dc5292a",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "a75c0f8b-d9d0-4427-bfe4-874eaa3ba792",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "id": "6ee37689-2539-4054-9145-4eb4bc848bbc",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "7423705d-88fe-487e-9f2b-f1d19d97fe64",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "id": "aca0a67e-e330-4a60-9c10-45ba80206c1e",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "b4d967d9-2945-417e-85f4-4ff8e855bed9",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "id": "86533231-b904-487f-b28c-def0899930b2",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026-09-15 生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026-09-15 生效。",
+      "conditions": [
+        "自 2026-09-15 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-faq",
+          "source_id": "b8c165e5-fe08-47bc-aca9-1abae8135389",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "id": "f42bb2a1-2196-4f61-8b5a-bd3f20b3d39f",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "9ef053ac-198e-45e0-afd5-8bb7d8a094f0",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "id": "8afeb78e-a71b-4598-b56e-3f993ae573c6",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026-06-01 生效。",
+      "conditions": [
+        "自 2026-06-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "2f3067bc-0d14-4c96-82e7-9ec76dae95a7",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "bf4cd350-0453-49ef-af17-f5c629815adb",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "id": "f688a690-2ed6-4c7b-9635-ffd694dec1a6",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "4edce0dc-87c1-4f7f-9b90-da9b0e638e93",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "id": "a709822c-1a1c-42d7-9aa1-b20697c4a79e",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "9ab78e7d-ea64-49e9-8a8f-6a3a324cbe1d",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "ed8cab57-88fc-4f3c-8e2a-da10cb257338",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "id": "2d113c14-af64-4a8c-8e2c-7ff69988d34e",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-faq",
+          "source_id": "da458521-2bc6-49c4-ba00-82148058fc40",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "id": "7f941ac8-ff73-4a59-b27a-8942bdbb7952",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "2ef6e163-29df-4b3c-8473-e75baa1d5a99",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "36854dd6-361f-4423-a154-aafe85799165",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "id": "8319def3-7720-49c2-8ad4-afb5dfc407c2",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "eb692bcd-523a-434d-9339-81d6c91f9561",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "777d8f2e-5876-4ea0-a30b-085f41ec5535",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "id": "f2f6f962-0b58-4a36-befe-0b943e104ab5",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "fde2364a-5224-41e5-a0ba-cb3117ee1a2d",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "id": "e2e70f90-c447-457d-be72-08c976bedb7f",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "853e0534-c0ab-46fe-93a7-bbfc36ffea21",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "id": "40de7a17-914f-4151-8a13-4850213531bb",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "87cbda0a-e13c-4453-a331-98306ee2c80d",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "id": "e16fb028-a3c0-4f30-8f11-152934c628da",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，自 2026 年 9 月 15 日起生效，团队版不支持。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，自 2026 年 9 月 15 日起生效，团队版不支持。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-faq",
+          "source_id": "8bf08e8c-8fe9-4c5b-bd21-e55f057e07f1",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "id": "67133bdf-bbff-4eab-acd5-336388fa206c",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "49626fb8-4d34-4364-944c-70e52a22e5dc",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "c06cda23-ec9e-4e37-bc6b-65b82cbf9d6e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "c5437adc-651d-47a0-a60e-d09fee24bd30",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "id": "b71e35e3-9ecc-49d0-8304-25b73cc8ae5e",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "cfe147a3-284d-4d85-b571-249b0cde65b8",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "a2b07511-a72f-4272-9b35-a26329acc64a",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "id": "9cf18fe6-e15e-4fcd-8e52-a30da71e16bc",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "519c6631-b7ca-4670-b98e-0489505c8027",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "id": "eb80f1fd-bd7c-4dfe-84da-759ca5e69be3",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "6fcfa6a0-a626-4933-9452-6b0604e0e3e6",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "id": "dd54c667-0e45-4f71-8fbc-34ad76a88666",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "abe5438a-20bb-442b-9850-8268d4cb376a",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "id": "1d74ae22-f0d8-424d-ab0f-b39c81715e1c",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "4af7c725-c947-4902-9170-52e421f4b75c",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "id": "46baae1c-c693-47a9-ad6d-e07c9be228a6",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 9 月 15 日起生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 9 月 15 日起生效。",
+      "conditions": [
+        "自 2026 年 9 月 15 日起生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-faq",
+          "source_id": "e2e27492-d593-4496-b64a-4060bbd442a8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "id": "69df5ae4-ea28-411a-9ff5-ffbf7f750617",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "83b59700-4b1b-48f0-97f7-033059ee8d58",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "id": "91068f6e-3d58-4e7e-8313-de99e896a910",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "自 2026 年 6 月 1 日起生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "f997c464-4a20-4588-bd9e-6af583c55cda",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "id": "8cca8807-f5cf-4627-aaef-d9b4618eca25",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "dc93b609-544a-4bfc-8878-0c643ad4cfe0",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "id": "9ea10df1-f4e3-4fad-be8f-44fb8075b6db",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "4a44344f-9ac0-4f65-bec0-ffbaefc3cfde",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "id": "5f167d23-c9ee-4b67-82d1-6f81ce47a200",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "12c05879-079a-417d-82f5-e44830145c27",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "id": "2d926d12-660c-4d2b-84da-aad416269d06",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "558e8338-2dfa-4702-808b-7740f81dd053",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "139f4ed7-d738-4bb7-94f2-d978c22b0d4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "d471ed7a-6fe2-44ca-887d-49e7d8d3752b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "id": "5fb1835d-d778-4772-a8c1-081097ad4375",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "857403e4-c1f8-4013-8746-e99920f679c4",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "id": "0a921e27-69c0-4044-92be-339586ac4302",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "642f19f4-f941-49d3-b26b-04fc69cb2005",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "id": "bed5f719-a2c8-4908-90cb-e6180757c2ad",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "63701e1f-0af0-4213-8368-9e81c9ddaeff",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "id": "233a0f57-1fe2-4c30-a70c-29a02ad3e432",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "c0bddcdc-1465-4314-9661-f0cad1363608",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "id": "25f79d58-f05d-4853-bb18-581eb9ff2225",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日 生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日 生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "eed99d94-5068-4170-913c-fdcec27dc32e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "94e2385b-301b-4a16-8abf-7c0faaade09e",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "id": "ad8e444c-a39f-49e1-bd1d-937f4e3ca01a",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "企业版",
+        "团队版"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "185126bf-da9d-4df2-888b-2e58d7e9d402",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "6dcae8ed-3074-490f-91b1-51e5c4b908c8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "0937c001-242a-4d09-a37d-8038efd26374",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "id": "b89eff46-d8bb-40b3-bbf8-f82cace094f2",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "f139461b-9289-4446-b8d1-77210e6aae28",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "fdbff6ff-3e23-45f4-8ec1-866edde013cd",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "id": "31c97478-b178-4cb5-9739-7823ae15efc8",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "f672c61e-d689-4a75-bed0-1fa3eb987615",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "id": "4478a6a9-aea3-4e51-9e50-2336a76928c4",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "e9509b6f-787e-44e3-b412-8ce06b4f3082",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "id": "bcae0050-d8a8-4ef0-ae82-6b547ab26108",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "66085dc0-2f26-43a8-9325-943fdad0b182",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-single.report.json",
+      "id": "978df1cb-ca81-4f86-aaa5-81677ead1e0c",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "99234ea3-6e29-4fdc-88e7-52ef85725c4a",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-single.report.json",
+      "id": "c7c04c50-1676-4ac2-8dfc-bb80841aa1e1",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-09-15 生效。",
+      "value": "森屿笔记（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-09-15 生效。",
+      "conditions": [
+        "自 2026-09-15 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "abd93541-9bf6-4bb2-84de-b16d94b98812",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "7b8590e8-42ac-47b0-a61d-52fd2c93889b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-single.report.json",
+      "id": "fb9f205a-92d6-4c14-96af-8ef9fe2de729",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "904c2e81-587d-4ea1-b01e-88133392daf2",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-single.report.json",
+      "id": "e178963e-c785-4978-8a8d-b9a5d6d31689",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "conditions": [
+        "自 2026-06-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "09e298eb-b211-498a-8742-c9be11e5afb7",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "9e5dcb22-0a76-45ff-9a3e-cf0038e3228c",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-single.report.json",
+      "id": "4a2cc13c-e4cb-4bd6-a5b3-af631c232f3d",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "31d0f18e-7a08-4211-af63-58ab00000117",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-before-single.report.json",
+      "id": "4b7a7396-467a-459b-8f72-85495dd68674",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "1d4d3d90-a7b5-4e27-972e-73215421dab5",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "963bed99-3950-4319-bd1b-e423a98441f9",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "id": "5f167d23-c9ee-4b67-82d1-6f81ce47a200",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "83d546f2-9459-44be-8f30-7d7fe18f4fc0",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-release",
+          "source_id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "id": "2d926d12-660c-4d2b-84da-aad416269d06",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "558e8338-2dfa-4702-808b-7740f81dd053",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "139f4ed7-d738-4bb7-94f2-d978c22b0d4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "d471ed7a-6fe2-44ca-887d-49e7d8d3752b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "id": "5fb1835d-d778-4772-a8c1-081097ad4375",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "857403e4-c1f8-4013-8746-e99920f679c4",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "b2631917-5dc0-4acc-909f-cc619cc9ef93",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "id": "0a921e27-69c0-4044-92be-339586ac4302",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "642f19f4-f941-49d3-b26b-04fc69cb2005",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "id": "bed5f719-a2c8-4908-90cb-e6180757c2ad",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "63701e1f-0af0-4213-8368-9e81c9ddaeff",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "id": "233a0f57-1fe2-4c30-a70c-29a02ad3e432",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "c0bddcdc-1465-4314-9661-f0cad1363608",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "id": "25f79d58-f05d-4853-bb18-581eb9ff2225",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "c468311e-079f-4334-8011-268f09447a9e",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "id": "ad8e444c-a39f-49e1-bd1d-937f4e3ca01a",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "185126bf-da9d-4df2-888b-2e58d7e9d402",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "6dcae8ed-3074-490f-91b1-51e5c4b908c8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "id": "b89eff46-d8bb-40b3-bbf8-f82cace094f2",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "f139461b-9289-4446-b8d1-77210e6aae28",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "fdbff6ff-3e23-45f4-8ec1-866edde013cd",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "id": "31c97478-b178-4cb5-9739-7823ae15efc8",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "f672c61e-d689-4a75-bed0-1fa3eb987615",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "id": "4478a6a9-aea3-4e51-9e50-2336a76928c4",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "e9509b6f-787e-44e3-b412-8ce06b4f3082",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "id": "bcae0050-d8a8-4ef0-ae82-6b547ab26108",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "66085dc0-2f26-43a8-9325-943fdad0b182",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-single.report.json",
+      "id": "978df1cb-ca81-4f86-aaa5-81677ead1e0c",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "99234ea3-6e29-4fdc-88e7-52ef85725c4a",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-single.report.json",
+      "id": "c7c04c50-1676-4ac2-8dfc-bb80841aa1e1",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的团队版与企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+      "value": "森屿笔记（虚构）的团队版与企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。 条件与说明：自 2026-10-01 生效",
+      "conditions": [
+        "团队版",
+        "企业版",
+        "自 2026-10-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "90b56548-0869-4885-a355-c25c36dae076",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-single.report.json",
+      "id": "fb9f205a-92d6-4c14-96af-8ef9fe2de729",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "904c2e81-587d-4ea1-b01e-88133392daf2",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-single.report.json",
+      "id": "e178963e-c785-4978-8a8d-b9a5d6d31689",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。 条件与说明：自 2026-06-01 生效",
+      "conditions": [
+        "企业版",
+        "团队版",
+        "自 2026-06-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "09e298eb-b211-498a-8742-c9be11e5afb7",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "9e5dcb22-0a76-45ff-9a3e-cf0038e3228c",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-single.report.json",
+      "id": "4a2cc13c-e4cb-4bd6-a5b3-af631c232f3d",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "31d0f18e-7a08-4211-af63-58ab00000117",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-full-single.report.json",
+      "id": "4b7a7396-467a-459b-8f72-85495dd68674",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "1d4d3d90-a7b5-4e27-972e-73215421dab5",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "963bed99-3950-4319-bd1b-e423a98441f9",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "id": "2d926d12-660c-4d2b-84da-aad416269d06",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "558e8338-2dfa-4702-808b-7740f81dd053",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "139f4ed7-d738-4bb7-94f2-d978c22b0d4f",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "d471ed7a-6fe2-44ca-887d-49e7d8d3752b",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "id": "5fb1835d-d778-4772-a8c1-081097ad4375",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：未披露或无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "857403e4-c1f8-4013-8746-e99920f679c4",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "id": "0a921e27-69c0-4044-92be-339586ac4302",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "642f19f4-f941-49d3-b26b-04fc69cb2005",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "id": "bed5f719-a2c8-4908-90cb-e6180757c2ad",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "63701e1f-0af0-4213-8368-9e81c9ddaeff",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "id": "233a0f57-1fe2-4c30-a70c-29a02ad3e432",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "c0bddcdc-1465-4314-9661-f0cad1363608",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "id": "5f167d23-c9ee-4b67-82d1-6f81ce47a200",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-release",
+          "source_id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "id": "ad8e444c-a39f-49e1-bd1d-937f4e3ca01a",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "企业版",
+        "团队版"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "185126bf-da9d-4df2-888b-2e58d7e9d402",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "6dcae8ed-3074-490f-91b1-51e5c4b908c8",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-archive",
+          "source_id": "0937c001-242a-4d09-a37d-8038efd26374",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "id": "b89eff46-d8bb-40b3-bbf8-f82cace094f2",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "f139461b-9289-4446-b8d1-77210e6aae28",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "fdbff6ff-3e23-45f4-8ec1-866edde013cd",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "id": "4478a6a9-aea3-4e51-9e50-2336a76928c4",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "e9509b6f-787e-44e3-b412-8ce06b4f3082",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "id": "31c97478-b178-4cb5-9739-7823ae15efc8",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "f672c61e-d689-4a75-bed0-1fa3eb987615",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "id": "bcae0050-d8a8-4ef0-ae82-6b547ab26108",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "66085dc0-2f26-43a8-9325-943fdad0b182",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "id": "25f79d58-f05d-4853-bb18-581eb9ff2225",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "uncertain",
+      "statement": "SSO：当前资料存在冲突，无法确认。",
+      "value": null,
+      "conditions": [
+        "不确定性同样适用于相关章节；请查看原文与核查记录。"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-archive",
+          "source_id": "acc44793-c48e-40aa-aa0d-3eca9b4539f5",
+          "quote": "SSO：当前所有套餐均不支持 SAML SSO。",
+          "exact": true
+        },
+        {
+          "logical_key": "senyu-security",
+          "source_id": "c468311e-079f-4334-8011-268f09447a9e",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "id": "978df1cb-ca81-4f86-aaa5-81677ead1e0c",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "senyu-pricing",
+          "source_id": "99234ea3-6e29-4fdc-88e7-52ef85725c4a",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "id": "e178963e-c785-4978-8a8d-b9a5d6d31689",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "value": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026-06-01 生效。",
+      "conditions": [
+        "自 2026-06-01 生效"
+      ],
+      "evidence": [
+        {
+          "logical_key": "qiaota-security",
+          "source_id": "09e298eb-b211-498a-8742-c9be11e5afb7",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        },
+        {
+          "logical_key": "qiaota-release",
+          "source_id": "9e5dcb22-0a76-45ff-9a3e-cf0038e3228c",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "id": "fb9f205a-92d6-4c14-96af-8ef9fe2de729",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "qiaota-pricing",
+          "source_id": "904c2e81-587d-4ea1-b01e-88133392daf2",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "id": "4a2cc13c-e4cb-4bd6-a5b3-af631c232f3d",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "status": "supported",
+      "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-pricing",
+          "source_id": "31d0f18e-7a08-4211-af63-58ab00000117",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "id": "4b7a7396-467a-459b-8f72-85495dd68674",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "value": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [],
+      "evidence": [
+        {
+          "logical_key": "xinghe-security",
+          "source_id": "1d4d3d90-a7b5-4e27-972e-73215421dab5",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        },
+        {
+          "logical_key": "xinghe-release",
+          "source_id": "963bed99-3950-4319-bd1b-e423a98441f9",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "id": "c7c04c50-1676-4ac2-8dfc-bb80841aa1e1",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+      "value": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO，自 2026 年 10 月 1 日起生效。",
+      "conditions": [
+        "SAML SSO"
+      ],
+      "evidence": [
+        {
+          "logical_key": "senyu-security",
+          "source_id": "90b56548-0869-4885-a355-c25c36dae076",
+          "quote": "SSO：团队版与企业版均支持 SAML SSO；自 2026-10-01 生效。",
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "report_fingerprints": [
+    {
+      "file": "challenge-current-conflict-r1-multi.report.json",
+      "sha256": "2ff72c2e517e3ec8da2bb1468fb43e7a707cb6e7cd8eebffe45e4f6c8794cd89",
+      "run_id": "a21d2eab-6786-4f58-9544-090c3132d577"
+    },
+    {
+      "file": "challenge-current-conflict-r1-pipeline.report.json",
+      "sha256": "1b50c4da32fb0d68f50f98d8658f22c3736ee5b616ae1d27eab8f1b91cc9ecd9",
+      "run_id": "40fa9643-08e4-432e-82f0-c1fba6e295eb"
+    },
+    {
+      "file": "challenge-current-conflict-r1-single.report.json",
+      "sha256": "64ba43970a4d035f0505012fc23d3b2deda77279c72a8a3f9fbd5c0a4ed7171c",
+      "run_id": "650b54f9-5daa-450f-9881-3313a82afb6a"
+    },
+    {
+      "file": "challenge-current-conflict-r2-multi.report.json",
+      "sha256": "6e78d0e034b633be436eb4932e1e0bd75dabeae6eec25707d2a73b83a840408f",
+      "run_id": "80e01da0-382f-402b-ad54-0b40a59bab94"
+    },
+    {
+      "file": "challenge-current-conflict-r2-pipeline.report.json",
+      "sha256": "5ad8672330e723d1f7cdd634c7b19c83790ef1342b7f9b8eafab24393381acf0",
+      "run_id": "62ed7604-01c7-49d0-9773-953c10281f11"
+    },
+    {
+      "file": "challenge-current-conflict-r2-single.report.json",
+      "sha256": "d61795811d9e607bc7faf4ee6e7864bcf6b63c1b5cadabdab41e8bf3ee739045",
+      "run_id": "e215b2a1-c218-45b9-9bd3-50bf4644ff6a"
+    },
+    {
+      "file": "challenge-faq-r1-multi.report.json",
+      "sha256": "78716404e0c2b168bd27ec5691a49f3e46d7c87674a130b05f805d3b8d20fce4",
+      "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95"
+    },
+    {
+      "file": "challenge-faq-r1-pipeline.report.json",
+      "sha256": "1fe5fa5a8463bf2f8678c920818b4cec6009da288592fcb7f5719ee88f9a435c",
+      "run_id": "ad3003a6-c3e8-49f2-9002-14e199869df9"
+    },
+    {
+      "file": "challenge-faq-r1-single.report.json",
+      "sha256": "da63c7012a9c9769bcad8761513c565bc4e755f036714febdce43e186fb01858",
+      "run_id": "d06ea723-42bd-41f0-b974-2b0a32f7d8db"
+    },
+    {
+      "file": "challenge-faq-r2-multi.report.json",
+      "sha256": "9a807ff2df7eae9effa80ee91d22d245679b41d8cd62075a0e6b7bc93802f422",
+      "run_id": "ddc1a2b2-f3a0-427a-bb34-ec74ab424161"
+    },
+    {
+      "file": "challenge-faq-r2-pipeline.report.json",
+      "sha256": "bf496b8d2eb36c87d2280f4233ccc46534b1432f1f9f2d6369797dda2ee39d77",
+      "run_id": "00a6cd3a-ab62-47f7-bef6-c399c4f91f82"
+    },
+    {
+      "file": "challenge-faq-r2-single.report.json",
+      "sha256": "006097a962ef6644c44773c8521001c34db0c6c7f587972eb73955193472f863",
+      "run_id": "4be5e6be-33b9-4bf0-b11a-3d0e8fa7120c"
+    },
+    {
+      "file": "update-before-multi.report.json",
+      "sha256": "3b1666663dae3dff8ea82c1d2b0f3766cf8bcac0fccefb438d1b5fb78b5c4beb",
+      "run_id": "ef056508-af8f-4289-8527-e9ae7cef515b"
+    },
+    {
+      "file": "update-before-pipeline.report.json",
+      "sha256": "21cac74eaaeb1ba28adb7f0fe8de97dd15a05eb15a87fc2998f5d3030a8b7f54",
+      "run_id": "bb4d59cc-b604-412d-a950-d2862f960780"
+    },
+    {
+      "file": "update-before-single.report.json",
+      "sha256": "42ce0fe953fe2ca28a4967ebc53c35835ae9d879fb1aed951ac0066089eaa087",
+      "run_id": "31c2974f-81d5-4a5f-aad5-98ed73a588f4"
+    },
+    {
+      "file": "update-full-multi.report.json",
+      "sha256": "6d8711613e69d74c1e331ca69e9483b86b0119de05c4f7b66406da169e142c4b",
+      "run_id": "f40e52ae-d1ee-4b24-bde5-b658d798c903"
+    },
+    {
+      "file": "update-full-pipeline.report.json",
+      "sha256": "fb4f222a6a41c1b8f03a7af10655d3a6720327d7f8e78e3805de6ed2a87938e7",
+      "run_id": "69d115c7-b5ba-4982-b408-b89247a5b599"
+    },
+    {
+      "file": "update-full-single.report.json",
+      "sha256": "3fcfde630ba94fb5f0a71a86482dd1f6f27d92c973f66616eb309fb4c809fa0c",
+      "run_id": "16f2289d-1c8e-476b-be85-02b46334cef8"
+    },
+    {
+      "file": "update-partial-multi.report.json",
+      "sha256": "96645fbc87c6f61d9d017a7f523ec1ee1440edece9e9d233d5dee80d47d47620",
+      "run_id": "0e6f9a39-1b70-42cf-8ba9-e100f264147a"
+    },
+    {
+      "file": "update-partial-pipeline.report.json",
+      "sha256": "c3f175d90197c3fb0d68b8911471f9df45234a0fcc07ef02f9acf42d90f47ca3",
+      "run_id": "7f4c0a9d-9d57-4b32-aa0e-d235a78a2eb4"
+    },
+    {
+      "file": "update-partial-single.report.json",
+      "sha256": "478895358a3ee76eabdc9a91901b259200be20cba80d71bf737452f0eaed9c7a",
+      "run_id": "a4ee692f-296d-410b-80c0-ffe461185cfd"
+    }
+  ],
+  "frozen_metric_summary": "../semantic-metrics-v2/reliability-v1/summary.json",
+  "limitations": [
+    "Post-v4 targeted development diagnostics with2 quality repeats, not unseen or statistical proof.",
+    "14 legitimate Chinese-date paraphrases fail unchanged literal checks; keep raw scores and these independent annotations separate.",
+    "Sources and runtime/specs were not changed by this audit. No model calls or database writes.",
+    "Claim reuse is not task reuse; the latter is0 in these saved collaboration summaries."
+  ]
+}

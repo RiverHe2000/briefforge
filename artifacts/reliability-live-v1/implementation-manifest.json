@@ -1,0 +1,24 @@
+{
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "temperature": 0,
+  "repeats": 2,
+  "architectures": [
+    "single",
+    "pipeline",
+    "multi"
+  ],
+  "budget_usd": 0.15,
+  "concurrent_runs": 3,
+  "quality_runs": 12,
+  "update_runs": 9,
+  "note": "Quality repetitions plus before/partial-update/full-rerun for each architecture. Queue time included.",
+  "code_sha256": {
+    "src/briefforge/engine.py": "9dc75cebe213f9c5fc23e6971040f5768edc82c587daf24fe676247feca38e70",
+    "src/briefforge/provider.py": "81c32dd285ae5bc98f1c03000d455b31cdc3efff169ac6a83797daf64d8587b1",
+    "src/briefforge/store.py": "f49690fabc24270aa408acf0c43dea2be1cfccdeacb24d979ea6d1acc22e8ec7",
+    "src/briefforge/collaboration.py": "4f47ca3ae084a7aa7c8d7b3016191d43e98eba818f8312ae9bbf19707a8830d3",
+    "src/briefforge/evaluation_v2.py": "ca1c31ad105ca9674ae25f67f4b4318d1ce0fc8949b34d0afca3edc91d4f6ee3",
+    "src/briefforge/reliability.py": "c2cda8c75ab141bc154d3ae5b62228633f65e5213ad0e292326bcab7f9d7344a"
+  }
+}

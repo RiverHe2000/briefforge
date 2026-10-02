@@ -1,0 +1,64 @@
+{
+  "report_id": "ff26ff55-0bb6-4c57-b338-a57361da1b61",
+  "report_version": 1,
+  "synthetic": true,
+  "mode": "replay",
+  "sample_source": "artifacts/integration.json and immutable .local/sample-report.json",
+  "renderer": "Microsoft Word and PowerPoint COM hidden read-only",
+  "word_pages": 8,
+  "pptx_slides": 10,
+  "pptx_text_overflows": [],
+  "manual_visual_review": {
+    "pages_reviewed": 8,
+    "slides_reviewed": 10,
+    "final_metadata_only_revision_pixel_identical": true,
+    "surfaces_compared": 18
+  },
+  "editable_elements": [
+    "native text",
+    "native tables",
+    "native charts",
+    "embedded chart workbook"
+  ],
+  "cross_format_facts": "Shared immutable report manifest, claims, conditions and evidence; verified by export regression tests.",
+  "pptx_package_validation": {
+    "chart_count": 1,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 10,
+    "relationship_part_count": 26,
+    "slide_count": 10,
+    "status": "pass"
+  },
+  "pptx_geometry_validation": {
+    "finding_count": 0,
+    "findings": [],
+    "slide_count": 10,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 0,
+    "warnings": []
+  },
+  "bundled_document_renderer": {
+    "status": "unavailable",
+    "reason": "Bundled Windows environment has no soffice.exe; render_docx.py failed. Native Microsoft Office used for actual render QA; desktop LibreOffice not used."
+  },
+  "private_qa_directory": "artifacts/private/export-qa-manifest (ignored local renders)",
+  "files": [
+    {
+      "format": "docx",
+      "path": "artifacts/demo/briefforge-ff26ff55-0bb6-4c57-b338-a57361da1b61-v1.docx",
+      "bytes": 49221,
+      "sha256": "4f8a5010d57d39487a10aa958244e03b3d7ec28703b4de28346bb838face6ad2"
+    },
+    {
+      "format": "pptx",
+      "path": "artifacts/demo/briefforge-ff26ff55-0bb6-4c57-b338-a57361da1b61-v1.pptx",
+      "bytes": 263389,
+      "sha256": "bba780deec161655a165eeae828edaccf150ed026d0c755e3007ccd43a33f6a9"
+    }
+  ]
+}

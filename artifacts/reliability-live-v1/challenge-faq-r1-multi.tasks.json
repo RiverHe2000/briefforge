@@ -1,0 +1,781 @@
+[
+  {
+    "id": "e0343e36-ec3f-4e5a-a5b6-33dfaaefcce2",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "coordinator",
+    "target": "*",
+    "title": "确认研究任务与依赖",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [],
+    "output": {
+      "tasks": [
+        {
+          "role": "industry",
+          "target": "行业",
+          "dimensions": [
+            "行业背景"
+          ],
+          "question": "分析行业背景、客户需求与资料局限"
+        },
+        {
+          "role": "competitor",
+          "target": "森屿笔记（虚构）",
+          "dimensions": [
+            "定位",
+            "核心功能",
+            "SSO",
+            "近期变化",
+            "用户反馈"
+          ],
+          "question": "调查 森屿笔记（虚构） 的产品与客户"
+        },
+        {
+          "role": "competitor",
+          "target": "桥塔知识（虚构）",
+          "dimensions": [
+            "定位",
+            "核心功能",
+            "SSO",
+            "近期变化",
+            "用户反馈"
+          ],
+          "question": "调查 桥塔知识（虚构） 的产品与客户"
+        },
+        {
+          "role": "competitor",
+          "target": "星河文库（虚构）",
+          "dimensions": [
+            "定位",
+            "核心功能",
+            "SSO",
+            "近期变化",
+            "用户反馈"
+          ],
+          "question": "调查 星河文库（虚构） 的产品与客户"
+        },
+        {
+          "role": "commercial",
+          "target": "*",
+          "dimensions": [
+            "价格"
+          ],
+          "question": "核对价格、币种、计费周期、税费与套餐限制"
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:22.238026+00:00",
+    "updated_at": "2026-10-02T22:28:24.022702+00:00"
+  },
+  {
+    "id": "8a8c6d28-9678-4be6-86d3-2dda4c9ed08b",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "industry",
+    "target": "行业",
+    "title": "研究 行业：行业背景",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [
+      "e0343e36-ec3f-4e5a-a5b6-33dfaaefcce2"
+    ],
+    "output": {
+      "claims": [
+        {
+          "subject": "行业",
+          "dimension": "行业背景",
+          "statement": "中小团队需要将分散的文档按项目进行组织，追溯信息来源，并明确成员的访问权限。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "9d62eae5-6a0e-451a-a9c7-b7bd3800146a",
+              "quote": "合成访谈中的中小团队需要把分散文档按项目组织、追溯信息来源，并明确成员的访问权限。",
+              "locator": "100-136"
+            }
+          ],
+          "value": "中小团队需要将分散的文档按项目进行组织，追溯信息来源，并明确成员的访问权限。",
+          "conditions": [],
+          "source_ids": [
+            "9d62eae5-6a0e-451a-a9c7-b7bd3800146a"
+          ],
+          "dirty": false,
+          "computation": null
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:24.044214+00:00",
+    "updated_at": "2026-10-02T22:28:25.638616+00:00"
+  },
+  {
+    "id": "5f5e2e49-2c10-4f6e-8bb7-cb010ee7de68",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "competitor",
+    "target": "森屿笔记（虚构）",
+    "title": "研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [
+      "e0343e36-ec3f-4e5a-a5b6-33dfaaefcce2"
+    ],
+    "output": {
+      "claims": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "定位",
+          "statement": "森屿笔记（虚构）面向中小型咨询团队，提供项目知识与会议记录服务。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "99139980-97a6-437b-9212-16da6d99ccfd",
+              "quote": "定位：面向中小型咨询团队的项目知识与会议记录。",
+              "locator": "134"
+            },
+            {
+              "source_id": "3a71c840-124a-4abf-b2fb-5261ab767b92",
+              "quote": "定位：面向中小型咨询团队的项目知识与会议记录。",
+              "locator": "47"
+            }
+          ],
+          "value": "面向中小型咨询团队的项目知识与会议记录。",
+          "conditions": [],
+          "source_ids": [
+            "99139980-97a6-437b-9212-16da6d99ccfd",
+            "3a71c840-124a-4abf-b2fb-5261ab767b92"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "核心功能",
+          "statement": "森屿笔记（虚构）的核心功能包括文档协作、会议纪要关联和引用检索。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "3a71c840-124a-4abf-b2fb-5261ab767b92",
+              "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+              "locator": "64"
+            },
+            {
+              "source_id": "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075",
+              "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+              "locator": "47"
+            }
+          ],
+          "value": "文档协作、会议纪要关联、引用检索。",
+          "conditions": [],
+          "source_ids": [
+            "3a71c840-124a-4abf-b2fb-5261ab767b92",
+            "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，自 2026年9月15日起生效，团队版不支持。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075",
+              "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+              "locator": "130"
+            },
+            {
+              "source_id": "46a382c3-58c2-4378-a5f4-b04f7a60cfc8",
+              "quote": "SSO：详细适用范围请查阅套餐功能清单；此页不单独列出。",
+              "locator": "37"
+            }
+          ],
+          "value": "企业版支持 SAML SSO，团队版不支持；自 2026年9月15日起生效。",
+          "conditions": [],
+          "source_ids": [
+            "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075",
+            "46a382c3-58c2-4378-a5f4-b04f7a60cfc8"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "近期变化",
+          "statement": "森屿笔记（虚构）近期更新了文档检索结果的来源定位功能。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "5232e782-cc41-4482-baf6-18ada092edc8",
+              "quote": "近期变化：更新文档检索结果的来源定位。",
+              "locator": "37"
+            }
+          ],
+          "value": "更新文档检索结果的来源定位。",
+          "conditions": [],
+          "source_ids": [
+            "5232e782-cc41-4482-baf6-18ada092edc8"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "用户反馈",
+          "statement": "一位合成咨询团队用户反馈，森屿笔记（虚构）的会议记录能连接项目文档，但初次整理目录需要时间。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "3bee969c-aac5-47dc-9035-7e7692916e80",
+              "quote": "用户反馈：一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。",
+              "locator": "59"
+            }
+          ],
+          "value": "会议记录能连接项目文档，但初次整理目录需要时间。",
+          "conditions": [],
+          "source_ids": [
+            "3bee969c-aac5-47dc-9035-7e7692916e80"
+          ],
+          "dirty": false,
+          "computation": null
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:24.079313+00:00",
+    "updated_at": "2026-10-02T22:28:27.737620+00:00"
+  },
+  {
+    "id": "5fd51b56-a9f6-43eb-bfe5-fc7d485bd0bf",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "competitor",
+    "target": "桥塔知识（虚构）",
+    "title": "研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [
+      "e0343e36-ec3f-4e5a-a5b6-33dfaaefcce2"
+    ],
+    "output": {
+      "claims": [
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "定位",
+          "statement": "桥塔知识（虚构）定位于面向企业 IT 团队的权限治理与跨部门知识库。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "b3ae9a40-c8ac-41f1-8b6a-03355dadcd5f",
+              "quote": "定位：面向企业 IT 团队的权限治理与跨部门知识库。",
+              "locator": "137:0"
+            }
+          ],
+          "value": null,
+          "conditions": [],
+          "source_ids": [
+            "b3ae9a40-c8ac-41f1-8b6a-03355dadcd5f"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "核心功能",
+          "statement": "桥塔知识（虚构）的核心功能包括版本管理、权限分组和目录同步。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "cd9e5152-c611-4429-be24-8dd54051fe30",
+              "quote": "核心功能：版本管理、权限分组、目录同步。",
+              "locator": "150:0"
+            }
+          ],
+          "value": null,
+          "conditions": [],
+          "source_ids": [
+            "cd9e5152-c611-4429-be24-8dd54051fe30"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，该功能自 2026 年 6 月 1 日起生效。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "4151d051-75c1-4c01-b8c9-34871f984896",
+              "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+              "locator": "149:0"
+            }
+          ],
+          "value": null,
+          "conditions": [],
+          "source_ids": [
+            "4151d051-75c1-4c01-b8c9-34871f984896"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "近期变化",
+          "statement": "桥塔知识（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "7f1bc85f-6489-4eb1-a5f2-9eba8ae81d0c",
+              "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。",
+              "locator": "157:0"
+            }
+          ],
+          "value": null,
+          "conditions": [],
+          "source_ids": [
+            "7f1bc85f-6489-4eb1-a5f2-9eba8ae81d0c"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "用户反馈",
+          "statement": "一位合成 IT 管理员反馈，桥塔知识（虚构）的权限分组功能便于核对，但配置步骤较多。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "f41791e1-5307-4dc8-8c43-512b0ee0ae1d",
+              "quote": "用户反馈：一名合成 IT 管理员表示，权限分组便于核对，配置步骤较多。",
+              "locator": "138:0"
+            }
+          ],
+          "value": null,
+          "conditions": [],
+          "source_ids": [
+            "f41791e1-5307-4dc8-8c43-512b0ee0ae1d"
+          ],
+          "dirty": false,
+          "computation": null
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:24.115686+00:00",
+    "updated_at": "2026-10-02T22:28:28.772699+00:00"
+  },
+  {
+    "id": "a2155a7b-12e9-416a-87b6-600eb2e2892b",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "competitor",
+    "target": "星河文库（虚构）",
+    "title": "研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [
+      "e0343e36-ec3f-4e5a-a5b6-33dfaaefcce2"
+    ],
+    "output": {
+      "claims": [
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "定位",
+          "statement": "星河文库（虚构）定位于面向创意团队的轻量文档与素材协作。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "238d414b-9e68-4fcf-83c5-af03c81db14d",
+              "quote": "定位：面向创意团队的轻量文档与素材协作。",
+              "locator": "131:0"
+            }
+          ],
+          "value": "面向创意团队的轻量文档与素材协作",
+          "conditions": [],
+          "source_ids": [
+            "238d414b-9e68-4fcf-83c5-af03c81db14d"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "核心功能",
+          "statement": "星河文库（虚构）的核心功能包括共享文档、素材索引和访客评论。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "e57d394e-782b-412f-9b02-aabbd8aa7912",
+              "quote": "核心功能：共享文档、素材索引、访客评论。",
+              "locator": "144:0"
+            },
+            {
+              "source_id": "46d84eba-3469-471f-bd7c-91b0ed1875db",
+              "quote": "核心功能：共享文档、素材索引、访客评论。",
+              "locator": "144:0"
+            }
+          ],
+          "value": "共享文档、素材索引、访客评论",
+          "conditions": [],
+          "source_ids": [
+            "e57d394e-782b-412f-9b02-aabbd8aa7912",
+            "46d84eba-3469-471f-bd7c-91b0ed1875db"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "a3cc30d0-ba89-4334-9acf-0cf0cd0c318b",
+              "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+              "locator": "141:0"
+            },
+            {
+              "source_id": "59dd55ba-6f27-4089-b8e7-a3a642f8152f",
+              "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+              "locator": "149:0"
+            }
+          ],
+          "value": "未披露 SAML SSO 的支持情况",
+          "conditions": [
+            "需要进一步向厂商确认"
+          ],
+          "source_ids": [
+            "a3cc30d0-ba89-4334-9acf-0cf0cd0c318b",
+            "59dd55ba-6f27-4089-b8e7-a3a642f8152f"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "近期变化",
+          "statement": "近期更新包括更新文档检索结果的来源定位，并补充登录能力说明。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "59dd55ba-6f27-4089-b8e7-a3a642f8152f",
+              "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。",
+              "locator": "149:0"
+            }
+          ],
+          "value": "更新文档检索结果的来源定位，并补充登录能力说明",
+          "conditions": [],
+          "source_ids": [
+            "59dd55ba-6f27-4089-b8e7-a3a642f8152f"
+          ],
+          "dirty": false,
+          "computation": null
+        },
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "用户反馈",
+          "statement": "一名合成设计师表示，访客评论容易上手，但大型文件夹查找仍需改进。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "dfa2fb54-f03d-4e03-83a9-d4879ae652af",
+              "quote": "用户反馈：一名合成设计师表示，访客评论容易上手，大型文件夹查找仍需改进。",
+              "locator": "139:0"
+            }
+          ],
+          "value": "访客评论容易上手，大型文件夹查找仍需改进",
+          "conditions": [
+            "单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。"
+          ],
+          "source_ids": [
+            "dfa2fb54-f03d-4e03-83a9-d4879ae652af"
+          ],
+          "dirty": false,
+          "computation": null
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:24.153825+00:00",
+    "updated_at": "2026-10-02T22:28:28.893960+00:00"
+  },
+  {
+    "id": "c82666f8-dd4a-4fc2-84c3-d800ecc704b4",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "commercial",
+    "target": "*",
+    "title": "研究 *：价格",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [
+      "e0343e36-ec3f-4e5a-a5b6-33dfaaefcce2"
+    ],
+    "output": {
+      "claims": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "价格",
+          "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "125a4b6a-f294-40f7-9dae-4be22a7ddfc9",
+              "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+              "locator": "字符 63:163"
+            }
+          ],
+          "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "conditions": [],
+          "source_ids": [
+            "125a4b6a-f294-40f7-9dae-4be22a7ddfc9"
+          ],
+          "dirty": false,
+          "computation": {
+            "type": "source_price_facts",
+            "facts": [
+              {
+                "currency": "USD",
+                "amount": "12",
+                "rate_period": "month",
+                "scope_and_billing_quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+                "source_id": "125a4b6a-f294-40f7-9dae-4be22a7ddfc9"
+              },
+              {
+                "currency": "USD",
+                "amount": "16",
+                "rate_period": "month",
+                "scope_and_billing_quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+                "source_id": "125a4b6a-f294-40f7-9dae-4be22a7ddfc9"
+              }
+            ],
+            "rendered_quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。"
+          }
+        },
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "价格",
+          "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "92374aab-5f56-4900-9246-2e951bfbea3f",
+              "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+              "locator": "字符 63:163"
+            }
+          ],
+          "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "conditions": [],
+          "source_ids": [
+            "92374aab-5f56-4900-9246-2e951bfbea3f"
+          ],
+          "dirty": false,
+          "computation": {
+            "type": "source_price_facts",
+            "facts": [
+              {
+                "currency": "USD",
+                "amount": "18",
+                "rate_period": "month",
+                "scope_and_billing_quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+                "source_id": "92374aab-5f56-4900-9246-2e951bfbea3f"
+              },
+              {
+                "currency": "USD",
+                "amount": "23",
+                "rate_period": "month",
+                "scope_and_billing_quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+                "source_id": "92374aab-5f56-4900-9246-2e951bfbea3f"
+              }
+            ],
+            "rendered_quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。"
+          }
+        },
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "价格",
+          "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "status": "supported",
+          "evidence": [
+            {
+              "source_id": "5f041d9e-ab23-4640-8110-a7ce9a644e90",
+              "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+              "locator": "字符 63:162"
+            }
+          ],
+          "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+          "conditions": [],
+          "source_ids": [
+            "5f041d9e-ab23-4640-8110-a7ce9a644e90"
+          ],
+          "dirty": false,
+          "computation": {
+            "type": "source_price_facts",
+            "facts": [
+              {
+                "currency": "USD",
+                "amount": "9",
+                "rate_period": "month",
+                "scope_and_billing_quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+                "source_id": "5f041d9e-ab23-4640-8110-a7ce9a644e90"
+              },
+              {
+                "currency": "USD",
+                "amount": "12",
+                "rate_period": "month",
+                "scope_and_billing_quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+                "source_id": "5f041d9e-ab23-4640-8110-a7ce9a644e90"
+              }
+            ],
+            "rendered_quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。"
+          }
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:24.170830+00:00",
+    "updated_at": "2026-10-02T22:28:31.514491+00:00"
+  },
+  {
+    "id": "9e51cc1f-d420-47ea-a1f8-6bcfbfe1da4b",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "verifier",
+    "target": "*",
+    "title": "检查引用、日期、价格与矛盾",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [],
+    "output": {
+      "issues": [
+        {
+          "subject": "森屿笔记（虚构）",
+          "dimension": "SSO",
+          "reason": "来源 46a382c3-58c2-4378-a5f4-b04f7a60cfc8 提到 SSO 的详细适用范围请查阅套餐功能清单，但未提供具体信息。来源 15fa3b5f-fa2b-48c1-b9c2-67ca27fee075 提到企业版支持 SAML SSO，团队版不支持，自 2026-09-15 生效。但未明确说明团队版不支持的具体原因或限制。",
+          "source_ids": [
+            "46a382c3-58c2-4378-a5f4-b04f7a60cfc8",
+            "15fa3b5f-fa2b-48c1-b9c2-67ca27fee075"
+          ],
+          "resolution": "uncertain",
+          "category": "missing_evidence"
+        },
+        {
+          "subject": "桥塔知识（虚构）",
+          "dimension": "SSO",
+          "reason": "来源 4151d051-75c1-4c01-b8c9-34871f984896 和 7f1bc85f-6489-4eb1-a5f2-9eba8ae81d0c 提到 SSO 功能自 2026-06-01 生效，但未明确说明该生效日期是否适用于所有企业版用户，或是否存在其他生效条件。",
+          "source_ids": [
+            "4151d051-75c1-4c01-b8c9-34871f984896",
+            "7f1bc85f-6489-4eb1-a5f2-9eba8ae81d0c"
+          ],
+          "resolution": "uncertain",
+          "category": "conditions"
+        },
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "reason": "来源 a3cc30d0-ba89-4334-9acf-0cf0cd0c318b 和 59dd55ba-6f27-4089-b8e7-a3a642f8152f 均提到未披露 SAML SSO 的支持情况，需要进一步向厂商确认。但未提供任何关于 SAML SSO 支持情况的线索或信息。",
+          "source_ids": [
+            "a3cc30d0-ba89-4334-9acf-0cf0cd0c318b",
+            "59dd55ba-6f27-4089-b8e7-a3a642f8152f"
+          ],
+          "resolution": "uncertain",
+          "category": "missing_evidence"
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:31.521498+00:00",
+    "updated_at": "2026-10-02T22:28:34.527628+00:00"
+  },
+  {
+    "id": "4ab088a7-d4c3-483d-949e-793242c2607e",
+    "run_id": "e772a121-8c25-40e5-8643-9d3c37947f95",
+    "role": "editor",
+    "target": "*",
+    "title": "组织管理层报告与一致的导出内容",
+    "status": "completed",
+    "round": 0,
+    "depends_on": [],
+    "output": {
+      "summary_keys": [
+        "行业::行业背景",
+        "森屿笔记（虚构）::定位",
+        "森屿笔记（虚构）::核心功能",
+        "桥塔知识（虚构）::定位",
+        "桥塔知识（虚构）::核心功能",
+        "星河文库（虚构）::定位",
+        "星河文库（虚构）::核心功能"
+      ],
+      "sections": [
+        {
+          "heading": "行业背景与产品定位",
+          "claim_keys": [
+            "行业::行业背景",
+            "森屿笔记（虚构）::定位",
+            "桥塔知识（虚构）::定位",
+            "星河文库（虚构）::定位"
+          ]
+        },
+        {
+          "heading": "核心功能对比",
+          "claim_keys": [
+            "森屿笔记（虚构）::核心功能",
+            "桥塔知识（虚构）::核心功能",
+            "星河文库（虚构）::核心功能"
+          ]
+        },
+        {
+          "heading": "价格方案",
+          "claim_keys": [
+            "森屿笔记（虚构）::价格",
+            "桥塔知识（虚构）::价格",
+            "星河文库（虚构）::价格"
+          ]
+        },
+        {
+          "heading": "用户反馈与近期更新",
+          "claim_keys": [
+            "森屿笔记（虚构）::用户反馈",
+            "森屿笔记（虚构）::近期变化",
+            "桥塔知识（虚构）::用户反馈",
+            "桥塔知识（虚构）::近期变化",
+            "星河文库（虚构）::用户反馈",
+            "星河文库（虚构）::近期变化"
+          ]
+        }
+      ],
+      "opportunities": [
+        {
+          "hypothesis": "通过优化森屿笔记（虚构）的初始目录整理流程，可以提升新用户上手体验，降低早期流失率。",
+          "basis_keys": [
+            "森屿笔记（虚构）::用户反馈"
+          ],
+          "validation": "对新注册用户进行可用性测试，观察其在首次整理目录时的操作路径和耗时，并收集反馈。"
+        },
+        {
+          "hypothesis": "为桥塔知识（虚构）提供更简化的权限配置向导或预设模板，可以降低 IT 团队的配置门槛，提高产品采纳率。",
+          "basis_keys": [
+            "桥塔知识（虚构）::用户反馈"
+          ],
+          "validation": "设计并测试不同程度的权限配置简化方案（如向导式配置、常用模板），收集 IT 管理员的反馈和操作效率数据。"
+        },
+        {
+          "hypothesis": "为星河文库（虚构）开发更高效的大型文件夹查找功能，例如引入搜索优化或层级视图，可以满足创意团队对素材管理的需求，提升用户满意度。",
+          "basis_keys": [
+            "星河文库（虚构）::用户反馈"
+          ],
+          "validation": "与创意团队用户进行访谈，了解他们当前查找大型文件夹的痛点，并基于访谈结果设计和原型化新的查找功能，进行用户测试。"
+        },
+        {
+          "hypothesis": "针对中小团队的特定需求，提供森屿笔记（虚构）与桥塔知识（虚构）的集成方案，实现文档组织与权限治理的协同，可以增强产品竞争力。",
+          "basis_keys": [
+            "行业::行业背景",
+            "森屿笔记（虚构）::定位",
+            "桥塔知识（虚构）::定位"
+          ],
+          "validation": "与潜在客户进行需求调研，了解他们对跨产品集成的期望和使用场景，并基于反馈设计集成方案的原型。"
+        }
+      ]
+    },
+    "error": null,
+    "created_at": "2026-10-02T22:28:34.557771+00:00",
+    "updated_at": "2026-10-02T22:28:37.859065+00:00"
+  }
+]

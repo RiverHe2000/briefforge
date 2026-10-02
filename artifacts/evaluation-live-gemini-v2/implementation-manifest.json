@@ -1,0 +1,13 @@
+{
+  "model_profile": "gemini-budget",
+  "code_and_reference_sha256": {
+    "src/briefforge/provider.py": "1dec03ea38a2b3e458c1968f447936e48c4240b05e3276ad40ec2166528fb775",
+    "src/briefforge/engine.py": "6b27e5a0782fef1359cb98c647126164f0dac1916a5973e472742ee47a21b1f9",
+    "src/briefforge/evaluation.py": "b78a4a5cf83bd89edc4a34096710abcb45ded0656f8d2ff31b7a55f22e0abe26",
+    "src/briefforge/store.py": "7d821eee08bc7e304ffcf28d67f7ddfda160ffbe6757635bfad3540c39cb55fb",
+    "src/briefforge/ingest.py": "b039cbafd4943890daeb3a063d5616c653b5f9a70836dfd89c1f22ba0342615c",
+    "data/evaluation/frozen_gold.json": "689f290b443326d1c1ce250f5d2b0c64f869341f3f9217b8a1ff66dbb2e05afc",
+    "uv.lock": "83e9e183be07f83f225bb9f5e44cfbadb02f962ed2094649e46b185d5d21493a"
+  },
+  "note": "Code and fixtures frozen at start of 24 paid tests; earlier diagnostics remain separate."
+}

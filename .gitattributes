@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# Preserve byte-for-byte evidence, fixtures and recorded SHA-256 checksums.
+artifacts/** -text -whitespace
+data/** -text -whitespace
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webm binary
+*.mp4 binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary

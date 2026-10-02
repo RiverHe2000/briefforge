@@ -1,0 +1,256 @@
+[
+  {
+    "id": 407,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:04:58.839498+00:00",
+    "type": "queued",
+    "message": "研究已进入队列",
+    "payload": {
+      "mode": "live"
+    }
+  },
+  {
+    "id": 408,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:11.456128+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model_profile": "gemini-budget",
+      "model": "google/gemini-2.5-flash-lite",
+      "endpoint": "google-ai-studio",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.39999999999999997
+    }
+  },
+  {
+    "id": 409,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:11.554874+00:00",
+    "type": "task_started",
+    "message": "研究协调员：确认研究任务与依赖",
+    "payload": {
+      "task_id": "5002ccba-9f88-4e31-a0a6-ed8c36e4eb84",
+      "role": "coordinator",
+      "round": 0
+    }
+  },
+  {
+    "id": 410,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:13.847016+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "coordinator",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\8c25aca7-df16-455a-b1de-08501213fb03\\aa8a576c-1bf3-466b-a021-7b80649e4d7f.json",
+      "response_id": "gen-1790939112-Y6bE4UqX30rEDLZddgWk",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 411,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:13.858019+00:00",
+    "type": "task_completed",
+    "message": "完成：确认研究任务与依赖",
+    "payload": {
+      "task_id": "5002ccba-9f88-4e31-a0a6-ed8c36e4eb84",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 412,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:13.903547+00:00",
+    "type": "task_started",
+    "message": "行业研究员：研究 行业：行业背景",
+    "payload": {
+      "task_id": "98ac6483-0a02-4b16-8c4e-070fe751591d",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 413,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:13.958606+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 森屿笔记（虚构）：定位、核心功能、近期变化、用户反馈、SSO",
+    "payload": {
+      "task_id": "f2841553-de61-4758-be4c-eef7d84ad9af",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 414,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.011122+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 桥塔知识（虚构）：定位、核心功能、近期变化、用户反馈、SSO",
+    "payload": {
+      "task_id": "9e1864d2-1dfe-4457-a0fa-67489ba799c6",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 415,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.727354+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\8c25aca7-df16-455a-b1de-08501213fb03\\a751decf-8026-49e8-b338-74efbe55b416.json",
+      "response_id": null,
+      "http_status": 400
+    }
+  },
+  {
+    "id": 416,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.732354+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 行业：行业背景",
+    "payload": {
+      "task_id": "98ac6483-0a02-4b16-8c4e-070fe751591d",
+      "error": "OpenRouter 请求失败（HTTP 400）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 417,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.740354+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 星河文库（虚构）：定位、核心功能、近期变化、用户反馈、SSO",
+    "payload": {
+      "task_id": "32e33c31-177a-4069-8b9e-ef3ec798ecbf",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 418,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.800376+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:桥塔知识（虚构）:0:定位,核心功能,近期变化,用户反馈,SSO:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\8c25aca7-df16-455a-b1de-08501213fb03\\b8684212-774e-4b10-81fb-1f8148349553.json",
+      "response_id": null,
+      "http_status": 400
+    }
+  },
+  {
+    "id": 419,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.805377+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 桥塔知识（虚构）：定位、核心功能、近期变化、用户反馈、SSO",
+    "payload": {
+      "task_id": "9e1864d2-1dfe-4457-a0fa-67489ba799c6",
+      "error": "OpenRouter 请求失败（HTTP 400）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 420,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.812377+00:00",
+    "type": "task_started",
+    "message": "商业分析员：研究 *：价格",
+    "payload": {
+      "task_id": "84180460-a0f1-4931-94f3-46c3935b7456",
+      "role": "commercial",
+      "round": 0
+    }
+  },
+  {
+    "id": 421,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.836405+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:森屿笔记（虚构）:0:定位,核心功能,近期变化,用户反馈,SSO:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\8c25aca7-df16-455a-b1de-08501213fb03\\b15d5070-f942-491e-aee0-72a6d5b29d43.json",
+      "response_id": null,
+      "http_status": 400
+    }
+  },
+  {
+    "id": 422,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:14.841408+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 森屿笔记（虚构）：定位、核心功能、近期变化、用户反馈、SSO",
+    "payload": {
+      "task_id": "f2841553-de61-4758-be4c-eef7d84ad9af",
+      "error": "OpenRouter 请求失败（HTTP 400）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 423,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:15.326095+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:0:定位,核心功能,近期变化,用户反馈,SSO:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\8c25aca7-df16-455a-b1de-08501213fb03\\109f1bd9-0705-4df5-864c-13539d972964.json",
+      "response_id": null,
+      "http_status": 400
+    }
+  },
+  {
+    "id": 424,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:15.331601+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 星河文库（虚构）：定位、核心功能、近期变化、用户反馈、SSO",
+    "payload": {
+      "task_id": "32e33c31-177a-4069-8b9e-ef3ec798ecbf",
+      "error": "OpenRouter 请求失败（HTTP 400）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 425,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:15.504410+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:价格:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\8c25aca7-df16-455a-b1de-08501213fb03\\ce16f9c9-6cfc-4f01-8c5a-2ba5a7bddabf.json",
+      "response_id": null,
+      "http_status": 400
+    }
+  },
+  {
+    "id": 426,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:15.510417+00:00",
+    "type": "task_failed",
+    "message": "任务暂停：研究 *：价格",
+    "payload": {
+      "task_id": "84180460-a0f1-4931-94f3-46c3935b7456",
+      "error": "OpenRouter 请求失败（HTTP 400）；请检查服务状态或账户额度。"
+    }
+  },
+  {
+    "id": 427,
+    "run_id": "8c25aca7-df16-455a-b1de-08501213fb03",
+    "created_at": "2026-10-02T11:05:15.518416+00:00",
+    "type": "failed",
+    "message": "ProviderError: OpenRouter 请求失败（HTTP 400）；请检查服务状态或账户额度。",
+    "payload": {}
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "project_id": "2ca85d82-853a-4fea-a082-e8091a21ea64",
+  "run_id": "98c5773c-813e-4ca8-9149-e034b8c310b1",
+  "report_id": null,
+  "mode": "live",
+  "public": false,
+  "architecture": "multi",
+  "status": "failed",
+  "error": "InvalidModelOutput: 模型输出未通过结构校验；保留任务供重试，没有静默改写结果。",
+  "seconds": 5.62,
+  "request_count": 1,
+  "spent_usd": 0.000136,
+  "reserved_usd": 0,
+  "tasks": 1,
+  "budget": {
+    "limit_usd": 10.0,
+    "spent_usd": 0.000136,
+    "reserved_usd": 0.00144,
+    "buckets": {
+      "development": {
+        "spent_usd": 0.000136,
+        "reserved_usd": 0.00144,
+        "limit_usd": 2.0
+      },
+      "evaluation": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 4.0
+      },
+      "web": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      },
+      "reserve": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      }
+    }
+  }
+}

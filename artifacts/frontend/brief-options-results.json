@@ -1,0 +1,27 @@
+[
+  {
+    "name": "isolated current-source API integration environment",
+    "status": "passed",
+    "base_url": "http://127.0.0.1:8799",
+    "database": "SQLite private test data",
+    "production_service_untouched": true,
+    "owned_test_process_stopped": true,
+    "model_api_key_removed": true
+  },
+  {
+    "name": "create public uploaded-only brief and persist custom timeframe",
+    "status": "passed"
+  },
+  {
+    "name": "edit existing brief keeps explicit setting and persists changes",
+    "status": "passed"
+  },
+  {
+    "name": "synthetic workspace hides web checkbox and submits false",
+    "status": "passed"
+  },
+  {
+    "name": "no browser errors and no research/model requests",
+    "status": "passed"
+  }
+]

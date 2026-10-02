@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-02T22:54:14.760669+00:00",
+  "health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "database": "postgresql",
+    "model_configured": true,
+    "single_user": true
+  },
+  "budget": {
+    "limit_usd": 10.0,
+    "spent_usd": 0.995933,
+    "reserved_usd": 0.113384,
+    "buckets": {
+      "development": {
+        "spent_usd": 0.071937,
+        "reserved_usd": 0.050708,
+        "limit_usd": 2.0
+      },
+      "evaluation": {
+        "spent_usd": 0.81415,
+        "reserved_usd": 0.034314,
+        "limit_usd": 4.0
+      },
+      "web": {
+        "spent_usd": 0.109846,
+        "reserved_usd": 0.028362,
+        "limit_usd": 2.0
+      },
+      "reserve": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      }
+    }
+  },
+  "incremental_confirmed_usd": 0.347977,
+  "tests": {
+    "backend_tests": 195,
+    "backend_failures": 0,
+    "frontend_tests": 21,
+    "browser_checks": 8,
+    "ruff": "passed",
+    "frontend_build": "passed"
+  },
+  "frozen_v5": "artifacts/evaluation-live-gemini-v5/summary.json",
+  "reliability_initial": "artifacts/reliability-live-v1/summary.json",
+  "protocol_initial": "artifacts/protocol-v6/review.json",
+  "editor_resume": "artifacts/protocol-v6/editor-resume-review.json",
+  "targeted_final": "artifacts/reliability-live-v2/semantic-review.json",
+  "exports": "artifacts/stability-export/validation.json",
+  "postgres_recovery": "artifacts/recovery/verification-1883c74eeb00.json",
+  "auxiliary_workers": "stopped",
+  "credential_pattern_scan": "passed",
+  "local_doc_links": "passed",
+  "visible_demo": {
+    "project_id": "322ede49-f688-4f64-b469-da28102d985d",
+    "report_id": "64b66c5c-e93b-4d93-9a27-42b6b340195b",
+    "mode": "live",
+    "synthetic": true
+  },
+  "files_sha256": {
+    "src/briefforge/engine.py": "d8297abbd985efe943da9a9828dac3a5e979de451ed2f106b7ab533d50c8273f",
+    "src/briefforge/provider.py": "81c32dd285ae5bc98f1c03000d455b31cdc3efff169ac6a83797daf64d8587b1",
+    "src/briefforge/collaboration.py": "0dd964a500b74474f96452848a4fdf32fb883671589c77da23bf766dd0d32085",
+    "src/briefforge/store.py": "90727a89329e2d0d6158bb75355e09646995e54412c68383e9cf560946b076a0",
+    "src/briefforge/exports.py": "2272d1c5dc23dae1cf49b4d7306c3fa486ae28dfd7e59646c18aa0dbdcff530f",
+    "src/briefforge/export_contract.py": "1160eb040fec3af0c9294358b2f9ee8d1328cf9fc1b6f93d3e3ec763477f5f5e",
+    "frontend/src/CollaborationImpact.tsx": "3d70ee0de69b28489d3be77cfd5903e76e6a4bd9133191aeb4fe8162f37c3a8b",
+    "docs/STABILITY_RESULTS.md": "01db58a9be8ec2008bb012849cdb8a61f85be296bef83329168e9be16cc158f9"
+  }
+}

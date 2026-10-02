@@ -1,0 +1,30 @@
+{
+  "protocol": "reliability-diagnostics-v1",
+  "label": "Targeted post-v4 development diagnostics, not an unseen test set.",
+  "scenarios": [
+    {
+      "id": "challenge-current-conflict",
+      "sources": 30,
+      "sources_sha256": "ab85d0d74d72101061ebe59318b2385716bf767c7039e3236ef3055d26ac8ee6",
+      "reference_sha256": "5d0ea4244ebda953f8e007aef2a011fb1bd7fe7d26e475c62341d717cbdecc28"
+    },
+    {
+      "id": "challenge-faq",
+      "sources": 30,
+      "sources_sha256": "6a19e88e8c0b34abdfd09cea11f495158915b7be67c49a8e30055f655b2af2cc",
+      "reference_sha256": "3193370730668efed8586539f2af66ec05e64501585d31caa33cc4219eaba9e0"
+    },
+    {
+      "id": "challenge-update-before",
+      "sources": 30,
+      "sources_sha256": "e0eaef7a2928f874ed47083dcc046483ca5974c2ff706f4d8271a4eaa0c56b01",
+      "reference_sha256": "9026d9ace3bdbdd9026e0d6e6e59a6e476ea42ab0b7f6e4741272873f92aa814"
+    },
+    {
+      "id": "challenge-update-after",
+      "sources": 30,
+      "sources_sha256": "30737909674e4467569a58e774fb22fb07bd815292ff94178fb467100422186e",
+      "reference_sha256": "f96b938e64366e4ab9091072dd7d42875abb69bd1b74bd7bb13fc0e388522629"
+    }
+  ]
+}

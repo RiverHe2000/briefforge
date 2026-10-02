@@ -1,0 +1,67 @@
+{
+  "verified_at": "2026-10-02T12:10:38.482351+00:00",
+  "url": "http://127.0.0.1:8788",
+  "health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "database": "postgresql",
+    "model_configured": true,
+    "single_user": true
+  },
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "120",
+    "time": "11.481",
+    "timestamp": "2026-10-02T22:05:51.252044+10:00",
+    "hostname": "DESKTOP-550AABJ"
+  },
+  "ruff": "passed",
+  "docker_compose": "config validation passed; container runtime not verified",
+  "final_benchmark_code_hashes_match": true,
+  "budget": {
+    "limit_usd": 10.0,
+    "spent_usd": 0.647956,
+    "reserved_usd": 0.113384,
+    "buckets": {
+      "development": {
+        "spent_usd": 0.043665,
+        "reserved_usd": 0.050708,
+        "limit_usd": 2.0
+      },
+      "evaluation": {
+        "spent_usd": 0.494445,
+        "reserved_usd": 0.034314,
+        "limit_usd": 4.0
+      },
+      "web": {
+        "spent_usd": 0.109846,
+        "reserved_usd": 0.028362,
+        "limit_usd": 2.0
+      },
+      "reserve": {
+        "spent_usd": 0.0,
+        "reserved_usd": 0.0,
+        "limit_usd": 2.0
+      }
+    }
+  },
+  "demo": {
+    "project_id": "cfa546c7-2861-45e5-badc-7f95eee7deb6",
+    "run_id": "12067f27-0db4-43f4-877b-c9173682f2e2",
+    "report_id": "56d36772-84b0-4784-abd7-5713e1961138",
+    "status": "completed",
+    "sources": 30,
+    "claims": 19,
+    "tasks": 11,
+    "followups": 1,
+    "model_requests": 0,
+    "spent_usd": 0
+  },
+  "active_research_runs_at_handoff": [],
+  "auxiliary_evaluation_workers": "stopped; ordinary application worker remains running",
+  "uploadable_materials_validation": "artifacts/demo-files-validation.json",
+  "secret_scan": "artifacts/secret-scan.json"
+}

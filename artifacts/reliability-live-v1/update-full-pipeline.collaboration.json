@@ -1,0 +1,508 @@
+{
+  "run_id": "69d115c7-b5ba-4982-b408-b89247a5b599",
+  "mode": "live",
+  "architecture": "pipeline",
+  "report_id": "730fe953-79bd-48cd-90ec-d4dc796d8273",
+  "history_available": true,
+  "metrics": {
+    "task_count": 8,
+    "completed_tasks": 8,
+    "followup_tasks": 0,
+    "changed_claims": 4,
+    "unresolved_claims": 1,
+    "reused_claims": null,
+    "recomputed_claims": null,
+    "reused_tasks": 0,
+    "peak_parallel_research": 1,
+    "overlap_seconds": 0.0,
+    "spent_usd": 0.006721,
+    "reserved_usd": 0,
+    "request_count": 7
+  },
+  "decisions": [
+    {
+      "id": "a75df9ab7dfbdc9f47d40377",
+      "event_id": 5365,
+      "action": "facts_normalized",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版价格为 USD 12/席位/月（按年付费，未含税），月付价格为 USD 16/席位/月。企业版价格需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 12/席位/月（按年付费，未含税），月付 USD 16/席位/月；企业版需单独询价。",
+        "conditions": [
+          "按年付费",
+          "未含税",
+          "月付",
+          "按席位计算",
+          "年度套餐按年收款"
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": []
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "f672c61e-d689-4a75-bed0-1fa3eb987615"
+      ],
+      "task_ids": [
+        "a87cd079-e8e2-49b9-a390-dbf15a21d67b"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "round": 0,
+      "created_at": "2026-10-02T22:30:32.169544+00:00",
+      "final_status": "supported"
+    },
+    {
+      "id": "5881fc5cf58cf256971837a1",
+      "event_id": 5366,
+      "action": "facts_normalized",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "桥塔知识（虚构）的团队版价格为 USD 18/席位/月（按年付费，未含税），月付价格为 USD 23/席位/月。企业版价格需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 18/席位/月（按年付费，未含税），月付 USD 23/席位/月；企业版需单独询价。",
+        "conditions": [
+          "按年付费",
+          "未含税",
+          "月付",
+          "按席位计算",
+          "年度套餐按年收款"
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": []
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "e9509b6f-787e-44e3-b412-8ce06b4f3082"
+      ],
+      "task_ids": [
+        "a87cd079-e8e2-49b9-a390-dbf15a21d67b"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "round": 0,
+      "created_at": "2026-10-02T22:30:32.170544+00:00",
+      "final_status": "supported"
+    },
+    {
+      "id": "7d8328cdb5219b0787eb73ce",
+      "event_id": 5367,
+      "action": "facts_normalized",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "before": {
+        "statement": "星河文库（虚构）的团队版价格为 USD 9/席位/月（按年付费，未含税），月付价格为 USD 12/席位/月。企业版价格需单独询价。",
+        "status": "supported",
+        "value": "团队版 USD 9/席位/月（按年付费，未含税），月付 USD 12/席位/月；企业版需单独询价。",
+        "conditions": [
+          "按年付费",
+          "未含税",
+          "月付",
+          "按席位计算",
+          "年度套餐按年收款"
+        ]
+      },
+      "after": {
+        "statement": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "status": "supported",
+        "value": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+        "conditions": []
+      },
+      "reason": "根据已引用定价原文整理报价事实，同步报价周期、付款条件与展示文本。",
+      "source_ids": [
+        "66085dc0-2f26-43a8-9325-943fdad0b182"
+      ],
+      "task_ids": [
+        "a87cd079-e8e2-49b9-a390-dbf15a21d67b"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "round": 0,
+      "created_at": "2026-10-02T22:30:32.172545+00:00",
+      "final_status": "supported"
+    },
+    {
+      "id": "1f4fad404ec5183976b82abd",
+      "event_id": 5377,
+      "action": "unknown_retained",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版和企业版自2026年10月1日起支持SAML SSO。",
+        "status": "supported",
+        "value": "团队版与企业版均支持 SAML SSO，自 2026-10-01 生效",
+        "conditions": []
+      },
+      "after": {
+        "statement": "SSO：当前资料存在冲突，无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "c468311e-079f-4334-8011-268f09447a9e"
+      ],
+      "task_ids": [
+        "d618ef63-ad32-4767-8879-628ca434ad18"
+      ],
+      "roles": [
+        "verifier"
+      ],
+      "round": 0,
+      "created_at": "2026-10-02T22:30:34.569319+00:00",
+      "final_status": "uncertain"
+    }
+  ],
+  "followups": [],
+  "tasks": [
+    {
+      "id": "4b5a5f0c-825a-4c3a-b162-81d58a1265ea",
+      "role": "coordinator",
+      "target": "*",
+      "title": "确认研究任务与依赖",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:11.056538+00:00",
+          "ended_at": "2026-10-02T22:30:11.059454+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "9f50e3d9-753f-4f7e-b0fb-873aac000d18",
+      "role": "industry",
+      "target": "行业",
+      "title": "研究 行业：行业背景",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [
+        "4b5a5f0c-825a-4c3a-b162-81d58a1265ea"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:11.080453+00:00",
+          "ended_at": "2026-10-02T22:30:12.638112+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "e7fd003b-4bcb-42f5-aa74-53ef76495665",
+      "role": "competitor",
+      "target": "森屿笔记（虚构）",
+      "title": "研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [
+        "4b5a5f0c-825a-4c3a-b162-81d58a1265ea"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:12.658111+00:00",
+          "ended_at": "2026-10-02T22:30:16.994072+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "4babcdc7-ea56-4973-87dd-fb06b81fcf99",
+      "role": "competitor",
+      "target": "桥塔知识（虚构）",
+      "title": "研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [
+        "4b5a5f0c-825a-4c3a-b162-81d58a1265ea"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:17.017087+00:00",
+          "ended_at": "2026-10-02T22:30:20.462332+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "96855979-d0da-4833-a639-4fdb87f94733",
+      "role": "competitor",
+      "target": "星河文库（虚构）",
+      "title": "研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [
+        "4b5a5f0c-825a-4c3a-b162-81d58a1265ea"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:20.482686+00:00",
+          "ended_at": "2026-10-02T22:30:24.342843+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "a87cd079-e8e2-49b9-a390-dbf15a21d67b",
+      "role": "commercial",
+      "target": "*",
+      "title": "研究 *：价格",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [
+        "4b5a5f0c-825a-4c3a-b162-81d58a1265ea"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:24.362944+00:00",
+          "ended_at": "2026-10-02T22:30:32.175544+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "d618ef63-ad32-4767-8879-628ca434ad18",
+      "role": "verifier",
+      "target": "*",
+      "title": "检查引用、日期、价格与矛盾",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:32.184544+00:00",
+          "ended_at": "2026-10-02T22:30:34.546321+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "b7126bc1-76f9-4deb-befc-df065e998c37",
+      "role": "editor",
+      "target": "*",
+      "title": "组织管理层报告与一致的导出内容",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:34.576290+00:00",
+          "ended_at": "2026-10-02T22:30:38.510386+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "0b61f7b5-3dfd-45f7-a065-eeac6c7b347b",
+      "title": "森屿笔记（虚构） 产品概览",
+      "url": null,
+      "published_at": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "f672c61e-d689-4a75-bed0-1fa3eb987615",
+      "title": "森屿笔记（虚构） 当前价格与付款周期",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "94e2385b-301b-4a16-8abf-7c0faaade09e",
+      "title": "森屿笔记（虚构） 九月更新记录",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "136247c2-8e7f-432d-9222-bf8bfc85fc7c",
+      "title": "森屿笔记（虚构） 合成用户体验记录",
+      "url": null,
+      "published_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "id": "0e9850f8-5270-49ef-be8b-99b3384ef882",
+      "title": "森屿笔记（虚构） 常见问题",
+      "url": null,
+      "published_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "06d5d59d-9b6b-4e48-b003-8df80861333d",
+      "title": "森屿笔记（虚构） 订阅与取消条款",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "1082671a-83f4-4a21-bc99-b0104896e23d",
+      "title": "森屿笔记（虚构） 功能介绍补充",
+      "url": null,
+      "published_at": "2026-09-12T00:00:00+00:00"
+    },
+    {
+      "id": "c8a5c7d6-6933-4c9e-80ce-ee98a3e37d03",
+      "title": "森屿笔记（虚构） 虚构客户应用故事",
+      "url": null,
+      "published_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "acc44793-c48e-40aa-aa0d-3eca9b4539f5",
+      "title": "森屿笔记（虚构） 三月存档说明",
+      "url": null,
+      "published_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "id": "ccc901ea-5b88-4c6e-8f50-3a96a3995ba5",
+      "title": "桥塔知识（虚构） 产品概览",
+      "url": null,
+      "published_at": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "e9509b6f-787e-44e3-b412-8ce06b4f3082",
+      "title": "桥塔知识（虚构） 当前价格与付款周期",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "185126bf-da9d-4df2-888b-2e58d7e9d402",
+      "title": "桥塔知识（虚构） 安全与登录说明",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "6dcae8ed-3074-490f-91b1-51e5c4b908c8",
+      "title": "桥塔知识（虚构） 九月更新记录",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "f69a23a9-f7d0-4e59-b963-38c8735157fa",
+      "title": "桥塔知识（虚构） 合成用户体验记录",
+      "url": null,
+      "published_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "id": "022ccf43-09b5-47cf-9dcb-3f65b0a10f83",
+      "title": "桥塔知识（虚构） 常见问题",
+      "url": null,
+      "published_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "0f48ec6a-d9ae-40a2-99a6-27231e8a0341",
+      "title": "桥塔知识（虚构） 订阅与取消条款",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "47476d18-8b39-4e91-9c43-90b887660718",
+      "title": "桥塔知识（虚构） 功能介绍补充",
+      "url": null,
+      "published_at": "2026-09-12T00:00:00+00:00"
+    },
+    {
+      "id": "a333266c-494e-408b-990c-4d93b2c5e1e0",
+      "title": "桥塔知识（虚构） 虚构客户应用故事",
+      "url": null,
+      "published_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "0937c001-242a-4d09-a37d-8038efd26374",
+      "title": "桥塔知识（虚构） 三月存档说明",
+      "url": null,
+      "published_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "id": "d0e55049-3c8a-4a84-a24e-2882eba39dc6",
+      "title": "星河文库（虚构） 产品概览",
+      "url": null,
+      "published_at": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "66085dc0-2f26-43a8-9325-943fdad0b182",
+      "title": "星河文库（虚构） 当前价格与付款周期",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "f139461b-9289-4446-b8d1-77210e6aae28",
+      "title": "星河文库（虚构） 安全与登录说明",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "fdbff6ff-3e23-45f4-8ec1-866edde013cd",
+      "title": "星河文库（虚构） 九月更新记录",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "c1f6c1fd-5d34-4847-ac37-bc5deaaf9203",
+      "title": "星河文库（虚构） 合成用户体验记录",
+      "url": null,
+      "published_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "id": "bba85052-3e38-41fc-90bf-9269879dd7fe",
+      "title": "星河文库（虚构） 常见问题",
+      "url": null,
+      "published_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "52464974-846c-425e-9830-12d983c9002a",
+      "title": "星河文库（虚构） 订阅与取消条款",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "9715af3f-1b2d-4bdc-95d2-9af699146603",
+      "title": "星河文库（虚构） 功能介绍补充",
+      "url": null,
+      "published_at": "2026-09-12T00:00:00+00:00"
+    },
+    {
+      "id": "f8ab6958-228b-4961-9d10-9823ed4c4256",
+      "title": "团队知识库行业需求访谈摘要（虚构）",
+      "url": null,
+      "published_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "8dd75323-70de-4886-9a49-5e553c5ed40b",
+      "title": "星河文库（虚构） 三月存档说明",
+      "url": null,
+      "published_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "id": "c468311e-079f-4334-8011-268f09447a9e",
+      "title": "森屿笔记（虚构） 十月安全与登录说明",
+      "url": null,
+      "published_at": "2026-10-01T00:00:00+00:00"
+    }
+  ],
+  "notes": [
+    "修订次数表示结论发生变化，不等于新增正确答案；请核对最终状态与原文。",
+    "并行重叠来自已结束研究任务的起止事件，不代表相对单 Agent 的节省时间。",
+    "此运行没有记录局部更新的复用计划；复用数量显示为未记录。"
+  ]
+}

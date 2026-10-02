@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "report_id": "461dfa00-bb82-41eb-a2d2-ac40a631981a",
+  "content_hash": "916a0538a8388d87c0aa2a33687f7c00105c6f1ab8a0993315dfe477ca8fb9d4",
+  "exporter_version": "2",
+  "model_calls": 0,
+  "frozen_report_facts_unchanged": true,
+  "word_ppt_manifests_identical": true,
+  "visible_slide_text_unchanged": true,
+  "word_pages": 9,
+  "slides": 10,
+  "original_slide7_text_overflows": 3,
+  "final_text_overflows": 0,
+  "all_19_pages_rendered": true,
+  "all_19_pages_visually_inspected": true,
+  "final_metadata_only_render_matches_inspected_geometry": [
+    {
+      "page": "slides\\Slide1.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide10.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide2.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide3.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide4.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide5.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide6.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide7.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide8.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "slides\\Slide9.PNG",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-1.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-2.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-3.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-4.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-5.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-6.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-7.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-8.png",
+      "same_as_visually_inspected_geometry": true
+    },
+    {
+      "page": "word\\page-9.png",
+      "same_as_visually_inspected_geometry": true
+    }
+  ],
+  "renderer": "Microsoft Word and PowerPoint COM hidden read-only",
+  "limitations": [
+    "Word is nine pages because findings continue onto a short seventh page; no clipping was found.",
+    "Visual validation covers this pilot report, not arbitrary future report lengths."
+  ],
+  "files": [
+    {
+      "path": "artifacts\\stability-export\\final\\briefforge-461dfa00-bb82-41eb-a2d2-ac40a631981a-v1.docx",
+      "sha256": "f6f2eda68cde619110a78a85285c403127895af1138207749d0e921fca9e5194"
+    },
+    {
+      "path": "artifacts\\stability-export\\final\\briefforge-461dfa00-bb82-41eb-a2d2-ac40a631981a-v1.pptx",
+      "sha256": "68ddc44411e505a44c2dbdf36186deb47295a1e72c8b6cda1bdfbbdb7f2c9abd"
+    }
+  ]
+}

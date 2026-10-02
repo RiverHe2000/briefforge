@@ -1,0 +1,43 @@
+[
+  {
+    "name": "load persisted workspace",
+    "status": "passed"
+  },
+  {
+    "name": "new synthetic demo and source inspection",
+    "status": "passed"
+  },
+  {
+    "name": "brief editing persists",
+    "status": "passed"
+  },
+  {
+    "name": "confirm outline and execute replay",
+    "status": "passed"
+  },
+  {
+    "name": "claim evidence links to exact frozen quote",
+    "status": "passed"
+  },
+  {
+    "name": "durable collaboration history",
+    "status": "passed"
+  },
+  {
+    "name": "revision creates immutable new version",
+    "status": "passed"
+  },
+  {
+    "name": "word and pptx exports reach downloadable state",
+    "status": "passed"
+  },
+  {
+    "name": "responsive mobile without page overflow",
+    "status": "passed"
+  },
+  {
+    "name": "browser runtime errors",
+    "status": "passed",
+    "errors": []
+  }
+]

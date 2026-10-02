@@ -1,0 +1,1120 @@
+{
+  "executive_summary": "森屿笔记（虚构）：企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。\n森屿笔记（虚构）：面向中小型咨询团队的项目知识与会议记录。\n森屿笔记（虚构）：文档协作、会议纪要关联、引用检索。\n桥塔知识（虚构）：桥塔知识（虚构）面向企业 IT 团队，提供权限治理与跨部门知识库服务。\n桥塔知识（虚构）：桥塔知识（虚构）的核心功能包括版本管理、权限分组和目录同步。\n桥塔知识（虚构）：桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，此功能自 2026 年 6 月 1 日起生效。\n星河文库（虚构）：星河文库（虚构）定位于面向创意团队的轻量文档与素材协作。 条件与说明：按年付费；未含税\n星河文库（虚构）：星河文库（虚构）的核心功能包括共享文档、素材索引和访客评论。",
+  "sections": [
+    {
+      "id": "section-1",
+      "heading": "森屿笔记（虚构）产品概述",
+      "body": "面向中小型咨询团队的项目知识与会议记录。\n\n文档协作、会议纪要关联、引用检索。\n\n一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。\n\n企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。\n\n森屿笔记（虚构）的团队版价格为 16 美元/席位/月，按月付费，不含税。未披露年付报价，企业版需单独询价。",
+      "claim_ids": [
+        "65dfcb10-bb5c-4f70-b02b-a1d7cddd62a6",
+        "9373065d-6574-4d49-9006-e83815967929",
+        "d2584347-2dd6-4d9c-b103-2c1d504a33a6",
+        "7fc2ca65-75a7-45e1-b9f7-3984eced7d85",
+        "9b0da338-fabb-49c6-bafc-a2fea711d8dc"
+      ]
+    },
+    {
+      "id": "section-2",
+      "heading": "桥塔知识（虚构）产品概述",
+      "body": "桥塔知识（虚构）面向企业 IT 团队，提供权限治理与跨部门知识库服务。\n\n桥塔知识（虚构）的核心功能包括版本管理、权限分组和目录同步。\n\n桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，此功能自 2026 年 6 月 1 日起生效。\n\n一位合成 IT 管理员反馈，桥塔知识（虚构）的权限分组功能便于核对，但配置步骤较多。 条件与说明：单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。\n\n桥塔知识（虚构）的团队版价格为 18 美元/席位/月，按年付费，不含税；月付价格为 23 美元/席位/月。企业版需单独询价。 条件与说明：按月付费",
+      "claim_ids": [
+        "25118d0a-e3dc-4a4c-9a1d-6e6934a55bb6",
+        "f1a2ec52-d06c-48ed-bb4e-22278962017a",
+        "bb8400e4-1f62-4d18-9366-bfeeef5014c2",
+        "174db7e2-0118-4b3a-9aa5-3f2a226c0fb1",
+        "4751ca76-eb57-4b6c-aa40-04232773fab0"
+      ]
+    },
+    {
+      "id": "section-3",
+      "heading": "星河文库（虚构）产品概述",
+      "body": "星河文库（虚构）定位于面向创意团队的轻量文档与素材协作。 条件与说明：按年付费；未含税\n\n星河文库（虚构）的核心功能包括共享文档、素材索引和访客评论。\n\n【待确认】星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。 条件与说明：历史资料显示星河文库（虚构）在2026年3月1日时未披露SAML SSO的支持情况。当前资料也显示未披露SAML SSO的支持情况，需要进一步向厂商确认。需要确认当前资料是否准确反映了最新的SSO支持情况，特别是团队版的具体情况。\n\n一名合成设计师反馈称，星河文库（虚构）的访客评论功能容易上手，但大型文件夹查找仍需改进。 条件与说明：单条合成体验，不代表用户总体\n\n星河文库（虚构）的团队版价格为 9 美元/席位/月，按年付费，不含税；月付价格为 12 美元/席位/月。企业版需单独询价。 条件与说明：按月付费",
+      "claim_ids": [
+        "8017162c-2ab7-4c12-8a9d-7918f5d3d4c0",
+        "30aa6a8c-63c2-4434-9f8c-7926b6d74133",
+        "a31998ee-4924-4fa4-86e6-f59d8f6b5e2a",
+        "cb31092c-0996-4f94-8f73-39ad92eb692d",
+        "a9336e3a-26e9-4b72-85cb-a0c0cfc82016"
+      ]
+    },
+    {
+      "id": "additional",
+      "heading": "补充证据与研究局限",
+      "body": "中小团队需要按项目组织分散文档，追溯信息来源，并明确成员访问权限。 条件与说明：虚构测试资料；2026-09-10\n\n更新文档检索结果的来源定位，并补充登录能力说明。企业版支持 SAML SSO，团队版不支持；自 2026年9月15日起生效。\n\n桥塔知识（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。\n\n星河文库（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。",
+      "claim_ids": [
+        "8e0a81a3-4b86-43b7-a66d-321905f0adad",
+        "0e69e196-557c-41de-9118-0be1b7515628",
+        "731fc4ec-2936-41f5-b280-6e24a257488d",
+        "879201f5-81f2-40e0-88c0-e3b218521638"
+      ]
+    },
+    {
+      "id": "opportunity-1",
+      "heading": "差异化机会 1（待验证假设）",
+      "body": "研究假设：森屿笔记（虚构）可针对其团队版用户，提供更简化的目录整理引导，以缩短用户初次使用时间。\n\n依据维度：森屿笔记（虚构） / 用户反馈\n\n验证方法：通过用户访谈，了解用户在初次整理目录时遇到的具体困难，并提供原型供用户测试。",
+      "claim_ids": [
+        "d2584347-2dd6-4d9c-b103-2c1d504a33a6"
+      ]
+    },
+    {
+      "id": "opportunity-2",
+      "heading": "差异化机会 2（待验证假设）",
+      "body": "研究假设：桥塔知识（虚构）可为团队版用户提供更简化的权限分组配置流程，以降低用户配置门槛。\n\n依据维度：桥塔知识（虚构） / 用户反馈\n\n验证方法：通过用户访谈，了解用户在配置权限分组时遇到的具体步骤障碍，并提供原型供用户测试。",
+      "claim_ids": [
+        "174db7e2-0118-4b3a-9aa5-3f2a226c0fb1"
+      ]
+    },
+    {
+      "id": "opportunity-3",
+      "heading": "差异化机会 3（待验证假设）",
+      "body": "研究假设：星河文库（虚构）可针对大型文件夹查找场景，优化查找体验，以提升用户满意度。\n\n依据维度：星河文库（虚构） / 用户反馈\n\n验证方法：通过用户访谈，了解用户在使用大型文件夹查找时的具体痛点，并提供原型供用户测试。",
+      "claim_ids": [
+        "cb31092c-0996-4f94-8f73-39ad92eb692d"
+      ]
+    },
+    {
+      "id": "decision",
+      "heading": "下一步决策与验证",
+      "body": "本报告按已取得的资料比较产品。可将目标客户、关键功能、完整采购成本和单点登录套餐作为访谈与试用清单；差异化机会仍需客户访谈验证。未披露信息不能视为产品不具备该能力。",
+      "claim_ids": []
+    }
+  ],
+  "comparison": [
+    {
+      "competitor": "森屿笔记（虚构）",
+      "positioning": "面向中小型咨询团队的项目知识与会议记录。",
+      "price": "森屿笔记（虚构）的团队版价格为 16 美元/席位/月，按月付费，不含税。未披露年付报价，企业版需单独询价。",
+      "sso": "企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。",
+      "conditions": [
+        "自 2026年9月15日起生效",
+        "按月付费",
+        "不含税"
+      ],
+      "claim_ids": [
+        "7fc2ca65-75a7-45e1-b9f7-3984eced7d85",
+        "65dfcb10-bb5c-4f70-b02b-a1d7cddd62a6",
+        "9373065d-6574-4d49-9006-e83815967929",
+        "d2584347-2dd6-4d9c-b103-2c1d504a33a6",
+        "0e69e196-557c-41de-9118-0be1b7515628",
+        "9b0da338-fabb-49c6-bafc-a2fea711d8dc"
+      ]
+    },
+    {
+      "competitor": "桥塔知识（虚构）",
+      "positioning": "桥塔知识（虚构）面向企业 IT 团队，提供权限治理与跨部门知识库服务。",
+      "price": "桥塔知识（虚构）的团队版价格为 18 美元/席位/月，按年付费，不含税；月付价格为 23 美元/席位/月。企业版需单独询价。",
+      "sso": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，此功能自 2026 年 6 月 1 日起生效。",
+      "conditions": [
+        "单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。",
+        "按年付费",
+        "按月付费",
+        "不含税"
+      ],
+      "claim_ids": [
+        "25118d0a-e3dc-4a4c-9a1d-6e6934a55bb6",
+        "f1a2ec52-d06c-48ed-bb4e-22278962017a",
+        "bb8400e4-1f62-4d18-9366-bfeeef5014c2",
+        "731fc4ec-2936-41f5-b280-6e24a257488d",
+        "174db7e2-0118-4b3a-9aa5-3f2a226c0fb1",
+        "4751ca76-eb57-4b6c-aa40-04232773fab0"
+      ]
+    },
+    {
+      "competitor": "星河文库（虚构）",
+      "positioning": "星河文库（虚构）定位于面向创意团队的轻量文档与素材协作。",
+      "price": "星河文库（虚构）的团队版价格为 9 美元/席位/月，按年付费，不含税；月付价格为 12 美元/席位/月。企业版需单独询价。",
+      "sso": "待确认：星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "conditions": [
+        "按年付费",
+        "未含税",
+        "历史资料显示星河文库（虚构）在2026年3月1日时未披露SAML SSO的支持情况。当前资料也显示未披露SAML SSO的支持情况，需要进一步向厂商确认。需要确认当前资料是否准确反映了最新的SSO支持情况，特别是团队版的具体情况。",
+        "单条合成体验，不代表用户总体",
+        "按月付费",
+        "不含税"
+      ],
+      "claim_ids": [
+        "8017162c-2ab7-4c12-8a9d-7918f5d3d4c0",
+        "30aa6a8c-63c2-4434-9f8c-7926b6d74133",
+        "a31998ee-4924-4fa4-86e6-f59d8f6b5e2a",
+        "879201f5-81f2-40e0-88c0-e3b218521638",
+        "cb31092c-0996-4f94-8f73-39ad92eb692d",
+        "a9336e3a-26e9-4b72-85cb-a0c0cfc82016"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "360aa510-b131-4305-a15c-34faac800422",
+          "quote": "中小团队需要把分散文档按项目组织、追溯信息来源，并明确成员的访问权限。",
+          "locator": "29-106"
+        }
+      ],
+      "value": "按项目组织文档、追溯信息来源、明确成员访问权限",
+      "conditions": [
+        "虚构测试资料",
+        "2026-09-10"
+      ],
+      "computation": null,
+      "subject": "行业",
+      "dimension": "行业背景",
+      "statement": "中小团队需要按项目组织分散文档，追溯信息来源，并明确成员访问权限。",
+      "source_ids": [
+        "360aa510-b131-4305-a15c-34faac800422"
+      ],
+      "dirty": false,
+      "id": "8e0a81a3-4b86-43b7-a66d-321905f0adad",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "92990f11-528a-48ed-9081-c8292fdc5903",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "2:0-2:45"
+        }
+      ],
+      "value": "企业版支持 SAML SSO，团队版不支持",
+      "conditions": [
+        "自 2026年9月15日起生效"
+      ],
+      "computation": null,
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "statement": "企业版支持 SAML SSO，团队版不支持，该功能自 2026年9月15日起生效。",
+      "source_ids": [
+        "92990f11-528a-48ed-9081-c8292fdc5903"
+      ],
+      "dirty": false,
+      "id": "7fc2ca65-75a7-45e1-b9f7-3984eced7d85",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "b257e0f5-9728-4670-af46-b7437597c5f7",
+          "quote": "定位：面向中小型咨询团队的项目知识与会议记录。",
+          "locator": "3:3-3:27"
+        }
+      ],
+      "value": "面向中小型咨询团队的项目知识与会议记录",
+      "conditions": [],
+      "computation": null,
+      "subject": "森屿笔记（虚构）",
+      "dimension": "定位",
+      "statement": "面向中小型咨询团队的项目知识与会议记录。",
+      "source_ids": [
+        "b257e0f5-9728-4670-af46-b7437597c5f7"
+      ],
+      "dirty": false,
+      "id": "65dfcb10-bb5c-4f70-b02b-a1d7cddd62a6",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "b257e0f5-9728-4670-af46-b7437597c5f7",
+          "quote": "核心功能：文档协作、会议纪要关联、引用检索。",
+          "locator": "4:3-4:25"
+        }
+      ],
+      "value": "文档协作、会议纪要关联、引用检索",
+      "conditions": [],
+      "computation": null,
+      "subject": "森屿笔记（虚构）",
+      "dimension": "核心功能",
+      "statement": "文档协作、会议纪要关联、引用检索。",
+      "source_ids": [
+        "b257e0f5-9728-4670-af46-b7437597c5f7"
+      ],
+      "dirty": false,
+      "id": "9373065d-6574-4d49-9006-e83815967929",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "a9d6b432-722f-4034-8538-7f6480b1581b",
+          "quote": "一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。",
+          "locator": "3:0-3:31"
+        }
+      ],
+      "value": "会议记录能连接项目文档，但初次整理目录需要时间",
+      "conditions": [],
+      "computation": null,
+      "subject": "森屿笔记（虚构）",
+      "dimension": "用户反馈",
+      "statement": "一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。",
+      "source_ids": [
+        "a9d6b432-722f-4034-8538-7f6480b1581b"
+      ],
+      "dirty": false,
+      "id": "d2584347-2dd6-4d9c-b103-2c1d504a33a6",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "dfc674d9-dce6-41e0-9954-010bbec381dd",
+          "quote": "更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。",
+          "locator": "2:0-4:15"
+        }
+      ],
+      "value": "更新文档检索结果的来源定位，并补充登录能力说明。企业版支持 SAML SSO，团队版不支持",
+      "conditions": [
+        "自 2026年9月15日起生效"
+      ],
+      "computation": null,
+      "subject": "森屿笔记（虚构）",
+      "dimension": "近期变化",
+      "statement": "更新文档检索结果的来源定位，并补充登录能力说明。企业版支持 SAML SSO，团队版不支持；自 2026年9月15日起生效。",
+      "source_ids": [
+        "dfc674d9-dce6-41e0-9954-010bbec381dd"
+      ],
+      "dirty": false,
+      "id": "0e69e196-557c-41de-9118-0be1b7515628",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "82dea6c1-22f3-431a-b9a6-cd6f2c873dbd",
+          "quote": "定位：面向企业 IT 团队的权限治理与跨部门知识库。",
+          "locator": "22"
+        }
+      ],
+      "value": "面向企业 IT 团队的权限治理与跨部门知识库",
+      "conditions": [],
+      "computation": null,
+      "subject": "桥塔知识（虚构）",
+      "dimension": "定位",
+      "statement": "桥塔知识（虚构）面向企业 IT 团队，提供权限治理与跨部门知识库服务。",
+      "source_ids": [
+        "82dea6c1-22f3-431a-b9a6-cd6f2c873dbd"
+      ],
+      "dirty": false,
+      "id": "25118d0a-e3dc-4a4c-9a1d-6e6934a55bb6",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "82dea6c1-22f3-431a-b9a6-cd6f2c873dbd",
+          "quote": "核心功能：版本管理、权限分组、目录同步。",
+          "locator": "29"
+        }
+      ],
+      "value": "版本管理、权限分组、目录同步",
+      "conditions": [],
+      "computation": null,
+      "subject": "桥塔知识（虚构）",
+      "dimension": "核心功能",
+      "statement": "桥塔知识（虚构）的核心功能包括版本管理、权限分组和目录同步。",
+      "source_ids": [
+        "82dea6c1-22f3-431a-b9a6-cd6f2c873dbd"
+      ],
+      "dirty": false,
+      "id": "f1a2ec52-d06c-48ed-bb4e-22278962017a",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "16bb9b5e-c785-4827-8b0e-2b9d6cda63ce",
+          "quote": "SSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。",
+          "locator": "19"
+        }
+      ],
+      "value": "企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效",
+      "conditions": [],
+      "computation": null,
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "statement": "桥塔知识（虚构）的企业版支持 SAML SSO，团队版不支持，此功能自 2026 年 6 月 1 日起生效。",
+      "source_ids": [
+        "16bb9b5e-c785-4827-8b0e-2b9d6cda63ce"
+      ],
+      "dirty": false,
+      "id": "bb8400e4-1f62-4d18-9366-bfeeef5014c2",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "82ba0fbc-80bc-4a24-9220-77358f102a1e",
+          "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。",
+          "locator": "19"
+        }
+      ],
+      "value": "更新文档检索结果的来源定位，并补充登录能力说明",
+      "conditions": [],
+      "computation": null,
+      "subject": "桥塔知识（虚构）",
+      "dimension": "近期变化",
+      "statement": "桥塔知识（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。",
+      "source_ids": [
+        "82ba0fbc-80bc-4a24-9220-77358f102a1e"
+      ],
+      "dirty": false,
+      "id": "731fc4ec-2936-41f5-b280-6e24a257488d",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "29c23350-c997-4c2a-9176-62e0e957ff2a",
+          "quote": "用户反馈：一名合成 IT 管理员表示，权限分组便于核对，配置步骤较多。",
+          "locator": "19"
+        }
+      ],
+      "value": "权限分组便于核对，配置步骤较多",
+      "conditions": [
+        "单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。"
+      ],
+      "computation": null,
+      "subject": "桥塔知识（虚构）",
+      "dimension": "用户反馈",
+      "statement": "一位合成 IT 管理员反馈，桥塔知识（虚构）的权限分组功能便于核对，但配置步骤较多。",
+      "source_ids": [
+        "29c23350-c997-4c2a-9176-62e0e957ff2a"
+      ],
+      "dirty": false,
+      "id": "174db7e2-0118-4b3a-9aa5-3f2a226c0fb1",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "64937be7-caf8-4a59-b881-56483bb9e85b",
+          "quote": "定位：面向创意团队的轻量文档与素材协作。",
+          "locator": "144"
+        }
+      ],
+      "value": "面向创意团队的轻量文档与素材协作",
+      "conditions": [
+        "按年付费",
+        "未含税"
+      ],
+      "computation": null,
+      "subject": "星河文库（虚构）",
+      "dimension": "定位",
+      "statement": "星河文库（虚构）定位于面向创意团队的轻量文档与素材协作。",
+      "source_ids": [
+        "64937be7-caf8-4a59-b881-56483bb9e85b"
+      ],
+      "dirty": false,
+      "id": "8017162c-2ab7-4c12-8a9d-7918f5d3d4c0",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "64937be7-caf8-4a59-b881-56483bb9e85b",
+          "quote": "核心功能：共享文档、素材索引、访客评论。",
+          "locator": "144"
+        },
+        {
+          "source_id": "96ea0bd0-2995-487d-940c-8e7e6b6c5c94",
+          "quote": "核心功能：共享文档、素材索引、访客评论。",
+          "locator": "144"
+        }
+      ],
+      "value": "共享文档、素材索引、访客评论",
+      "conditions": [],
+      "computation": null,
+      "subject": "星河文库（虚构）",
+      "dimension": "核心功能",
+      "statement": "星河文库（虚构）的核心功能包括共享文档、素材索引和访客评论。",
+      "source_ids": [
+        "64937be7-caf8-4a59-b881-56483bb9e85b",
+        "96ea0bd0-2995-487d-940c-8e7e6b6c5c94"
+      ],
+      "dirty": false,
+      "id": "30aa6a8c-63c2-4434-9f8c-7926b6d74133",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "uncertain",
+      "evidence": [
+        {
+          "source_id": "3e9d5d2b-46e8-46a6-afde-619a89347717",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "locator": "141"
+        },
+        {
+          "source_id": "21be18fd-e945-44e3-8d07-f910a1030afb",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "locator": "149"
+        }
+      ],
+      "value": "未披露 SAML SSO 的支持情况",
+      "conditions": [
+        "历史资料显示星河文库（虚构）在2026年3月1日时未披露SAML SSO的支持情况。当前资料也显示未披露SAML SSO的支持情况，需要进一步向厂商确认。需要确认当前资料是否准确反映了最新的SSO支持情况，特别是团队版的具体情况。"
+      ],
+      "computation": null,
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "statement": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "source_ids": [
+        "3e9d5d2b-46e8-46a6-afde-619a89347717",
+        "21be18fd-e945-44e3-8d07-f910a1030afb"
+      ],
+      "dirty": false,
+      "id": "a31998ee-4924-4fa4-86e6-f59d8f6b5e2a",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "21be18fd-e945-44e3-8d07-f910a1030afb",
+          "quote": "近期变化：更新文档检索结果的来源定位，并补充登录能力说明。",
+          "locator": "149"
+        }
+      ],
+      "value": "更新文档检索结果的来源定位，并补充登录能力说明",
+      "conditions": [],
+      "computation": null,
+      "subject": "星河文库（虚构）",
+      "dimension": "近期变化",
+      "statement": "星河文库（虚构）近期更新了文档检索结果的来源定位，并补充了登录能力说明。",
+      "source_ids": [
+        "21be18fd-e945-44e3-8d07-f910a1030afb"
+      ],
+      "dirty": false,
+      "id": "879201f5-81f2-40e0-88c0-e3b218521638",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "b2a85c3f-c217-4288-943d-b807a939f9d3",
+          "quote": "用户反馈：一名合成设计师表示，访客评论容易上手，大型文件夹查找仍需改进。",
+          "locator": "139"
+        }
+      ],
+      "value": "访客评论容易上手，大型文件夹查找仍需改进",
+      "conditions": [
+        "单条合成体验，不代表用户总体"
+      ],
+      "computation": null,
+      "subject": "星河文库（虚构）",
+      "dimension": "用户反馈",
+      "statement": "一名合成设计师反馈称，星河文库（虚构）的访客评论功能容易上手，但大型文件夹查找仍需改进。",
+      "source_ids": [
+        "b2a85c3f-c217-4288-943d-b807a939f9d3"
+      ],
+      "dirty": false,
+      "id": "cb31092c-0996-4f94-8f73-39ad92eb692d",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "74ebebf2-3a8d-4541-b9ba-cca2458728bb",
+          "quote": "价格：团队版 USD 16/席位/月，按月付费，未含税；当前未披露年付报价。企业版需单独询价。",
+          "locator": "1:3-1:46"
+        }
+      ],
+      "value": "16 USD/席位/月",
+      "conditions": [
+        "按月付费",
+        "不含税"
+      ],
+      "computation": null,
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "statement": "森屿笔记（虚构）的团队版价格为 16 美元/席位/月，按月付费，不含税。未披露年付报价，企业版需单独询价。",
+      "source_ids": [
+        "74ebebf2-3a8d-4541-b9ba-cca2458728bb"
+      ],
+      "dirty": false,
+      "id": "9b0da338-fabb-49c6-bafc-a2fea711d8dc",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "be0f6189-dcc3-4d8c-b000-9cdffdc78f4e",
+          "quote": "价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。",
+          "locator": "1:3-1:37"
+        }
+      ],
+      "value": "18 USD/席位/月 (按年付费), 23 USD/席位/月 (按月付费)",
+      "conditions": [
+        "按年付费",
+        "按月付费",
+        "不含税"
+      ],
+      "computation": null,
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "statement": "桥塔知识（虚构）的团队版价格为 18 美元/席位/月，按年付费，不含税；月付价格为 23 美元/席位/月。企业版需单独询价。",
+      "source_ids": [
+        "be0f6189-dcc3-4d8c-b000-9cdffdc78f4e"
+      ],
+      "dirty": false,
+      "id": "4751ca76-eb57-4b6c-aa40-04232773fab0",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    },
+    {
+      "status": "supported",
+      "evidence": [
+        {
+          "source_id": "ea0f5cf0-1815-4b03-9879-fd45630f2fc4",
+          "quote": "价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。",
+          "locator": "1:3-1:35"
+        }
+      ],
+      "value": "9 USD/席位/月 (按年付费), 12 USD/席位/月 (按月付费)",
+      "conditions": [
+        "按年付费",
+        "按月付费",
+        "不含税"
+      ],
+      "computation": null,
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "statement": "星河文库（虚构）的团队版价格为 9 美元/席位/月，按年付费，不含税；月付价格为 12 美元/席位/月。企业版需单独询价。",
+      "source_ids": [
+        "ea0f5cf0-1815-4b03-9879-fd45630f2fc4"
+      ],
+      "dirty": false,
+      "id": "a9336e3a-26e9-4b72-85cb-a0c0cfc82016",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b"
+    }
+  ],
+  "sources": [
+    {
+      "logical_key": "senyu-product",
+      "title": "森屿笔记（虚构） 产品概览",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "product",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-01\n\n定位：面向中小型咨询团队的项目知识与会议记录。\n核心功能：文档协作、会议纪要关联、引用检索。\n本页介绍产品的目标场景。是否适合具体团队仍需试用，产品描述不构成效率提升证据。",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "b257e0f5-9728-4670-af46-b7437597c5f7",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.017787+00:00",
+      "version": 1,
+      "sha256": "2c6eb62405825461b677adf6d4b2ac1b5af50a66c55e6f618189a12f07ce9f58",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-pricing",
+      "title": "森屿笔记（虚构） 当前价格与付款周期",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "pricing",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n价格：团队版 USD 16/席位/月，按月付费，未含税；当前未披露年付报价。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "74ebebf2-3a8d-4541-b9ba-cca2458728bb",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.020786+00:00",
+      "version": 1,
+      "sha256": "2b5b21b3112fc3a3c3fd52c27b76a8fb9aa3a867383d64166aacbca991e84195",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-security",
+      "title": "森屿笔记（虚构） 安全与登录说明",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "security",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。\n权限说明：管理员能够管理成员加入和离开。此处没有给出安全认证、审计结论或跨境合规承诺。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "92990f11-528a-48ed-9081-c8292fdc5903",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.024786+00:00",
+      "version": 1,
+      "sha256": "747086effc357f0f0eb9b526d978fec5e206a110df14bcafd258787399e56cce",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-release",
+      "title": "森屿笔记（虚构） 九月更新记录",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "release",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-09-15 生效。\n现有用户应参照自己订购的套餐确认适用功能。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "dfc674d9-dce6-41e0-9954-010bbec381dd",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.027786+00:00",
+      "version": 1,
+      "sha256": "a69a0a84ef43fbc4752ed1fc08414d88a04d0ada007c12c340b6dbea12af66ba",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-feedback",
+      "title": "森屿笔记（虚构） 合成用户体验记录",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "feedback",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-20\n\n用户反馈：一名合成咨询团队用户表示，会议记录能连接项目文档，但初次整理目录需要时间。\n记录范围：单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。",
+      "published_at": "2026-09-20T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "a9d6b432-722f-4034-8538-7f6480b1581b",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.031786+00:00",
+      "version": 1,
+      "sha256": "afd9eacee9f6ddea1ada349fa14a5ed52290ec07db9327430f9c37d60cd20b22",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-faq",
+      "title": "森屿笔记（虚构） 常见问题",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "faq",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-18\n\n核心功能：文档协作、会议纪要关联、引用检索。\n问：是否有公开 API 限流数字？答：本资料未披露。\n问：能否据产品页确定集成一定适配？答：需要实际验证权限与数据格式。",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "8d552bbd-83fa-45fe-ab93-a13737fd106a",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.035786+00:00",
+      "version": 1,
+      "sha256": "0082d8c5ce20fd5b3b12576c1ac7fabfa696a8832dbd57e981a725fb804bd5d1",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-terms",
+      "title": "森屿笔记（虚构） 订阅与取消条款",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "terms",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n订阅条件：未含税金额与最终含税账单不同。企业采购需确认合同价格与最少席位，当前没有统一披露。\n退款说明：已开始的订阅周期是否退款应依据实际合同，本资料没有通用承诺。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "c9bc9a0b-d52a-4a2f-94a9-8c3c570c28ed",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.039785+00:00",
+      "version": 1,
+      "sha256": "b191297ef72fb09e6bc823e763c413505ffed658abfb5bafcd61e8656c2ddb9b",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-comparison",
+      "title": "森屿笔记（虚构） 功能介绍补充",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "comparison",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-12\n\n定位：面向中小型咨询团队的项目知识与会议记录。\n比较边界：共享文档与权限分组属于功能描述，不能直接推断检索准确率。没有提供跨厂商共同测试条件。",
+      "published_at": "2026-09-12T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "56f21baa-8815-410b-ace6-0c6c5205db43",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.042786+00:00",
+      "version": 1,
+      "sha256": "b0f1a03322e1ae768061d1d77ed1deb96733490bb72a9babf78791198500cefc",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-case_study",
+      "title": "森屿笔记（虚构） 虚构客户应用故事",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "case_study",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-10\n\n应用场景：一个虚构团队把分散资料整理进项目目录，指定资料维护人。\n效果说明：故事没有对照组、样本统计或经过测量的节省时间，不含可推广的效率结论。",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "e49bbf82-2142-46db-8874-ed10f1c2fbec",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.046785+00:00",
+      "version": 1,
+      "sha256": "b408d2b16532ce24f030cf112f142eb707a554b4c81db19fd1664795dd471d0a",
+      "active": true
+    },
+    {
+      "logical_key": "senyu-archive",
+      "title": "森屿笔记（虚构） 三月存档说明",
+      "competitor": "森屿笔记（虚构）",
+      "kind": "archive",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-03-01\n\n存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。\nSSO：当前所有套餐均不支持 SAML SSO。\n价格：本存档页不列当前报价。",
+      "published_at": "2026-03-01T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "14711e44-696a-4e01-bf8b-62d7fc0360aa",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.050786+00:00",
+      "version": 1,
+      "sha256": "fd8e50d17ea3789b25afaeb98acd05c0d5a05b2f4462fb907c855fad38f75c94",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-product",
+      "title": "桥塔知识（虚构） 产品概览",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "product",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-01\n\n定位：面向企业 IT 团队的权限治理与跨部门知识库。\n核心功能：版本管理、权限分组、目录同步。\n本页介绍产品的目标场景。是否适合具体团队仍需试用，产品描述不构成效率提升证据。",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "82dea6c1-22f3-431a-b9a6-cd6f2c873dbd",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.053786+00:00",
+      "version": 1,
+      "sha256": "a760daeed64f9764c08be0d4091eb639bd4acb16e7a396fa46b9318ecc3e77b2",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-pricing",
+      "title": "桥塔知识（虚构） 当前价格与付款周期",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "pricing",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n价格：团队版 USD 18/席位/月，按年付费，未含税；月付为 USD 23/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "be0f6189-dcc3-4d8c-b000-9cdffdc78f4e",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.057786+00:00",
+      "version": 1,
+      "sha256": "193fa1ccbadb4f790ea1c0dc8ee108378d5e6bcd75454afa353052a617e97e01",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-security",
+      "title": "桥塔知识（虚构） 安全与登录说明",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "security",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。\n权限说明：管理员能够管理成员加入和离开。此处没有给出安全认证、审计结论或跨境合规承诺。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "16bb9b5e-c785-4827-8b0e-2b9d6cda63ce",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.060785+00:00",
+      "version": 1,
+      "sha256": "e7aa136700b1498d15be90675a2bdf897fca3b3b7275c3fa4f7f5c1036823afb",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-release",
+      "title": "桥塔知识（虚构） 九月更新记录",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "release",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。\n现有用户应参照自己订购的套餐确认适用功能。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "82ba0fbc-80bc-4a24-9220-77358f102a1e",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.064785+00:00",
+      "version": 1,
+      "sha256": "baf92f99994d15c511795f16cb0d0620a6fba0d5032b149eb764d24cc9848fe6",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-feedback",
+      "title": "桥塔知识（虚构） 合成用户体验记录",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "feedback",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-20\n\n用户反馈：一名合成 IT 管理员表示，权限分组便于核对，配置步骤较多。\n记录范围：单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。",
+      "published_at": "2026-09-20T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "29c23350-c997-4c2a-9176-62e0e957ff2a",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.068786+00:00",
+      "version": 1,
+      "sha256": "63cb7434e5fc0f911f00b45d7a665525803cdc3b8b72dd3424e240e470c350d3",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-faq",
+      "title": "桥塔知识（虚构） 常见问题",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "faq",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-18\n\n核心功能：版本管理、权限分组、目录同步。\n问：是否有公开 API 限流数字？答：本资料未披露。\n问：能否据产品页确定集成一定适配？答：需要实际验证权限与数据格式。",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "dc967024-d4d5-4b9a-89ab-6347173338e7",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.071786+00:00",
+      "version": 1,
+      "sha256": "05a3c07a6e540f643132be784705544d8ff5096a80fdb5bb6f0817ab69fa34cf",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-terms",
+      "title": "桥塔知识（虚构） 订阅与取消条款",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "terms",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n订阅条件：未含税金额与最终含税账单不同。企业采购需确认合同价格与最少席位，当前没有统一披露。\n退款说明：已开始的订阅周期是否退款应依据实际合同，本资料没有通用承诺。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "c5e9cf54-03d6-4a8c-80e1-a78497233b72",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.075786+00:00",
+      "version": 1,
+      "sha256": "b191297ef72fb09e6bc823e763c413505ffed658abfb5bafcd61e8656c2ddb9b",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-comparison",
+      "title": "桥塔知识（虚构） 功能介绍补充",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "comparison",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-12\n\n定位：面向企业 IT 团队的权限治理与跨部门知识库。\n比较边界：共享文档与权限分组属于功能描述，不能直接推断检索准确率。没有提供跨厂商共同测试条件。",
+      "published_at": "2026-09-12T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "5cca52d6-23cd-45c6-9ca1-ef3cc010437c",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.079786+00:00",
+      "version": 1,
+      "sha256": "f7cd3892535363f44635aa46f8115bafa7641a43ae4d06cc4626429649d21677",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-case_study",
+      "title": "桥塔知识（虚构） 虚构客户应用故事",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "case_study",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-10\n\n应用场景：一个虚构团队把分散资料整理进项目目录，指定资料维护人。\n效果说明：故事没有对照组、样本统计或经过测量的节省时间，不含可推广的效率结论。",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "46f86eeb-80d8-440d-843b-56de2952ece2",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.082786+00:00",
+      "version": 1,
+      "sha256": "b408d2b16532ce24f030cf112f142eb707a554b4c81db19fd1664795dd471d0a",
+      "active": true
+    },
+    {
+      "logical_key": "qiaota-archive",
+      "title": "桥塔知识（虚构） 三月存档说明",
+      "competitor": "桥塔知识（虚构）",
+      "kind": "archive",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-03-01\n\n存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。\nSSO：企业版支持 SAML SSO，团队版不支持；自 2026-06-01 生效。\n价格：本存档页不列当前报价。",
+      "published_at": "2026-03-01T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "124bab10-68a1-4d73-9bf8-3b31f60cb686",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.086785+00:00",
+      "version": 1,
+      "sha256": "a10255e3d3c901176c1248d90373b5da7553b60d59d4d62a5f4097525864ff08",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-product",
+      "title": "星河文库（虚构） 产品概览",
+      "competitor": "星河文库（虚构）",
+      "kind": "product",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-01\n\n定位：面向创意团队的轻量文档与素材协作。\n核心功能：共享文档、素材索引、访客评论。\n本页介绍产品的目标场景。是否适合具体团队仍需试用，产品描述不构成效率提升证据。",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "64937be7-caf8-4a59-b881-56483bb9e85b",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.089786+00:00",
+      "version": 1,
+      "sha256": "afc2940e12178ee6ec49ed5b7e0b306efe0f42aad32799c24def4c6487a6e1a1",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-pricing",
+      "title": "星河文库（虚构） 当前价格与付款周期",
+      "competitor": "星河文库（虚构）",
+      "kind": "pricing",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n价格：团队版 USD 9/席位/月，按年付费，未含税；月付为 USD 12/席位/月。企业版需单独询价。\n计费说明：报价按有效席位计算，币种以本页标注为准。年度套餐按年收款，月均价格不等于按月结算。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "ea0f5cf0-1815-4b03-9879-fd45630f2fc4",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.093788+00:00",
+      "version": 1,
+      "sha256": "3bae548524f42577c042a228c276eed4bc5ce651082ad529cc1696f1d8e2b965",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-security",
+      "title": "星河文库（虚构） 安全与登录说明",
+      "competitor": "星河文库（虚构）",
+      "kind": "security",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\nSSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。\n权限说明：管理员能够管理成员加入和离开。此处没有给出安全认证、审计结论或跨境合规承诺。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "3e9d5d2b-46e8-46a6-afde-619a89347717",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.096785+00:00",
+      "version": 1,
+      "sha256": "d038b01426f254218d6aaeb3fd97ab26d3feb53f4d6128084ab8249819e05234",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-release",
+      "title": "星河文库（虚构） 九月更新记录",
+      "competitor": "星河文库（虚构）",
+      "kind": "release",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n近期变化：更新文档检索结果的来源定位，并补充登录能力说明。\nSSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。\n现有用户应参照自己订购的套餐确认适用功能。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "21be18fd-e945-44e3-8d07-f910a1030afb",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.100785+00:00",
+      "version": 1,
+      "sha256": "164f3912388cbaa37aa1b4f91d4a1f268f5a9928ebca5c00984dc44426710910",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-feedback",
+      "title": "星河文库（虚构） 合成用户体验记录",
+      "competitor": "星河文库（虚构）",
+      "kind": "feedback",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-20\n\n用户反馈：一名合成设计师表示，访客评论容易上手，大型文件夹查找仍需改进。\n记录范围：单条合成体验，不代表用户总体，不可据此估算满意度、留存率或市场份额。",
+      "published_at": "2026-09-20T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "b2a85c3f-c217-4288-943d-b807a939f9d3",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.104786+00:00",
+      "version": 1,
+      "sha256": "2b9c177b35ea56a8b021a683df2f879fa186b865e70db1c106b8edb598d173bc",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-faq",
+      "title": "星河文库（虚构） 常见问题",
+      "competitor": "星河文库（虚构）",
+      "kind": "faq",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-18\n\n核心功能：共享文档、素材索引、访客评论。\n问：是否有公开 API 限流数字？答：本资料未披露。\n问：能否据产品页确定集成一定适配？答：需要实际验证权限与数据格式。",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "96ea0bd0-2995-487d-940c-8e7e6b6c5c94",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.108785+00:00",
+      "version": 1,
+      "sha256": "1398915b1f107fe61c186d32116b9af37fd8d34be7ca816749a91c5bcecda3e5",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-terms",
+      "title": "星河文库（虚构） 订阅与取消条款",
+      "competitor": "星河文库（虚构）",
+      "kind": "terms",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-15\n\n订阅条件：未含税金额与最终含税账单不同。企业采购需确认合同价格与最少席位，当前没有统一披露。\n退款说明：已开始的订阅周期是否退款应依据实际合同，本资料没有通用承诺。",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "7d2ed128-a683-4b5b-b284-ce90c1454bbb",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.111787+00:00",
+      "version": 1,
+      "sha256": "b191297ef72fb09e6bc823e763c413505ffed658abfb5bafcd61e8656c2ddb9b",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-comparison",
+      "title": "星河文库（虚构） 功能介绍补充",
+      "competitor": "星河文库（虚构）",
+      "kind": "comparison",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-12\n\n定位：面向创意团队的轻量文档与素材协作。\n比较边界：共享文档与权限分组属于功能描述，不能直接推断检索准确率。没有提供跨厂商共同测试条件。",
+      "published_at": "2026-09-12T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "06d50f0b-4832-46bd-89a2-6e0052e6b586",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.115786+00:00",
+      "version": 1,
+      "sha256": "9e3e00743c8d455df66f05b81d481ca92a1622ee049780f484b8d0a2ecf0ecb5",
+      "active": true
+    },
+    {
+      "logical_key": "industry-context",
+      "title": "团队知识库行业需求访谈摘要（虚构）",
+      "competitor": "",
+      "kind": "industry",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-09-10\n\n行业背景：合成访谈中的中小团队需要把分散文档按项目组织、追溯信息来源，并明确成员的访问权限。\n研究边界：本摘要来自虚构访谈情境，只说明演示需求，没有真实市场规模、增长率、抽样统计或生产率测量。\n比较原则：同一功能名称不保证同样的实际体验，功能是否适用还取决于套餐、集成与管理流程。",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "360aa510-b131-4305-a15c-34faac800422",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.119789+00:00",
+      "version": 1,
+      "sha256": "8be760fecc6d9f2a669bc082894f1adf6625cc19b8529e5f78b7550407d9817b",
+      "active": true
+    },
+    {
+      "logical_key": "xinghe-archive",
+      "title": "星河文库（虚构） 三月存档说明",
+      "competitor": "星河文库（虚构）",
+      "kind": "archive",
+      "text": "虚构测试资料：本文件中的厂商、产品、价格、客户及市场描述均为合成示例，不对应真实商业信息。\n资料日期：2026-03-01\n\n存档提示：本页保留 2026-03-01 时的产品说明，当前能力请查阅后续资料。\nSSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。\n价格：本存档页不列当前报价。",
+      "published_at": "2026-03-01T00:00:00+00:00",
+      "url": null,
+      "synthetic": true,
+      "id": "11248a1a-26de-43ea-a04f-dd8300e98e4c",
+      "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+      "retrieved_at": "2026-10-02T11:52:04.123788+00:00",
+      "version": 1,
+      "sha256": "66bfb283073793b8030f16e976f532d392a376900d8984fcb1dd39044b9ca7e7",
+      "active": true
+    }
+  ],
+  "unresolved": [
+    "星河文库（虚构） / SSO：历史资料显示星河文库（虚构）在2026年3月1日时未披露SAML SSO的支持情况。当前资料也显示未披露SAML SSO的支持情况，需要进一步向厂商确认。需要确认当前资料是否准确反映了最新的SSO支持情况，特别是团队版的具体情况。",
+    "星河文库（虚构） / SSO：星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。"
+  ],
+  "changes": [],
+  "title": "团队知识库 SaaS 竞品研究",
+  "synthetic": true,
+  "mode": "live",
+  "id": "db6842dd-d8b8-4bb7-8d57-6f0b3657e7ff",
+  "project_id": "479fa5b6-981f-4296-b6b7-dded3b537f25",
+  "run_id": "3f53a61a-f3de-4630-b091-38439a7be04b",
+  "version": 1,
+  "model_profile": "gemini-budget",
+  "created_at": "2026-10-02T11:52:34.647752+00:00",
+  "content_hash": "01e9997c9bb3f8823c205d7c0d6678938c0ee4020f92828189c353ed919c9995"
+}

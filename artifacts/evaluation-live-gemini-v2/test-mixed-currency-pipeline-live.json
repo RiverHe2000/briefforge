@@ -1,0 +1,14 @@
+{
+  "scenario": "test-mixed-currency",
+  "architecture": "pipeline",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "c90754b6-4b95-438c-95bb-078d72e369b6",
+  "status": "failed",
+  "error": "InvalidModelOutput: 研究 Agent 必须每步选择一个允许的工具；没有执行无效工具调用。",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 43.3514,
+  "spent_usd": 0.000672,
+  "reserved_usd": 0,
+  "request_count": 3
+}

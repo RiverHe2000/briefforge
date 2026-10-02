@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-02T11:21:47.881573+00:00",
+  "report_file": "artifacts/live/7e1874b1-8cce-476f-bc24-da037f1912b3-report.json",
+  "report_file_sha256": "9b0d040afb74ee012e28b50639443331221879305aea7e8359bfd25964103432",
+  "report_id": "4819b52d-2342-4e67-8f14-3eed28346964",
+  "run_id": "7e1874b1-8cce-476f-bc24-da037f1912b3",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "synthetic": false,
+  "review_method": "Independent assistant review of all 10 claims, all narrative sections and comparison rows, every supplied quote, and relevant surrounding passages in the frozen official pricing pages. Source metadata and the short failed retrieval were also reviewed. No new web fetch or model call; no reliance on the engine verifier or gold as semantic authority. Secondary-source full text was not exhaustively audited because no final claim cites it.",
+  "overall_result": "not_acceptable_as_completed_competitor_analysis",
+  "summary": {
+    "claims_reviewed": 10,
+    "frozen_sources": 8,
+    "known_error_page_sources": 1,
+    "claims_with_evidence": 4,
+    "quotations_checked": 4,
+    "valid_exact_quotations": 4,
+    "report_status_counts": {
+      "uncertain": 8,
+      "supported": 2
+    },
+    "independent_result_counts": {
+      "appropriate_abstention": 1,
+      "recoverable_source_content_omitted": 4,
+      "needs_correction": 3,
+      "supported_as_vendor_description": 1,
+      "partial_support_scope_added": 1
+    },
+    "date_hallucinations_found_in_report": 0
+  },
+  "findings": [
+    {
+      "id": "P01",
+      "severity": "high",
+      "category": "price_extraction_and_false_abstention",
+      "claim_ids": [
+        "23a6caee-45f9-4c98-a896-1c9b97d09082",
+        "db7d6487-5442-479e-bdd1-9e80f02be6f5",
+        "8c852aad-b5d4-40bc-83f9-d1a3655780cf"
+      ],
+      "finding": "三家价格 claim 均 evidence 为空并整体标无法确认，但冻结官方文本存在可逐字定位的套餐、金额和计费周期。Trello 三个付费套餐旁明确有 USD 和年付/月付文字，报告“币种和周期未明确”的解释与原文相反。Asana/ClickUp 的美元符号未明确 ISO 币种可以保留为币种待确认，但不能据此丢弃已有金额、单位和周期，亦不能因免费套餐或企业询价没有相同周期而否定其他套餐。",
+      "evidence": [
+        {
+          "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+          "url": "https://trello.com/pricing",
+          "plain_text_lines": [
+            124,
+            129
+          ],
+          "quote": "Standard\n$\n5\nUSD\nPer user/month if billed annually ($6 billed monthly)\nGet more stuff done with AI features, unlimited boards, card mirroring, and more automation."
+        },
+        {
+          "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+          "url": "https://trello.com/pricing",
+          "plain_text_lines": [
+            146,
+            169
+          ],
+          "quote": "Premium\n$\n10\nUSD\nPer user/month if billed annually ($12.50 billed monthly)\nAdd AI to your boards and admin controls to your toolkit. Plus, get more perspective with views.\nSee what's included\nEverything in Standard, plus:\nAI\nViews: Calendar, Timeline, Table, Dashboard, and Map\nWorkspace views: Table and Calendar\nUnlimited Workspace command runs\nAdmin and security features\nWorkspace-level templates\nCollections\nObservers\nSimple data export\nLearn more about Premium\nEnterprise\n$\n17.50\nUSD\nPer user/month - billed annually ($210.00 annual price per user)\nAdd enterprise-grade security and controls. This plan includes Atlassian Guard Standard and 24/7 Enterprise Admin support."
+        },
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "plain_text_lines": [
+            205,
+            208
+          ],
+          "quote": "Starter\nFor small teams and professionals that need to track their projects progress and hit deadlines.\n$10.99\nPer user, per month billed annually. $13.49 billed monthly"
+        },
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "plain_text_lines": [
+            233,
+            236
+          ],
+          "quote": "Advanced\nFor growing teams that turn goals into actionable projects, plan team capacity, and keep decisions moving.\n$24.99\nPer user, per month billed annually. $30.49 billed monthly"
+        },
+        {
+          "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+          "url": "https://clickup.com/pricing",
+          "plain_text_lines": [
+            34,
+            44
+          ],
+          "quote": "unlimited\nunlimited\nyearly\nprice:\n$7\nPer user/month, billed yearly\nunlimited\nmonthly\nprice:\n$10\nPer user/month, billed monthly"
+        },
+        {
+          "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+          "url": "https://clickup.com/pricing",
+          "plain_text_lines": [
+            60,
+            71
+          ],
+          "quote": "business\nPopular\nbusiness\nyearly\nprice:\n$12\nPer user/month, billed yearly\nbusiness\nmonthly\nprice:\n$19\nPer user/month, billed monthly"
+        }
+      ],
+      "acceptance": "按套餐分别形成有逐字引用的价格事实；保留年付月均与月付区别、币种未明、企业询价等局部未知，不对全部价格作空值降级。"
+    },
+    {
+      "id": "P02",
+      "severity": "high",
+      "category": "sso_protocol_and_plan_semantics",
+      "claim_ids": [
+        "1a585d69-1808-4a95-97b9-2d8106afe76d",
+        "0624af5f-b877-4328-979f-eed161ccd613"
+      ],
+      "finding": "Asana 原文明确写 Use SAML-based SSO，并在比较项列 Google SSO/Microsoft SSO，报告仍称没有明确 SSO 声明。ClickUp 把 SMS 双因素验证填入 SSO 维度，又写仅限 Business；原文 Business 列 Google SSO，Enterprise 列 SAML SSO & SCIM 且继承 Business。SMS 2FA 不是 SSO，Enterprise 的继承也不支持“仅限 Business”。不需要“所有套餐都具备”才可确认某个套餐的明确能力。",
+      "evidence": [
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "plain_text_lines": [
+            156,
+            170
+          ],
+          "quote": "Stop switching between tools to piece together the full picture. Connect Salesforce, Tableau, and Power BI to your project data and get unified reporting across every workstream.\nEnterprise\nFor organizations that scale work across departments with security built in.\nContact sales for pricing\nContact sales\nAsana AI included:\nAI Teammates and Asana Dash\nIncludes 5 requests per user per month, up to 250 requests per account\nAI Studio\nIncludes 200K credits ber billing account per month\nEverything in Advanced, plus:\nSAML authentication\nOne set of credentials for everything. Use SAML‑based SSO so employees sign in through your identity provider and IT stays in control.\nUser provisioning (SCIM)\nMake onboarding and off‑boarding effortless. SCIM automatically creates accounts for new hires and revokes access when they leave, protecting data without manual work."
+        },
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "plain_text_lines": [
+            483,
+            488
+          ],
+          "quote": "Google SSO\nLet employees use their existing Google work account to authenticate into Asana\nMicrosoft SSO\nLet your team sign in with their existing Microsoft credentials. Admins on paid plans can require it as the login method across their organization.\nSAML\nConnect Asana to your company's single sign-on system for centralized access control."
+        },
+        {
+          "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+          "url": "https://clickup.com/pricing",
+          "plain_text_lines": [
+            85,
+            96
+          ],
+          "quote": "Portfolio Workload Management\nGoogle SSO\nSMS 2-Factor Authentication\nUnlimited Proofing\nand much more...\nenterprise\nGet a custom demo\nContact sales\nEverything in Business, plus:\nEnterprise Permissions and Governance\nUnlimited Custom Roles\nSAML SSO & SCIM Provisioning"
+        }
+      ],
+      "acceptance": "将 SAML/Google SSO、SCIM 和双因素验证分别记录；按明确套餐确认，其他套餐保留未知；不得把某套餐包含解释为该套餐独占。"
+    },
+    {
+      "id": "P03",
+      "severity": "high",
+      "category": "trello_enterprise_subscription_scope",
+      "claim_ids": [
+        "0f5e7341-bf3c-4cda-8606-4b7eddb2bed1"
+      ],
+      "finding": "Trello 的 Enterprise 段明确写该计划包括 Atlassian Guard Standard，报告 conditions 却确定写“需额外订阅 Atlassian Guard”。页面的一般性独立订阅说明与 Enterprise 特定包含条款应按范围区分。现有单条 evidence 仅引免费 SSO，亦不能单独支持“需额外订阅”限定。",
+      "evidence": [
+        {
+          "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+          "url": "https://trello.com/pricing",
+          "plain_text_lines": [
+            164,
+            181
+          ],
+          "quote": "Enterprise\n$\n17.50\nUSD\nPer user/month - billed annually ($210.00 annual price per user)\nAdd enterprise-grade security and controls. This plan includes Atlassian Guard Standard and 24/7 Enterprise Admin support.\nEst. cost for\nusers\nSee what's included\nEverything in Premium, plus:\nUnlimited Workspaces\nOrganization-wide permissions\nOrganization-visible boards\nPublic board management\nMulti-board guests\nAttachment permissions\nPower-Up administration\nFree SSO and user provisioning with Atlassian Guard"
+        },
+        {
+          "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+          "url": "https://trello.com/pricing",
+          "plain_text_lines": [
+            273,
+            274
+          ],
+          "quote": "SAML SSO via Atlassian Guard\nAtlassian Guard is a separate subscription that your company can enable across all your Atlassian products and starts at $4/month/user."
+        }
+      ],
+      "acceptance": "Enterprise 结论保留套餐专属包含说明；其他套餐 Guard 独立计费另列并有引用，不给 Enterprise 擅自增加必需额外订阅。"
+    },
+    {
+      "id": "P04",
+      "severity": "medium",
+      "category": "hypothesis_premise_and_evidence_mismatch",
+      "claim_ids": [
+        "1fd0a871-b002-4306-8a03-979e66ce7c65",
+        "1a585d69-1808-4a95-97b9-2d8106afe76d"
+      ],
+      "finding": "差异化机会 2 以 Asana 缺乏明确通用 SSO 声明为研究前提，该前提被同一官方来源的 SSO 文本反驳；claim_ids 还指向产品导航/定位而非身份认证事实。标成待验证假设不能修复已错误的事实前提或无关引文。",
+      "evidence": [
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "plain_text_lines": [
+            167,
+            170
+          ],
+          "quote": "SAML authentication\nOne set of credentials for everything. Use SAML‑based SSO so employees sign in through your identity provider and IT stays in control.\nUser provisioning (SCIM)\nMake onboarding and off‑boarding effortless. SCIM automatically creates accounts for new hires and revokes access when they leave, protecting data without manual work."
+        },
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "plain_text_lines": [
+            483,
+            488
+          ],
+          "quote": "Google SSO\nLet employees use their existing Google work account to authenticate into Asana\nMicrosoft SSO\nLet your team sign in with their existing Microsoft credentials. Admins on paid plans can require it as the login method across their organization.\nSAML\nConnect Asana to your company's single sign-on system for centralized access control."
+        }
+      ],
+      "acceptance": "机会假设应由与其相关、且语义成立的事实支持；删除错误前提或改为明确、可调查的集成兼容性问题。"
+    },
+    {
+      "id": "P05",
+      "severity": "medium",
+      "category": "conditions_outside_evidence_boundary",
+      "claim_ids": [
+        "1a585d69-1808-4a95-97b9-2d8106afe76d",
+        "23a6caee-45f9-4c98-a896-1c9b97d09082",
+        "db7d6487-5442-479e-bdd1-9e80f02be6f5",
+        "8c852aad-b5d4-40bc-83f9-d1a3655780cf"
+      ],
+      "finding": "引用校验失败后 statement 被降为未知，但 conditions 中仍写入长段核查解释、具体金额和功能断言，并进入摘要/正文，且这些 claim 的 evidence 为空。部分解释事实上与来源相反。这样只校验 statement 的逐字证据不足以保证最终读者看到的所有事实都有证据。",
+      "evidence": [],
+      "acceptance": "用户可见的 conditions、核查解释和机会前提与 statement 采用相同的证据支持要求；确实无法定位时显示内部校验失败原因，不添加未经支撑的源内容断言。"
+    },
+    {
+      "id": "P06",
+      "severity": "low",
+      "category": "retrieval_quality_and_time_boundary",
+      "claim_ids": [],
+      "finding": "8 个冻结 URL 中 Asana Help Center 只有64字符的加载/CSS错误页，不是可用正文。三份官方价格页无 published_at，只有获取时间；两篇通用比较文章分别发布于2024和2022年。联网取回并不等于全部8份均为成功可用资料，也不能将获取时间当价格生效日。",
+      "evidence": [
+        {
+          "source_id": "f52c22bc-67ee-48f4-b394-3e0336539d5a",
+          "quote": "Asana Help Center\nLoading\n×\nSorry to interrupt\nCSS Error\nRefresh"
+        }
+      ],
+      "acceptance": "把错误页标为提取失败/不可引用；在报告中区分获取时间与发布日期，旧比较文章不覆盖当前官方套餐信息。"
+    },
+    {
+      "id": "P07",
+      "severity": "low",
+      "category": "positioning_coverage_and_attribution",
+      "claim_ids": [
+        "b7bb6546-fcf6-4d63-8f57-55870805b60f",
+        "3a64dc20-4cbb-495b-84a2-87e4e67b9c86"
+      ],
+      "finding": "Trello 官方文本能支持项目/任务组织的自述定位，报告却留空。ClickUp 引文只是一句营销标语，不能单独支持“各种规模团队”适配范围，也不应被当作客观最优性证明。Asana 导航产品清单本身有支持，但对实际产品定位的解释价值有限。",
+      "evidence": [
+        {
+          "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+          "url": "https://trello.com/pricing",
+          "plain_text_lines": [
+            9,
+            20
+          ],
+          "quote": "Meet Trello\nTrello makes it easy for your team to get work done. No matter the project, workflow, or type of team, Trello can help keep things organized. It’s simple –  sign-up, create a board, and you’re off! Productivity awaits.\nCheck out Trello\nTake a page out of these pre-built Trello playbooks designed for all teams\nSee all teams\nOur product in action\nUse case: Task management\nTrack progress of tasks in one convenient place with a visual layout that adds ‘ta-da’ to your to-do’s.\nUse case: Resource hub\nSave hours when you give teams a well-designed hub to find information easily and quickly.\nUse case: Project management\nKeep projects organized, deadlines on track, and teammates aligned with Trello."
+        },
+        {
+          "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+          "url": "https://clickup.com/pricing",
+          "plain_text_lines": [
+            1,
+            8
+          ],
+          "quote": "ClickUp Pricing and Plans\n100% Money-back Guarantee\nThe best work solution,\nfor the best price.\n100% Money-back Guarantee\nSave up to 30% with yearly\nMonthly\nYearly"
+        }
+      ],
+      "acceptance": "定位采用具体场景和目标用户描述，并注明厂商自述；未被引文支持的适配范围不扩展。"
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "c59f412f-641a-4411-a37b-54499b531522",
+      "subject": "行业",
+      "dimension": "行业背景",
+      "report_status": "uncertain",
+      "independent_result": "appropriate_abstention",
+      "rationale": "没有可泛化行业证据，保留未知可接受；不能把厂商营销比较文章自动视为独立市场证据。",
+      "finding_ids": [],
+      "evidence": []
+    },
+    {
+      "claim_id": "b7bb6546-fcf6-4d63-8f57-55870805b60f",
+      "subject": "Trello",
+      "dimension": "定位",
+      "report_status": "uncertain",
+      "independent_result": "recoverable_source_content_omitted",
+      "rationale": "官方冻结文本含项目/任务组织描述，可形成有限且有引用的厂商自述定位。",
+      "finding_ids": [
+        "P07"
+      ],
+      "evidence": []
+    },
+    {
+      "claim_id": "0f5e7341-bf3c-4cda-8606-4b7eddb2bed1",
+      "subject": "Trello",
+      "dimension": "SSO",
+      "report_status": "uncertain",
+      "independent_result": "needs_correction",
+      "rationale": "免费 SSO 的原文存在，但条件“需额外订阅”忽略 Enterprise 包含 Guard Standard 的专属说明。",
+      "finding_ids": [
+        "P03"
+      ],
+      "evidence": [
+        {
+          "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+          "url": "https://trello.com/pricing",
+          "quote": "Free SSO and user provisioning with Atlassian Guard",
+          "exact_substring": true,
+          "actual_plain_text_start_line": 181
+        }
+      ]
+    },
+    {
+      "claim_id": "1fd0a871-b002-4306-8a03-979e66ce7c65",
+      "subject": "Asana",
+      "dimension": "定位",
+      "report_status": "supported",
+      "independent_result": "supported_as_vendor_description",
+      "rationale": "产品导航清单得到逐字引文支持，宜称厂商产品组合自述，不是完整定位研究。",
+      "finding_ids": [
+        "P04"
+      ],
+      "evidence": [
+        {
+          "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+          "url": "https://asana.com/pricing",
+          "quote": "Products\nAgentic Work Management\nFor cross-functional teams\nAsana Service Management\nFor service teams\nAsana Client Management\nFor teams delivering client work\nCommand by Asana\nFor developer teams\nStackAI by Asana\nFor every critical workflow\nAI Platform\nAI Teammates\nReady-to-go AI agents for every team\nAI Studio\nPowerful no-code automations\nAsana Dash\nYour AI Chief of Staff\nAsana Foundations\nAdmin and security\nApp integrations\nDeveloper",
+          "exact_substring": true,
+          "actual_plain_text_start_line": 2
+        }
+      ]
+    },
+    {
+      "claim_id": "1a585d69-1808-4a95-97b9-2d8106afe76d",
+      "subject": "Asana",
+      "dimension": "SSO",
+      "report_status": "uncertain",
+      "independent_result": "needs_correction",
+      "rationale": "原文直接含 SAML-based SSO 与 SSO 比较项，无法确认的一部分解释与来源相反。",
+      "finding_ids": [
+        "P02",
+        "P04",
+        "P05"
+      ],
+      "evidence": []
+    },
+    {
+      "claim_id": "3a64dc20-4cbb-495b-84a2-87e4e67b9c86",
+      "subject": "ClickUp",
+      "dimension": "定位",
+      "report_status": "supported",
+      "independent_result": "partial_support_scope_added",
+      "rationale": "营销标语可作为自述引用；各种规模团队的范围不在所给引文中。",
+      "finding_ids": [
+        "P07"
+      ],
+      "evidence": [
+        {
+          "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+          "url": "https://clickup.com/pricing",
+          "quote": "The best work solution,\nfor the best price.",
+          "exact_substring": true,
+          "actual_plain_text_start_line": 3
+        }
+      ]
+    },
+    {
+      "claim_id": "0624af5f-b877-4328-979f-eed161ccd613",
+      "subject": "ClickUp",
+      "dimension": "SSO",
+      "report_status": "uncertain",
+      "independent_result": "needs_correction",
+      "rationale": "SMS 2FA 被用来回答 SSO，且仅 Business 的条件被 Enterprise 继承条款反驳。",
+      "finding_ids": [
+        "P02"
+      ],
+      "evidence": [
+        {
+          "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+          "url": "https://clickup.com/pricing",
+          "quote": "SMS 2-Factor Authentication",
+          "exact_substring": true,
+          "actual_plain_text_start_line": 87
+        }
+      ]
+    },
+    {
+      "claim_id": "23a6caee-45f9-4c98-a896-1c9b97d09082",
+      "subject": "Trello",
+      "dimension": "价格",
+      "report_status": "uncertain",
+      "independent_result": "recoverable_source_content_omitted",
+      "rationale": "标准/高级/企业金额、USD 和周期均可定位，不应整体空值。",
+      "finding_ids": [
+        "P01",
+        "P05"
+      ],
+      "evidence": []
+    },
+    {
+      "claim_id": "db7d6487-5442-479e-bdd1-9e80f02be6f5",
+      "subject": "Asana",
+      "dimension": "价格",
+      "report_status": "uncertain",
+      "independent_result": "recoverable_source_content_omitted",
+      "rationale": "年付月均和月付金额有原文；ISO 币种不明可单列局部未知，非全部价格无法确认。",
+      "finding_ids": [
+        "P01",
+        "P05"
+      ],
+      "evidence": []
+    },
+    {
+      "claim_id": "8c852aad-b5d4-40bc-83f9-d1a3655780cf",
+      "subject": "ClickUp",
+      "dimension": "价格",
+      "report_status": "uncertain",
+      "independent_result": "recoverable_source_content_omitted",
+      "rationale": "Unlimited 和 Business 的年/月付价格均有明确原文；ISO 币种不明不应清空周期事实。",
+      "finding_ids": [
+        "P01",
+        "P05"
+      ],
+      "evidence": []
+    }
+  ],
+  "independently_recoverable_price_facts": {
+    "scope": "These observations refer only to the frozen fetched texts, not a new current-price web verification. Do not overwrite the immutable report.",
+    "Trello": {
+      "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+      "currency_in_text": "USD",
+      "unit": "per user/month",
+      "Standard": {
+        "annual_billed_monthly_equivalent": 5,
+        "monthly_billed": 6
+      },
+      "Premium": {
+        "annual_billed_monthly_equivalent": 10,
+        "monthly_billed": 12.5
+      },
+      "Enterprise": {
+        "annual_billed_monthly_equivalent": 17.5,
+        "annual_per_user": 210,
+        "caveat": "Displayed estimate; source includes an estimated cost/user-count context. Do not treat as a universal negotiated quote."
+      },
+      "Free": {
+        "amount": 0,
+        "scope": "up to 10 collaborators per Workspace"
+      },
+      "tax": "not established from examined pricing block"
+    },
+    "Asana": {
+      "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+      "currency_in_text": "$ symbol; ISO currency not established from frozen primary pricing text",
+      "unit": "per user/month",
+      "Starter": {
+        "annual_billed_monthly_equivalent": 10.99,
+        "monthly_billed": 13.49
+      },
+      "Advanced": {
+        "annual_billed_monthly_equivalent": 24.99,
+        "monthly_billed": 30.49
+      },
+      "Enterprise": "Contact sales for pricing",
+      "Personal": {
+        "amount": 0,
+        "scope": "2 users"
+      },
+      "tax": "Frozen FAQ says sales tax based on billing address; VAT/GST subject to jurisdiction and registration."
+    },
+    "ClickUp": {
+      "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+      "currency_in_text": "$ symbol; ISO currency not established from frozen primary pricing text",
+      "unit": "per user/month",
+      "Unlimited": {
+        "annual_billed_monthly_equivalent": 7,
+        "monthly_billed": 10
+      },
+      "Business": {
+        "annual_billed_monthly_equivalent": 12,
+        "monthly_billed": 19
+      },
+      "Enterprise": "Contact sales",
+      "workspace_scope": "Each Workspace requires an individual upgrade; new paid users prorated per remaining cycle.",
+      "tax": "not established from examined pricing block"
+    }
+  },
+  "source_time_audit": [
+    {
+      "source_id": "073f8fb9-6cc4-4596-8ef7-04af690b9d35",
+      "url": "https://trello.com/pricing",
+      "published_at": null,
+      "retrieved_at": "2026-10-02T11:12:59.287065+00:00",
+      "characters": 14318,
+      "known_error_page": false
+    },
+    {
+      "source_id": "47206e50-55d7-40ef-8d01-cdddf4a41073",
+      "url": "https://asana.com/pricing",
+      "published_at": null,
+      "retrieved_at": "2026-10-02T11:13:05.956013+00:00",
+      "characters": 42727,
+      "known_error_page": false
+    },
+    {
+      "source_id": "f52c22bc-67ee-48f4-b394-3e0336539d5a",
+      "url": "https://help.asana.com/s/article/authentication-and-access-management-options-for-paid-plans?language=en_US",
+      "published_at": null,
+      "retrieved_at": "2026-10-02T11:13:07.471325+00:00",
+      "characters": 64,
+      "known_error_page": true
+    },
+    {
+      "source_id": "95b54235-7fdc-42b5-9278-00986cce4bb0",
+      "url": "https://cirface.com/blog/asana-pricing-explained",
+      "published_at": null,
+      "retrieved_at": "2026-10-02T11:13:10.153022+00:00",
+      "characters": 25234,
+      "known_error_page": false
+    },
+    {
+      "source_id": "c3c815e7-4135-4b91-be1c-c8328b5a119a",
+      "url": "https://clickup.com/pricing",
+      "published_at": null,
+      "retrieved_at": "2026-10-02T11:13:27.634919+00:00",
+      "characters": 12810,
+      "known_error_page": false
+    },
+    {
+      "source_id": "df13bcc2-8956-4e16-b320-7d4fdb78b1ed",
+      "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency/",
+      "published_at": "2026-09-02T00:00:00.000Z",
+      "retrieved_at": "2026-10-02T11:13:27.911554+00:00",
+      "characters": 20835,
+      "known_error_page": false
+    },
+    {
+      "source_id": "f4c57632-e6d8-411a-b7f7-d96b26efed66",
+      "url": "https://productive.io/blog/trello-vs-asana-vs-monday-vs-clickup/",
+      "published_at": "2024-05-23T07:44:27+00:00",
+      "retrieved_at": "2026-10-02T11:13:35.754011+00:00",
+      "characters": 17972,
+      "known_error_page": false
+    },
+    {
+      "source_id": "ce257366-b800-4e2e-bd81-5dffaf4f2482",
+      "url": "https://www.atlassian.com/blog/trello/trello-vs-clickup",
+      "published_at": "2022-12-22T04:25:10+00:00",
+      "retrieved_at": "2026-10-02T11:13:48.065199+00:00",
+      "characters": 11109,
+      "known_error_page": false
+    }
+  ],
+  "interpretation": "This completed application run demonstrates that real model/network execution and report persistence worked. It does not demonstrate an analytically usable public competitor report or successful resolution of all research questions. Exact quote validity covers only 4 supplied evidence items, not all visible assertions in conditions and hypotheses.",
+  "exports": {
+    "generated": false,
+    "reason": "Substantive semantic defects; do not present as approved report sample."
+  },
+  "limitations": [
+    "Review concerns consistency with frozen fetched text, not vendor facts verified anew on the review date.",
+    "Single public pilot; no architecture comparison or general quality metric.",
+    "Full source text has flattened layout, so missing table-cell associations require care; explicit prose and plan blocks remain recoverable.",
+    "No report, source fixture, gold, engine or budget ledger was modified."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "verification_id": "1883c74eeb00",
+  "database": "briefforge_recovery",
+  "schema": "recovery_1883c74eeb00",
+  "database_engine": "native PostgreSQL",
+  "production_database_accessed": false,
+  "application_services_stopped": false,
+  "recovery": {
+    "status": "passed",
+    "actual_fault": "abrupt child process exit (os._exit), not an exception simulation",
+    "project_id": "db931bd9-3464-490f-ad1b-f77ab358a7bc",
+    "run_id": "c583cc99-a890-4dae-baa3-19e33f045909",
+    "report_id": "08174b4f-a832-48f5-9397-1f5cf2bab2fc",
+    "exit_code": 86,
+    "checkpoints_before_recovery": 4,
+    "completed_task_ids_before_crash": [
+      "8d54f73c-c990-42b1-a002-089f0ee7a0cd",
+      "e42129b8-e41d-445f-9110-a5111ba973b5",
+      "b725b2c1-9ca4-4ced-a627-83f9f074e82d",
+      "a9737e7d-d942-456a-b017-4b6ce7879e76",
+      "5ef5a10c-aebf-441a-9580-c43aa09fbe0d",
+      "59ca044e-6454-4132-9683-ae467b6da211"
+    ],
+    "completed_outputs_reused_without_task_restart": true,
+    "new_lease_token": true,
+    "stale_worker_fenced": true,
+    "final_task_count": 11,
+    "report_count_for_run": 1,
+    "completed_graph_reentry_idempotent": true,
+    "model_requests": 0,
+    "actual_provider_cost_usd": 0,
+    "source_version_immutability": {
+      "status": "passed",
+      "old_source_id": "49adeae2-37c9-467e-b04d-d8728737e70e",
+      "replacement_source_id": "0ecf854f-5834-485c-93d2-dabf3b72dac9",
+      "old_version": 1,
+      "new_version": 2,
+      "original_report_hash_unchanged": true,
+      "original_report_json_unchanged": true,
+      "affected_claims_marked_dirty": 1,
+      "new_report_id": "37b79d23-ef08-45ea-9b46-b61bdc1e2e3b",
+      "new_report_uses_new_price": true
+    }
+  },
+  "budget_concurrency": {
+    "status": "passed",
+    "note": "Isolated accounting simulation only. Zero model/provider HTTP requests. Reserved amounts are NOT actual model costs. Test reservations settled to zero after assertions.",
+    "per_run_cap": {
+      "requests_racing": 16,
+      "accepted": 7,
+      "blocked": 9,
+      "reserved_usd": 0.14,
+      "cap_usd": 0.15,
+      "duplicate_key_reused": true,
+      "unknown_cost_keeps_reservation": true
+    },
+    "global_and_bucket_caps": {
+      "requests_racing_in_waves_of": 16,
+      "requests_total": 56,
+      "accepted": 40,
+      "blocked": 16,
+      "ledger_snapshot_simulated_not_model_cost": {
+        "limit_usd": 10.0,
+        "spent_usd": 0.0,
+        "reserved_usd": 10.0,
+        "buckets": {
+          "development": {
+            "spent_usd": 0.0,
+            "reserved_usd": 2.0,
+            "limit_usd": 2.0
+          },
+          "evaluation": {
+            "spent_usd": 0.0,
+            "reserved_usd": 4.0,
+            "limit_usd": 4.0
+          },
+          "web": {
+            "spent_usd": 0.0,
+            "reserved_usd": 2.0,
+            "limit_usd": 2.0
+          },
+          "reserve": {
+            "spent_usd": 0.0,
+            "reserved_usd": 2.0,
+            "limit_usd": 2.0
+          }
+        }
+      }
+    },
+    "request_count_cap": {
+      "attempts": 48,
+      "accepted": 40,
+      "blocked": 8,
+      "maximum_requests": 40
+    },
+    "provider_requests": 0,
+    "actual_provider_cost_usd": 0,
+    "final_isolated_ledger": {
+      "limit_usd": 10.0,
+      "spent_usd": 0.0,
+      "reserved_usd": 0.0,
+      "buckets": {
+        "development": {
+          "spent_usd": 0.0,
+          "reserved_usd": 0.0,
+          "limit_usd": 2.0
+        },
+        "evaluation": {
+          "spent_usd": 0.0,
+          "reserved_usd": 0.0,
+          "limit_usd": 4.0
+        },
+        "web": {
+          "spent_usd": 0.0,
+          "reserved_usd": 0.0,
+          "limit_usd": 2.0
+        },
+        "reserve": {
+          "spent_usd": 0.0,
+          "reserved_usd": 0.0,
+          "limit_usd": 2.0
+        }
+      }
+    }
+  },
+  "status": "passed",
+  "duration_seconds": 4.865
+}

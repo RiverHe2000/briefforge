@@ -1,0 +1,1107 @@
+[
+  {
+    "id": 2419,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:33.278962+00:00",
+    "type": "provider_ready",
+    "message": "模型线路、能力及价格检查通过。",
+    "payload": {
+      "model_profile": "gemini-budget",
+      "model": "google/gemini-2.5-flash-lite",
+      "endpoint": "google-ai-studio",
+      "input_per_million": 0.09999999999999999,
+      "output_per_million": 0.39999999999999997
+    }
+  },
+  {
+    "id": 2420,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:33.358483+00:00",
+    "type": "task_started",
+    "message": "研究协调员：确认研究任务与依赖",
+    "payload": {
+      "task_id": "e9068c46-9061-49c4-bd6e-b9c4f9663653",
+      "role": "coordinator",
+      "round": 0
+    }
+  },
+  {
+    "id": 2425,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:35.258786+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "coordinator",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\4d9ce10d-6497-47f9-b363-e2d2f828f964.json",
+      "response_id": "gen-1790942014-dqFNVYVrfk2dvMWoNg56",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2426,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:35.267791+00:00",
+    "type": "task_completed",
+    "message": "完成：确认研究任务与依赖",
+    "payload": {
+      "task_id": "e9068c46-9061-49c4-bd6e-b9c4f9663653",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 2427,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:35.368056+00:00",
+    "type": "task_started",
+    "message": "行业研究员：研究 行业：行业背景",
+    "payload": {
+      "task_id": "1c278174-9f10-4a8a-bcb2-aa6027cb2a17",
+      "role": "industry",
+      "round": 0
+    }
+  },
+  {
+    "id": 2428,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:35.427564+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "8422fb24-a54f-46ba-8e3b-2619b36c956b",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 2429,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:35.486580+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "c3cb745c-b815-44e0-9d03-71dc00197a6d",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 2436,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:36.626322+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\928fb5fb-9973-473e-ba3a-82dcf1cd287a.json",
+      "response_id": "gen-1790942017-yJa1U0taAzw7oQM8R0V5",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2437,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:36.630322+00:00",
+    "type": "agent_tool",
+    "message": "行业研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "industry",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:行业:0:行业背景"
+    }
+  },
+  {
+    "id": 2441,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:37.211626+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:桥塔知识（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\964f48a1-6df3-49a2-ad72-a32496612f90.json",
+      "response_id": "gen-1790942017-nlTzdvfnH2UEGMI5DSAm",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2442,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:37.216627+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:桥塔知识（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈"
+    }
+  },
+  {
+    "id": 2443,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:37.246643+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:森屿笔记（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\85f92e35-39f4-493d-b273-26b78b152877.json",
+      "response_id": "gen-1790942017-lD3vADlUL1eqiSvm7WCk",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2444,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:37.250642+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:森屿笔记（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈"
+    }
+  },
+  {
+    "id": 2445,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:38.100934+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:行业:0:行业背景:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\6928b2ff-f079-4b06-a367-279f37c86993.json",
+      "response_id": "gen-1790942018-fqtuoCBmu8XKetFhuzdj",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2446,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:38.105436+00:00",
+    "type": "agent_tool",
+    "message": "行业研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "industry",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:行业:0:行业背景"
+    }
+  },
+  {
+    "id": 2447,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:38.112441+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 行业：行业背景",
+    "payload": {
+      "task_id": "1c278174-9f10-4a8a-bcb2-aa6027cb2a17",
+      "role": "industry"
+    }
+  },
+  {
+    "id": 2448,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:38.118943+00:00",
+    "type": "task_started",
+    "message": "竞品研究员：研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "15c62a9f-1b01-4b2a-b911-fb999f146c30",
+      "role": "competitor",
+      "round": 0
+    }
+  },
+  {
+    "id": 2457,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:39.884567+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\0c647bd9-dd89-49ba-864d-195fe05f3f5a.json",
+      "response_id": "gen-1790942019-ZGZuHjis7Vp98nAow4xe",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2458,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:39.888567+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：read_sources",
+    "payload": {
+      "role": "competitor",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:星河文库（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈"
+    }
+  },
+  {
+    "id": 2459,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.102349+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:桥塔知识（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\867b08ca-c86e-4ab6-9236-d2eab9913ea2.json",
+      "response_id": "gen-1790942018-0D6JX8yhQroMGKadNH1Q",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2460,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.108351+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "competitor",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:桥塔知识（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈"
+    }
+  },
+  {
+    "id": 2461,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.115349+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 桥塔知识（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "c3cb745c-b815-44e0-9d03-71dc00197a6d",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 2462,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.122349+00:00",
+    "type": "task_started",
+    "message": "商业分析员：研究 *：价格",
+    "payload": {
+      "task_id": "97e83539-00b1-44fa-b329-34403dfd0abf",
+      "role": "commercial",
+      "round": 0
+    }
+  },
+  {
+    "id": 2463,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.320454+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:森屿笔记（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\961d0475-b7c5-445e-a7ec-590989ce9d95.json",
+      "response_id": "gen-1790942018-SsFca8PHxotGfv1AszzJ",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2464,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.324454+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "competitor",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:森屿笔记（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈"
+    }
+  },
+  {
+    "id": 2465,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:40.331716+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 森屿笔记（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "8422fb24-a54f-46ba-8e3b-2619b36c956b",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 2468,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:41.368815+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:价格:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\fffa9a6f-f61b-4ea1-a230-daef0fca2f59.json",
+      "response_id": "gen-1790942021-KN3579eR8p1RFsFxj6iX",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2469,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:41.372814+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：read_sources",
+    "payload": {
+      "role": "commercial",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:*:0:价格"
+    }
+  },
+  {
+    "id": 2474,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:43.200578+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\86f17100-e24b-49da-ae8c-7100e888a453.json",
+      "response_id": "gen-1790942021-3mlMeEPQzHgPgmSqsF7Z",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2475,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:43.205085+00:00",
+    "type": "agent_tool",
+    "message": "竞品研究员调用资料工具：submit_claims",
+    "payload": {
+      "role": "competitor",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:星河文库（虚构）:0:定位,核心功能,SSO,近期变化,用户反馈"
+    }
+  },
+  {
+    "id": 2476,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:43.213084+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 星河文库（虚构）：定位、核心功能、SSO、近期变化、用户反馈",
+    "payload": {
+      "task_id": "15c62a9f-1b01-4b2a-b911-fb999f146c30",
+      "role": "competitor"
+    }
+  },
+  {
+    "id": 2477,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:44.027590+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:*:0:价格:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\ea3e7de1-def2-43f4-a4b6-f944cf273661.json",
+      "response_id": "gen-1790942022-TUUfqe5bdoM6PBtPyC0F",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2478,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:44.032589+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：submit_claims",
+    "payload": {
+      "role": "commercial",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:*:0:价格"
+    }
+  },
+  {
+    "id": 2479,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:44.040588+00:00",
+    "type": "task_completed",
+    "message": "完成：研究 *：价格",
+    "payload": {
+      "task_id": "97e83539-00b1-44fa-b329-34403dfd0abf",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 2480,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:44.059594+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "3bb8c35c-07a8-4f96-8075-85ca8e1ad518",
+      "role": "verifier",
+      "round": 0
+    }
+  },
+  {
+    "id": 2494,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.361454+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "verify:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\21e6e4f8-6132-4e36-abd2-df489c9771f6.json",
+      "response_id": "gen-1790942025-5G6FpFiIcsx9UGkqZM7X",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2495,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.369466+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "1204b505-9546-4829-bb47-6385c420e175",
+        "243db167-94bf-4661-aba6-d6f528a65159",
+        "75bc92e6-1a00-4526-b427-7afd7b76d091"
+      ]
+    }
+  },
+  {
+    "id": 2496,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.371466+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "4b26d1a1-1b47-45e7-b0eb-5413a24759ce",
+        "ecc98775-0407-4dd3-a052-5a1d47202329",
+        "1c3b9ac9-eca9-495b-9601-b3c7c1a6fcb0"
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.373467+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "d8159e39-a85e-49f2-b531-ba4bcf7c8af0",
+        "75bc92e6-1a00-4526-b427-7afd7b76d091"
+      ]
+    }
+  },
+  {
+    "id": 2498,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.375466+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "b2b5cde1-1ef6-4e4a-b7a1-cc1dfb7ee66c",
+        "1c3b9ac9-eca9-495b-9601-b3c7c1a6fcb0"
+      ]
+    }
+  },
+  {
+    "id": 2499,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.379467+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "12d5301b-aaef-4173-b18a-425fad8f53a6",
+        "f795fbbe-96bf-415a-b4dc-3b89cce54c8f"
+      ]
+    }
+  },
+  {
+    "id": 2501,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.386468+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "3bb8c35c-07a8-4f96-8075-85ca8e1ad518",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 2502,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.388472+00:00",
+    "type": "verification_issues",
+    "message": "核查发现 1 个需要处理的问题。",
+    "payload": {
+      "issues": [
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "reason": "历史资料明确要求参照后续条件，当前同维度原文一致。历史状态变化本身不是当前冲突；仍须检查结论是否忠实保留当前原文的套餐、生效时间和未知信息。",
+          "source_ids": [
+            "a9272577-ca5d-4dcd-84ae-34b90b10daca",
+            "11bad66d-fce1-405b-8b12-44d5ac144c82",
+            "f795fbbe-96bf-415a-b4dc-3b89cce54c8f"
+          ],
+          "resolution": "followup",
+          "category": "historical_update"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2503,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.421526+00:00",
+    "type": "task_started",
+    "message": "研究协调员：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "4f16ad0c-8f60-48de-b051-2b1a26ec6562",
+      "role": "coordinator",
+      "round": 1
+    }
+  },
+  {
+    "id": 2504,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.428526+00:00",
+    "type": "task_completed",
+    "message": "完成：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "4f16ad0c-8f60-48de-b051-2b1a26ec6562",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 2505,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.430532+00:00",
+    "type": "followup_planned",
+    "message": "协调员新增 1 个补查任务（第 1/2 轮）。",
+    "payload": {
+      "round": 1,
+      "tasks": [
+        {
+          "role": "commercial",
+          "target": "星河文库（虚构）",
+          "dimensions": [
+            "SSO"
+          ],
+          "question": "历史资料明确要求参照后续条件，当前同维度原文一致。历史状态变化本身不是当前冲突；仍须检查结论是否忠实保留当前原文的套餐、生效时间和未知信息。",
+          "issue": {
+            "subject": "星河文库（虚构）",
+            "dimension": "SSO",
+            "reason": "历史资料明确要求参照后续条件，当前同维度原文一致。历史状态变化本身不是当前冲突；仍须检查结论是否忠实保留当前原文的套餐、生效时间和未知信息。",
+            "source_ids": [
+              "a9272577-ca5d-4dcd-84ae-34b90b10daca",
+              "11bad66d-fce1-405b-8b12-44d5ac144c82",
+              "f795fbbe-96bf-415a-b4dc-3b89cce54c8f"
+            ],
+            "resolution": "followup",
+            "category": "historical_update"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 2506,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:47.472105+00:00",
+    "type": "task_started",
+    "message": "商业分析员：补查 星河文库（虚构）：SSO",
+    "payload": {
+      "task_id": "c6d9a6ba-9f17-475b-a4bc-2fd2bbc18780",
+      "role": "commercial",
+      "round": 1
+    }
+  },
+  {
+    "id": 2511,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:48.766026+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:1:SSO:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\3542b605-c599-4ac8-9638-7004782f3f57.json",
+      "response_id": "gen-1790942028-OGaAP4WeHe7m2D0Uyd9N",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2512,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:48.770026+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：read_sources",
+    "payload": {
+      "role": "commercial",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:星河文库（虚构）:1:SSO"
+    }
+  },
+  {
+    "id": 2522,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:50.305777+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:1:SSO:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\6eb73c7a-b49f-45f5-aa8d-09ec38ea8f07.json",
+      "response_id": "gen-1790942030-DpPk6U72xubHxpiWM8g3",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2523,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:50.309191+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：submit_claims",
+    "payload": {
+      "role": "commercial",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:星河文库（虚构）:1:SSO"
+    }
+  },
+  {
+    "id": 2524,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:50.316696+00:00",
+    "type": "task_completed",
+    "message": "完成：补查 星河文库（虚构）：SSO",
+    "payload": {
+      "task_id": "c6d9a6ba-9f17-475b-a4bc-2fd2bbc18780",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 2525,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:50.318696+00:00",
+    "type": "claim_corrected",
+    "message": "补查修正了一项结论。",
+    "payload": {
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "before": "星河文库（虚构）未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "after": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+      "evidence": [
+        {
+          "source_id": "a9272577-ca5d-4dcd-84ae-34b90b10daca",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "locator": "2:0"
+        },
+        {
+          "source_id": "11bad66d-fce1-405b-8b12-44d5ac144c82",
+          "quote": "SSO：未披露 SAML SSO 的支持情况，需要进一步向厂商确认。",
+          "locator": "4:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2526,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:50.334696+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "12fbca6f-bde3-4c6e-89c1-64631bce5516",
+      "role": "verifier",
+      "round": 1
+    }
+  },
+  {
+    "id": 2539,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.712066+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "verify:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\053bbab5-d2de-4c06-a5c7-91d9ff7b4bd3.json",
+      "response_id": "gen-1790942031-w8Uh88NzpQyNljzkcUR1",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2540,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.720064+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "1204b505-9546-4829-bb47-6385c420e175",
+        "243db167-94bf-4661-aba6-d6f528a65159",
+        "75bc92e6-1a00-4526-b427-7afd7b76d091"
+      ]
+    }
+  },
+  {
+    "id": 2541,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.722065+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "4b26d1a1-1b47-45e7-b0eb-5413a24759ce",
+        "ecc98775-0407-4dd3-a052-5a1d47202329",
+        "1c3b9ac9-eca9-495b-9601-b3c7c1a6fcb0"
+      ]
+    }
+  },
+  {
+    "id": 2542,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.724071+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "d8159e39-a85e-49f2-b531-ba4bcf7c8af0",
+        "75bc92e6-1a00-4526-b427-7afd7b76d091"
+      ]
+    }
+  },
+  {
+    "id": 2543,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.726071+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "b2b5cde1-1ef6-4e4a-b7a1-cc1dfb7ee66c",
+        "1c3b9ac9-eca9-495b-9601-b3c7c1a6fcb0"
+      ]
+    }
+  },
+  {
+    "id": 2544,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.728071+00:00",
+    "type": "review_guard",
+    "message": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+    "payload": {
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "reason": "核查员把明确过时的历史资料与后续当前条件视作冲突；当前同字段原文一致，此时间顺序差异不作为未解决冲突。",
+      "source_ids": [
+        "12d5301b-aaef-4173-b18a-425fad8f53a6",
+        "f795fbbe-96bf-415a-b4dc-3b89cce54c8f"
+      ]
+    }
+  },
+  {
+    "id": 2546,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.735075+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "12fbca6f-bde3-4c6e-89c1-64631bce5516",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 2547,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.736577+00:00",
+    "type": "verification_issues",
+    "message": "核查发现 1 个需要处理的问题。",
+    "payload": {
+      "issues": [
+        {
+          "subject": "星河文库（虚构）",
+          "dimension": "SSO",
+          "reason": "历史资料明确要求参照后续条件，当前同维度原文一致。历史状态变化本身不是当前冲突；仍须检查结论是否忠实保留当前原文的套餐、生效时间和未知信息。",
+          "source_ids": [
+            "a9272577-ca5d-4dcd-84ae-34b90b10daca",
+            "11bad66d-fce1-405b-8b12-44d5ac144c82",
+            "f795fbbe-96bf-415a-b4dc-3b89cce54c8f"
+          ],
+          "resolution": "followup",
+          "category": "historical_update"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2551,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.758662+00:00",
+    "type": "task_started",
+    "message": "研究协调员：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "7370757f-c524-4e2b-bc73-389d2f9a81d6",
+      "role": "coordinator",
+      "round": 2
+    }
+  },
+  {
+    "id": 2552,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.765661+00:00",
+    "type": "task_completed",
+    "message": "完成：根据核查问题新增补查任务",
+    "payload": {
+      "task_id": "7370757f-c524-4e2b-bc73-389d2f9a81d6",
+      "role": "coordinator"
+    }
+  },
+  {
+    "id": 2553,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.767661+00:00",
+    "type": "followup_planned",
+    "message": "协调员新增 1 个补查任务（第 2/2 轮）。",
+    "payload": {
+      "round": 2,
+      "tasks": [
+        {
+          "role": "commercial",
+          "target": "星河文库（虚构）",
+          "dimensions": [
+            "SSO"
+          ],
+          "question": "历史资料明确要求参照后续条件，当前同维度原文一致。历史状态变化本身不是当前冲突；仍须检查结论是否忠实保留当前原文的套餐、生效时间和未知信息。",
+          "issue": {
+            "subject": "星河文库（虚构）",
+            "dimension": "SSO",
+            "reason": "历史资料明确要求参照后续条件，当前同维度原文一致。历史状态变化本身不是当前冲突；仍须检查结论是否忠实保留当前原文的套餐、生效时间和未知信息。",
+            "source_ids": [
+              "a9272577-ca5d-4dcd-84ae-34b90b10daca",
+              "11bad66d-fce1-405b-8b12-44d5ac144c82",
+              "f795fbbe-96bf-415a-b4dc-3b89cce54c8f"
+            ],
+            "resolution": "followup",
+            "category": "historical_update"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 2554,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:53.824432+00:00",
+    "type": "task_started",
+    "message": "商业分析员：补查 星河文库（虚构）：SSO",
+    "payload": {
+      "task_id": "42e03051-ed4d-4e07-8249-8bfd31c800e6",
+      "role": "commercial",
+      "round": 2
+    }
+  },
+  {
+    "id": 2561,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:55.029192+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:2:SSO:tool:0",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\18a5ab38-5b69-49c1-b711-764e1083b084.json",
+      "response_id": "gen-1790942035-ZHs52xXG2Kr8g6ZaqPQ0",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2562,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:55.033194+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：read_sources",
+    "payload": {
+      "role": "commercial",
+      "tool": "read_sources",
+      "step": 1,
+      "purpose": "research:星河文库（虚构）:2:SSO"
+    }
+  },
+  {
+    "id": 2566,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:56.525560+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "research:星河文库（虚构）:2:SSO:tool:1",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\87dc0eb7-537c-4133-8aff-a1b772af087a.json",
+      "response_id": "gen-1790942036-fnrPfDhM5P9fTSMGsQLd",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2567,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:56.530558+00:00",
+    "type": "agent_tool",
+    "message": "商业分析员调用资料工具：submit_claims",
+    "payload": {
+      "role": "commercial",
+      "tool": "submit_claims",
+      "step": 2,
+      "purpose": "research:星河文库（虚构）:2:SSO"
+    }
+  },
+  {
+    "id": 2568,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:56.537561+00:00",
+    "type": "task_completed",
+    "message": "完成：补查 星河文库（虚构）：SSO",
+    "payload": {
+      "task_id": "42e03051-ed4d-4e07-8249-8bfd31c800e6",
+      "role": "commercial"
+    }
+  },
+  {
+    "id": 2569,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:56.554563+00:00",
+    "type": "task_started",
+    "message": "独立核查员：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "5971f5e1-d3bd-4326-8841-7ad8c6ab0c21",
+      "role": "verifier",
+      "round": 2
+    }
+  },
+  {
+    "id": 2577,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:57.695627+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "verify:2",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\deeaeb98-df6a-4b19-a17c-7a12463fffec.json",
+      "response_id": "gen-1790942038-IyNooxw6RTYr71T4lISe",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2578,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:57.709165+00:00",
+    "type": "task_completed",
+    "message": "完成：检查引用、日期、价格与矛盾",
+    "payload": {
+      "task_id": "5971f5e1-d3bd-4326-8841-7ad8c6ab0c21",
+      "role": "verifier"
+    }
+  },
+  {
+    "id": 2579,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:53:57.728117+00:00",
+    "type": "task_started",
+    "message": "报告编辑员：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "76b23c11-dab5-4871-a2ba-55860c81da76",
+      "role": "editor",
+      "round": 0
+    }
+  },
+  {
+    "id": 2603,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:54:01.711585+00:00",
+    "type": "model_response_saved",
+    "message": "已保存模型响应与用量凭据，便于核查真实运行。",
+    "payload": {
+      "purpose": "editor",
+      "model_profile": "gemini-budget",
+      "path": "D:\\Project\\briefforge\\.local\\model-responses\\e44537b8-2b9d-4d32-9f9a-c97da2179526\\149de82e-9dcd-4598-b85d-2fb3929fef8e.json",
+      "response_id": "gen-1790942039-ao4FDlRY5PDxvIwgXOSt",
+      "http_status": 200
+    }
+  },
+  {
+    "id": 2604,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:54:01.720585+00:00",
+    "type": "task_completed",
+    "message": "完成：组织管理层报告与一致的导出内容",
+    "payload": {
+      "task_id": "76b23c11-dab5-4871-a2ba-55860c81da76",
+      "role": "editor"
+    }
+  },
+  {
+    "id": 2605,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:54:01.782676+00:00",
+    "type": "report_ready",
+    "message": "报告版本已冻结，可生成一致的 Word 与 PPT。",
+    "payload": {
+      "report_id": "26127ecc-fc5a-43be-b08d-1b016f89f284",
+      "version": 1,
+      "unresolved_count": 1
+    }
+  },
+  {
+    "id": 2606,
+    "run_id": "e44537b8-2b9d-4d32-9f9a-c97da2179526",
+    "created_at": "2026-10-02T11:54:01.796678+00:00",
+    "type": "completed",
+    "message": "研究完成，报告已保存",
+    "payload": {
+      "report_id": "26127ecc-fc5a-43be-b08d-1b016f89f284"
+    }
+  }
+]

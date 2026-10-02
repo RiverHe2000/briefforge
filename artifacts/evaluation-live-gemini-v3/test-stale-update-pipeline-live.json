@@ -1,0 +1,14 @@
+{
+  "scenario": "test-stale-update",
+  "architecture": "pipeline",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "2def88a2-52c0-4d32-9a71-f4b7b5bba385",
+  "status": "failed",
+  "error": "InvalidModelOutput: 工具选择在一次修复后仍未符合每步一个允许工具的约定；没有执行无效工具调用。",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 11.2505,
+  "spent_usd": 0.002228,
+  "reserved_usd": 0,
+  "request_count": 6
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "projectId": "d16916fb-a377-449a-8967-af14ec61cfd2",
+  "versionTransitions": [
+    {
+      "report_id": "6c6a30ce-f984-45bb-83a9-f021af57b710",
+      "version": 2,
+      "run_id": "316d5b8d-db46-4a53-9678-6d22f44268ac"
+    },
+    {
+      "report_id": "8f7b6433-357c-4919-abcf-9a72f636df93",
+      "version": 1,
+      "run_id": "c32ac190-009c-48f2-ad2e-74fae15374dd"
+    },
+    {
+      "report_id": "6c6a30ce-f984-45bb-83a9-f021af57b710",
+      "version": 2,
+      "run_id": "316d5b8d-db46-4a53-9678-6d22f44268ac"
+    }
+  ],
+  "legacyMissingMetricsRemainUnknown": true,
+  "browserErrors": [],
+  "mutationRequests": [],
+  "modelCalls": 0
+}

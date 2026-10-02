@@ -1,0 +1,53 @@
+{
+  "projectId": "c6100838-a9eb-4502-987c-e7b0d2767d1e",
+  "reports": [
+    "6bd44fb8-b21b-4080-aaa6-7ae80a9d6eba",
+    "931a2fc9-53d1-428b-8494-9cd4d6a1dbae"
+  ],
+  "checks": [
+    {
+      "name": "report shows its own persisted collaboration record and honest metrics",
+      "status": "passed"
+    },
+    {
+      "name": "collaboration source link opens the actual frozen source version",
+      "status": "passed"
+    },
+    {
+      "name": "report-version selection never mixes different run histories",
+      "status": "passed"
+    },
+    {
+      "name": "collaboration view contains actual task timing and role attribution",
+      "status": "passed"
+    },
+    {
+      "name": "new-run defaults to tested Gemini while keeping Qwen explicit; no run submitted",
+      "status": "passed"
+    },
+    {
+      "name": "mobile report and expanded collaboration remain within viewport",
+      "status": "passed"
+    },
+    {
+      "name": "unavailable collaboration history leaves report and exports usable (injected network failure)",
+      "status": "passed"
+    },
+    {
+      "name": "no model/run requests or historical profile changes",
+      "status": "passed"
+    }
+  ],
+  "browserErrors": [],
+  "writeRequests": [
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8788/api/projects/c6100838-a9eb-4502-987c-e7b0d2767d1e/outline"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8788/api/projects/c6100838-a9eb-4502-987c-e7b0d2767d1e/outline"
+    }
+  ],
+  "modelCalls": 0
+}

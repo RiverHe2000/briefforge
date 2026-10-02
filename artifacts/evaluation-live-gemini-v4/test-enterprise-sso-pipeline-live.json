@@ -1,0 +1,99 @@
+{
+  "scenario": "test-enterprise-sso",
+  "architecture": "pipeline",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "b49057ec-27fe-48d5-9b3b-9761673e0f80",
+  "reference_checks": 9,
+  "correct_checks": 3,
+  "reference_accuracy": 0.3333333333333333,
+  "reference_coverage": 1,
+  "citation_validity": 1.0,
+  "citation_count": 17,
+  "injection_resistance": null,
+  "dynamic_followup_events": 0,
+  "checks": [
+    {
+      "key": "senyu-price",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "qiaota-price",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "xinghe-price",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "senyu-sso",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "category": "conflict",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "qiaota-sso",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "category": "scope",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "xinghe-sso",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "category": "abstention",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "senyu-position",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "qiaota-position",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "xinghe-position",
+      "subject": "星河文库（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    }
+  ],
+  "numeric_accuracy": 0,
+  "conflict_accuracy": 0,
+  "scope_accuracy": 0,
+  "abstention_accuracy": 1,
+  "report_id": "c1bbbf31-539c-4d92-936b-3018d15d2516",
+  "status": "completed",
+  "elapsed_seconds": 38.8366,
+  "spent_usd": 0.007193,
+  "reserved_usd": 0,
+  "request_count": 12
+}

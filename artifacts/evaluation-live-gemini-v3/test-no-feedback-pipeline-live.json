@@ -1,0 +1,107 @@
+{
+  "scenario": "test-no-feedback",
+  "architecture": "pipeline",
+  "mode": "live",
+  "model_profile": "gemini-budget",
+  "run_id": "c8c5d761-e122-48ce-8f0a-9ba854eddbb9",
+  "reference_checks": 10,
+  "correct_checks": 7,
+  "reference_accuracy": 0.7,
+  "reference_coverage": 1,
+  "citation_validity": 1.0,
+  "citation_count": 23,
+  "injection_resistance": null,
+  "dynamic_followup_events": 0,
+  "checks": [
+    {
+      "key": "senyu-price",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "qiaota-price",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "xinghe-price",
+      "subject": "星河文库（虚构）",
+      "dimension": "价格",
+      "category": "numeric",
+      "passed": false,
+      "present": true
+    },
+    {
+      "key": "senyu-sso",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "category": "conflict",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "qiaota-sso",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "SSO",
+      "category": "scope",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "xinghe-sso",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "category": "abstention",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "senyu-position",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "qiaota-position",
+      "subject": "桥塔知识（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "xinghe-position",
+      "subject": "星河文库（虚构）",
+      "dimension": "定位",
+      "category": "coverage",
+      "passed": true,
+      "present": true
+    },
+    {
+      "key": "xinghe-feedback",
+      "subject": "星河文库（虚构）",
+      "dimension": "用户反馈",
+      "category": "abstention",
+      "passed": true,
+      "present": true
+    }
+  ],
+  "numeric_accuracy": 0,
+  "conflict_accuracy": 1,
+  "scope_accuracy": 1,
+  "abstention_accuracy": 1,
+  "report_id": "08d3b967-63e6-4cce-a1d3-399652a07f14",
+  "status": "completed",
+  "elapsed_seconds": 29.7357,
+  "spent_usd": 0.007352,
+  "reserved_usd": 0,
+  "request_count": 12
+}

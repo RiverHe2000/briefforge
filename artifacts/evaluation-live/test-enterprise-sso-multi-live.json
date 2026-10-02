@@ -1,0 +1,13 @@
+{
+  "scenario": "test-enterprise-sso",
+  "architecture": "multi",
+  "mode": "live",
+  "run_id": "0fced5a3-9098-4005-aaf8-9b6df428cc59",
+  "status": "failed",
+  "error": "InvalidModelOutput: 研究工具参数未通过结构校验。",
+  "reference_accuracy": 0.0,
+  "elapsed_seconds": 261.3859,
+  "spent_usd": 0.006034,
+  "reserved_usd": 0,
+  "request_count": 18
+}

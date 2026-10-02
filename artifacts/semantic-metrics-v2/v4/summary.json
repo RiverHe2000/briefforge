@@ -1,0 +1,275 @@
+{
+  "created_at": "2026-10-02T22:13:30.623087+00:00",
+  "source_directory": "artifacts\\evaluation-live-gemini-v4",
+  "metric_version": "fact-obligations-v2",
+  "scope": "Post-hoc fixed6 price/SSO fact obligations per report,24 reports. Not old reference score, not all-text semantic accuracy. Existing v4 files untouched. Failed parsing requires manual review; not a model-advantage claim.",
+  "scorer_sha256": "ca1c31ad105ca9674ae25f67f4b4318d1ce0fc8949b34d0afca3edc91d4f6ee3",
+  "architectures": {
+    "single": {
+      "runs": 8,
+      "mean_fact_accuracy": 0.9791666666666666,
+      "mean_answer_coverage": 0.9791666666666666,
+      "unexpected_withdrawal_facts": 1,
+      "assertion_issue_facts": 1,
+      "answered_but_not_verified_facts": 0
+    },
+    "pipeline": {
+      "runs": 8,
+      "mean_fact_accuracy": 0.5833333333333334,
+      "mean_answer_coverage": 0.5833333333333334,
+      "unexpected_withdrawal_facts": 16,
+      "assertion_issue_facts": 0,
+      "answered_but_not_verified_facts": 0
+    },
+    "multi": {
+      "runs": 8,
+      "mean_fact_accuracy": 0.6458333333333334,
+      "mean_answer_coverage": 0.6458333333333334,
+      "unexpected_withdrawal_facts": 6,
+      "assertion_issue_facts": 1,
+      "answered_but_not_verified_facts": 0
+    }
+  },
+  "results": [
+    {
+      "scenario": "test-contradiction",
+      "architecture": "multi",
+      "fact_accuracy": 0.3333333333333333,
+      "answer_coverage": 0.3333333333333333,
+      "retained_assertion_issue_facts": 1,
+      "unexpected_withdrawal_facts": 2,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 4
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.8333333333333334,
+      "answer_coverage": 0.8333333333333334,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 1
+    },
+    {
+      "scenario": "test-contradiction",
+      "architecture": "single",
+      "fact_accuracy": 0.8333333333333334,
+      "answer_coverage": 0.8333333333333334,
+      "retained_assertion_issue_facts": 1,
+      "unexpected_withdrawal_facts": 1,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 1
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "multi",
+      "fact_accuracy": 0.3333333333333333,
+      "answer_coverage": 0.3333333333333333,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 1,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 4
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.5,
+      "answer_coverage": 0.5,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 3,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 3
+    },
+    {
+      "scenario": "test-enterprise-sso",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "multi",
+      "fact_accuracy": 0.5,
+      "answer_coverage": 0.5,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 3
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.3333333333333333,
+      "answer_coverage": 0.3333333333333333,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 3,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 4
+    },
+    {
+      "scenario": "test-injection",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "multi",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.8333333333333334,
+      "answer_coverage": 0.8333333333333334,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 1,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 1
+    },
+    {
+      "scenario": "test-mixed-currency",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "multi",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "pipeline",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-monthly-only",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "multi",
+      "fact_accuracy": 0.5,
+      "answer_coverage": 0.5,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 3,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 3
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.3333333333333333,
+      "answer_coverage": 0.3333333333333333,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 3,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 4
+    },
+    {
+      "scenario": "test-no-feedback",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "multi",
+      "fact_accuracy": 0.5,
+      "answer_coverage": 0.5,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 3
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.3333333333333333,
+      "answer_coverage": 0.3333333333333333,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 3,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 4
+    },
+    {
+      "scenario": "test-stale-update",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "multi",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "pipeline",
+      "fact_accuracy": 0.5,
+      "answer_coverage": 0.5,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 3,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 3
+    },
+    {
+      "scenario": "test-unknown-sso",
+      "architecture": "single",
+      "fact_accuracy": 1,
+      "answer_coverage": 1,
+      "retained_assertion_issue_facts": 0,
+      "unexpected_withdrawal_facts": 0,
+      "answered_but_not_verified_facts": 0,
+      "review_required_facts": 0
+    }
+  ]
+}

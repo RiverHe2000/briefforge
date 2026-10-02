@@ -1,0 +1,192 @@
+{
+  "created_at": "2026-10-02T12:01:54.608283+00:00",
+  "version": "frozen-v3-audit",
+  "overall_result": "material_price_unit_errors_and_sso_conflict_leakage_remain",
+  "scope": "Independent narrow audit of all23 completed reports: all69 price claims and all69 SSO-dimension claims, plus20 SSO assertions in other claim dimensions. Failed run has no report. Own frozen sources only; no evaluator gold. This is not a full-text factual accuracy certification.",
+  "run_matrix": {
+    "planned": 24,
+    "completed": 23,
+    "failed": 1,
+    "not_run": 0
+  },
+  "price_counts": {
+    "material_annual_month_unit_error": 24,
+    "within_narrow_price_scope": 42,
+    "withdrawn_unknown_despite_available_price": 3
+  },
+  "price_claims_reviewed": 69,
+  "price_errors_by_architecture": {
+    "single": 0,
+    "pipeline": 15,
+    "multi": 9
+  },
+  "reports_with_material_price_unit_errors": 8,
+  "price_exact_quotes": {
+    "checked": 69,
+    "valid": 69
+  },
+  "sso_counts": {
+    "relevant_claims": 89,
+    "sso_dimension_claims": 69,
+    "evidence_quotes": 143,
+    "exact_quotes": 143,
+    "cross_dimension_sso_claims": 20,
+    "conflict_not_propagated_to_assertion": 2,
+    "conflict_leakage_across_dimensions": 1,
+    "available_answer_missed": 2,
+    "completed_reports_audited": 23,
+    "unresolved_assertion_findings": 3,
+    "answer_coverage_gaps": 2,
+    "no_issue_identified_claims": 84,
+    "unknown_preserved_sso_dimension_claims": 26,
+    "unknown_misrepresented_as_unsupported": 0,
+    "effective_date_errors_identified": 0,
+    "archive_mistaken_as_current_errors_identified": 0
+  },
+  "guard_verification": {
+    "original_explicit_unit_pattern_caught_offline": true,
+    "observed_payment_verb_variant_caught_offline": false,
+    "actual_v3_guard_event": {
+      "file": "test-no-feedback-pipeline-live.events.json",
+      "event_id": 2411,
+      "unit_issues": 3,
+      "final_affected_prices": "All3 final price claims in this report are uncertain canonical withdrawals."
+    },
+    "offline_probes": [
+      {
+        "input_statement": "每年每席位12美元（按年付费）或每月每席位16美元（按月付费）",
+        "independent_expected": "unit_mismatch",
+        "output_status": "uncertain",
+        "output_statement": "价格：无法确认（报价周期与所引资料矛盾，需要补查）。",
+        "caught": true
+      },
+      {
+        "input_statement": "团队版价格为每年支付12美元/席位，按月支付为16美元/席位。",
+        "independent_expected": "unit_mismatch",
+        "output_status": "supported",
+        "output_statement": "团队版价格为每年支付12美元/席位，按月支付为16美元/席位。",
+        "caught": false
+      },
+      {
+        "input_statement": "每年支付时每席位每月12美元，按月支付时每席位每月16美元。",
+        "independent_expected": "consistent",
+        "output_status": "supported",
+        "output_statement": "每年支付时每席位每月12美元，按月支付时每席位每月16美元。",
+        "caught": false
+      },
+      {
+        "input_statement": "按年付费USD12/席位/月，月付USD16/席位/月。",
+        "independent_expected": "consistent",
+        "output_status": "supported",
+        "output_statement": "按年付费USD12/席位/月，月付USD16/席位/月。",
+        "caught": false
+      }
+    ],
+    "engine_sha256_at_probe": "7cc6366877e6058e224b7a0f301f3fdb9b1a60fecd2ff7d3d7d887ebe5f307f1",
+    "interpretation": "The guard demonstrably catches explicit 每年每席位 and generated one verification event covering three price issues. It misses the observed 每年支付12美元/席位 wording: 24 materially misleading supported claims remain in8 reports. Guard pass must not be described as coverage of all month/year errors. This record describes the v3 engine at probe time; later changes are separate."
+  },
+  "unresolved_price_examples": [
+    {
+      "file": "test-contradiction-multi-live.report.json",
+      "claim_id": "d42f6ee7-9284-491b-a756-9cffb0611101",
+      "subject": "森屿笔记（虚构）",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）的团队版价格为每年支付12美元/席位，按月支付为16美元/席位。企业版价格需单独咨询。",
+      "value": "团队版 USD 12/席位/月（按年付费），USD 16/席位/月（按月付费）；企业版需单独询价。",
+      "citations": [
+        {
+          "source_id": "d9b52c5c-d31a-4bfa-a6f9-7c2712011cb0",
+          "quote": "价格：团队版 USD 12/席位/月，按年付费，未含税；月付为 USD 16/席位/月。企业版需单独询价。",
+          "exact_substring": true
+        }
+      ],
+      "current_guard_detects_mismatch": false
+    },
+    {
+      "file": "test-mixed-currency-pipeline-live.report.json",
+      "claim_id": "cf7e410d-af23-486c-b7ad-b76ff985f1db",
+      "subject": "桥塔知识（虚构）",
+      "status": "supported",
+      "statement": "桥塔知识（虚构）的团队版价格为每年支付27澳元/席位，按月支付为35澳元/席位，均不含税。企业版价格需单独咨询。",
+      "value": "团队版 AUD 27/席位/月（按年付费），AUD 35/席位/月（月付）；企业版需单独询价。",
+      "citations": [
+        {
+          "source_id": "3bd2d41c-8492-4536-93c6-8b746b52f732",
+          "quote": "价格：团队版 AUD 27/席位/月，按年付费，未含税；月付为 AUD 35/席位/月。企业版需单独询价。",
+          "exact_substring": true
+        }
+      ],
+      "current_guard_detects_mismatch": false
+    }
+  ],
+  "unresolved_sso_examples": [
+    {
+      "file": "test-contradiction-multi-live.report.json",
+      "claim_id": "78665acf-23a9-491f-b095-0f88e9be288c",
+      "dimension": "近期变化",
+      "subject": "森屿笔记（虚构）",
+      "status": "uncertain",
+      "statement": "森屿笔记（虚构）在近期更新中，改进了文档检索结果的来源定位，并补充了登录能力说明。同时，SSO 功能在团队版和企业版中均得到支持，并于 2026年9月15日起生效。",
+      "verdict": "conflict_not_propagated_to_assertion",
+      "reason": "近期变化 statement/value 直接断言团队版与企业版均支持。虽 uncertain 且 conditions 说待核查，断言本身未说明相互矛盾的来源，仍与 SSO 项冲突。",
+      "severity": "medium"
+    },
+    {
+      "file": "test-contradiction-pipeline-live.report.json",
+      "claim_id": "fe5d60a8-c835-441f-a925-ab32e145be45",
+      "dimension": "SSO",
+      "subject": "森屿笔记（虚构）",
+      "status": "uncertain",
+      "statement": "森屿笔记（虚构）的企业版支持 SAML SSO，但团队版不支持，该功能自 2026年9月15日起生效。",
+      "verdict": "conflict_not_propagated_to_assertion",
+      "reason": "SSO statement/value 仍单向断言团队版不支持；conditions 才承认同日现行来源互相矛盾。uncertain 状态降低了确定性，但未消除字段间语义冲突。",
+      "severity": "medium"
+    },
+    {
+      "file": "test-contradiction-single-live.report.json",
+      "claim_id": "60691878-12b4-4315-97b9-2ed5500c399e",
+      "dimension": "近期变化",
+      "subject": "森屿笔记（虚构）",
+      "status": "supported",
+      "statement": "森屿笔记（虚构）近期变化包括更新文档检索结果的来源定位，并补充登录能力说明。SSO 能力在 2026-09-15 生效，团队版与企业版均支持 SAML SSO。",
+      "verdict": "conflict_leakage_across_dimensions",
+      "reason": "近期变化以 supported 状态直接断言团队版与企业版均支持，未保留同报告 SSO 项已识别的同日冲突。",
+      "severity": "high"
+    },
+    {
+      "file": "test-enterprise-sso-multi-live.report.json",
+      "claim_id": "f3ad2b09-6a67-4c65-91cc-57eb614a383a",
+      "dimension": "SSO",
+      "subject": "森屿笔记（虚构）",
+      "status": "uncertain",
+      "statement": "SSO：无法确认（独立核查未能确认原断言及其条件）。",
+      "verdict": "available_answer_missed",
+      "reason": "在已冻结 FAQ 明确披露企业版支持、团队版不支持以及生效日期时，仅引用安全概览的跳转提示并弃答。就引用页而言弃答谨慎，但整份现有资料的答案覆盖失败。",
+      "severity": "medium"
+    },
+    {
+      "file": "test-enterprise-sso-pipeline-live.report.json",
+      "claim_id": "58c0fd14-2342-423b-9025-6d2b34926a32",
+      "dimension": "SSO",
+      "subject": "森屿笔记（虚构）",
+      "status": "uncertain",
+      "statement": "SSO：无法确认（独立核查未能确认原断言及其条件）。",
+      "verdict": "available_answer_missed",
+      "reason": "在已冻结 FAQ 明确披露企业版支持、团队版不支持以及生效日期时，仅引用安全概览的跳转提示并弃答。就引用页而言弃答谨慎，但整份现有资料的答案覆盖失败。",
+      "severity": "medium"
+    }
+  ],
+  "detail_artifacts": [
+    "price-audit-detail.json",
+    "sso-audit-detail.json",
+    "price-reference-extract.json",
+    "analysis.json"
+  ],
+  "limits": [
+    "All business sources are synthetic.",
+    "Correct exact quotations do not establish statement entailment or correct pricing units.",
+    "The42 price claims marked within scope were inspected for amounts/currency/month-vs-year/billing/tax/enterprise boundary; this is not a claim about every sentence, external market truth or general model performance.",
+    "SSO audit does not certify all narrative sections; it specifically inspected SSO facts in claim fields including other dimensions.",
+    "No paid calls, ledger access, report rewrite or fixture/gold/code edits were performed. Existing failures are retained."
+  ]
+}

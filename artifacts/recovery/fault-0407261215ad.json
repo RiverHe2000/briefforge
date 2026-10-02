@@ -1,0 +1,11 @@
+{
+  "fault": "os._exit after committed research task output, while research graph node remains incomplete",
+  "child_pid": 114080,
+  "run_id": "95a91a23-37c6-4513-a202-39293efaa93a",
+  "task_id": "4c151b71-8977-472b-ad1a-430a943d8478",
+  "role": "industry",
+  "output_hash": "b037c6e3c082423e86edf00bb5b56cb92eda717ab7239723800d1968a844eb2a",
+  "task_updated_at": "2026-10-02T10:51:06.101101+00:00",
+  "lease_token": "f00e9f41-3725-4e8b-a43c-1f60d6f937a4",
+  "exit_code": 86
+}

@@ -1,0 +1,617 @@
+{
+  "run_id": "0e6f9a39-1b70-42cf-8ba9-e100f264147a",
+  "mode": "live",
+  "architecture": "multi",
+  "report_id": "b0def45a-74d4-41b7-ac4c-1214928d9bed",
+  "history_available": true,
+  "metrics": {
+    "task_count": 10,
+    "completed_tasks": 10,
+    "followup_tasks": 2,
+    "changed_claims": 1,
+    "unresolved_claims": 2,
+    "reused_claims": 18,
+    "recomputed_claims": 1,
+    "reused_tasks": 0,
+    "peak_parallel_research": 1,
+    "overlap_seconds": 0.0,
+    "spent_usd": 0.007623,
+    "reserved_usd": 0,
+    "request_count": 7
+  },
+  "decisions": [
+    {
+      "id": "1ad227dc873b0e8a4c6c9f52",
+      "event_id": 5219,
+      "action": "followup_requested",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO。",
+        "status": "supported",
+        "value": "SAML SSO",
+        "conditions": [
+          "团队版",
+          "企业版",
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": null,
+      "reason": "Source 09ac4677-a1f9-4469-84a5-9bf41f06c5f8 states that the team version does not support SAML SSO, but source 83d546f2-9459-44be-8f30-7d7fe18f4fc0 states that the team version supports SAML SSO starting from 2026-10-01. The latter is more recent and should be considered the current state.",
+      "source_ids": [
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0"
+      ],
+      "task_ids": [
+        "211767bc-9d59-430b-905a-c1020fd30648"
+      ],
+      "roles": [
+        "coordinator"
+      ],
+      "round": 1,
+      "created_at": "2026-10-02T22:29:51.923652+00:00",
+      "final_status": "uncertain"
+    },
+    {
+      "id": "edf8fd4d43beaca45f37ab92",
+      "event_id": 5232,
+      "action": "claim_revised",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版和企业版均支持 SAML SSO。",
+        "status": "supported",
+        "value": "SAML SSO",
+        "conditions": [
+          "团队版",
+          "企业版",
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": {
+        "statement": "森屿笔记（虚构）的团队版本支持 SAML SSO。",
+        "status": "supported",
+        "value": "支持",
+        "conditions": [
+          "自 2026-10-01 生效"
+        ]
+      },
+      "reason": "补查根据原文修订结论，保留前后版本及依据。",
+      "source_ids": [
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0"
+      ],
+      "task_ids": [
+        "4c9ef2c1-de20-4b77-a3c9-b2e4d272f7eb"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "round": 1,
+      "created_at": "2026-10-02T22:29:53.616222+00:00",
+      "final_status": "uncertain"
+    },
+    {
+      "id": "026f7daec8963b4616dc0adb",
+      "event_id": 5238,
+      "action": "followup_requested",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版本支持 SAML SSO。",
+        "status": "supported",
+        "value": "支持",
+        "conditions": [
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": null,
+      "reason": "森屿笔记（虚构）的团队版本支持 SAML SSO，但其九月更新记录（source_id: 09ac4677-a1f9-4469-84a5-9bf41f06c5f8）显示团队版不支持 SAML SSO。虽然历史资料要求参照后续条件，但当前资料（source_id: 83d546f2-9459-44be-8f30-7d7fe18f4fc0）明确指出自 2026-10-01 起团队版支持 SAML SSO，这与九月记录中的信息存在冲突。",
+      "source_ids": [
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0"
+      ],
+      "task_ids": [
+        "a6e50a99-c416-488c-a8af-c4eba8e62567"
+      ],
+      "roles": [
+        "coordinator"
+      ],
+      "round": 2,
+      "created_at": "2026-10-02T22:29:55.780907+00:00",
+      "final_status": "uncertain"
+    },
+    {
+      "id": "85681189efdbc87611f1c564",
+      "event_id": 5246,
+      "action": "claim_revised",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版本支持 SAML SSO。",
+        "status": "supported",
+        "value": "支持",
+        "conditions": [
+          "自 2026-10-01 生效"
+        ]
+      },
+      "after": {
+        "statement": "森屿笔记（虚构）的团队版本不支持 SAML SSO，自 2026 年 9 月 15 日起生效。",
+        "status": "contradicted",
+        "value": null,
+        "conditions": [
+          "自 2026-09-15 起生效"
+        ]
+      },
+      "reason": "补查根据原文修订结论，保留前后版本及依据。",
+      "source_ids": [
+        "83d546f2-9459-44be-8f30-7d7fe18f4fc0",
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8"
+      ],
+      "task_ids": [
+        "c9bb25dd-3e61-4f58-9039-dd1ca9a1740e"
+      ],
+      "roles": [
+        "commercial"
+      ],
+      "round": 2,
+      "created_at": "2026-10-02T22:29:57.926600+00:00",
+      "final_status": "uncertain"
+    },
+    {
+      "id": "eb45fd2034f41bdfcfa5bd85",
+      "event_id": 5251,
+      "action": "unknown_retained",
+      "subject": "星河文库（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "SSO：未披露或无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ]
+      },
+      "after": {
+        "statement": "SSO：未披露或无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "857403e4-c1f8-4013-8746-e99920f679c4"
+      ],
+      "task_ids": [
+        "add2afad-d6a5-4319-b467-d874d4d9a676"
+      ],
+      "roles": [
+        "verifier"
+      ],
+      "round": 2,
+      "created_at": "2026-10-02T22:30:00.199528+00:00",
+      "final_status": "uncertain"
+    },
+    {
+      "id": "ed404561ce22deb539056908",
+      "event_id": 5252,
+      "action": "unknown_retained",
+      "subject": "森屿笔记（虚构）",
+      "dimension": "SSO",
+      "before": {
+        "statement": "森屿笔记（虚构）的团队版本不支持 SAML SSO，自 2026 年 9 月 15 日起生效。",
+        "status": "contradicted",
+        "value": null,
+        "conditions": [
+          "自 2026-09-15 起生效"
+        ]
+      },
+      "after": {
+        "statement": "SSO：当前资料存在冲突，无法确认。",
+        "status": "uncertain",
+        "value": null,
+        "conditions": [
+          "不确定性同样适用于相关章节；请查看原文与核查记录。"
+        ]
+      },
+      "reason": "统一结论、值和条件的不确定性，避免其他字段或章节暗示已确认。",
+      "source_ids": [
+        "09ac4677-a1f9-4469-84a5-9bf41f06c5f8"
+      ],
+      "task_ids": [
+        "add2afad-d6a5-4319-b467-d874d4d9a676"
+      ],
+      "roles": [
+        "verifier"
+      ],
+      "round": 2,
+      "created_at": "2026-10-02T22:30:00.201524+00:00",
+      "final_status": "uncertain"
+    }
+  ],
+  "followups": [
+    {
+      "task_id": "4c9ef2c1-de20-4b77-a3c9-b2e4d272f7eb",
+      "role": "commercial",
+      "target": "森屿笔记（虚构）",
+      "title": "补查 森屿笔记（虚构）：SSO",
+      "status": "completed",
+      "round": 1,
+      "reason": "Source 09ac4677-a1f9-4469-84a5-9bf41f06c5f8 states that the team version does not support SAML SSO, but source 83d546f2-9459-44be-8f30-7d7fe18f4fc0 states that the team version supports SAML SSO starting from 2026-10-01. The latter is more recent and should be considered the current state."
+    },
+    {
+      "task_id": "c9bb25dd-3e61-4f58-9039-dd1ca9a1740e",
+      "role": "commercial",
+      "target": "森屿笔记（虚构）",
+      "title": "补查 森屿笔记（虚构）：SSO",
+      "status": "completed",
+      "round": 2,
+      "reason": "森屿笔记（虚构）的团队版本支持 SAML SSO，但其九月更新记录（source_id: 09ac4677-a1f9-4469-84a5-9bf41f06c5f8）显示团队版不支持 SAML SSO。虽然历史资料要求参照后续条件，但当前资料（source_id: 83d546f2-9459-44be-8f30-7d7fe18f4fc0）明确指出自 2026-10-01 起团队版支持 SAML SSO，这与九月记录中的信息存在冲突。"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "748e3ae5-f414-4398-8830-5af0351a2d4e",
+      "role": "coordinator",
+      "target": "*",
+      "title": "确认研究任务与依赖",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:47.744775+00:00",
+          "ended_at": "2026-10-02T22:29:47.747776+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "71af27de-7459-4632-a52e-3982e8353fc2",
+      "role": "competitor",
+      "target": "森屿笔记（虚构）",
+      "title": "研究 森屿笔记（虚构）：SSO",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [
+        "748e3ae5-f414-4398-8830-5af0351a2d4e"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:47.772775+00:00",
+          "ended_at": "2026-10-02T22:29:49.419414+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "74c24387-9e9b-4ea3-8885-9e992ad22dfd",
+      "role": "verifier",
+      "target": "*",
+      "title": "检查引用、日期、价格与矛盾",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:49.429414+00:00",
+          "ended_at": "2026-10-02T22:29:51.910576+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "211767bc-9d59-430b-905a-c1020fd30648",
+      "role": "coordinator",
+      "target": "*",
+      "title": "根据核查问题新增补查任务",
+      "status": "completed",
+      "round": 1,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:51.922773+00:00",
+          "ended_at": "2026-10-02T22:29:51.926600+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "4c9ef2c1-de20-4b77-a3c9-b2e4d272f7eb",
+      "role": "commercial",
+      "target": "森屿笔记（虚构）",
+      "title": "补查 森屿笔记（虚构）：SSO",
+      "status": "completed",
+      "round": 1,
+      "depends_on": [
+        "74c24387-9e9b-4ea3-8885-9e992ad22dfd"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:51.950598+00:00",
+          "ended_at": "2026-10-02T22:29:53.613335+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "de9801be-67cd-4c39-855d-0d2644ad35e3",
+      "role": "verifier",
+      "target": "*",
+      "title": "检查引用、日期、价格与矛盾",
+      "status": "completed",
+      "round": 1,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:53.623376+00:00",
+          "ended_at": "2026-10-02T22:29:55.768121+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "a6e50a99-c416-488c-a8af-c4eba8e62567",
+      "role": "coordinator",
+      "target": "*",
+      "title": "根据核查问题新增补查任务",
+      "status": "completed",
+      "round": 2,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:55.779571+00:00",
+          "ended_at": "2026-10-02T22:29:55.783910+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "c9bb25dd-3e61-4f58-9039-dd1ca9a1740e",
+      "role": "commercial",
+      "target": "森屿笔记（虚构）",
+      "title": "补查 森屿笔记（虚构）：SSO",
+      "status": "completed",
+      "round": 2,
+      "depends_on": [
+        "de9801be-67cd-4c39-855d-0d2644ad35e3"
+      ],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:55.805381+00:00",
+          "ended_at": "2026-10-02T22:29:57.924666+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "add2afad-d6a5-4319-b467-d874d4d9a676",
+      "role": "verifier",
+      "target": "*",
+      "title": "检查引用、日期、价格与矛盾",
+      "status": "completed",
+      "round": 2,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:29:57.935697+00:00",
+          "ended_at": "2026-10-02T22:30:00.177295+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "id": "b932352f-9202-45c0-9e26-299b0e8b64d4",
+      "role": "editor",
+      "target": "*",
+      "title": "组织管理层报告与一致的导出内容",
+      "status": "completed",
+      "round": 0,
+      "depends_on": [],
+      "intervals": [
+        {
+          "started_at": "2026-10-02T22:30:00.207527+00:00",
+          "ended_at": "2026-10-02T22:30:03.653886+00:00",
+          "status": "completed"
+        }
+      ],
+      "reused": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "3d2a5133-9834-4c82-84ca-0fa7c5e9df79",
+      "title": "森屿笔记（虚构） 产品概览",
+      "url": null,
+      "published_at": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "642f19f4-f941-49d3-b26b-04fc69cb2005",
+      "title": "森屿笔记（虚构） 当前价格与付款周期",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "09ac4677-a1f9-4469-84a5-9bf41f06c5f8",
+      "title": "森屿笔记（虚构） 九月更新记录",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "a125065f-f29e-49cd-88c2-3d9bac71ef0d",
+      "title": "森屿笔记（虚构） 合成用户体验记录",
+      "url": null,
+      "published_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "id": "ac68ba7d-5ce5-4f99-8430-649f16a19dba",
+      "title": "森屿笔记（虚构） 常见问题",
+      "url": null,
+      "published_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "9e99aa7a-e9b3-474c-b21d-bab7c5f1f61f",
+      "title": "森屿笔记（虚构） 订阅与取消条款",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "86618250-ffb1-4edc-971e-7a5e5c43e3ea",
+      "title": "森屿笔记（虚构） 功能介绍补充",
+      "url": null,
+      "published_at": "2026-09-12T00:00:00+00:00"
+    },
+    {
+      "id": "8e54eaf2-93d6-4691-aa9d-b78000b682e6",
+      "title": "森屿笔记（虚构） 虚构客户应用故事",
+      "url": null,
+      "published_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "fce0df23-8ea0-4a99-b15f-d9ec6f0f40f9",
+      "title": "森屿笔记（虚构） 三月存档说明",
+      "url": null,
+      "published_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "id": "485c9c1f-9db6-44fc-9611-a808559a3c0b",
+      "title": "桥塔知识（虚构） 产品概览",
+      "url": null,
+      "published_at": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "63701e1f-0af0-4213-8368-9e81c9ddaeff",
+      "title": "桥塔知识（虚构） 当前价格与付款周期",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "558e8338-2dfa-4702-808b-7740f81dd053",
+      "title": "桥塔知识（虚构） 安全与登录说明",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "139f4ed7-d738-4bb7-94f2-d978c22b0d4f",
+      "title": "桥塔知识（虚构） 九月更新记录",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "89351188-1aca-43d3-abc4-d9cc4f9f03fd",
+      "title": "桥塔知识（虚构） 合成用户体验记录",
+      "url": null,
+      "published_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "id": "5d5bc3ce-f608-4fcf-8474-d29786c6da17",
+      "title": "桥塔知识（虚构） 常见问题",
+      "url": null,
+      "published_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "8540a45e-760f-45f9-898b-4402e858c02e",
+      "title": "桥塔知识（虚构） 订阅与取消条款",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "71a2cc6e-e632-40ab-b7eb-03a8c3c6a3e8",
+      "title": "桥塔知识（虚构） 功能介绍补充",
+      "url": null,
+      "published_at": "2026-09-12T00:00:00+00:00"
+    },
+    {
+      "id": "4d9106bf-1b0b-4611-8538-6dbf8a4d3b42",
+      "title": "桥塔知识（虚构） 虚构客户应用故事",
+      "url": null,
+      "published_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "d471ed7a-6fe2-44ca-887d-49e7d8d3752b",
+      "title": "桥塔知识（虚构） 三月存档说明",
+      "url": null,
+      "published_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "id": "9c1231ae-0492-41cd-97a6-062f88462d49",
+      "title": "星河文库（虚构） 产品概览",
+      "url": null,
+      "published_at": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "c0bddcdc-1465-4314-9661-f0cad1363608",
+      "title": "星河文库（虚构） 当前价格与付款周期",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "857403e4-c1f8-4013-8746-e99920f679c4",
+      "title": "星河文库（虚构） 安全与登录说明",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "b2631917-5dc0-4acc-909f-cc619cc9ef93",
+      "title": "星河文库（虚构） 九月更新记录",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "dfe0f8a3-4bfd-430b-a77f-701d39c73d20",
+      "title": "星河文库（虚构） 合成用户体验记录",
+      "url": null,
+      "published_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "id": "07d6fc6b-98dd-4e57-b107-17aee14caac0",
+      "title": "星河文库（虚构） 常见问题",
+      "url": null,
+      "published_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "d194cc0c-0384-4351-b001-919536737820",
+      "title": "星河文库（虚构） 订阅与取消条款",
+      "url": null,
+      "published_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "id": "ef6d230f-1c55-4743-b7a7-17c757851975",
+      "title": "星河文库（虚构） 功能介绍补充",
+      "url": null,
+      "published_at": "2026-09-12T00:00:00+00:00"
+    },
+    {
+      "id": "39c3afd1-9f36-4582-af46-489f4616c312",
+      "title": "团队知识库行业需求访谈摘要（虚构）",
+      "url": null,
+      "published_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "f094c7f4-e8ec-4e24-a502-eedd075d57d2",
+      "title": "星河文库（虚构） 三月存档说明",
+      "url": null,
+      "published_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "id": "83d546f2-9459-44be-8f30-7d7fe18f4fc0",
+      "title": "森屿笔记（虚构） 十月安全与登录说明",
+      "url": null,
+      "published_at": "2026-10-01T00:00:00+00:00"
+    }
+  ],
+  "notes": [
+    "修订次数表示结论发生变化，不等于新增正确答案；请核对最终状态与原文。",
+    "并行重叠来自已结束研究任务的起止事件，不代表相对单 Agent 的节省时间。"
+  ]
+}
